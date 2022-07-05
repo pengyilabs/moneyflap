@@ -1,0 +1,174 @@
+// -----------------------------------------------------------------------------
+// FAQ page
+// -----------------------------------------------------------------------------
+
+/* stylelint-disable no-descending-specificity */
+
+.faq {
+  min-height: 100vh;
+  width: 100vw;
+  &-title {
+    width: calc(100% - 15%);
+    margin: 0 auto;
+    font-weight: 700;
+    padding-top: 2rem;
+  }
+  &-basics {
+    width: calc(100% - 15%);
+    margin: 2rem auto;
+    &-title {
+      & > h3 {
+        font-weight: 700;
+      }
+    }
+    &-list {
+      margin-top: 2.5rem;
+      &-bullet {
+        padding: 0;
+        list-style-type: none;
+      }
+      &-icon {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 0.7rem;
+        &-img {
+          width: 2.5rem;
+          display: flex;
+          justify-content: flex-start;
+          transition: padding 0.5s;
+        }
+        &:hover > .faq-basics-list-icon-img {
+          padding-left: 1.3rem;
+        }
+        &-text {
+          width: 100%;
+          & > p:first-child {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+          }
+          & > p:last-child {
+            font-size: 1.1rem;
+          }
+          & ul {
+            list-style-type: disc;
+            margin-bottom: 0.7rem;
+          }
+        }
+      }
+      &-tables {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        width: 82%;
+        margin: 0 auto;
+        margin-bottom: 1.7rem;
+        @media screen and (max-width: $large) {
+          overflow: scroll;
+        }
+        &-table {
+          min-width: 18.125rem;
+          &-title {
+            font-size: 1.125rem;
+            background-color: #27364b;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 46px;
+            margin-bottom: 0.5rem;
+            & > .table-title {
+              font-size: 1.1rem;
+              margin-bottom: 0;
+            }
+          }
+          &-list {
+            height: 35rem;
+            background-color: #27364b;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem 0;
+            text-align: center;
+
+            & > p {
+              margin-bottom: 0;
+              height: 46px;
+              width: 70%;
+              font-size: 1.125rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-bottom: 1px solid #1e2a3b;
+            }
+            & > p:last-child {
+              border-bottom: 0 transparent;
+            }
+          }
+        }
+        & > div:nth-child(2) {
+          & > div {
+            background-color: #705bff;
+            & > p {
+              background-color: #705bff;
+              border-bottom: 1px solid #9687ff;
+            }
+            & > p:last-child {
+              border-bottom: 0 transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-cards {
+    width: calc(100% - 15%);
+    margin: 0 auto;
+    &-title {
+      & > h3 {
+        font-size: 2rem;
+      }
+    }
+    &-list {
+      display: flex;
+      width: 100%;
+      margin-top: 2.5rem;
+      &-bullet {
+        padding: 0;
+        list-style-type: none;
+      }
+      &-icon {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 0.7rem;
+        &-img {
+          width: 2.5rem;
+          display: flex;
+          justify-content: flex-start;
+          transition: padding 0.5s;
+        }
+        &:hover > .faq-basics-cards-icon-img {
+          padding-left: 1.3rem;
+        }
+        &-text {
+          width: 100%;
+          & > p:first-child {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+          }
+          & > p:last-child {
+            font-size: 1.1rem;
+          }
+          & ul {
+            list-style-type: disc;
+            margin-bottom: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}

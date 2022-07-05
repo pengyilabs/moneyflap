@@ -1,0 +1,9 @@
+// Vendors
+import "./vendor/jquery";
+import "./vendor/bootstrap";
+import "./modules/darkmode-handler";
+import "./modules/cards.js";
+import "./modules/modal-buttons.js";
+import "./modules/phone-input.js";
+import "./modules/translate.js";
+import "./modules/referralHero.js";

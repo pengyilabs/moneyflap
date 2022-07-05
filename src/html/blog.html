@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  ${ require('./partials/head.html')}
+
+  <body class="bg-primary">
+    ${ require('./partials/browserupgrade.html') } ${
+    require('./partials/header.html')}
+    <main class="main">
+      <div class="modal-container" id="modal-container"></div>
+      <div class="blog">
+        <div class="blog-title">
+          <h1>Blog</h1>
+        </div>
+        <div class="blog-links">
+          <a target="_blank" href="https://medium.com/@moneyflap.app">Medium</a>
+        </div>
+      </div>
+
+      ${ require('./partials/section.html')}
+    </main>
+    ${ require('./partials/footer.html')}
+  </body>
+</html>

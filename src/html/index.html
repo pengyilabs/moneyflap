@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  ${ require('./partials/head.html')}
+  <body class="bg-primary">
+    ${ require('./partials/browserupgrade.html') } ${
+    require('./partials/header.html')}
+    <main class="main">
+      <section class="home">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="hero">
+          <div class="hero-text">
+            <div class="mt-5">
+              <h1 class="text-center text-md-start">Simple,</h1>
+              <h1 class="text-center text-md-start text-secondary">
+                Transparent,
+              </h1>
+              <h1 class="text-center text-md-start">Modern…</h1>
+            </div>
+            <div class="hero-text-2nd py-4">
+              <p class="home-p">
+                Open your multi-currency account and get
+                <br />
+                your debit card in 2 days, completely free.
+              </p>
+            </div>
+
+            <div class="d-flex icons" style="gap: 1rem">
+              <a href=""
+                ><img
+                  src="../assets/images/apple-button2.svg"
+                  alt="apple-button"
+              /></a>
+              <a href=""
+                ><img
+                  src="../assets/images/android-button2.svg"
+                  alt="android-button"
+              /></a>
+            </div>
+            <div class="pt-5">
+              <p class="font-14 text-center text-lg-start">
+                Currently available to the WAEMU members.
+              </p>
+            </div>
+            <div class="flags">
+              <img
+                src="../assets/images/flag1-Senegal.svg"
+                alt="Senegal-flag"
+              />
+              <img
+                src="../assets/images/flag2-IvoryCoast.svg"
+                alt="IvoryCoast-flag"
+              />
+              <img
+                src="../assets/images/flag3-BurkinaFaso.svg"
+                alt="BurkinaFaso-flag"
+              />
+              <img src="../assets/images/flag4-Benin.svg" alt="Benin-flag" />
+              <img src="../assets/images/flag5-Niger.svg" alt="Niger-flag" />
+              <img src="../assets/images/flag6-Togo.svg" alt="Togo-flag" />
+              <img src="../assets/images/flag7-Mali.svg" alt="Mali-flag" />
+              <img
+                src="../assets/images/flag8-GuineaBissau.svg"
+                alt="GuineaBissau-flag"
+              />
+            </div>
+          </div>
+          <div class="hero-img">
+            <div class="hero-img-lines">
+              <video autoplay loop>
+                <source src="../assets/videos/Lines.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="hero-img-phone">
+              <video class="hero-video" autoplay loop>
+                <source src="../assets/videos/Phone.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="hero-img-base">
+              <img
+                class="img-phone1"
+                src="../assets/images/phone4-no-cell.svg"
+                alt="phone"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="bg-cards"
+          style="background-image: url(./images/bg-cards5.svg)"
+        >
+          <div class="h-100">
+            <div class="row">
+              <div
+                class="mt-5 px-4 d-grid align-items-end justify-content-start"
+              >
+                <div id="waitlist_location" class="waitlist_location_width">
+                  <div class="bg-cards-text">
+                    <h2 id="typemachine-title"></h2>
+                    <p class="text-white font-18">
+                      Get a global bank account in minutes.
+                    </p>
+                  </div>
+                  <div class="bg-cards-text2">
+                    <h3>Win up to $2500 by referring friends.</h3>
+                    <p class="font-18">
+                      Join the waitlist to get early access—Invite friends to
+                      win up to $2500 and enter a draw for a new iPhone 14 Pro
+                      Max with AirPods Pro when we launch the app.
+                    </p>
+                  </div>
+                  <div class="my-4 d-flex bg-cards-inputs">
+                    <div id="maitre-widget"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="good-life-container bg-flap">
+          <div class="d-flex justify-content-center">
+            <img src="../assets/images/good-life.svg" alt="" />
+          </div>
+          <div class="good-life d-flex flex-column align-items-center px-4">
+            <p class="good-life-text text-center py-3 fw-bold font-24">
+              Empowering the people of today through digital banking services –
+              <br class="d-sm-none d-xl-block" />
+              All you need is your smartphone to start enjoying the Bank of
+              Free.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="bg-customize"
+          style="background-image: url(./../images/bg-customize.svg)"
+        >
+          <div class="bg-customize-container">
+            <div class="bg-customize-container-flex w-100 px-3">
+              <div class="w-100">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="d-flex flex-column align-items-center w-100">
+                    <div class="bg-customize-container-text pb-3">
+                      <h3 class="text-white fw-bold">Your Card, Your World</h3>
+                      <p class="text-white font-20 pt-3">
+                        Everything you get with MoneyFlap
+                      </p>
+                    </div>
+                    <div
+                      class="bg-customize-container-carousel text-center pb-3 d-flex flex-row align-items-center justify-content-center"
+                    >
+                      <div class="select-arrows" id="prev-icon">
+                        <img src="../assets/images/prev-icon.svg" />
+                      </div>
+                      <img class="img-view" alt="" id="cardShowing" />
+                      <div class="select-arrows" id="next-icon">
+                        <img src="../assets/images/next-icon.svg" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-around w-75 pb-5 text-center mx-auto"
+                    >
+                      <div class="col-md-6 get-card">
+                        <img
+                          class="Cards__img"
+                          src="../assets/images/card11.svg"
+                          alt=""
+                        />
+                        <img
+                          class="Cards__img"
+                          src="../assets/images/card22.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6 get-card">
+                        <img
+                          class="Cards__img"
+                          src="../assets/images/card333.svg"
+                          alt=""
+                        />
+                        <img
+                          class="Cards__img"
+                          src="../assets/images/card44.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div>
+                  <ul class="list-bullet">
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p class="mb-0 fw-bolder">
+                          A free VISA card, accepted worldwide.
+                        </p>
+                        <p>
+                          Pay at millions of retail and online merchants and
+                          withdraw money from any ATM worldwide.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p>
+                          Earn up to <strong>0.25% cashback</strong> on all your
+                          card spending.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p>
+                          Add your card to <strong>Google Pay</strong> and
+                          <strong>Apple Pay</strong> in seconds.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p>
+                          Enjoy virtual cards designed for your online life
+                          needs.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p>
+                          Choose the card that best suits your style.
+                          <strong>Freeze and unfreeze</strong> your card in-app
+                          - when it goes missing or gets stolen.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p class="mb-0 fw-bold">
+                          <strong
+                            >Africa's First Eco-Friendly Bank Card.
+                          </strong>
+                        </p>
+                        <p>
+                          Protect the planet by getting a card that is 100%
+                          manufactured from recycled plastic.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-icon">
+                      <div class="list-icon-img">
+                        <img src="../assets/images/check-icon1.svg" />
+                      </div>
+                      <div class="list-icon-text">
+                        <p class="mb-0 fw-bold">
+                          <strong>Africa's First Numberless Bank Card.</strong>
+                        </p>
+                        <p>
+                          Enjoy a healthier financial life with no card number,
+                          expiry date or CVV visible on the card. We protect you
+                          from cybercriminals.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container send-money mt-5 pt-5">
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+          <div class="circle5"></div>
+          <div class="py-5">
+            <h3 class="text-secondary">Send To Anyone</h3>
+            <h3 class="text-white">Receive From Anyone</h3>
+          </div>
+          <div class="row px-3 py-5">
+            <div class="hover-boxes col-lg-4">
+              <div class="container-boxes-img">
+                <img src="../assets/images/transfer1.svg" alt="" />
+              </div>
+              <div class="pt-4">
+                <div class="container-boxes">
+                  <p class="boxes p-3 font-18">
+                    Instantly send, request, or receive any amount of money from
+                    other MoneyFlap accounts without all the fuss and fees
+                    across the WAEMU region. Pay and get paid via QR code.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="hover-boxes col-lg-4">
+              <div class="container-boxes-img">
+                <img src="../assets/images/transfer2.svg" alt="" />
+              </div>
+              <div class="pt-4">
+                <div class="container-boxes">
+                  <p class="boxes p-3 font-18">
+                    With your account details, send and receive money from any
+                    bank, all free and unlimited – set up Early Direct Deposit
+                    and get your salary up to 2 days earlier, all within your
+                    MoneyFlap account.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="hover-boxes col-lg-4">
+              <div class="container-boxes-img">
+                <img src="../assets/images/transfer3.svg" alt="" />
+              </div>
+              <div class="pt-4">
+                <div class="container-boxes">
+                  <p class="boxes p-3 font-18">
+                    Set up fast money transfers to non-MoneyFlap members locally
+                    for a very low fee. Send and receive money globally for
+                    excellent exchange rates – cheaper and faster than existing
+                    providers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="bg-bills"
+          style="background-image: url(./../images/bg-bills.svg)"
+        >
+          <div class="bg-bills-container">
+            <div class="bg-bills-container-flex w-100">
+              <div class="bg-bills-box">
+                <div class="bg-bills-box-title">
+                  <h3 class="text-center text-lg-start text-secondary fw-bold">
+                    Pay Bills
+                  </h3>
+                  <h3 class="text-center text-lg-start text-secondary fw-bold">
+                    With Ease
+                  </h3>
+                </div>
+                <div class="py-3">
+                  <p class="text-center text-lg-start">
+                    No need to stand in long queues to pay your bills. MoneyFlap
+                    is the easiest way to donate to charities and pay utility
+                    bills, tuition fees, and so much more, all commission-free!
+                  </p>
+                  <p class="text-center text-lg-start">
+                    Say goodbye to borrowing money for everyday transactions,
+                    split them with anyone. Stress-Free.
+                  </p>
+                </div>
+              </div>
+              <div class="bg-bills-img text-center">
+                <div class="bg-bills-img-svg" img-centered>
+                  <img src="../assets/images/pay-bills2.svg" alt="pay-bills" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container airtime">
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+          <div class="circle5"></div>
+          <div class="airtime-flex">
+            <div class="airtime-flex-box-img">
+              <div class="airtime-flex-box-img-div">
+                <img src="../assets/images/airtime2.svg" alt="air-time" />
+              </div>
+            </div>
+            <div class="airtime-box">
+              <div class="airtime-box-title">
+                <h3 class="text-center text-lg-start text-secondary fw-bold">
+                  Buy Airtime
+                </h3>
+                <h3 class="text-center text-lg-start text-secondary fw-bold">
+                  and Internet Data
+                </h3>
+              </div>
+              <div class="py-3">
+                <p class="text-center text-lg-start">
+                  Easily recharge the balance of any phone or buy internet data
+                  bundles from any operator around the world - only using your
+                  MoneyFlap account. No hassle. No fees.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="bg-expenses"
+          style="background-image: url(./../images/bg-expenses2.svg)"
+        >
+          <div class="expenses">
+            <div class="py-3 px-3 text-center">
+              <h2 class="text-secondary fw-bold">
+                Get insights on your spending habits
+              </h2>
+              <p class="py-3 font-20">
+                Want to know where all your money goes?
+              </p>
+            </div>
+            <div class="expenses-boxes row">
+              <div class="expenses-boxes-margin">
+                <div class="expenses-boxes-margin-flex row py-lg-5">
+                  <div class="expenses-boxes-margin-flex-width px-4">
+                    <img src="../assets/images/expenses3.svg" alt="" />
+                    <p class="py-3">
+                      Get an exact insight on where, when, and how much you have
+                      spent your money through our simple budgeting tools and
+                      expense tracker.
+                    </p>
+                  </div>
+                  <div class="expenses-boxes-margin-flex-width px-4">
+                    <img src="../assets/images/expenses2.svg" alt="" />
+                    <p class="py-3">
+                      Set your goals by giving yourself a daily, weekly, or
+                      monthly budget to ensure you do not go over your limit.
+                    </p>
+                  </div>
+                </div>
+                <div class="row py-3 py-lg-5">
+                  <div class="expenses-boxes-margin-flex-width px-4">
+                    <img src="../assets/images/expenses1.svg" alt="" />
+                    <p class="py-3">
+                      Save your money aside with pots and separate it from your
+                      current balance. Organize and manage all your
+                      subscriptions in one place.
+                    </p>
+                  </div>
+                  <div class="expenses-boxes-margin-flex-width px-4">
+                    <img src="../assets/images/expenses4.svg" alt="" />
+                    <p class="py-3">
+                      Save for your children’s education, events, and even
+                      trips! Download an easy-to-read, structured bank statement
+                      right from the app.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container cards d-flex flex-column px-4 mt-lg-5 pt-lg-5 w-100"
+        >
+          <div class="text-center">
+            <h3 class="fw-bold">Your end-to-end Security, Our priority</h3>
+          </div>
+          <div class="d-lg-flex justify-content-center py-5">
+            <div class="each-cards">
+              <div style="text-align: start">
+                <img
+                  class="each-cards-img"
+                  src="../assets/images/benefits1.svg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4>Notification</h4>
+              </div>
+              <div class="">
+                <p class="each-cards-text">
+                  Get notified instantly on all your activities, withdrawals,
+                  transfers and card payments.
+                </p>
+              </div>
+            </div>
+            <div
+              class="each-cards"
+              style="
+                background: linear-gradient(
+                  175.86deg,
+                  #00cec2 -28.14%,
+                  #614fdc 94.55%
+                );
+              "
+            >
+              <div style="text-align: start">
+                <img
+                  class="each-cards-img"
+                  src="../assets/images/benefits2.svg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4>Compliance</h4>
+              </div>
+              <div class="">
+                <p class="each-cards-text">
+                  We comply with all regulations to ensure that your money is
+                  kept safe.
+                </p>
+              </div>
+            </div>
+            <div class="each-cards">
+              <div style="text-align: start">
+                <img
+                  class="each-cards-img"
+                  src="../assets/images/benefits3.svg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4>Safety</h4>
+              </div>
+              <div class="">
+                <p class="each-cards-text">
+                  Our systems are built with AES 256-bit encryption, biometric
+                  recognition, and 3D Secure technology.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              class="btn btn-success text-white px-5 py-3 font-18"
+              type="button"
+              id="open-button"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="transfer container">
+          <div class="transfer-text">
+            <h3 class="fw-bold">Exercise Your Freedom, Live Free</h3>
+          </div>
+          <div class="transfer-grid px-5 py-5">
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border fw-bold px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits01.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 mb-0 my-4">
+                      No hidden fees<br />No monthly fees<br />No minimum
+                      balance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits04.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 fw-bold mb-0 my-4">
+                      Spend abroad like a local in USD, Euro, and more!
+                      <br />Zero Forex Markup 😎
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits03.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 fw-bold mb-0 my-4">
+                      Login to the app using fingerprint, PIN or facial
+                      recognition
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits07.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 fw-bold mb-0 my-4">
+                      24/7 multilingual in-app customer support
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits05.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 fw-bold mb-0 my-4">
+                      Cash ﻿withdrawals at all the MoneyFlap Super Agents
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transfer-boxes">
+              <div>
+                <div class="boxes-border px-4">
+                  <div>
+                    <img
+                      src="../assets/images/benefits08.svg"
+                      alt="benefits"
+                      class="my-4"
+                    />
+                    <p class="font-20 fw-bold mb-0 my-4">
+                      Cash deposits at all the MoneyFlap Super Agents
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      ${ require('./partials/section.html')}
+    </main>
+    ${ require('./partials/footer.html')}
+  </body>
+  <script>
+    RH.trackReferral(userEmail);
+  </script>
+</html>
