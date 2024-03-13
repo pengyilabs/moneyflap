@@ -1,4 +1,5 @@
 <template>
+   <WebNavbar/>
      <slot />
  </template>
  
