@@ -1,3 +1,5 @@
 <template>
-   Hello
+   <NuxtLayout name="weblayout">
+      Hello
+   </NuxtLayout>
 </template>
