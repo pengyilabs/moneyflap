@@ -13,9 +13,9 @@
               <button class="btn btn-primary btn-lg rounded-5 px-5">Get Started</button>
               <button class="btn btn-outline-light btn-lg rounded-5 ms-4 px-4">See our coverage</button>
             </div>
-            <div class="mt-5">
-              <button class="btn btn-outline-light rounded-circle py-3 px-3"><IconsPlaystore/></button>
-              <button class="btn btn-outline-light rounded-circle py-3 px-3 ms-4"><IconsAppleIcon/></button>
+            <div class="mt-5 d-flex">
+              <button class="btn btn-outline-light border-2 rounded-circle icon-circle"><IconsPlaystore/></button>
+              <button class="btn btn-outline-light border-2 rounded-circle icon-circle ms-3"><IconsAppleIcon/></button>
             </div>
           </div>
           <div class="col">
@@ -269,8 +269,7 @@ locations in over 181 countries.</p>
       </section>
 
       <!-- Two sections fast loans, sims -->
-      <div class="mf-gradient-vertical">
-        <section class="py-5">
+        <section class="py-5 mf-gradient-vertical">
           <div class="container">
             <div class="row align-items-center my-5">
               <div class="col text-center">
@@ -359,7 +358,16 @@ Chat with our team 24/7 through the app.</p>
             </div>
           </div>
         </section>
-      </div>
+
+
+      <section class="py-5">
+        <div class="container text-center">
+          <h2 class="text-info fw-bolder display-6 mb-3">Your Legacy, Not Theirs</h2>
+          <p class="lead">Open your account in 2 minutes, verify your ID, and start enjoying your Everything app.</p>
+          <button class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mt-4 mf-gradient">Get Started</button>
+        </div>
+      </section>
+
 
 
    </NuxtLayout>
@@ -412,14 +420,7 @@ section.wave-top {
   background-size: cover;
   background-position: top center;
 }
-.mf-gradient {
-  background: rgb(1,206,194);
-  background: linear-gradient(146deg, rgba(1,206,194,1) 0%, rgba(41,165,216,1) 43%, rgba(113,92,255,1) 100%);
-}
-.mf-gradient-vertical {
-  background: #3995E1;
-  background: linear-gradient(180deg, #08C7C6 0%, #23ABD5 23%, #3995E1 50%);
-}
+
 .bg-glare {
   background-image: url('@/src/assets/bg-glare.png');
   background-size: auto 100%;
@@ -431,5 +432,13 @@ section.wave-top {
   padding: 0 .5rem .5rem 0;
   margin: 0 0 -1.5rem 0;
   transform: translate(-1.5rem, -1.5rem);
+}
+.icon-circle {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img { width: 70% }
 }
 </style>
