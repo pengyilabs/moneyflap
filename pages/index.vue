@@ -134,7 +134,9 @@
       <section class="smarter-card">
         <div class="container text-center">
           <h2 class="fw-bolder display-4 text-light mb-4">A Smarter Card</h2>
-          <span class="btn btn-outline-light rounded-5 px-4">Green</span>
+          <div>
+            <span class="btn btn-outline-light rounded-5 px-4">Green</span>w
+          </div>
           <img src="@/src/assets/img-smarter-moneyflap-card.png" alt="MoneyFlap Smarter Cards" class="img-fluid ms-5">
         </div>
       </section>
@@ -180,6 +182,186 @@
         </div>
       </section>
 
+      <!-- Moneyflap Account  -->
+      <section class="wave-hair py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 mx-auto">
+              <h2 class="fw-bolder display-6 text-center my-5 pt-4 pb-5">With your MoneyFlap account, go from underserved to what you deserve</h2>
+            </div>
+          </div>
+          <div class="row row-cols-sm-3">
+            <div class="col">
+              <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
+                <div class="card rounded-5 px-3 h-100">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-easy-deposits.svg" alt="Easy deposits and withdrawals">
+                    <h4 class="fw-bolder mt-4">Easy deposits and withdrawals</h4>
+                    <p class="">Quickly link your account to hundreds of local and international mobile wallets, banks, and crypto exchanges.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
+                <div class="card rounded-5 px-3 h-100">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-global-cashin.svg" alt="Global cash-in and cash-out">
+                    <h4 class="fw-bolder mt-4">Global cash-in and cash-out</h4>
+                    <p class="">Instantly deposit and withdraw cash from your account in your local currency at one of 350,000+ 
+                      <img src="@/src/assets/logo-moneygram.svg" alt="Moneygram">
+locations in over 181 countries.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
+                <div class="card rounded-5 px-3 h-100">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-airtime.svg" alt="Buy airtime and data">
+                    <h4 class="fw-bolder mt-4">Buy airtime and data</h4>
+                    <p class="">Instantly recharge credit and data for any phone, and worldwide.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Real-time Spending Insights and Analytics   -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="@/src/assets/img-real-time-spending.png" alt="img-real-time-spending" class="img-fluid">
+            </div>
+            <div class="col-sm-7">
+              <h2 class="fw-bolder display-4">
+                Real-time Spending <span class="text-primary">Insights and Analytics</span>
+              </h2>
+              <p class="py-4 lh-lg fw-medium text-secondary">Our intelligent analytics presents you with easy-to-understand charts and a summary of your transactions so you can track your finances and make better spending decisions. No spreadsheet. No calculator!</p>
+              <button class="btn btn-dark btn-lg rounded-5 px-4">Get Started</button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- Connect, Feel, and Engage Like You’re There!   -->
+      <section class="py-5 wave-hair">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col order-sm-2">
+              <img src="@/src/assets/img-engage-connect-feel-moneyflap.png" alt="img-engage-connect-feel-moneyflap" class="img-fluid">
+            </div>
+            <div class="col-sm-7">
+              <h2 class="fw-bolder display-4">
+                Connect, Feel, <span class="text-success">and Engage Like You’re There!</span>
+              </h2>
+              <p class="py-4 lh-lg fw-medium text-secondary">Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors.</p>
+              <button class="btn btn-dark btn-lg rounded-5 px-4">Get Started</button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- Two sections fast loans, sims -->
+      <div class="mf-gradient-vertical">
+        <section class="py-5">
+          <div class="container">
+            <div class="row align-items-center my-5">
+              <div class="col text-center">
+                <img src="@/src/assets/img-fast-loans-moneyflap.png" alt="img-fast-loans-moneyflap" class="img-fluid ">
+              </div>
+              <div class="col-sm-7">
+                <h2 class="fw-bolder display-4 text-light">
+                  Fast Loans, No Fuss: Switch On The 0%
+                </h2>
+                <p class="py-4 lh-lg fw-medium text-light">Why let emergencies spoil your good night's sleep? Borrow instantly any amount using your money saved as collateral and repay in up to 25 easy installments – your first payment can be made within 90 days after approval! No hidden fees. No interest. No credit checks.</p>
+                <p class="h5 fw-bolder text-light">Available Soon</p>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="wave-top py-5">
+          <div class="bg-glare">
+            <div class="container">
+              <div class="row align-items-center ">
+                <div class="col text-center order-sm-2">
+                  <img src="@/src/assets/img-moneyflap-sims.png" alt="img-moneyflap-sims" class="img-fluid">
+                </div>
+                <div class="col-sm-5">
+                  <h2 class="fw-bolder display-4 text-light">We do <span class="text-info">SIMs too!</span></h2>
+                  <p class="py-4 lh-lg fw-medium text-light">Travel smart, enjoy unlimited roaming with MoneyFlap eSIM! Forget the old-fashioned ways of changing cards or hunting down Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation - connect your life with just a click.</p>
+                  <p class="h5 fw-bolder text-light">Available Soon</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="bg-dark py-5">
+          <div class="container mb-5">
+            <h2 class="fw-bolder display-4 text-light text-center mb-5">We Take Your Security to New Heights</h2>
+
+            <div class="row row-cols-2 gy-5 gx-5">
+              <div class="col">
+                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-compliance.svg" class="icon-w-bg" alt="icon-compliance">
+                    <div class="px-4 pb-3">
+                      <h4 class="card-title">Compliance-first</h4>
+                      <p>From day 1, we are certified, audited, and regulated across multiple jurisdictions.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-breakfree-control.svg" class="icon-w-bg" alt="icon-breakfree-control">
+                    <div class="px-4 pb-3">
+                      <h4 class="card-title">Break-free control</h4>
+                      <p>Push notifications, 2-step verification, biometrics, card controls, and fraud detection to protect you from any fraudsters, 24/7.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-bankruptcy-remote.svg" class="icon-w-bg" alt="icon-bankruptcy-remote">
+                    <div class="px-4 pb-3">
+                      <h4 class="card-title">Bankruptcy remote</h4>
+                      <p>Your money are fully segregated and held with qualified, licensed, and insured custodians.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                  <div class="card-body">
+                    <img src="@/src/assets/icon-vip-customer-support.svg" class="icon-w-bg" alt="icon-vip-customer-support">
+                    <div class="px-4 pb-3">
+                      <h4 class="card-title">VIP customer support</h4>
+                      <p>Have an account query at 3 am? Ok. 
+Chat with our team 24/7 through the app.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
    </NuxtLayout>
 </template>
 
@@ -188,7 +370,7 @@
     min-height: 60vh;
     background-image: url('@/src/assets/bg-header-website-landing.svg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: bottom right;
     background-color: #142339;
 }
@@ -215,6 +397,39 @@ section.wave {
   padding: 7rem 0 5rem; 
   background-color: #4A83EB;
   background-repeat: no-repeat;
+  background-size:cover;
+}
+section.wave-hair {
+  background-image: url('@/src/assets/bg-wave-hair.svg');
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
+}
+section.wave-top {
+  background-color: #142339;
+  background-image: url('@/src/assets/bg-wave-top.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.mf-gradient {
+  background: rgb(1,206,194);
+  background: linear-gradient(146deg, rgba(1,206,194,1) 0%, rgba(41,165,216,1) 43%, rgba(113,92,255,1) 100%);
+}
+.mf-gradient-vertical {
+  background: #3995E1;
+  background: linear-gradient(180deg, #08C7C6 0%, #23ABD5 23%, #3995E1 50%);
+}
+.bg-glare {
+  background-image: url('@/src/assets/bg-glare.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.icon-w-bg {
+  background-color: #142339;
+  padding: 0 .5rem .5rem 0;
+  margin: 0 0 -1.5rem 0;
+  transform: translate(-1.5rem, -1.5rem);
 }
 </style>
