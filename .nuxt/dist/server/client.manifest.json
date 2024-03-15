@@ -1,18 +1,556 @@
 {
-  "@vite/client": {
-    "prefetch": true,
-    "isEntry": true,
-    "file": "@vite/client",
-    "css": [],
-    "module": true,
-    "resourceType": "script"
-  },
-  "/Users/robyifanmengyifan/Documents/Codes/Moneyflap/moneyflap/node_modules/nuxt/dist/app/entry.js": {
+  "_vue.f36acd1f.D6Zd2GuU.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
+    "file": "vue.f36acd1f.D6Zd2GuU.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "layouts/weblayout.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "weblayout.zUvRqBe_.js",
+    "src": "layouts/weblayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": [],
+    "assets": [
+      "moneyflap-logo-white.Dd3VdB_B.svg",
+      "logo-moneyflap-fullwhite.DG687tRX.svg"
+    ]
+  },
+  "weblayout.CbLZbWxE.css": {
+    "file": "weblayout.CbLZbWxE.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "moneyflap-logo-white.Dd3VdB_B.svg": {
+    "file": "moneyflap-logo-white.Dd3VdB_B.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-moneyflap-fullwhite.DG687tRX.svg": {
+    "file": "logo-moneyflap-fullwhite.DG687tRX.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "error-404.4Ljwl7AV.js",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_vue.f36acd1f.D6Zd2GuU.js"
+    ],
+    "css": []
+  },
+  "error-404.CoUbADi5.css": {
+    "file": "error-404.CoUbADi5.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "error-500.07YX6hPU.js",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vue.f36acd1f.D6Zd2GuU.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": []
+  },
+  "error-500.BXQ_YkC0.css": {
+    "file": "error-500.BXQ_YkC0.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "entry.DyHP2xGM.js",
+    "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
-    "file": "/Users/robyifanmengyifan/Documents/Codes/Moneyflap/moneyflap/node_modules/nuxt/dist/app/entry.js"
+    "dynamicImports": [
+      "layouts/weblayout.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "pages/index.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "index.BvrBNVNE.js",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": [],
+    "assets": [
+      "img-header-moneyflap-app.DVcSpy2o.png",
+      "img-global-account-with-moneyflap.Dw1gvK7R.png",
+      "img-earns-treasury-yields.CdxEaMM9.png",
+      "img-teleport-money-free-fee.0r_e0fTh.svg",
+      "img-moneyflap-international-card.B_A9rRTM.png",
+      "img-smarter-moneyflap-card.BqGPZlHw.png",
+      "img-earn-up-to-35-percent-moneyflap.CmI3dZJy.png",
+      "logo-walmart.BGmc1sWL.svg",
+      "logo-aliexpress.CJxr2ayA.svg",
+      "logo-banggood.yvgmkITc.svg",
+      "logo-microsoft.0tnC0Hiu.svg",
+      "logo-sephora.BSZeT5fc.svg",
+      "logo-lookfantastic.BiSVxrP6.svg",
+      "logo-nike.Dt8bmPyY.svg",
+      "logo-boohoo.-na2PPLu.svg",
+      "logo-bloomingdales.BPbzJq5O.svg",
+      "logo-lenovo.BgxVNdbN.svg",
+      "logo-booking.9gx0mgw0.svg",
+      "logo-expedia._4daJyIV.svg",
+      "logo-viator.BMnmOSIW.svg",
+      "logo-oldnavy.MypvUpPL.svg",
+      "icon-global-cashin.BOowpqIC.svg",
+      "logo-moneygram.F3devKXd.svg",
+      "img-real-time-spending.QfqYkn6h.png",
+      "img-engage-connect-feel-moneyflap.DqWmV0RC.png",
+      "img-fast-loans-moneyflap.CgarhAX1.png",
+      "img-moneyflap-sims.DI-RG787.png",
+      "icon-vip-customer-support.C-wxgeVm.svg",
+      "bg-teleport-your-money.aWVKy-59.svg",
+      "bg-glare.VDCKholH.png"
+    ]
+  },
+  "index.rqc9-NCT.css": {
+    "file": "index.rqc9-NCT.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "img-header-moneyflap-app.DVcSpy2o.png": {
+    "file": "img-header-moneyflap-app.DVcSpy2o.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-global-account-with-moneyflap.Dw1gvK7R.png": {
+    "file": "img-global-account-with-moneyflap.Dw1gvK7R.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-earns-treasury-yields.CdxEaMM9.png": {
+    "file": "img-earns-treasury-yields.CdxEaMM9.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-teleport-money-free-fee.0r_e0fTh.svg": {
+    "file": "img-teleport-money-free-fee.0r_e0fTh.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "img-moneyflap-international-card.B_A9rRTM.png": {
+    "file": "img-moneyflap-international-card.B_A9rRTM.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-smarter-moneyflap-card.BqGPZlHw.png": {
+    "file": "img-smarter-moneyflap-card.BqGPZlHw.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-earn-up-to-35-percent-moneyflap.CmI3dZJy.png": {
+    "file": "img-earn-up-to-35-percent-moneyflap.CmI3dZJy.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "logo-walmart.BGmc1sWL.svg": {
+    "file": "logo-walmart.BGmc1sWL.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-aliexpress.CJxr2ayA.svg": {
+    "file": "logo-aliexpress.CJxr2ayA.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-banggood.yvgmkITc.svg": {
+    "file": "logo-banggood.yvgmkITc.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-microsoft.0tnC0Hiu.svg": {
+    "file": "logo-microsoft.0tnC0Hiu.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-sephora.BSZeT5fc.svg": {
+    "file": "logo-sephora.BSZeT5fc.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-lookfantastic.BiSVxrP6.svg": {
+    "file": "logo-lookfantastic.BiSVxrP6.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-nike.Dt8bmPyY.svg": {
+    "file": "logo-nike.Dt8bmPyY.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-boohoo.-na2PPLu.svg": {
+    "file": "logo-boohoo.-na2PPLu.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-bloomingdales.BPbzJq5O.svg": {
+    "file": "logo-bloomingdales.BPbzJq5O.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-lenovo.BgxVNdbN.svg": {
+    "file": "logo-lenovo.BgxVNdbN.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-booking.9gx0mgw0.svg": {
+    "file": "logo-booking.9gx0mgw0.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-expedia._4daJyIV.svg": {
+    "file": "logo-expedia._4daJyIV.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-viator.BMnmOSIW.svg": {
+    "file": "logo-viator.BMnmOSIW.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-oldnavy.MypvUpPL.svg": {
+    "file": "logo-oldnavy.MypvUpPL.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "icon-global-cashin.BOowpqIC.svg": {
+    "file": "icon-global-cashin.BOowpqIC.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "logo-moneygram.F3devKXd.svg": {
+    "file": "logo-moneygram.F3devKXd.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "img-real-time-spending.QfqYkn6h.png": {
+    "file": "img-real-time-spending.QfqYkn6h.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-engage-connect-feel-moneyflap.DqWmV0RC.png": {
+    "file": "img-engage-connect-feel-moneyflap.DqWmV0RC.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-fast-loans-moneyflap.CgarhAX1.png": {
+    "file": "img-fast-loans-moneyflap.CgarhAX1.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "img-moneyflap-sims.DI-RG787.png": {
+    "file": "img-moneyflap-sims.DI-RG787.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "icon-vip-customer-support.C-wxgeVm.svg": {
+    "file": "icon-vip-customer-support.C-wxgeVm.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "bg-teleport-your-money.aWVKy-59.svg": {
+    "file": "bg-teleport-your-money.aWVKy-59.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "bg-glare.VDCKholH.png": {
+    "file": "bg-glare.VDCKholH.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "src/assets/bg-glare.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "bg-glare.VDCKholH.png",
+    "src": "src/assets/bg-glare.png"
+  },
+  "src/assets/bg-teleport-your-money.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "bg-teleport-your-money.aWVKy-59.svg",
+    "src": "src/assets/bg-teleport-your-money.svg"
+  },
+  "src/assets/icon-global-cashin.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "icon-global-cashin.BOowpqIC.svg",
+    "src": "src/assets/icon-global-cashin.svg"
+  },
+  "src/assets/icon-vip-customer-support.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "icon-vip-customer-support.C-wxgeVm.svg",
+    "src": "src/assets/icon-vip-customer-support.svg"
+  },
+  "src/assets/img-earn-up-to-35-percent-moneyflap.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-earn-up-to-35-percent-moneyflap.CmI3dZJy.png",
+    "src": "src/assets/img-earn-up-to-35-percent-moneyflap.png"
+  },
+  "src/assets/img-earns-treasury-yields.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-earns-treasury-yields.CdxEaMM9.png",
+    "src": "src/assets/img-earns-treasury-yields.png"
+  },
+  "src/assets/img-engage-connect-feel-moneyflap.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-engage-connect-feel-moneyflap.DqWmV0RC.png",
+    "src": "src/assets/img-engage-connect-feel-moneyflap.png"
+  },
+  "src/assets/img-fast-loans-moneyflap.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-fast-loans-moneyflap.CgarhAX1.png",
+    "src": "src/assets/img-fast-loans-moneyflap.png"
+  },
+  "src/assets/img-global-account-with-moneyflap.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-global-account-with-moneyflap.Dw1gvK7R.png",
+    "src": "src/assets/img-global-account-with-moneyflap.png"
+  },
+  "src/assets/img-header-moneyflap-app.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-header-moneyflap-app.DVcSpy2o.png",
+    "src": "src/assets/img-header-moneyflap-app.png"
+  },
+  "src/assets/img-moneyflap-international-card.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-moneyflap-international-card.B_A9rRTM.png",
+    "src": "src/assets/img-moneyflap-international-card.png"
+  },
+  "src/assets/img-moneyflap-sims.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-moneyflap-sims.DI-RG787.png",
+    "src": "src/assets/img-moneyflap-sims.png"
+  },
+  "src/assets/img-real-time-spending.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-real-time-spending.QfqYkn6h.png",
+    "src": "src/assets/img-real-time-spending.png"
+  },
+  "src/assets/img-smarter-moneyflap-card.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "img-smarter-moneyflap-card.BqGPZlHw.png",
+    "src": "src/assets/img-smarter-moneyflap-card.png"
+  },
+  "src/assets/img-teleport-money-free-fee.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "img-teleport-money-free-fee.0r_e0fTh.svg",
+    "src": "src/assets/img-teleport-money-free-fee.svg"
+  },
+  "src/assets/logo-aliexpress.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-aliexpress.CJxr2ayA.svg",
+    "src": "src/assets/logo-aliexpress.svg"
+  },
+  "src/assets/logo-banggood.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-banggood.yvgmkITc.svg",
+    "src": "src/assets/logo-banggood.svg"
+  },
+  "src/assets/logo-bloomingdales.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-bloomingdales.BPbzJq5O.svg",
+    "src": "src/assets/logo-bloomingdales.svg"
+  },
+  "src/assets/logo-boohoo.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-boohoo.-na2PPLu.svg",
+    "src": "src/assets/logo-boohoo.svg"
+  },
+  "src/assets/logo-booking.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-booking.9gx0mgw0.svg",
+    "src": "src/assets/logo-booking.svg"
+  },
+  "src/assets/logo-expedia.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-expedia._4daJyIV.svg",
+    "src": "src/assets/logo-expedia.svg"
+  },
+  "src/assets/logo-lenovo.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-lenovo.BgxVNdbN.svg",
+    "src": "src/assets/logo-lenovo.svg"
+  },
+  "src/assets/logo-lookfantastic.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-lookfantastic.BiSVxrP6.svg",
+    "src": "src/assets/logo-lookfantastic.svg"
+  },
+  "src/assets/logo-microsoft.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-microsoft.0tnC0Hiu.svg",
+    "src": "src/assets/logo-microsoft.svg"
+  },
+  "src/assets/logo-moneyflap-fullwhite.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-moneyflap-fullwhite.DG687tRX.svg",
+    "src": "src/assets/logo-moneyflap-fullwhite.svg"
+  },
+  "src/assets/logo-moneygram.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-moneygram.F3devKXd.svg",
+    "src": "src/assets/logo-moneygram.svg"
+  },
+  "src/assets/logo-nike.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-nike.Dt8bmPyY.svg",
+    "src": "src/assets/logo-nike.svg"
+  },
+  "src/assets/logo-oldnavy.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-oldnavy.MypvUpPL.svg",
+    "src": "src/assets/logo-oldnavy.svg"
+  },
+  "src/assets/logo-sephora.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-sephora.BSZeT5fc.svg",
+    "src": "src/assets/logo-sephora.svg"
+  },
+  "src/assets/logo-viator.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-viator.BMnmOSIW.svg",
+    "src": "src/assets/logo-viator.svg"
+  },
+  "src/assets/logo-walmart.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "logo-walmart.BGmc1sWL.svg",
+    "src": "src/assets/logo-walmart.svg"
+  },
+  "src/assets/moneyflap-logo-white.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "moneyflap-logo-white.Dd3VdB_B.svg",
+    "src": "src/assets/moneyflap-logo-white.svg"
   }
 }
