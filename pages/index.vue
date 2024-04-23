@@ -4,23 +4,27 @@
         <div class="container">
           <div class="row">
             <div class="col">
-            <h1 class="text-white fw-bolder display-4 mt-4">
-              We are not a bank. <br>
-              We are a <span class="text-success">bulldozer.</span>
-            </h1>
-            <p class="text-white my-4 lh-lg fw-medium">The first global app that pays you to save, spend, and send money <br> — all in one place.</p>
-            <div class="mt-5">
-              <button class="btn btn-primary btn-lg rounded-5 px-5">Get Started</button>
-              <button class="btn btn-outline-light btn-lg rounded-5 ms-4 px-4">See our coverage</button>
-            </div>
-            <div class="mt-5 d-flex">
-              <button class="btn btn-outline-light border-2 rounded-circle icon-circle"><IconsPlaystore/></button>
-              <button class="btn btn-outline-light border-2 rounded-circle icon-circle ms-3"><IconsAppleIcon/></button>
-            </div>
-          </div>
-          <div class="col">
-            <img src="@/src/assets/img-header-moneyflap-app.png" alt="MoneyFlap" class="img-fluid">
-          </div>
+					<div class="">
+						<h1 class="text-white fw-bolder display-4 mt-4">
+							We are not a bank. <br>
+							We are a <span class="text-success">bulldozer.</span>
+						</h1>
+						<p class="text-white my-4 lh-lg fw-medium">The first global app that pays you to save, spend, and send money <br> — all in one place.</p>
+					</div>
+					<div class="text-center text-md-right">
+						<div class="mt-5">
+							<button class="btn btn-primary btn-lg rounded-5 px-5">Get Started</button>
+							<button class="btn btn-outline-light btn-lg rounded-5 ms-4 px-4">See our coverage</button>
+						</div>
+						<div class="mt-5 d-flex justify-content-center justify-content-md-start">
+							<button class="btn btn-outline-light border-2 rounded-circle icon-circle"><IconsPlaystore/></button>
+							<button class="btn btn-outline-light border-2 rounded-circle icon-circle ms-3"><IconsAppleIcon/></button>
+						</div>
+					</div>
+				</div>
+				<div class="col mt-5 mt-md-0">
+					<img src="@/src/assets/img-header-moneyflap-app.png" alt="MoneyFlap">
+				</div>
           </div>
         </div>
       </header>
@@ -72,12 +76,12 @@
             <p class=" text-white lh-lg mt-5">Whether it is Italy or Mexico, save up to 15x when sending money there — Oh, 0% exchange rate mark-up and no sneaky hidden fees! Even no more entering account numbers.</p>
           </div>
           <div class="col d-flex">
-            <img src="@/src/assets/img-teleport-money-free-fee.svg" class="img-flui mt-sm-5" alt="">
+            <img src="@/src/assets/img-teleport-money-free-fee.svg" class="img-fluid mt-sm-5" alt="">
           </div>
         </div>
 
-        <div class="row row-cols-sm-3">
-          <div class="col">
+        <div class="row">
+          <div class="col-md-4 my-sm-2">
             <div class="card bg-dark border-light text-light rounded-5 shadow-lg h-100" >
               <div class="card-body p-4 fw-medium lh-lg d-flex">
                 <p class="pb-4 me-2">Send money in 100+ currencies to your contacts or anyone in our global search in seconds.</p>
@@ -87,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4 my-sm-2">
             <div class="card bg-dark border-light text-light rounded-5 shadow-lg h-100" >
               <div class="card-body p-4 fw-medium lh-lg d-flex">
                 <p class="pb-4 me-2">Send money within seconds to bank and mobile money accounts in 70+ countries.</p>
@@ -97,7 +101,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4 my-sm-2">
             <div class="card bg-dark border-light text-light rounded-5 shadow-lg h-100" >
               <div class="card-body p-4 fw-medium lh-lg d-flex">
                 <p class="pb-4 me-2">Send and receive crypto within seconds from external wallets.</p>
@@ -190,38 +194,36 @@
               <h2 class="fw-bolder display-6 text-center my-5 pt-4 pb-5">With your MoneyFlap account, go from underserved to what you deserve</h2>
             </div>
           </div>
-          <div class="row row-cols-sm-3">
-            <div class="col">
+          <div class="row">
+            <div class="col-md-4 my-sm-2">
               <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
                 <div class="card rounded-5 px-3 h-100">
                   <div class="card-body">
-                    <img src="@/src/assets/icon-easy-deposits.svg" alt="Easy deposits and withdrawals">
                     <h4 class="fw-bolder mt-4">Easy deposits and withdrawals</h4>
                     <p class="">Quickly link your account to hundreds of local and international mobile wallets, banks, and crypto exchanges.</p>
+                    <img src="@/src/assets/icon-easy-deposits.svg" alt="Easy deposits and withdrawals">
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 my-sm-2">
               <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
                 <div class="card rounded-5 px-3 h-100">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-global-cashin.svg" alt="Global cash-in and cash-out">
+                  <div class="card-body align-items-end">
                     <h4 class="fw-bolder mt-4">Global cash-in and cash-out</h4>
-                    <p class="">Instantly deposit and withdraw cash from your account in your local currency at one of 350,000+ 
-                      <img src="@/src/assets/logo-moneygram.svg" alt="Moneygram">
-locations in over 181 countries.</p>
+                    <p class="">Instantly deposit and withdraw cash from your account in your local currency at one of 350,000+ <img src="@/src/assets/logo-moneygram.svg" alt="Moneygram"> locations in over 181 countries.</p>
+                    <img src="@/src/assets/icon-global-cashin.svg" alt="Global cash-in and cash-out">
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 my-sm-2">
               <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: .1rem">
                 <div class="card rounded-5 px-3 h-100">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-airtime.svg" alt="Buy airtime and data">
+                  <div class="card-body align-items-end">
                     <h4 class="fw-bolder mt-4">Buy airtime and data</h4>
                     <p class="">Instantly recharge credit and data for any phone, and worldwide.</p>
+                    <img src="@/src/assets/icon-airtime.svg" alt="Buy airtime and data">
                   </div>
                 </div>
               </div>
@@ -269,96 +271,95 @@ locations in over 181 countries.</p>
       </section>
 
       <!-- Two sections fast loans, sims -->
-        <section class="py-5 mf-gradient-vertical">
+      <section class="py-5 mf-gradient-vertical">
+        <div class="container">
+          <div class="row align-items-center my-5">
+            <div class="col text-center">
+              <img src="@/src/assets/img-fast-loans-moneyflap.png" alt="img-fast-loans-moneyflap" class="img-fluid ">
+            </div>
+            <div class="col-sm-7">
+              <h2 class="fw-bolder display-4 text-light">
+                Fast Loans, No Fuss: Switch On The 0%
+              </h2>
+              <p class="py-4 lh-lg fw-medium text-light">Why let emergencies spoil your good night's sleep? Borrow instantly any amount using your money saved as collateral and repay in up to 25 easy installments – your first payment can be made within 90 days after approval! No hidden fees. No interest. No credit checks.</p>
+              <p class="h5 fw-bolder text-light">Available Soon</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="wave-top py-5">
+        <div class="bg-glare">
           <div class="container">
-            <div class="row align-items-center my-5">
-              <div class="col text-center">
-                <img src="@/src/assets/img-fast-loans-moneyflap.png" alt="img-fast-loans-moneyflap" class="img-fluid ">
+            <div class="row align-items-center ">
+              <div class="col text-center order-sm-2">
+                <img src="@/src/assets/img-moneyflap-sims.png" alt="img-moneyflap-sims" class="img-fluid">
               </div>
-              <div class="col-sm-7">
-                <h2 class="fw-bolder display-4 text-light">
-                  Fast Loans, No Fuss: Switch On The 0%
-                </h2>
-                <p class="py-4 lh-lg fw-medium text-light">Why let emergencies spoil your good night's sleep? Borrow instantly any amount using your money saved as collateral and repay in up to 25 easy installments – your first payment can be made within 90 days after approval! No hidden fees. No interest. No credit checks.</p>
+              <div class="col-sm-5">
+                <h2 class="fw-bolder display-4 text-light">We do <span class="text-info">SIMs too!</span></h2>
+                <p class="py-4 lh-lg fw-medium text-light">Travel smart, enjoy unlimited roaming with MoneyFlap eSIM! Forget the old-fashioned ways of changing cards or hunting down Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation - connect your life with just a click.</p>
                 <p class="h5 fw-bolder text-light">Available Soon</p>
-              </div>
-              
-            </div>
-          </div>
-        </section>
-        <section class="wave-top py-5">
-          <div class="bg-glare">
-            <div class="container">
-              <div class="row align-items-center ">
-                <div class="col text-center order-sm-2">
-                  <img src="@/src/assets/img-moneyflap-sims.png" alt="img-moneyflap-sims" class="img-fluid">
-                </div>
-                <div class="col-sm-5">
-                  <h2 class="fw-bolder display-4 text-light">We do <span class="text-info">SIMs too!</span></h2>
-                  <p class="py-4 lh-lg fw-medium text-light">Travel smart, enjoy unlimited roaming with MoneyFlap eSIM! Forget the old-fashioned ways of changing cards or hunting down Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation - connect your life with just a click.</p>
-                  <p class="h5 fw-bolder text-light">Available Soon</p>
 
-                </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section class="bg-dark py-5">
+        <div class="container mb-5">
+          <h2 class="fw-bolder display-4 text-light text-center mb-5">We Take Your Security to New Heights</h2>
 
-        <section class="bg-dark py-5">
-          <div class="container mb-5">
-            <h2 class="fw-bolder display-4 text-light text-center mb-5">We Take Your Security to New Heights</h2>
-
-            <div class="row row-cols-2 gy-5 gx-5">
-              <div class="col">
-                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-compliance.svg" class="icon-w-bg" alt="icon-compliance">
-                    <div class="px-4 pb-3">
-                      <h4 class="card-title">Compliance-first</h4>
-                      <p>From day 1, we are certified, audited, and regulated across multiple jurisdictions.</p>
-                    </div>
+          <div class="row row-cols-2 gy-5 gx-5">
+            <div class="col-md-6 col-sm-12">
+              <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                <div class="card-body">
+                  <img src="@/src/assets/icon-compliance.svg" class="icon-w-bg" alt="icon-compliance">
+                  <div class="px-4 pb-3">
+                    <h4 class="card-title">Compliance-first</h4>
+                    <p>From day 1, we are certified, audited, and regulated across multiple jurisdictions.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-breakfree-control.svg" class="icon-w-bg" alt="icon-breakfree-control">
-                    <div class="px-4 pb-3">
-                      <h4 class="card-title">Break-free control</h4>
-                      <p>Push notifications, 2-step verification, biometrics, card controls, and fraud detection to protect you from any fraudsters, 24/7.</p>
-                    </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                <div class="card-body">
+                  <img src="@/src/assets/icon-breakfree-control.svg" class="icon-w-bg" alt="icon-breakfree-control">
+                  <div class="px-4 pb-3">
+                    <h4 class="card-title">Break-free control</h4>
+                    <p>Push notifications, 2-step verification, biometrics, card controls, and fraud detection to protect you from any fraudsters, 24/7.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-bankruptcy-remote.svg" class="icon-w-bg" alt="icon-bankruptcy-remote">
-                    <div class="px-4 pb-3">
-                      <h4 class="card-title">Bankruptcy remote</h4>
-                      <p>Your money are fully segregated and held with qualified, licensed, and insured custodians.</p>
-                    </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                <div class="card-body">
+                  <img src="@/src/assets/icon-bankruptcy-remote.svg" class="icon-w-bg" alt="icon-bankruptcy-remote">
+                  <div class="px-4 pb-3">
+                    <h4 class="card-title">Bankruptcy remote</h4>
+                    <p>Your money are fully segregated and held with qualified, licensed, and insured custodians.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
-                  <div class="card-body">
-                    <img src="@/src/assets/icon-vip-customer-support.svg" class="icon-w-bg" alt="icon-vip-customer-support">
-                    <div class="px-4 pb-3">
-                      <h4 class="card-title">VIP customer support</h4>
-                      <p>Have an account query at 3 am? Ok. 
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
+                <div class="card-body">
+                  <img src="@/src/assets/icon-vip-customer-support.svg" class="icon-w-bg" alt="icon-vip-customer-support">
+                  <div class="px-4 pb-3">
+                    <h4 class="card-title">VIP customer support</h4>
+                    <p>Have an account query at 3 am? Ok. 
 Chat with our team 24/7 through the app.</p>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-
+        </div>
+      </section>
 
       <section class="py-5">
         <div class="container text-center">
@@ -367,9 +368,6 @@ Chat with our team 24/7 through the app.</p>
           <button class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mt-4 mf-gradient">Get Started</button>
         </div>
       </section>
-
-
-
    </NuxtLayout>
 </template>
 

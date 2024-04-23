@@ -1,8 +1,20 @@
 <template>
 	<nav class="navbar bg-dark navbar-expand-lg py-3 border-body" data-bs-theme="dark">
 		<div class="container">
-			<a class="navbar-brand" href="#"><IconsMoneyflapLogo/></a>
-			<button @click="toggleMenu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<div class="col">
+				<a class="navbar-brand" href="#"><IconsMoneyflapLogo/></a>
+				<ul class="navbar-nav d-inline-block">
+					<li class="nav-item dropdown">
+						<a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							English
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">French</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<button @click="toggleMenu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Menu">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" :class="{ 'show': isMenuOpen }">
