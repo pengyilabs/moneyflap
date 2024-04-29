@@ -311,7 +311,7 @@
         <div class="container mb-5">
           <h2 class="fw-bolder display-4 text-light text-center mb-5">We Take Your Security to New Heights</h2>
 
-          <div class="row row-cols-2 gy-5 gx-5">
+          <div class="row row-sm-cols-2 gy-5 gx-5">
             <div class="col-md-6 col-sm-12">
               <div class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg">
                 <div class="card-body">

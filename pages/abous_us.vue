@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout name="weblayout">
-        <div class="header d-flex align-items-top justify-content-center py-1">
+        <div class="header d-flex align-items-top justify-content-center py-1" style="background-color:#142339;">
             <div class="container mt-5 col">
                 <h2 class="text-white fw-bolder display-2 mt-1">Abous us</h2>
             </div>
