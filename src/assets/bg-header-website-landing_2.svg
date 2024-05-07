@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1440"
+   height="817"
+   viewBox="0 0 1440 817"
+   fill="none"
+   version="1.1"
+   id="svg6219"
+   sodipodi:docname="bg-header-website-landing_2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6221"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.42013889"
+     inkscape:cx="778.31405"
+     inkscape:cy="520.06611"
+     inkscape:window-width="1350"
+     inkscape:window-height="1032"
+     inkscape:window-x="26"
+     inkscape:window-y="701"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6219" />
+  <g
+     clip-path="url(#clip0_6757_17221)"
+     id="g6177">
+    <path
+       d="M0 817H1440V0H0V817Z"
+       fill="#142339"
+       id="path6157" />
+    <g
+       opacity="0.28"
+       filter="url(#filter0_f_6757_17221)"
+       id="g6161">
+      <ellipse
+         cx="927.768"
+         cy="431.5"
+         rx="157.19"
+         ry="158.5"
+         fill="#705BFF"
+         id="ellipse6159" />
+    </g>
+    <g
+       opacity="0.28"
+       filter="url(#filter1_f_6757_17221)"
+       id="g6165">
+      <ellipse
+         cx="1217.36"
+         cy="403.5"
+         rx="157.19"
+         ry="158.5"
+         fill="#705BFF"
+         id="ellipse6163" />
+    </g>
+    <g
+       opacity="0.28"
+       filter="url(#filter2_f_6757_17221)"
+       id="g6169">
+      <ellipse
+         cx="847.438"
+         cy="586.5"
+         rx="157.19"
+         ry="158.5"
+         fill="#705BFF"
+         id="ellipse6167" />
+    </g>
+    <path
+       d="M -95.0001,763.253 C 524.566,781.368 1079.99,637.657 1464.36,220.15 c 162.87,202.042 347.23,345.053 618.98,440.157 -210.5,206.21 -444.45,396.003 -713.38,526.913 -268.94,130.92 -575.931,199.57 -866.294,156.42 C 266.895,1128.06 97.3128,955.041 -95.0001,763.253 Z"
+       fill="#ffffff"
+       id="path6171"
+       style="display:none" />
+    <path
+       d="M622.002 496.87C671.637 426.464 858.164 344.887 1015.34 519.082C1060.06 568.647 1203.91 578.304 1298.96 501.489C1396.37 422.766 1516.12 405.815 1607.62 467.299"
+       stroke="url(#paint0_linear_6757_17221)"
+       stroke-width="2"
+       id="path6173" />
+    <path
+       d="M487.582 508.23C537.217 437.825 691.751 391.64 880.918 530.443C964.072 591.459 1069.49 589.666 1164.54 512.851C1261.95 434.128 1381.7 417.177 1473.2 478.661"
+       stroke="url(#paint1_linear_6757_17221)"
+       stroke-width="2"
+       id="path6175" />
+  </g>
+  <defs
+     id="defs6217">
+    <filter
+       id="filter0_f_6757_17221"
+       x="570.578"
+       y="73"
+       width="714.38"
+       height="717"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood6179" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend6181" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_6757_17221"
+         id="feGaussianBlur6183" />
+    </filter>
+    <filter
+       id="filter1_f_6757_17221"
+       x="860.165"
+       y="45"
+       width="714.38"
+       height="717"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood6186" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend6188" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_6757_17221"
+         id="feGaussianBlur6190" />
+    </filter>
+    <filter
+       id="filter2_f_6757_17221"
+       x="490.248"
+       y="228"
+       width="714.38"
+       height="717"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood6193" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend6195" />
+      <feGaussianBlur
+         stdDeviation="100"
+         result="effect1_foregroundBlur_6757_17221"
+         id="feGaussianBlur6197" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_6757_17221"
+       x1="612.222"
+       y1="476.418"
+       x2="1098.32"
+       y2="988.887"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.0578198"
+         stop-color="#00CEC2"
+         stop-opacity="0.02"
+         id="stop6200" />
+      <stop
+         offset="0.288494"
+         stop-color="#9687FF"
+         id="stop6202" />
+      <stop
+         offset="0.666667"
+         stop-color="#00CEC2"
+         id="stop6204" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear_6757_17221"
+       x1="477.802"
+       y1="487.778"
+       x2="963.899"
+       y2="1000.25"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.0578198"
+         stop-color="#00CEC2"
+         stop-opacity="0.02"
+         id="stop6207" />
+      <stop
+         offset="0.380208"
+         stop-color="#00CEC2"
+         id="stop6209" />
+      <stop
+         offset="0.729167"
+         stop-color="#9687FF"
+         id="stop6211" />
+    </linearGradient>
+    <clipPath
+       id="clip0_6757_17221">
+      <rect
+         width="1440"
+         height="817"
+         fill="white"
+         id="rect6214" />
+    </clipPath>
+  </defs>
+</svg>
