@@ -279,7 +279,7 @@
     </NuxtLayout>
 </template>
 
-<style>
+<style scoped lang="scss">
 .header { 
     background-image: url('@/src/assets/bg-header-website-landing_2.svg');
     background-repeat: no-repeat;

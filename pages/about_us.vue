@@ -13,8 +13,8 @@
     </NuxtLayout>
 </template>
 
-<style>
-.header { 
+<style scoped lang="scss">
+.header {
     min-height: 60vh;
     background-image: url('@/src/assets/bg-header-website-landing.svg');
     background-repeat: no-repeat;
