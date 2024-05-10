@@ -35,9 +35,12 @@
 					<div class="col-auto">
 						<ul class="list-unstyled text-light  me-sm-5">
 							<li class="fs-5 mb-2">Legal</li>
-							<li class="py-2">Privacy Policy</li>
-							<li class="py-2">Terms & Conditions</li>
-							<li class="py-2">Licenses & Regulatory</li>
+							<!-- <li class="py-2">Privacy Policy</li> -->
+							<RouterLink class="nav-link text-white" aria-current="page" to="privacy_policy/">Privacy Policy</RouterLink>
+							<!-- <li class="py-2">Terms & Conditions</li> -->
+							<RouterLink class="nav-link text-white" aria-current="page" to="terms_of_service/">Terms & Conditions</RouterLink>
+							<!-- <li class="py-2">Licenses & Regulatory</li> -->
+							<RouterLink class="nav-link text-white" aria-current="page" to="licenses_and_registrations/">Licenses & Regulatory</RouterLink>
 						</ul>
 					</div>
 				</div>

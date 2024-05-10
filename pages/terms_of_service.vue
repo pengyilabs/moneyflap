@@ -290,11 +290,11 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.height2rem{
-    position: relative;
-}
 .d-contents{
     display: contents;
+}
+.list-checked>li{
+    height: 100%;
 }
 .list-checked>li::before{
     height: 2em;

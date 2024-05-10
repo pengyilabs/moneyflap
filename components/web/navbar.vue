@@ -20,7 +20,7 @@
 			<div class="collapse navbar-collapse justify-content-end" :class="{ 'show': isMenuOpen }">
 				<ul class="navbar-nav text-center">
 					<li class="nav-item">
-						<a class="nav-link text-white" aria-current="page" href="#">About Us</a>
+						<RouterLink class="nav-link text-white" aria-current="page" to="about_us/">About Us</RouterLink>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-white" href="#">Security</a>
