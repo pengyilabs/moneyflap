@@ -72,7 +72,7 @@
               >
                 About Us
               </RouterLink>
-              <li class="py-2">
+              <!-- <li class="py-2">
                 <a
                   class="text-white no-text-decoration"
                   target="_blank"
@@ -87,7 +87,21 @@
                   href="https://www.notion.so/15f7978292f84d689bd3e2dd7d33a80c?pvs=21"
                   >Press</a
                 >
-              </li>
+              </li> -->
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/careers"
+              >
+                Careers
+              </RouterLink>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/press_kit"
+              >
+                Press
+              </RouterLink>
             </ul>
           </div>
           <div class="col-4 col-md-4">

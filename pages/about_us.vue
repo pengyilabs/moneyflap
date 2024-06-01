@@ -14,24 +14,30 @@
               We are underserved people building a simple, transparent, and
               modern all-in-one global platform for underserved people.
             </p>
-            <div class="row mt-5">
-              <div class="col-12 col-md-5 mt-3">
+            <div class="d-flex flex-row mt-5 flex-wrap">
+              <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
                   Get Started
                 </button>
               </div>
-              <div class="col-12 col-md-5 mt-3">
-                <a
+              <div class="me-3 mt-3">
+                <RouterLink
+                  class="btn btn-outline-light btn-lg shadow rounded-5 px-5"
+                  aria-current="page"
+                  to="/careers"
+                >
+                  Careers
+                </RouterLink>
+                <!-- <a
                   class="btn btn-outline-light btn-lg shadow rounded-5 px-5"
                   href="https://www.notion.so/54b87f37b9a74868b4b929848e1f9314?pvs=21"
                   target="_blank"
                 >
                   Careers
-                </a>
+                </a> -->
               </div>
-              <div class="col-12 col-md-2"></div>
             </div>
           </div>
           <div class="col-12 col-md-6">
@@ -71,7 +77,7 @@
         </section>
       </div>
     </div>
-    <div class="footer d-flex align-items-top justify-content-center py-1">
+    <div class="footer d-flex align-items-top justify-content-center py-1 pb-4">
       <div class="container mt-5 col">
         <section class="d-flex flex-column align-items-center">
           <h3
@@ -85,7 +91,7 @@
             decentralized finance.
           </p>
           <div class="d-flex flex-row flex-wrap">
-            <div class="fixed-width d-flex flex-column align-items-center m-3">
+            <div class="fixed-width d-flex flex-column m-3">
               <img
                 src="@/src/assets/img-whole-planet-moneyflap.png"
                 class="image-width"
@@ -93,16 +99,27 @@
               <div
                 class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
               >
-                <h4 class="text-white">Mamadou Diallo</h4>
-                <p class="text-gray">Co-Founder & CEO</p>
-                <p class="text-white">
-                  Tech enthusiast turned fintech aficionado, using the latest
-                  technologies and entrepreneurial leadership to address the
-                  world's pressing issues.
-                </p>
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="d-flex flex-column">
+                    <h4 class="text-white">Mamadou Diallo</h4>
+                    <p class="text-gray">Co-Founder & CEO</p>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/mamadoudd"
+                    >
+                      <img
+                        src="@/src/assets/logo-linkedin.webp"
+                        alt="linkedin logo"
+                        style="height: 28px"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="fixed-width d-flex flex-column align-items-center m-3">
+            <div class="fixed-width d-flex flex-column m-3">
               <img
                 src="@/src/assets/img-whole-planet-moneyflap.png"
                 class="image-width"
@@ -110,16 +127,27 @@
               <div
                 class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
               >
-                <h4 class="text-white">Hamza Yaghmmour</h4>
-                <p class="text-gray">Co-Founder & CTO</p>
-                <p class="text-white">
-                  An engineering prodigy that has contributed to multiple
-                  global-issue competitions and is passionate about solving the
-                  world's biggest problems through tech.
-                </p>
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="d-flex flex-column">
+                    <h4 class="text-white">Hamza Yaghmmour</h4>
+                    <p class="text-gray">Co-Founder & CTO</p>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/hyaghmmour"
+                    >
+                      <img
+                        src="@/src/assets/logo-linkedin.webp"
+                        alt="linkedin logo"
+                        style="height: 28px"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="fixed-width d-flex flex-column align-items-center m-3">
+            <div class="fixed-width d-flex flex-column m-3">
               <img
                 src="@/src/assets/img-whole-planet-moneyflap.png"
                 class="image-width"
@@ -127,14 +155,24 @@
               <div
                 class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
               >
-                <h4 class="text-white">Roberto Moya</h4>
-                <p class="text-gray">Co-Founder & CPO</p>
-                <p class="text-white">
-                  PengYi Labs owner, software UI/UX lead, certified scrum
-                  product owner & accredited investor 500 Startups LatAm with 8+
-                  years experience designing world-class products in SaaS and
-                  fintech companies.
-                </p>
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="d-flex flex-column">
+                    <h4 class="text-white">Roberto Moya</h4>
+                    <p class="text-gray">Co-Founder & CPO</p>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/robmoya"
+                    >
+                      <img
+                        src="@/src/assets/logo-linkedin.webp"
+                        alt="linkedin logo"
+                        style="height: 28px"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -228,10 +266,10 @@
   max-width: 293px;
 }
 .fixed-width {
-  max-width: 370px;
+  width: 320px;
 }
 .small-card {
-  height: 300px;
+  height: fit-content;
 }
 // section.main{
 //     background-image: url('@/src/assets/bg-about-us-main.svg');

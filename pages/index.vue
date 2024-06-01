@@ -21,15 +21,15 @@
               </p>
             </div>
             <div class="">
-              <div class="row mt-5">
-                <div class="col-12 col-md-5 mt-3">
+              <div class="d-flex flex-row flex-wrap mt-5">
+                <div class="me-3 mt-3">
                   <button
                     class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                   >
                     Get Started
                   </button>
                 </div>
-                <div class="col-12 col-md-5 mt-3">
+                <div class="me-3 mt-3">
                   <RouterLink
                     class="btn btn-outline-light btn-lg rounded-5 px-4"
                     aria-current="page"
@@ -38,7 +38,6 @@
                     See our coverage
                   </RouterLink>
                 </div>
-                <div class="col-12 col-md-2"></div>
               </div>
               <div
                 class="mt-5 d-flex justify-content-center justify-content-md-start"
@@ -405,158 +404,260 @@
 
     <!-- Logos  -->
     <section class="wave">
-      <div class="container text-center">
+      <div class="container text-center show-md">
         <div class="row justify-content-center">
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-walmart.svg"
               alt="Walmart"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-aliexpress.svg"
               alt="Aliexpresst"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-temu.svg"
               alt="Temu"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-banggood.svg"
               alt="banggood"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-3"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-microsoft.svg"
               alt="microsoft"
             />
           </div>
+        </div>
+        <div class="row justify-content-center">
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-sephora.svg"
               alt="sephora"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-lookfantastic.svg"
               alt="lookfantastic"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-nike.svg"
               alt="nike"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-boohoo.svg"
               alt="boohoo"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-3"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-bloomingdales.svg"
               alt="bloomingdales"
             />
           </div>
+        </div>
+        <div class="row justify-content-center">
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-lenovo.svg"
               alt="lenovo"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-booking.svg"
               alt="booking"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-expedia.svg"
               alt="expedia"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-2"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-viator.svg"
               alt="viator"
             />
           </div>
           <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-12 col-md-3"
+            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
           >
             <img
-              class=""
+              class="logo"
               style="max-height: 56px; max-width: 100%"
               src="@/src/assets/logo-oldnavy.svg"
               alt="oldnavy"
             />
           </div>
+        </div>
+      </div>
+      <div class="container text-center show-sm overflow-x-hidden">
+        <div class="d-flex flex-row logo-div1">
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-walmart.svg"
+            alt="Walmart"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-aliexpress.svg"
+            alt="Aliexpresst"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-temu.svg"
+            alt="Temu"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-banggood.svg"
+            alt="banggood"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-microsoft.svg"
+            alt="microsoft"
+          />
+        </div>
+        <div class="d-flex flex-row logo-div2">
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-sephora.svg"
+            alt="sephora"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-lookfantastic.svg"
+            alt="lookfantastic"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-nike.svg"
+            alt="nike"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-boohoo.svg"
+            alt="boohoo"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-bloomingdales.svg"
+            alt="bloomingdales"
+          />
+        </div>
+        <div class="d-flex flex-row logo-div3">
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-lenovo.svg"
+            alt="lenovo"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-booking.svg"
+            alt="booking"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-expedia.svg"
+            alt="expedia"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-viator.svg"
+            alt="viator"
+          />
+          <img
+            class="logo px-3 py-2"
+            style="max-height: 56px; max-width: 100%"
+            src="@/src/assets/logo-oldnavy.svg"
+            alt="oldnavy"
+          />
         </div>
       </div>
     </section>
@@ -598,7 +699,11 @@
               class="d-flex flex-row"
               style="overflow-y: scroll"
             >
-              <div class="col-12 col-md-4 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-0"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -628,7 +733,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-1"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -648,12 +757,18 @@
                       <p class="">
                         Instantly recharge credit and data for any phone, and
                         worldwide.
+                        <br />
+                        Earn 3% cashback on every top-up.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-2"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -678,7 +793,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-3"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -695,9 +814,6 @@
                       >
                         Receive your paycheck
                       </h4>
-                      <h5 style="font-family: Sofia Pro Bold">
-                        (Available Soon)
-                      </h5>
                       <p class="">
                         Share your bank details with your employers worldwide,
                         and receive your hard-earned money. Fric, not friction!
@@ -706,7 +822,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-4"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -731,7 +851,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-8 p-2" style="max-width: 100%">
+              <div
+                class="col-12 col-md-8 p-2"
+                style="max-width: 100%"
+                id="cc-5"
+              >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
                   style="padding: 0.1rem; max-width: 100%"
@@ -1253,19 +1377,18 @@ export default {
       if (this.accountIndex >= this.accountElements) {
         this.accountIndex = 0;
       }
-      let doc = document.getElementById("carousel-container");
+      let doc = document.getElementById(`cc-${this.accountIndex}`);
       console.log("Next", doc);
-      doc.scrollTo({ left: this.currentIndex * 1000 });
-      console.log("Next", doc);
+      doc.scrollIntoView();
     },
     accountBack() {
       this.accountIndex--;
       if (this.accountIndex < 0) {
         this.accountIndex = this.accountElements - 1;
       }
-      let doc = document.getElementById("carousel-container");
-      doc.scrollTo({ left: this.currentIndex * 1000 });
-      console.log("Back", doc);
+      let doc = document.getElementById(`cc-${this.accountIndex}`);
+      console.log("Next", doc);
+      doc.scrollIntoView();
     },
   },
 };
@@ -1294,12 +1417,14 @@ section.teleport {
   padding-bottom: 5rem;
 }
 section.smarter-card {
+  /*
   background-image: url("@src/assets/bg-smarter-moneyflap-card.png");
   background-position: center top;
-  background-color: #142339;
   background-repeat: no-repeat;
-  padding-top: 5rem;
   background-size: cover;
+  */
+  background-color: #142339;
+  padding-top: 5rem;
 }
 section.wave {
   background-image: url("@/src/assets/bg-wave-turquoise.svg");
@@ -1414,12 +1539,40 @@ section.wave-top {
     background-size: cover;
     background-position: top center;
   }
-
+  section.wave {
+    padding: 2rem 0 2rem;
+  }
   .bg-glare {
     background-image: url("@/src/assets/bg-glare.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right center;
+  }
+  .logo {
+    min-width: 150px !important;
+  }
+  .logo-div1 {
+    animation: scroll 20s linear infinite;
+    animation-delay: 0.5s;
+  }
+  .logo-div2 {
+    animation: scroll 22s linear infinite;
+    animation-delay: 0.7s;
+  }
+  .logo-div3 {
+    animation: scroll 18s linear infinite;
+    animation-delay: 0.3s;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translate(0%, 0);
+    }
+    50% {
+      transform: translate(-55%, 0);
+    }
+    100% {
+      transform: translate(0%, 0);
+    }
   }
 }
 </style>
