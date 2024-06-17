@@ -10,9 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "lottie-web": "^5.12.2",
     "nuxt": "^3.10.3",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-lottie": "^3.3.0"
   },
   "devDependencies": {
     "sass": "^1.71.1"

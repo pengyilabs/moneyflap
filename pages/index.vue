@@ -56,11 +56,13 @@
             </div>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
-            <img
+            <AnimationsPhones />
+
+            <!-- <img
               src="@/src/assets/img-header-moneyflap-app.png"
               alt="MoneyFlap"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -87,12 +89,13 @@
             </button>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
-            <img
+            <AnimationsGlobalAccount />
+            <!-- <img
               src="@/src/assets/img-global-account-with-moneyflap.png"
               alt="img-global-account-with-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -150,11 +153,17 @@
           </div>
           <div class="col-12 col-md-5 d-flex">
             <img
-              src="@/src/assets/img-globe-cards.png"
+              src="@/src/assets/Earth.gif"
               class="img-fluid"
               alt=""
               style="max-width: 100%"
             />
+            <!-- <img
+              src="@/src/assets/img-globe-cards.png"
+              class="img-fluid"
+              alt=""
+              style="max-width: 100%"
+            /> -->
           </div>
         </div>
 
@@ -250,12 +259,13 @@
             </button> -->
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
-            <img
+            <AnimationsInternationalCard />
+            <!-- <img
               src="@/src/assets/img-moneyflap-international-card.png"
               alt="img-global-account-with-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -270,7 +280,17 @@
         >
           A Smarter Card
         </h2>
-        <div>
+        <video
+          :autoplay="true"
+          :loop="true"
+          width="100%"
+          :muted="true"
+          :controls="false"
+          preload="metadata"
+        >
+          <source src="@/src/assets/cards-moneyflap.mp4" type="video/mp4" />
+        </video>
+        <!-- <div>
           <span
             class="btn btn-outline-light rounded-5 px-4"
             v-if="smartCardIndex == 0"
@@ -365,7 +385,7 @@
           >
             <img src="@/src/assets/chevron-right.png" alt="next" />
           </button>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -405,7 +425,8 @@
     <!-- Logos  -->
     <section class="wave">
       <div class="container text-center show-md">
-        <div class="row justify-content-center">
+        <AnimationsLogos />
+        <!-- <div class="row justify-content-center">
           <div
             class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
           >
@@ -560,9 +581,10 @@
               alt="oldnavy"
             />
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="container text-center show-sm overflow-x-hidden">
+        <!-- <AnimationsLogos /> -->
         <div class="d-flex flex-row logo-div1">
           <img
             class="logo px-3 py-2"
@@ -1104,12 +1126,13 @@
             </button>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
-            <img
+            <AnimationsInsights />
+            <!-- <img
               src="@/src/assets/img-real-time-spending.png"
               alt="img-real-time-spending"
               class="img-fluid"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -1134,12 +1157,16 @@
             </button> -->
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
-            <img
+            <AnimationsConnect />
+            <!-- <client-only>
+              <Vue3Lottie :animationData="connect" />
+            </client-only> -->
+            <!-- <img
               src="@/src/assets/img-engage-connect-feel-moneyflap.png"
               alt="img-engage-connect-feel-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -1172,12 +1199,13 @@
             </p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 text-center order-md-first">
-            <img
+            <AnimationsFastLoans />
+            <!-- <img
               src="@/src/assets/img-fast-loans-moneyflap.png"
               alt="img-fast-loans-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -1208,12 +1236,13 @@
               </p>
             </div>
             <div class="col-12 col-md-4 mt-5 mt-md-0">
-              <img
+              <AnimationsSims />
+              <!-- <img
                 src="@/src/assets/img-moneyflap-sims.png"
                 alt="img-moneyflap-sims"
                 class="img-fluid"
                 style="max-width: 100%"
-              />
+              /> -->
             </div>
           </div>
         </div>
