@@ -93,8 +93,9 @@
           <div class="d-flex flex-row flex-wrap">
             <div class="fixed-width d-flex flex-column m-3">
               <img
-                src="@/src/assets/img-whole-planet-moneyflap.png"
+                src="@/src/assets/img-mamadou-Diallo.png"
                 class="image-width"
+                style="max-height: 400px"
               />
               <div
                 class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
@@ -121,36 +122,9 @@
             </div>
             <div class="fixed-width d-flex flex-column m-3">
               <img
-                src="@/src/assets/img-whole-planet-moneyflap.png"
+                src="@/src/assets/img-roberto-moya.png"
                 class="image-width"
-              />
-              <div
-                class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
-              >
-                <div class="d-flex flex-row justify-content-between">
-                  <div class="d-flex flex-column">
-                    <h4 class="text-white">Hamza Yaghmmour</h4>
-                    <p class="text-gray">Co-Founder & CTO</p>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/hyaghmmour"
-                    >
-                      <img
-                        src="@/src/assets/logo-linkedin.webp"
-                        alt="linkedin logo"
-                        style="height: 28px"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="fixed-width d-flex flex-column m-3">
-              <img
-                src="@/src/assets/img-whole-planet-moneyflap.png"
-                class="image-width"
+                style="max-height: 400px"
               />
               <div
                 class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
@@ -164,6 +138,35 @@
                     <a
                       target="_blank"
                       href="https://www.linkedin.com/in/robmoya"
+                    >
+                      <img
+                        src="@/src/assets/logo-linkedin.webp"
+                        alt="linkedin logo"
+                        style="height: 28px"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fixed-width d-flex flex-column m-3">
+              <img
+                src="@/src/assets/img-hamza-yaghmmour.png"
+                class="image-width"
+                style="max-height: 400px"
+              />
+              <div
+                class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
+              >
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="d-flex flex-column">
+                    <h4 class="text-white">Hamza Yaghmmour</h4>
+                    <p class="text-gray">Co-Founder & CTO</p>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/hyaghmmour"
                     >
                       <img
                         src="@/src/assets/logo-linkedin.webp"
@@ -214,7 +217,7 @@
             >
               <img
                 class="mx-3 my-4"
-                src="@/src/assets/logo-moneygram.svg"
+                src="@/src/assets/logo-moneygram.png"
                 alt="MoneyGram"
                 style="max-width: 100%"
               />

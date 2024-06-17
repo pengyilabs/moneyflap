@@ -2,7 +2,7 @@
   <footer class="mf-gradient py-5">
     <div class="container">
       <div class="row border-bottom pb-4">
-        <div class="col text-center text-lg-start">
+        <div class="col-12 col-md-4 text-center text-lg-start">
           <RouterLink aria-current="" to="/">
             <img
               src="@/src/assets/logo-moneyflap-fullwhite.svg"
@@ -62,9 +62,9 @@
           </p>
         </div>
         <div class="row col-auto">
-          <div class="col-4 col-md-3">
+          <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">Company</li>
+              <li class="fs-5 mb-2"><strong>Company</strong></li>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
@@ -72,22 +72,6 @@
               >
                 About Us
               </RouterLink>
-              <!-- <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://www.notion.so/54b87f37b9a74868b4b929848e1f9314?pvs=21"
-                  >Careers</a
-                >
-              </li>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://www.notion.so/15f7978292f84d689bd3e2dd7d33a80c?pvs=21"
-                  >Press</a
-                >
-              </li> -->
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
@@ -102,11 +86,37 @@
               >
                 Press
               </RouterLink>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/ethics_sustainability"
+              >
+                Ethics & Sustainability
+              </RouterLink>
             </ul>
           </div>
-          <div class="col-4 col-md-4">
+          <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">Resources</li>
+              <li class="fs-5 mb-2"><strong>For Businesses</strong></li>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/mfusd"
+              >
+                MFUSD
+              </RouterLink>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/moneyflap_rev"
+              >
+                MoneyFlap Rev
+              </RouterLink>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <ul class="list-unstyled text-light me-sm-5">
+              <li class="fs-5 mb-2"><strong>Resources</strong></li>
               <li class="py-2">
                 <a
                   class="text-white no-text-decoration"
@@ -120,11 +130,27 @@
                 <a
                   class="text-white no-text-decoration"
                   target="_blank"
-                  href="https://security.moneyflap.com/"
+                  href="https://help.moneyflap.com"
                 >
-                  Security
+                  Help Center
                 </a>
               </li>
+              <li class="py-2">
+                <a
+                  class="text-white no-text-decoration"
+                  target="_blank"
+                  href="https://security.moneyflap.com/"
+                >
+                  Security & Control
+                </a>
+              </li>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/fraud_protection"
+              >
+                Fraud Protection
+              </RouterLink>
               <li class="py-2">
                 <a
                   class="text-white no-text-decoration"
@@ -134,21 +160,18 @@
                   System Status
                 </a>
               </li>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://help.moneyflap.com"
-                >
-                  Help Center
-                </a>
-              </li>
             </ul>
           </div>
-          <div class="col-4 col-md-5">
+          <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">Legal</li>
-              <!-- <li class="py-2">Privacy Policy</li> -->
+              <li class="fs-5 mb-2"><strong>Legal</strong></li>
+              <RouterLink
+                class="nav-link text-white py-2"
+                aria-current="page"
+                to="/bsa_aml_program"
+              >
+                BSA/AML Program
+              </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
@@ -162,7 +185,7 @@
                 aria-current="page"
                 to="/terms_of_service/"
               >
-                Terms & Conditions
+                Terms & conditions
               </RouterLink>
               <!-- <li class="py-2">Licenses & Regulatory</li> -->
               <RouterLink
