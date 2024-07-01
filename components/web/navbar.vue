@@ -61,7 +61,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#"> Pricing </a>
+            <RouterLink
+              class="nav-link text-white"
+              aria-current="page"
+              to="/pricing"
+            >
+              Pricing
+            </RouterLink>
           </li>
           <li class="nav-item">
             <a
