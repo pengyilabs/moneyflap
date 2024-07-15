@@ -216,10 +216,10 @@
     <div class="footer d-flex align-items-top justify-content-center py-4">
       <div class="container mt-5">
         <section class="text-white d-flex flex-column mt-5">
-          <div class="row">
+          <div class="row w-100">
             <div class="col-12 col-md-6">
               <img
-                class="mx-3 my-4"
+                class="my-4"
                 src="@/src/assets/img-mfusd-2.png"
                 alt="Core values"
                 style="max-width: 100%"
@@ -256,7 +256,7 @@
       </div>
     </div>
     <div class="d-flex align-items-top justify-content-center py-4">
-      <div class="container mt-5">
+      <div class="container mt-5 show-md">
         <section class="d-flex flex-column mt-5">
           <div class="row bg-lightgray rounded-4 p-4">
             <div class="col-12 my-3">
@@ -275,6 +275,132 @@
                         <img
                           src="@/src/assets/logo-moneyflap-usd.png"
                           style="max-width: 200px"
+                        />
+                      </th>
+                      <th style="width: 15%">USDC</th>
+                      <th style="width: 15%">USDT</th>
+                      <th style="width: 15%">SWIFT<br />Network</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="height: 39px">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">Cost-free transactions</td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">On-chain transactions</td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">Instant settlement</td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">
+                        Issued by a regulated entity
+                      </td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 39px"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container mt-5 show-sm">
+        <section class="d-flex flex-column mt-5">
+          <div class="row bg-lightgray rounded-4 p-1">
+            <div class="col-12 my-3">
+              <div class="d-flex flex-column justify-content-center">
+                <h4 class="mt-4 display-2" style="font-family: Sofia Pro Bold">
+                  MoneyFlap Dollar
+                  <br />
+                  <span class="text-primary">vs </span> Alternatives Solutions
+                </h4>
+                <div class="my-4"></div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th style="width: 30%"></th>
+                      <th style="width: 25%">
+                        <img
+                          src="@/src/assets/logo-moneyflap-usd-mobile.png"
+                          style="max-width: 100px"
                         />
                       </th>
                       <th style="width: 15%">USDC</th>
@@ -472,12 +598,44 @@
 //     background-repeat: no-repeat;
 //     background-position: right center;
 // }
+.show-md {
+  display: block;
+}
+.show-sm {
+  display: none;
+}
 @media only screen and (max-width: 720px) {
+  .show-md {
+    display: none;
+  }
+  .show-sm {
+    display: block;
+  }
   .header {
     background: #142339 !important;
   }
   .footer {
     background: rgb(20, 35, 57, 57) !important;
+  }
+  table {
+    font-size: x-small;
+  }
+  table tbody tr td,
+  table thead tr th {
+    padding: 2px !important;
+  }
+  .container {
+    padding: 2px;
+    width: 100%;
+  }
+  .row.bg-lightgray {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  .col-12.col-md-6 {
+    width: 100% !important;
   }
 }
 ul {
