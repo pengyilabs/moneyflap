@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <Vue3Lottie :animationData="animationData" />
+    <Vue3Lottie :animationData="animationData" :speed="0.25" />
   </client-only>
 </template>
 
