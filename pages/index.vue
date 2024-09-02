@@ -16,27 +16,52 @@
               </h1>
               <p class="text-white my-4 lh-lg fw-medium">
                 The first global app that pays you to save, spend, and send
-                money <br />
+                money <br class="show-md" />
                 — all in one place.
               </p>
             </div>
             <div class="">
-              <div class="d-flex flex-row flex-wrap mt-5">
-                <div class="me-3 mt-3">
-                  <button
-                    class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
-                  >
-                    Get Started
-                  </button>
+              <div class="show-md">
+                <div class="d-flex flex-row flex-wrap mt-5">
+                  <div class="me-3 mt-3">
+                    <button
+                      class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                    >
+                      Get Started
+                    </button>
+                  </div>
+                  <div class="me-3 mt-3">
+                    <RouterLink
+                      class="btn btn-outline-light btn-lg rounded-5 px-4"
+                      aria-current="page"
+                      to="/supported_countries/"
+                    >
+                      See our coverage
+                    </RouterLink>
+                  </div>
                 </div>
-                <div class="me-3 mt-3">
-                  <RouterLink
-                    class="btn btn-outline-light btn-lg rounded-5 px-4"
-                    aria-current="page"
-                    to="/supported_countries/"
-                  >
-                    See our coverage
-                  </RouterLink>
+              </div>
+
+              <div class="show-sm">
+                <div
+                  class="d-flex flex-row flex-wrap mt-5 justify-content-center"
+                >
+                  <div class="me-3 mt-3">
+                    <button
+                      class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                    >
+                      Get Started
+                    </button>
+                  </div>
+                  <div class="me-3 mt-3">
+                    <RouterLink
+                      class="btn btn-outline-light btn-lg rounded-5 px-4"
+                      aria-current="page"
+                      to="/supported_countries/"
+                    >
+                      See our coverage
+                    </RouterLink>
+                  </div>
                 </div>
               </div>
               <div
@@ -107,16 +132,16 @@
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
             <h2 class="fw-bolder display-4" style="font-family: Sofia Pro Bold">
-              <span class="text-primary">Earn up to 5.30% U.S.</span><br />
-              Treasury yields,<br />
-              on-chain
+              <span class="text-primary">Earn up to 5.77% Money</span>
+              Markets yields, on-chain
             </h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
               Isn't it time we let our money work for us? Get higher, more
-              stable returns than classic savings accounts. An unmatched level
-              of confidence knowing your assets are indirectly backed by the
-              full faith and credit of the U.S. government. Withdraw and get
-              paid on a 24/7 basis. No minimum deposit.
+              stable returns than classic savings accounts. Diversify your
+              portfolio with Sharia-compliant Sukuk and U.S. treasury bills. An
+              unmatched level of confidence knowing your assets are indirectly
+              backed by the full faith and credit of governments. Withdraw and
+              get paid on a 24/7 basis. No minimum deposit.
             </p>
             <!-- <button class="btn btn-dark btn-lg rounded-5 px-4">Get Started</button> -->
           </div>
@@ -197,7 +222,7 @@
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
                     Send money within seconds to bank and mobile money accounts
-                    in 70+ countries.
+                    in 80+ countries.
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -743,13 +768,43 @@
                         Global cash-in and cash-out
                       </h4>
                       <p class="">
-                        Instantly deposit and withdraw cash from your account in
-                        your local currency at one of 350,000+
+                        Easily deposit and withdraw cash at any MoneyFlap
+                        location or at over 350,000
                         <img
                           src="@/src/assets/logo-moneygram.svg"
                           alt="Moneygram"
                         />
-                        locations in over 181 countries.
+                        locations in 181+ countries.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+                id="cc-1"
+              >
+                <div
+                  class="bg-primary rounded-5 h-100 mf-gradient"
+                  style="padding: 0.1rem; max-width: 100%"
+                >
+                  <div class="card rounded-5 px-3 h-100">
+                    <div class="card-body align-items-end">
+                      <img
+                        src="@/src/assets/icon-easy-deposits.svg"
+                        alt="Easy deposits and withdrawals"
+                      />
+                      <h4
+                        class="fw-bolder mt-4"
+                        style="font-family: Sofia Pro Bold"
+                      >
+                        Easy deposits and withdrawals
+                      </h4>
+                      <p class="">
+                        Quickly link your account to hundreds of local and
+                        international mobile wallets, banks, and crypto
+                        exchanges.
                       </p>
                     </div>
                   </div>
@@ -777,10 +832,9 @@
                         Buy airtime and data
                       </h4>
                       <p class="">
-                        Instantly recharge credit and data for any phone, and
-                        worldwide.
-                        <br />
-                        Earn 3% cashback on every top-up.
+                        Quickly recharge credit and data for any phone,
+                        globally. Get 6% cashback on top-ups during weekdays and
+                        10% on weekends.
                       </p>
                     </div>
                   </div>
@@ -808,8 +862,9 @@
                         Flawless bill payments
                       </h4>
                       <p class="">
-                        Instantly pay bills globally in a few clicks, with no
-                        extra cost.
+                        Effortlessly pay bills worldwide in just a few clicks,
+                        with zero extra fees. Also, enjoy 3% cashback on every
+                        bill payment in select countries.
                       </p>
                     </div>
                   </div>
@@ -1029,7 +1084,6 @@
                   >
                     Receive your paycheck
                   </h4>
-                  <h5 style="font-family: Sofia Pro Bold">(Available Soon)</h5>
                   <p class="">
                     Share your bank details with your employers worldwide, and
                     receive your hard-earned money. Fric, not friction!

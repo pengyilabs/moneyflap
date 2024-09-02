@@ -92,10 +92,10 @@
                       Regulated Stability
                     </h4>
                     <p class="">
-                      We use advanced security measures, including automatic
-                      warnings and scam-related wallet address blocks, to
-                      safeguard users and minimize incidents of fund loss during
-                      transactions.
+                      MFUSD ensures global transparency and legal compliance by
+                      adhering to strict regulatory standards. It is issued
+                      through a collaboration between MoneyFlap and Brale, a
+                      licensed MSB and money transmitter in the U.S.
                     </p>
                   </div>
                 </div>
@@ -530,11 +530,13 @@
           />
           <div class="d-flex flex-row mt-5 flex-wrap mb-4">
             <div class="me-3 mt-3">
-              <button
+              <a
                 class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                href="https://tally.so/r/nPlGx5"
+                target="_blank"
               >
                 Get in touch
-              </button>
+              </a>
             </div>
           </div>
         </section>

@@ -165,6 +165,7 @@
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+              @click="downloadLogos"
             >
               Download full set
             </button>
@@ -180,6 +181,7 @@
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+              @click="downloadScreenshots"
             >
               Download full set
             </button>
@@ -196,6 +198,7 @@
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+              @click="downloadColors"
             >
               Download full set
             </button>
@@ -226,16 +229,71 @@
             reach a real human who can arrange interviews and provide original
             materials.
           </p>
-          <button
+          <a
             class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient mt-5"
+            href="mailto:press@moneyflap.com"
+            target="_blank"
           >
             Contact Press
-          </button>
+          </a>
         </section>
       </div>
     </div>
   </NuxtLayout>
 </template>
+
+<script>
+import axios from "axios";
+export default {
+  methods: {
+    downloadScreenshots() {
+      axios
+        .get("../downloads/Screenshots.zip", { responseType: "blob" })
+        .then((response) => {
+          const blob = new Blob([response.data], {
+            type: response.headers["content-type"],
+          });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.target = "_blank";
+          a.download = "Screenshots.zip";
+          a.click();
+        });
+    },
+    downloadColors() {
+      axios
+        .get("../downloads/Colors.zip", { responseType: "blob" })
+        .then((response) => {
+          const blob = new Blob([response.data], {
+            type: response.headers["content-type"],
+          });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.target = "_blank";
+          a.download = "Colors.zip";
+          a.click();
+        });
+    },
+    downloadLogos() {
+      axios
+        .get("../downloads/Logos.zip", { responseType: "blob" })
+        .then((response) => {
+          const blob = new Blob([response.data], {
+            type: response.headers["content-type"],
+          });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.target = "_blank";
+          a.download = "Logos.zip";
+          a.click();
+        });
+    },
+  },
+};
+</script>
 
 <style scoped lang="scss">
 .header {

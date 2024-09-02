@@ -64,7 +64,7 @@
               to speed with modern life. This shouldn’t be a fantasy, when it’s
               a reality for the rest of the world. Our money should be ours. To
               do what we want with. To put where we need to. To build our
-              futures. From underserved to what you deserve A new shape of
+              futures. From underserved to what you deserve. A new shape of
               banking for emerging regions.
             </span>
           </div>
@@ -191,9 +191,9 @@
           >
             Trusted by:
           </h3>
-          <div class="row my-4 py-4">
+          <div class="row my-4 py-4 justify-content-center">
             <div
-              class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center"
+              class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center"
             >
               <img
                 class="mx-3 my-4"
@@ -203,7 +203,7 @@
               />
             </div>
             <div
-              class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center"
+              class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center"
             >
               <img
                 class="mx-3 my-4"
@@ -213,7 +213,17 @@
               />
             </div>
             <div
-              class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center"
+              class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center"
+            >
+              <img
+                class="mx-3 my-4"
+                src="@/src/assets/logo-starknet.png"
+                alt="Starknet"
+                style="max-width: 100%"
+              />
+            </div>
+            <div
+              class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center"
             >
               <img
                 class="mx-3 my-4"
@@ -223,7 +233,7 @@
               />
             </div>
             <div
-              class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center"
+              class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center"
             >
               <img
                 class="mx-3 my-4"

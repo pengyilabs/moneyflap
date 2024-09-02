@@ -11,22 +11,24 @@
               MoneyFlap Rev
             </h2>
             <p class="text-white display-6">
-              Master Your Business Finances
-              <br />Like a Pro: The Magic of <br />MoneyFlap Rev
+              Master Your Business Finances <br class="show-md" />Like a Pro:
+              The Magic of <br />MoneyFlap Rev
             </p>
             <p class="text-white">
               Introducing MoneyFlap Rev, a versatile business account that
-              enables seamless local transactions in over 70 countries,
+              enables seamless local transactions in over 100 countries,
               corporate card issuance, global transfers, and cash growth, all
               without any monthly or subscription fees.
             </p>
             <div class="d-flex flex-row mt-6 flex-wrap">
               <div class="me-3 mt-3">
-                <button
+                <a
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                  href="https://tally.so/r/wbkP16"
+                  target="_blank"
                 >
                   Join the waitlist
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -669,11 +671,13 @@
           >
             <div class="d-flex flex-row mt-6 flex-wrap">
               <div class="me-3 mt-3">
-                <button
+                <a
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                  href="https://tally.so/r/wbkP16"
+                  target="_blank"
                 >
                   Join the waitlist
-                </button>
+                </a>
               </div>
             </div>
           </div>

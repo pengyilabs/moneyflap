@@ -4,14 +4,14 @@
       <div class="container mt-5">
         <section class="main row">
           <div class="col-12 col-md-6 my-3">
-            <h2
+            <h1
               class="text-white fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
               Careers
               <br />
-              <span class="text-success">Mission</span>
-            </h2>
+              <small class="text-success">Mission</small>
+            </h1>
             <p class="text-white display-6">
               MoneyFlap is building the future of finance and global
               cross-border payments.

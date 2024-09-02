@@ -46,7 +46,6 @@
             <li>Nigeria</li>
             <li>Rwanda</li>
             <li>Senegal</li>
-            <li>Sierra Leone <span class="coming-soon">Coming Soon</span></li>
             <li>Sierra Leone</li>
             <li>South Africa</li>
             <li>Tanzania</li>
@@ -98,23 +97,22 @@
           <h3 class="text-white">Latin America</h3>
           <ul class="text-white">
             <li>Argentina</li>
-            <li>Bolivia <span class="coming-soon">Coming Soon</span></li>
+            <li>Bolivia</li>
             <li>Brazil</li>
             <li>Chile</li>
             <li>Colombia</li>
             <li>Costa Rica</li>
-            <li>
-              Dominican Republic<span class="coming-soon">Coming Soon</span>
-            </li>
+            <li>Dominican Republic</li>
+            <li>Ecuador</li>
             <li>El Salvador</li>
-            <li>Guatemala <span class="coming-soon">Coming Soon</span></li>
-            <li>Honduras <span class="coming-soon">Coming Soon</span></li>
+            <li>Guatemala</li>
+            <li>Honduras</li>
             <li>Mexico</li>
             <li>Nicaragua <span class="coming-soon">Coming Soon</span></li>
             <li>Panama</li>
-            <li>Paraguay <span class="coming-soon">Coming Soon</span></li>
+            <li>Paraguay</li>
             <li>Peru</li>
-            <li>Uruguay <span class="coming-soon">Coming Soon</span></li>
+            <li>Uruguay</li>
             <li>Venezuela <span class="coming-soon">Coming Soon</span></li>
           </ul>
           <h3 class="text-white">North America</h3>
