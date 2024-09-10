@@ -248,14 +248,6 @@
         <section class="text-white d-flex flex-column mt-5">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img
-                class="mx-3 my-4"
-                src="@/src/assets/img-fraud-2.png"
-                alt="Core values"
-                style="max-width: 100%"
-              />
-            </div>
-            <div class="col-12 col-md-6">
               <h3
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
@@ -285,6 +277,14 @@
                   groups.
                 </li>
               </ul>
+            </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <img
+                class="mx-3 my-4"
+                src="@/src/assets/img-fraud-2.png"
+                alt="Core values"
+                style="max-width: 100%"
+              />
             </div>
           </div>
         </section>

@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="weblayout">
-    <div class="header d-flex align-items-top justify-content-center">
+    <div class="header d-flex align-items-top justify-content-center px-1">
       <div class="container mt-5">
         <section class="main row">
           <div class="col-12 col-md-7 my-3">
@@ -36,7 +36,7 @@
         </section>
       </div>
     </div>
-    <div class="d-flex align-items-top justify-content-center py-1 pb-4">
+    <div class="d-flex align-items-top justify-content-center py-1 pb-4 px-1">
       <div class="container mt-5 col">
         <section class="d-flex flex-column align-items-center">
           <h3
@@ -213,18 +213,10 @@
         </section>
       </div>
     </div>
-    <div class="footer d-flex align-items-top justify-content-center py-4">
+    <div class="footer d-flex align-items-top justify-content-center py-4 px-1">
       <div class="container mt-5">
         <section class="text-white d-flex flex-column mt-5">
           <div class="row w-100">
-            <div class="col-12 col-md-6">
-              <img
-                class="my-4"
-                src="@/src/assets/img-mfusd-2.png"
-                alt="Core values"
-                style="max-width: 100%"
-              />
-            </div>
             <div class="col-12 col-md-6">
               <h3
                 class="fw-bolder display-3 my-4"
@@ -251,11 +243,19 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <img
+                class="my-4"
+                src="@/src/assets/img-mfusd-2.png"
+                alt="Core values"
+                style="max-width: 100%"
+              />
+            </div>
           </div>
         </section>
       </div>
     </div>
-    <div class="d-flex align-items-top justify-content-center py-4">
+    <div class="d-flex align-items-top justify-content-center py-4 px-1">
       <div class="container mt-5 show-md">
         <section class="d-flex flex-column mt-5">
           <div class="row bg-lightgray rounded-4 p-4">
@@ -510,7 +510,7 @@
       </div>
     </div>
 
-    <div class="footer d-flex align-items-top justify-content-center py-4">
+    <div class="footer d-flex align-items-top justify-content-center py-4 px-1">
       <div class="container mt-5">
         <section class="text-white d-flex flex-column mt-5 align-items-center">
           <img
@@ -630,9 +630,9 @@
     padding: 2px;
     width: 100%;
   }
-  .row.bg-lightgray {
-    width: 100%;
-  }
+  // .row.bg-lightgray {
+  //   width: 100%;
+  // }
   section {
     width: 100%;
   }

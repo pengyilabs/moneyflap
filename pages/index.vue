@@ -221,8 +221,8 @@
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
-                    Send money within seconds to bank and mobile money accounts
-                    in 80+ countries.
+                    Send money instantly to bank and mobile money accounts in
+                    80+ countries.
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -242,7 +242,7 @@
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
-                    Send and receive crypto within seconds from external
+                    Send and receive stablecoins within seconds from external
                     wallets.
                   </p>
                   <div class="top-left-icon">

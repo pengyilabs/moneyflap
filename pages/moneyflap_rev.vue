@@ -171,13 +171,6 @@
       <div class="container mt-5">
         <section class="text-white d-flex flex-column mt-5">
           <div class="row">
-            <div class="col-12 col-md-6">
-              <img
-                class="mx-3 my-4 bg-purple-full rounded-4"
-                src="@/src/assets/img-rev-2.png"
-                style="max-width: 100%"
-              />
-            </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center"
             >
@@ -193,6 +186,13 @@
                 Benefit from 1% unlimited cashback at select merchants,
                 subscription management, budgeting controls, and analytics.
               </p>
+            </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <img
+                class="mx-3 my-4 bg-purple-full rounded-4"
+                src="@/src/assets/img-rev-2.png"
+                style="max-width: 100%"
+              />
             </div>
           </div>
         </section>
@@ -261,13 +261,6 @@
     <section class="wave">
       <div class="container text-white">
         <div class="row">
-          <div class="col-12 col-md-7">
-            <img
-              class="mx-3 my-4"
-              src="@/src/assets/img-rev-5.png"
-              style="max-width: 100%"
-            />
-          </div>
           <div
             class="col-12 col-md-5 d-flex flex-column justify-content-center"
           >
@@ -281,6 +274,13 @@
               Accept global online payments through payment links and in-person
               payments via QR codes or Tap-To-Pay with your smartphone.
             </p>
+          </div>
+          <div class="col-12 col-md-7 order-md-first">
+            <img
+              class="mx-3 my-4"
+              src="@/src/assets/img-rev-5.png"
+              style="max-width: 100%"
+            />
           </div>
         </div>
       </div>
@@ -321,13 +321,6 @@
       <div class="container mt-5">
         <section class="text-white d-flex flex-column mt-5">
           <div class="row">
-            <div class="col-12 col-md-6">
-              <img
-                class="mx-3 my-4"
-                src="@/src/assets/img-rev-7.png"
-                style="max-width: 100%"
-              />
-            </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center"
             >
@@ -342,6 +335,13 @@
                 payments through stablecoin or bank transfers. Monitor all
                 unpaid invoices in real-time and automate reminders.
               </p>
+            </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <img
+                class="mx-3 my-4"
+                src="@/src/assets/img-rev-7.png"
+                style="max-width: 100%"
+              />
             </div>
           </div>
         </section>

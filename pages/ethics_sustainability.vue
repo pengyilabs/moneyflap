@@ -32,7 +32,7 @@
     </div>
     <div class="py-1">
       <div class="container mt-5">
-        <section class="row" style="height: 50vh">
+        <section class="row" style="min-height: 50vh">
           <div class="col-12 col-md-6 my-3">
             <h2
               class="fw-bolder display-2 mt-1"
@@ -58,9 +58,6 @@
     <div class="footer d-flex align-items-top justify-content-center py-4">
       <div class="container mt-5">
         <section class="row mt-5">
-          <div class="col-12 col-md-6 my-3 text-center">
-            <img src="@/src/assets/img-ethics-3.png" style="max-width: 100%" />
-          </div>
           <div class="col-12 col-md-6 my-3">
             <h2
               class="fw-bolder display-2 mt-1 text-white"
@@ -80,6 +77,9 @@
               take crucial steps to measure and manage our CO2e footprint with
               precision and integrity. 
             </p>
+          </div>
+          <div class="col-12 col-md-6 my-3 text-center order-md-first">
+            <img src="@/src/assets/img-ethics-3.png" style="max-width: 100%" />
           </div>
         </section>
       </div>
@@ -122,14 +122,6 @@
         <section class="text-white d-flex flex-column mt-5">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img
-                class="mx-3 my-4"
-                src="@/src/assets/img-ethics-5.png"
-                alt="Core values"
-                style="max-width: 100%"
-              />
-            </div>
-            <div class="col-12 col-md-6">
               <h2
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
@@ -152,6 +144,14 @@
                 conscientious investment strategies with lucrative outcomes, all
                 crafted by top financial minds who honor your principles.
               </p>
+            </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <img
+                class="mx-3 my-4"
+                src="@/src/assets/img-ethics-5.png"
+                alt="Core values"
+                style="max-width: 100%"
+              />
             </div>
           </div>
         </section>
