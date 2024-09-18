@@ -8,22 +8,7 @@
         <RouterLink class="navbar-brand" aria-current="page" to="/">
           <IconsMoneyflapLogo />
         </RouterLink>
-        <ul class="navbar-nav d-inline-block">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link text-white dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              English
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">French</a></li>
-            </ul>
-          </li>
-        </ul>
+        <weglot-switcher></weglot-switcher>
       </div>
       <button
         @click="toggleMenu"
