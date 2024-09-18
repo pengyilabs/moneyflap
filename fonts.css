@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Sofia Pro;
+  src: url("~/assets/fonts/Sofia-Pro-Regular.otf"), format("opentype");
+  order: 1;
+}
+@font-face {
+  font-family: Sofia Pro Medium;
+  src: url("~/assets/fonts/Sofia-Pro-Medium.otf"), format("opentype");
+  order: 2;
+}
+@font-face {
+  font-family: Sofia Pro Light;
+  src: url("~/assets/fonts/Sofia-Pro-Light.otf"), format("opentype");
+  order: 3;
+}
+@font-face {
+  font-family: Sofia Pro ExtraLight;
+  src: url("~/assets/fonts/Sofia-Pro-ExtraLight.otf"), format("opentype");
+  order: 4;
+}
+@font-face {
+  font-family: Sofia Pro UltraLight;
+  src: url("~/assets/fonts/Sofia-Pro-UltraLight.otf"), format("opentype");
+  order: 5;
+}
+@font-face {
+  font-family: Sofia Pro Black;
+  src: url("~/assets/fonts/Sofia-Pro-Black.otf"), format("opentype");
+  order: 6;
+}
+@font-face {
+  font-family: Sofia Pro Semi Bold;
+  src: url("~/assets/fonts/Sofia-Pro-Semi-Bold.otf"), format("opentype");
+  order: 7;
+}
+@font-face {
+  font-family: Sofia Pro Bold;
+  src: url("~/assets/fonts/Sofia-Pro-Bold.otf"), format("opentype");
+  order: 8;
+}
+@font-face {
+  font-family: Sofia Pro Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Regular-Italic.otf"), format("opentype");
+  order: 9;
+}
+@font-face {
+  font-family: Sofia Pro Medium Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Medium-Italic.otf"), format("opentype");
+  order: 10;
+}
+@font-face {
+  font-family: Sofia Pro Light Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Light-Italic.otf"), format("opentype");
+  order: 11;
+}
+@font-face {
+  font-family: Sofia Pro ExtraLight Italic;
+  src: url("~/assets/fonts/Sofia-Pro-ExtraLight-Italic.otf"), format("opentype");
+  order: 12;
+}
+@font-face {
+  font-family: Sofia Pro UltraLight Italic;
+  src: url("~/assets/fonts/Sofia-Pro-UltraLight-Italic.otf"), format("opentype");
+  order: 13;
+}
+@font-face {
+  font-family: Sofia Pro Black Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Black-Italic.otf"), format("opentype");
+  order: 14;
+}
+@font-face {
+  font-family: Sofia Pro Semi Bold Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Semi-Bold-Italic.otf"), format("opentype");
+  order: 15;
+}
+@font-face {
+  font-family: Sofia Pro Bold Italic;
+  src: url("~/assets/fonts/Sofia-Pro-Bold-Italic.otf"), format("opentype");
+  order: 16;
+}

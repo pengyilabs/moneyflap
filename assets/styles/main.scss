@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-@import './bootstrap/bootstrap.scss';
+@import "./bootstrap/bootstrap.scss";
+
+@import "../../fonts.css";
 
 .mf-gradient {
-   background: rgb(1,206,194);
-   background: linear-gradient(146deg, rgba(1,206,194,1) 0%, rgba(41,165,216,1) 43%, rgba(113,92,255,1) 100%);
- }
- .mf-gradient-vertical {
-   background: #3995E1;
-   background: linear-gradient(180deg, #08C7C6 0%, #23ABD5 43%, #3995E1 100%);
- }
+  background: rgb(1, 206, 194);
+  background: linear-gradient(
+    146deg,
+    rgba(1, 206, 194, 1) 0%,
+    rgba(41, 165, 216, 1) 43%,
+    rgba(113, 92, 255, 1) 100%
+  );
+}
+.mf-gradient-vertical {
+  background: #3995e1;
+  background: linear-gradient(180deg, #08c7c6 0%, #23abd5 43%, #3995e1 100%);
+}
+
+.body {
+  font-family: "Sofia Pro" !important;
+  --bs-body-font-family: "Sofia Pro" !important;
+}
