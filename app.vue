@@ -1,5 +1,6 @@
 <script setup>
-import { onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+import { onMounted, watch } from 'vue'
 
 onMounted(() => {
   const script = document.createElement('script')
@@ -12,6 +13,18 @@ onMounted(() => {
   }
   document.head.appendChild(script)
 })
+
+  // Detectar cambios de ruta para re-aplicar las traducciones
+const router = useRouter()
+
+watch(
+  () => router.currentRoute.value.fullPath,
+  () => {
+    if (typeof Weglot !== 'undefined') {
+      Weglot.init()  // Re-inicializar Weglot después de cada cambio de ruta
+    }
+  }
+)
 </script>
 
 <template>
