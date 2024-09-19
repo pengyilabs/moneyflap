@@ -1,30 +1,66 @@
 <script setup>
-import { useRouter } from 'vue-router'
-import { onMounted, watch } from 'vue'
+import { useRouter, useRoute } from 'vue-router';
+import { onMounted, watch } from 'vue';
 
-onMounted(() => {
-  const script = document.createElement('script')
-  script.src = 'https://cdn.weglot.com/weglot.min.js'
-  script.async = true
-  script.onload = () => {
+// Función para cargar Weglot de manera asíncrona
+const loadWeglot = () => {
+  return new Promise((resolve, reject) => {
+    if (typeof Weglot !== 'undefined') {
+      console.log('Weglot ya está cargado');
+      resolve(Weglot);
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://cdn.weglot.com/weglot.min.js';
+    script.async = true;
+
+    script.onload = () => {
+      console.log('Script de Weglot cargado correctamente');
+      resolve(window.Weglot);
+    };
+    script.onerror = () => {
+      console.error('Error al cargar el script de Weglot');
+      reject(new Error('Failed to load Weglot script'));
+    };
+
+    document.head.appendChild(script);
+  });
+};
+
+// Función para inicializar Weglot
+const initializeWeglot = async () => {
+  try {
+    const Weglot = await loadWeglot();
+    console.log('Inicializando Weglot');
     Weglot.initialize({
-      api_key: 'wg_3ee95520eaf5bc7bb4ebe7595494a9008',
-    })
+      api_key: 'wg_3ee95520eaf5bc7bb4ebe7595494a9008', // Tu clave API de Weglot
+    });
+    console.log('Weglot inicializado con éxito');
+  } catch (error) {
+    console.error('Error inicializando Weglot:', error);
   }
-  document.head.appendChild(script)
-})
+};
 
-  // Detectar cambios de ruta para re-aplicar las traducciones
-const router = useRouter()
+// Inicializar Weglot cuando el componente se monte
+onMounted(async () => {
+  console.log('Componente montado, cargando Weglot');
+  await initializeWeglot(); // Inicializa Weglot al montar la página
+});
+
+// Detectar cambios de ruta y forzar recarga de la página
+const route = useRoute();
 
 watch(
-  () => router.currentRoute.value.fullPath,
-  () => {
-    if (typeof Weglot !== 'undefined') {
-      Weglot.init()  // Re-inicializar Weglot después de cada cambio de ruta
+  () => route.fullPath, // Monitorear cambios en la ruta
+  async (newRoute, oldRoute) => {
+    if (newRoute !== oldRoute) {
+      console.log(`Ruta cambiada de ${oldRoute} a ${newRoute}, recargando la página.`);
+      // Forzar la recarga completa de la página para asegurar que Weglot funcione correctamente
+      window.location.href = newRoute; // Redirige a la nueva ruta forzando un recargo completo
     }
   }
-)
+);
 </script>
 
 <template>
