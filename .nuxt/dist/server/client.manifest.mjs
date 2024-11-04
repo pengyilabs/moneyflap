@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/Dev/Documents/moneyflap/moneyflap/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///Users/fabs/Desktop/code/moneyflap/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

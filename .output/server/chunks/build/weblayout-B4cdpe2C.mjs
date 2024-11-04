@@ -1,0 +1,349 @@
+import { b as buildAssetsURL } from '../routes/renderer.mjs';
+import { useSSRContext, resolveComponent, mergeProps, withCtx, createVNode, createTextVNode } from 'vue';
+import { ssrRenderComponent, ssrRenderSlot, ssrRenderAttrs, ssrRenderClass, ssrRenderAttr } from 'vue/server-renderer';
+import { _ as _export_sfc } from './_plugin-vue_export-helper-1tPrXgE0.mjs';
+import 'vue-bundle-renderer/runtime';
+import '../runtime.mjs';
+import 'node:http';
+import 'node:https';
+import 'fs';
+import 'path';
+import 'node:fs';
+import 'node:url';
+import 'devalue';
+import '@unhead/ssr';
+import 'unhead';
+import '@unhead/shared';
+
+const _imports_0$1 = "" + buildAssetsURL("moneyflap-logo-white.Dd3VdB_B.svg");
+const _sfc_main$3 = {};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+  _push(`<img${ssrRenderAttrs(mergeProps({
+    src: _imports_0$1,
+    alt: "Moneyflap Logo"
+  }, _attrs))}>`);
+}
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/icons/moneyflap-logo.vue");
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
+};
+const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$3]]);
+const _sfc_main$2 = {
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
+};
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_RouterLink = resolveComponent("RouterLink");
+  const _component_IconsMoneyflapLogo = __nuxt_component_0$1;
+  _push(`<nav${ssrRenderAttrs(mergeProps({
+    class: "navbar bg-dark navbar-expand-lg py-3 border-body",
+    "data-bs-theme": "dark"
+  }, _attrs))}><div class="container"><div class="col">`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "navbar-brand",
+    "aria-current": "page",
+    to: "/"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(ssrRenderComponent(_component_IconsMoneyflapLogo, null, null, _parent2, _scopeId));
+      } else {
+        return [
+          createVNode(_component_IconsMoneyflapLogo)
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<weglot-switcher></weglot-switcher></div><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Menu"><span class="navbar-toggler-icon"></span></button><div class="${ssrRenderClass([{ show: $data.isMenuOpen }, "collapse navbar-collapse justify-content-end"])}"><ul class="navbar-nav text-center"><li class="nav-item">`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white",
+    "aria-current": "page",
+    to: "/about_us"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` About Us `);
+      } else {
+        return [
+          createTextVNode(" About Us ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</li><li class="nav-item"><a class="nav-link text-white" target="_blank" href="https://security.moneyflap.com/"> Security </a></li><li class="nav-item">`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white",
+    "aria-current": "page",
+    to: "/pricing"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Pricing `);
+      } else {
+        return [
+          createTextVNode(" Pricing ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</li><li class="nav-item"><a class="nav-link text-white" target="_blank" href="http://help.moneyflap.com"> Help Center </a></li></ul><form class="ms-lg-auto d-block d-lg-none text-center"><button class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3" type="button"> Get Started </button></form></div><form class="ms-lg-auto d-none d-lg-flex"><button class="btn btn-primary btn-lg ms-3" type="button"> Get Started </button></form></div></nav>`);
+}
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/web/navbar.vue");
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
+};
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender$2]]);
+const _imports_0 = "" + buildAssetsURL("logo-moneyflap-fullwhite.DG687tRX.svg");
+const _imports_1 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6525_18208)'%3e%3cpath%20d='M15.0326%2026.0001C15.0326%2025.8853%2015.0326%2025.776%2015.0326%2025.6667C15.0315%2022.8711%2015.0358%2020.0756%2015.0219%2017.2811C15.0197%2016.9467%2015.122%2016.8612%2015.4417%2016.8709C16.2071%2016.8936%2016.9725%2016.8806%2017.7379%2016.8796C17.8369%2016.8796%2017.936%2016.8698%2018.0641%2016.8633C18.2503%2015.6144%2018.4355%2014.3795%2018.6271%2013.0937C17.4106%2013.0937%2016.2351%2013.0937%2015.0509%2013.0937C15.0509%2012.1337%2014.996%2011.2148%2015.0649%2010.3057C15.1467%209.23422%2015.8422%208.63896%2016.9359%208.59999C17.5409%208.57835%2018.147%208.59566%2018.7757%208.59566C18.7757%207.50146%2018.7757%206.45488%2018.7757%205.37475C17.5818%205.19725%2016.3901%205.0414%2015.1833%205.15613C14.4944%205.22106%2013.8312%205.3964%2013.223%205.74165C11.8881%206.50034%2011.2045%207.71035%2011.056%209.18768C10.9397%2010.3425%2010.9914%2011.5146%2010.9688%2012.6792C10.9666%2012.8015%2010.9688%2012.9248%2010.9688%2013.0904C9.86535%2013.0904%208.78991%2013.0904%207.70263%2013.0904C7.68755%2013.2062%207.66925%2013.282%207.66818%2013.3588C7.66602%2014.4108%207.67787%2015.4639%207.65849%2016.5159C7.65311%2016.8265%207.75537%2016.8936%208.04496%2016.8871C8.87818%2016.8677%209.7114%2016.8785%2010.5446%2016.8796C10.676%2016.8796%2010.8073%2016.8925%2010.9548%2016.9001C10.9548%2019.9511%2010.9548%2022.9686%2010.9548%2025.9871C6.10077%2025.4394%200.475978%2020.949%200.0281473%2013.966C-0.450902%206.47977%205.24925%200.427574%2012.2132%200.0227955C19.7219%20-0.41337%2025.689%205.46999%2025.9872%2012.4854C26.3027%2019.8894%2020.7145%2025.2652%2015.0326%2026.0001Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6525_18208'%3e%3crect%20width='26'%20height='26'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
+const _imports_2 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6525_18203)'%3e%3cpath%20d='M26.0001%2013.0158C25.9742%2020.2375%2020.1192%2026.0319%2012.8787%2025.9997C5.76785%2025.9675%20-0.0279228%2020.0901%200.000101201%2012.9358C0.0291631%205.69234%206.04705%20-0.171594%2013.3229%200.00383629C20.1618%200.167848%2025.9825%205.78369%2026.0001%2013.0158ZM21.4322%2013.0698C21.4322%2011.9113%2021.4374%2010.7528%2021.4312%209.59333C21.4146%206.72831%2019.3045%204.63249%2016.4325%204.6273C14.1501%204.62315%2011.8677%204.62419%209.58533%204.6273C6.66461%204.63146%204.56074%206.74492%204.55866%209.6743C4.55763%2011.9393%204.55659%2014.2054%204.55866%2016.4704C4.56074%2019.3541%206.68641%2021.4946%209.56146%2021.5008C11.8615%2021.506%2014.1605%2021.507%2016.4605%2021.5008C19.2858%2021.4925%2021.4114%2019.3707%2021.4312%2016.5462C21.4384%2015.3867%2021.4322%2014.2282%2021.4322%2013.0698Z'%20fill='white'/%3e%3cpath%20d='M13.0265%206.2398C14.2202%206.2398%2015.4138%206.22942%2016.6063%206.24188C18.4943%206.26056%2019.8405%207.59965%2019.8509%209.48474C19.8644%2011.8889%2019.8633%2014.294%2019.8509%2016.6981C19.8415%2018.5998%2018.4725%2019.9607%2016.5721%2019.967C14.1849%2019.9753%2011.7987%2019.9763%209.41145%2019.967C7.52658%2019.9597%206.13161%2018.5646%206.12642%2016.6888C6.12019%2014.2847%206.11812%2011.8795%206.12746%209.4754C6.13368%207.65051%207.50997%206.26575%209.34295%206.24188C10.5708%206.22631%2011.7987%206.2398%2013.0265%206.2398ZM17.364%2013.1117C17.3692%2010.6889%2015.4542%208.74669%2013.0473%208.73423C10.5978%208.72178%208.62782%2010.6463%208.61432%2013.0629C8.60187%2015.4857%2010.5604%2017.4704%2012.9726%2017.4777C15.4086%2017.485%2017.3588%2015.5459%2017.364%2013.1117ZM18.5369%208.57749C18.5493%208.02109%2018.0926%207.54774%2017.5342%207.53736C16.9758%207.52698%2016.5098%207.98061%2016.5015%208.54219C16.4932%209.11001%2016.9354%209.56778%2017.5%209.57713C18.0646%209.58647%2018.5244%209.14322%2018.5369%208.57749Z'%20fill='white'/%3e%3cpath%20d='M12.9723%2015.9177C11.3957%2015.9105%2010.1565%2014.6482%2010.172%2013.0641C10.1876%2011.5081%2011.4289%2010.2853%2012.9941%2010.2832C14.5718%2010.2811%2015.8432%2011.5496%2015.8287%2013.1108C15.8152%2014.6897%2014.5583%2015.924%2012.9723%2015.9177Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6525_18203'%3e%3crect%20width='26'%20height='26'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
+const _imports_3 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6525_18200)'%3e%3cpath%20d='M12.9798%2026.0004C5.78795%2025.9641%20-0.042226%2020.1118%200.000230419%2012.9717C0.0426868%205.78021%205.91077%20-0.0570149%2013.0374%200.000420245C20.2398%200.0593669%2026.0563%205.91322%2026.0002%2013.0458C25.9426%2020.2297%2020.1064%2026.0352%2012.9798%2026.0004ZM19.9623%2018.3374C19.9623%2018.0819%2019.9623%2017.8522%2019.9623%2017.6224C19.9563%2015.9568%2019.9775%2014.2912%2019.932%2012.6271C19.9047%2011.6462%2019.5908%2010.765%2018.6356%2010.2692C17.4134%209.63593%2015.8001%209.86567%2014.7887%2010.8088C14.5977%2010.9872%2014.402%2011.161%2014.1776%2011.3665C14.1776%2010.9388%2014.1776%2010.5383%2014.1776%2010.1287C13.1905%2010.1287%2012.2383%2010.1287%2011.2739%2010.1287C11.2739%2012.878%2011.2739%2015.6062%2011.2739%2018.3374C12.3262%2018.3374%2013.3482%2018.3374%2014.4066%2018.3374C14.4066%2018.1771%2014.4066%2018.0411%2014.4066%2017.9036C14.4081%2016.6808%2014.3945%2015.458%2014.4202%2014.2353C14.4278%2013.8574%2014.4991%2013.4675%2014.6219%2013.1108C14.7978%2012.5999%2015.2967%2012.3505%2015.8622%2012.411C16.3535%2012.4639%2016.6295%2012.7359%2016.7372%2013.3042C16.7735%2013.4977%2016.7887%2013.6972%2016.7887%2013.8937C16.7917%2015.2328%2016.7902%2016.572%2016.7887%2017.9111C16.7887%2018.0472%2016.7887%2018.1832%2016.7887%2018.3389C17.8531%2018.3374%2018.8767%2018.3374%2019.9623%2018.3374ZM9.18446%2018.3328C9.18446%2015.5759%209.18446%2012.8493%209.18446%2010.1287C8.12912%2010.1287%207.10713%2010.1287%206.07756%2010.1287C6.07756%2012.8719%206.07756%2015.5895%206.07756%2018.3328C7.12078%2018.3328%208.14276%2018.3328%209.18446%2018.3328ZM7.59841%208.78045C8.47635%208.78045%209.21479%208.10936%209.2072%207.31434C9.19962%206.53594%208.46725%205.8709%207.61054%205.86334C6.7417%205.85579%206.00023%206.53745%206.00933%207.33701C6.01994%208.13354%206.72957%208.77893%207.59841%208.78045Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6525_18200'%3e%3crect%20width='26'%20height='26'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
+const _imports_4 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6525_18193)'%3e%3cpath%20d='M9.53871%206.97413C8.89917%206.92309%208.25663%206.90507%207.58105%206.87305C7.61608%206.96913%207.62209%207.01817%207.64811%207.0532C10.6056%2011.0406%2013.5631%2015.0279%2016.5246%2019.0123C16.5897%2019.0994%2016.6948%2019.2135%2016.7848%2019.2155C17.4054%2019.2335%2018.0269%2019.2245%2018.6814%2019.2245C18.6334%2019.0904%2018.6284%2019.0544%2018.6094%2019.0293C15.7059%2015.085%2012.8035%2011.1397%209.89301%207.20032C9.81394%207.09323%209.66382%206.98414%209.53871%206.97413Z'%20fill='white'/%3e%3cpath%20d='M13%200C5.81992%200%200%205.81992%200%2013C0%2020.1801%205.81992%2026%2013%2026C20.1801%2026%2026%2020.1801%2026%2013C26%205.81992%2020.1801%200%2013%200ZM16.4159%2020.142C16.2648%2020.139%2016.0856%2019.9489%2015.9755%2019.8028C14.7765%2018.2234%2013.5885%2016.6341%2012.3975%2015.0487C12.2984%2014.9176%2012.1933%2014.7905%2012.0652%2014.6274C11.5648%2015.1518%2011.0844%2015.6522%2010.607%2016.1557C9.54007%2017.2806%208.43414%2018.3715%207.42428%2019.5455C6.91385%2020.139%206.36439%2020.2561%205.58673%2020.101C7.5594%2017.9982%209.50104%2015.9285%2011.4767%2013.8227C9.53006%2011.1885%207.59343%208.56725%205.61275%205.88798C5.79691%205.86897%205.91801%205.84495%206.03811%205.84495C7.23812%205.84194%208.43914%205.85195%209.63916%205.83594C9.93841%205.83193%2010.1246%205.92501%2010.2997%206.16922C11.3896%207.6845%2012.4956%209.18777%2013.5975%2010.695C13.7046%2010.8422%2013.8167%2010.9863%2013.9618%2011.1785C15.4341%209.61213%2016.9003%208.12988%2018.2675%206.56155C18.8369%205.908%2019.4384%205.80291%2020.2732%205.95704C18.3565%207.98175%2016.4729%209.97144%2014.5523%2012.0002C16.4859%2014.6904%2018.4136%2017.3737%2020.4153%2020.1591C19.0021%2020.1581%2017.709%2020.1691%2016.4159%2020.142Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6525_18193'%3e%3crect%20width='26'%20height='26'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
+const _imports_5 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6525_18197)'%3e%3cpath%20d='M13.0395%200.000172734C20.2424%200.0379368%2026.0508%205.90647%2026.0002%2013.0957C25.9495%2020.2385%2020.0904%2026.0347%2012.9565%2026.0002C5.77625%2025.9656%20-0.0343315%2020.1165%200.0001527%2012.9586C0.0357145%205.77483%205.88294%20-0.0365123%2013.0395%200.000172734ZM12.1741%2010.9323C11.9446%2010.9086%2011.7334%2010.873%2011.5222%2010.8665C9.50917%2010.8018%207.53495%2012.1062%206.78061%2013.9934C5.9573%2016.052%206.43145%2018.2542%208.07484%2019.6968C9.71392%2021.1351%2011.5922%2021.462%2013.5837%2020.5643C15.5094%2019.6968%2016.5051%2018.1399%2016.5558%2016.0121C16.5784%2015.0594%2016.5687%2014.1067%2016.5698%2013.1528C16.572%2012.2605%2016.5698%2011.3693%2016.5698%2010.4079C17.5397%2010.9517%2018.4578%2011.4567%2019.5505%2011.488C19.5505%2010.3518%2019.5505%209.26747%2019.5505%208.18742C17.7239%208.06333%2016.5752%207.08039%2016.2325%206.01221C15.9071%204.99905%2015.3381%204.84152%2014.4706%204.96776C14.4533%204.96992%2014.4339%204.971%2014.4167%204.96776C13.9113%204.88468%2013.7432%205.07134%2013.7475%205.60544C13.7712%209.05815%2013.7647%2012.5109%2013.7561%2015.9636C13.7529%2017.0954%2012.949%2018.0287%2011.8756%2018.197C10.7926%2018.3675%209.67836%2017.7352%209.3195%2016.7458C8.92832%2015.6679%209.31088%2014.4832%2010.34%2013.9761C10.8734%2013.7128%2011.5211%2013.6805%2012.172%2013.5305C12.1741%2012.7558%2012.1741%2011.8667%2012.1741%2010.9323Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6525_18197'%3e%3crect%20width='26'%20height='26'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e";
+const _imports_6 = "data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.9985%2026C5.81454%2026%20-0.00614969%2020.169%204.87621e-06%2012.9777C0.00615945%205.82332%205.83146%200%2012.9861%200C20.1793%200%2026.0092%205.82793%2026%2013.0084C25.9892%2020.189%2020.1716%2026.0015%2012.9985%2026ZM7.31933%206.97939C6.29151%207.00549%205.60682%207.5889%205.36064%208.46094C5.25755%208.8248%205.20062%209.21323%205.19908%209.59091C5.18369%2011.6681%205.18985%2013.7454%205.19446%2015.8211C5.196%2016.2218%205.21139%2016.624%205.24062%2017.0247C5.3114%2017.9966%205.90224%2018.7228%206.84389%2018.9484C7.21162%2019.036%207.6009%2019.0697%207.98094%2019.0713C10.6613%2019.082%2013.3431%2019.0805%2016.0234%2019.0743C16.9128%2019.0728%2017.8036%2019.0789%2018.6914%2019.0283C19.7239%2018.9699%2020.447%2018.4172%2020.6578%2017.4961C20.7409%2017.1353%2020.7994%2016.7607%2020.8025%2016.3907C20.8163%2014.3226%2020.8117%2012.2562%2020.8071%2010.1881C20.8055%209.77821%2020.7886%209.36675%2020.7594%208.95683C20.6886%207.99421%2020.0793%207.26035%2019.1423%207.04234C18.8007%206.9625%2018.4391%206.93026%2018.0868%206.92873C16.4142%206.91798%2014.7402%206.92412%2013.0677%206.92412C13.0431%206.92412%209.21032%206.9318%207.31933%206.97939Z'%20fill='white'/%3e%3cpath%20d='M8.23145%208.8125C11.3817%208.8125%2014.532%208.8125%2017.6335%208.8125C16.0713%2010.3653%2014.4877%2011.941%2012.9302%2013.4907C11.4169%2011.9853%209.83179%2010.405%208.23145%208.8125Z'%20fill='white'/%3e%3cpath%20d='M11.3258%2014.4224C11.5884%2014.6883%2011.9244%2015.0108%2012.239%2015.3531C12.6726%2015.8239%2013.2865%2015.8468%2013.6988%2015.3302C13.9813%2014.9756%2014.3218%2014.6684%2014.6043%2014.375C15.6488%2015.4143%2016.6597%2016.4184%2017.6676%2017.421C14.5387%2017.421%2011.3884%2017.421%208.31445%2017.421C9.28107%2016.4581%2010.2889%2015.4555%2011.3258%2014.4224Z'%20fill='white'/%3e%3cpath%20d='M6.9527%2010.0898C7.97276%2011.1077%208.97756%2012.1103%209.98235%2013.1114C8.97298%2014.1078%207.95902%2015.1104%206.95117%2016.1038C6.9527%2014.1323%206.9527%2012.121%206.9527%2010.0898Z'%20fill='white'/%3e%3cpath%20d='M18.9635%2016.1314C17.9526%2015.1227%2016.9493%2014.1202%2015.9521%2013.1252C16.9508%2012.1379%2017.9633%2011.1353%2018.9635%2010.1465C18.9635%2012.1043%2018.9635%2014.114%2018.9635%2016.1314Z'%20fill='white'/%3e%3c/svg%3e";
+const _sfc_main$1 = {};
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
+  const _component_RouterLink = resolveComponent("RouterLink");
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "mf-gradient py-5" }, _attrs))} data-v-bfa39d7f><div class="container" data-v-bfa39d7f><div class="row border-bottom pb-4" data-v-bfa39d7f><div class="col-12 col-md-4 text-center text-lg-start" data-v-bfa39d7f>`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    "aria-current": "",
+    to: "/"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="MoneyFlap" class="img-fluid" data-v-bfa39d7f${_scopeId}>`);
+      } else {
+        return [
+          createVNode("img", {
+            src: _imports_0,
+            alt: "MoneyFlap",
+            class: "img-fluid"
+          })
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<div class="pt-3 pb-4" data-v-bfa39d7f><a target="_blank" href="https://www.facebook.com/moneyflap" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_1)} class="me-4" alt="Facebook" data-v-bfa39d7f></a><a target="_blank" href="https://www.instagram.com/moneyflap.app/" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_2)} class="me-4" alt="Instagram" data-v-bfa39d7f></a><a target="_blank" href="https://www.linkedin.com/company/moneyflap" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_3)} class="me-4" alt="Linkedin" data-v-bfa39d7f></a><a target="_blank" href="https://twitter.com/moneyflap" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_4)} class="me-4" alt="Twitter X" data-v-bfa39d7f></a><a target="_blank" href="https://www.tiktok.com/@moneyflap.app/" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_5)} class="me-4" alt="Tiktok Douyin" data-v-bfa39d7f></a></div><p class="text-light" data-v-bfa39d7f><a target="_blank" href="mailto:hello@moneyflap.com" class="text-white no-text-decoration" data-v-bfa39d7f><img${ssrRenderAttr("src", _imports_6)} alt="Mail" class="me-3" data-v-bfa39d7f> hello@moneyflap.com </a></p></div><div class="row col-auto" data-v-bfa39d7f><div class="col-6 col-md-3" data-v-bfa39d7f><ul class="list-unstyled text-light me-sm-5" data-v-bfa39d7f><li class="fs-5 mb-2" data-v-bfa39d7f><strong data-v-bfa39d7f>Company</strong></li>`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/about_us"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` About Us `);
+      } else {
+        return [
+          createTextVNode(" About Us ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/careers"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Careers `);
+      } else {
+        return [
+          createTextVNode(" Careers ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/press_kit"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Press `);
+      } else {
+        return [
+          createTextVNode(" Press ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/ethics_sustainability"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Ethics &amp; Sustainability `);
+      } else {
+        return [
+          createTextVNode(" Ethics & Sustainability ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</ul></div><div class="col-6 col-md-3" data-v-bfa39d7f><ul class="list-unstyled text-light me-sm-5" data-v-bfa39d7f><li class="fs-5 mb-2" data-v-bfa39d7f><strong data-v-bfa39d7f>For Businesses</strong></li>`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/mfusd"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` MFUSD `);
+      } else {
+        return [
+          createTextVNode(" MFUSD ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/moneyflap_rev"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` MoneyFlap Rev `);
+      } else {
+        return [
+          createTextVNode(" MoneyFlap Rev ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</ul></div><div class="col-6 col-md-3" data-v-bfa39d7f><ul class="list-unstyled text-light me-sm-5" data-v-bfa39d7f><li class="fs-5 mb-2" data-v-bfa39d7f><strong data-v-bfa39d7f>Resources</strong></li><li class="py-2" data-v-bfa39d7f><a class="text-white no-text-decoration" target="_blank" href="https://moneyflap.medium.com/" data-v-bfa39d7f> Blog </a></li><li class="py-2" data-v-bfa39d7f><a class="text-white no-text-decoration" target="_blank" href="https://help.moneyflap.com" data-v-bfa39d7f> Help Center </a></li><li class="py-2" data-v-bfa39d7f><a class="text-white no-text-decoration" target="_blank" href="https://security.moneyflap.com/" data-v-bfa39d7f> Security &amp; Control </a></li>`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/fraud_protection"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Fraud Protection `);
+      } else {
+        return [
+          createTextVNode(" Fraud Protection ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<li class="py-2" data-v-bfa39d7f><a class="text-white no-text-decoration" target="_blank" href="https://status.moneyflap.com/" data-v-bfa39d7f> System Status </a></li></ul></div><div class="col-6 col-md-3" data-v-bfa39d7f><ul class="list-unstyled text-light me-sm-5" data-v-bfa39d7f><li class="fs-5 mb-2" data-v-bfa39d7f><strong data-v-bfa39d7f>Legal</strong></li>`);
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/bsa_aml_program"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` BSA/AML Program `);
+      } else {
+        return [
+          createTextVNode(" BSA/AML Program ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/privacy_policy/"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Privacy Policy `);
+      } else {
+        return [
+          createTextVNode(" Privacy Policy ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/terms_of_service/"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Terms &amp; conditions `);
+      } else {
+        return [
+          createTextVNode(" Terms & conditions ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_RouterLink, {
+    class: "nav-link text-white py-2",
+    "aria-current": "page",
+    to: "/licenses_and_registrations/"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(` Licenses &amp; Regulatory `);
+      } else {
+        return [
+          createTextVNode(" Licenses & Regulatory ")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`</ul></div></div></div><p class="text-center pt-4 text-light" data-v-bfa39d7f><small data-v-bfa39d7f>Copyright 2024 MoneyFlap. All rights reserved.</small></p></div></footer>`);
+}
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/web/footer.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-bfa39d7f"]]);
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_WebNavbar = __nuxt_component_0;
+  const _component_WebFooter = __nuxt_component_1;
+  _push(`<!--[-->`);
+  _push(ssrRenderComponent(_component_WebNavbar, null, null, _parent));
+  ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
+  _push(ssrRenderComponent(_component_WebFooter, null, null, _parent));
+  _push(`<!--]-->`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("layouts/weblayout.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const weblayout = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { weblayout as default };
+//# sourceMappingURL=weblayout-B4cdpe2C.mjs.map
