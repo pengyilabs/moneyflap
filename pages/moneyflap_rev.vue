@@ -11,8 +11,8 @@
               MoneyFlap Rev
             </h2>
             <p class="text-white display-6">
-              Master Your Business Finances <br class="show-md" />Like a Pro:
-              The Magic of <br />MoneyFlap Rev
+              Master Your Business Finances <br class="show-md d-none d-sm-block" />Like a Pro:
+              The Magic of <br class="d-none d-sm-block"/>MoneyFlap Rev
             </p>
             <p class="text-white">
               Introducing MoneyFlap Rev, a versatile business account that

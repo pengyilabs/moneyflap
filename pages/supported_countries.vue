@@ -23,9 +23,11 @@
               Central African Republic
               <span class="coming-soon">Coming Soon</span>
             </li>
+            <li>Comoros <span class="coming-soon">Coming Soon</span></li>
             <li>Congo (Brazzaville)</li>
             <li>Congo (Democratic Republic)</li>
             <li>Côte d'Ivoire</li>
+            <li>Djibouti <span class="coming-soon">Coming Soon</span></li>
             <li>Egypt <span class="coming-soon">Coming Soon</span></li>
             <li>Equatorial Guinea</li>
             <li>Ethiopia <span class="coming-soon">Coming Soon</span></li>
@@ -36,6 +38,7 @@
             <li>Guinea-Bissau</li>
             <li>Kenya</li>
             <li>Liberia <span class="coming-soon">Coming Soon</span></li>
+            <li>Libya <span class="coming-soon">Coming Soon</span></li>
             <li>Madagascar <span class="coming-soon">Coming Soon</span></li>
             <li>Malawi</li>
             <li>Mali</li>
@@ -48,6 +51,7 @@
             <li>Senegal</li>
             <li>Sierra Leone</li>
             <li>South Africa</li>
+            <li>Sudan <span class="coming-soon">Coming Soon</span></li>
             <li>Tanzania</li>
             <li>Togo</li>
             <li>Tunisia <span class="coming-soon">Coming Soon</span></li>
@@ -120,8 +124,10 @@
             <li>Canada <span class="coming-soon">Coming Soon</span></li>
             <li>United States <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          <h3 class="text-white">Southeast Asia</h3>
+          <h3 class="text-white">Asia-Pacific</h3>
           <ul class="text-white">
+            <li>Australia <span class="coming-soon">Coming Soon</span></li>
+            <li>Bangladesh <span class="coming-soon">Coming Soon</span></li>
             <li>Cambodia</li>
             <li>India</li>
             <li>Indonesia <span class="coming-soon">Coming Soon</span></li>
@@ -138,6 +144,9 @@
             <li>Jordan</li>
             <li>Lebanon <span class="coming-soon">Coming Soon</span></li>
             <li>Oman</li>
+            <li>
+              Qatar <span class="coming-soon">Coming Soon</span>
+            </li>
             <li>Saudi Arabia</li>
             <li>Turkey <span class="coming-soon">Coming Soon</span></li>
             <li>

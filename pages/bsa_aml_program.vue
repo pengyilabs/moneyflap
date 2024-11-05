@@ -2,24 +2,15 @@
   <NuxtLayout name="weblayout">
     <div class="header d-flex align-items-top justify-content-center py-1">
       <div class="container mt-5 pb-5">
-        <h1 class="fw-bolder display-2 mt-1">BSA/AML Program</h1>
+        <h1 class="fw-bolder display-2 mt-1">KYC/AML Program</h1>
         <h2>MoneyFlap Policy</h2>
         <p>
-          MoneyFlap strictly prohibits money laundering and activities that
-          support terrorism or crime, in compliance with the Bank Secrecy
-          Act (BSA) and regulations. Our Anti-Money Laundering (AML) policies
-          and internal controls ensure adherence to BSA regulations and FINRA
-          rules. These policies are regularly reviewed and updated to stay
-          aligned with regulatory changes and company developments.
+          MoneyFlap strictly enforces policies against money laundering and activities supporting terrorism or crime, abiding by the Bank Secrecy Act (BSA), European Union (EU) regulations, and rules of any supported jurisdictions. Their Anti-Money Laundering (AML) policies and internal controls ensure compliance, with regular reviews and updates to align with regulatory changes and company developments.
         </p>
 
         <h2>AML Compliance Person Designation and Duties</h2>
         <p>
-          MoneyFlap has appointed an AML Compliance Person who is fully
-          responsible for its Anti-Money Laundering program. This individual
-          will monitor compliance with AML obligations, oversee employee
-          communication and training, maintain necessary AML records, and ensure
-          Suspicious Activity Reports are filed with FinCEN when needed.
+          MoneyFlap has appointed an individual responsible for its Anti-Money Laundering (AML) program. This person will ensure compliance with AML regulations, manage employee communication and training, maintain AML records, and file Suspicious Activity Reports with appropriate legal authorities when required.
         </p>
 
         <h2>Checking the Office of Foreign Assets Control (OFAC) Listings</h2>
@@ -103,25 +94,13 @@
         </p>
         <h2>Suspicious Activity and Currrency Transactions Reporting</h2>
         <p>
-          We will file Suspicious Activity Reports (SARs) with FinCEN for any
-          transactions involving funds or assets that we suspect or have reason
-          to suspect are suspicious. Additionally, we will notify law
-          enforcement in cases requiring immediate attention, such as terrorist
-          financing or ongoing money laundering.
-          <br />
-          We will submit Currency Transaction Reports (CTRs) to FinCEN for
-          individual or multiple currency transactions that exceed a specified
-          USD amount within a single business day, if they are made by or on
-          behalf of the same person.
+          We will file Suspicious Activity Reports (SARs) with FinCEN or appropriate legal authorities for any transactions involving funds or assets that we suspect or have reason to suspect are suspicious. Additionally, we will also alert law enforcement in urgent cases like terrorist financing or active money laundering.  
+          <br/>
+          We will submit Currency Transaction Reports (CTRs) to FinCEN or relevant legal authorities for individual or multiple currency transactions that exceed a specified USD, EUR, or local currency amount within a single business day, if they are made by or on behalf of the same person. 
         </p>
         <h2>AML Recordkeeping</h2>
         <p>
-          Our designated AML Compliance Person will ensure proper maintenance of
-          AML records and the filing of SARs. Our firm will create and keep
-          SARs, customer identity verification, and funds transmittal
-          documentation for at least six years, maintaining their
-          confidentiality. Disclosure will be limited to FinCEN, the SEC, an
-          SEC-registered SRO, or other relevant legal authorities.
+          Our designated AML Compliance Person will ensure proper maintenance of AML records and the filing of SARs. Our firm will create and keep SARs, customer identity verification, and funds transmittal documentation for at least six years, maintaining their confidentiality. Disclosure will be limited to FinCEN, the SEC, an SEC-registered SRO, or other appropriate legal authorities.
         </p>
         <h2>Training Programs</h2>
         <p>

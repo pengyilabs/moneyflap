@@ -170,7 +170,7 @@
                 aria-current="page"
                 to="/bsa_aml_program"
               >
-                BSA/AML Program
+                KYC/AML Program
               </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
@@ -185,7 +185,7 @@
                 aria-current="page"
                 to="/terms_of_service/"
               >
-                Terms & conditions
+                Terms of Service
               </RouterLink>
               <!-- <li class="py-2">Licenses & Regulatory</li> -->
               <RouterLink

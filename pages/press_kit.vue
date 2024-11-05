@@ -40,28 +40,9 @@
             <h4 class="fw-bolder display-6" style="font-family: Sofia Pro Bold">
               Boilerplate
             </h4>
-            <span class="">
-              <strong>MoneyFlap</strong> is dedicated to rebuilding the global
-              financial landscape through cutting-edge stablecoin rails and
-              blockchain technology. Our company is built with a mission to
-              drive massive financial inclusion in markets that have
-              consistently been underserved, are under the grasp of archaic and
-              bureaucratic payment systems, or have had a history of
-              complicated, inaccessible, and expensive financial services. Built
-              on top of public blockchain protocols, MoneyFlap is a global
-              on-chain WeChat-like super app leveraging stablecoins rails to
-              connect Europe, Sub-Saharan Africa, Latin America, Southeast Asia,
-              MENA, and North America under one roof, providing people with
-              lightning-fast, near-zero cost, and secure payments worldwide.
-              Powered by a network of domestic real-time payment rails and a
-              ledger capable of handling millions of transactions per second
-              (TPS), our platform offers global instant money movements for a
-              fee of 0 to 100 basis points (bps) at mid-market rates — and more
-              competitive than the current solutions. With MoneyFlap, a
-              Brazilian can access NIBSS in Nigeria; an Indian can transact
-              through SEPA Instant in Europe; a South African can send money to
-              Mexico through SPEI; and so on.
-            </span>
+            <p>
+              <strong>MoneyFlap</strong> aims to transform the global financial landscape using innovative stablecoin infrastructure and blockchain technology. The company's mission is to enhance financial inclusion in underserved areas hindered by outdated, bureaucratic payment systems or costly, complex financial services. MoneyFlap is a global super app utilizing public blockchain protocols and stablecoins to facilitate rapid, near-zero cost, and secure payments across Europe, Sub-Saharan Africa, Latin America, Southeast Asia, MENA, and North America. Powered by a robust network of domestic real-time payment rails and an internal high-capacity ledger, our platform offers global instant money movements for a fee of 0 to 100 basis points (bps) at mid-market rates, surpassing current solutions. With MoneyFlap, Mexicans can access Nigeria's NIBSS, Indians can use Europe's SEPA Instant, Senegalese can send money to Brazil through Pix, Europeans can transact with InstaPay in the Philippines, and Saudis can purchase goods in India via UPI, among other international connections. 
+            </p>
           </div>
           <div class="col-12 col-md-6 text-end">
             <img

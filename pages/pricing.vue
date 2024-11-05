@@ -486,7 +486,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"
+                      <span
                         >From 0.25% (capped at 1.2 USD)</span
                       >
                     </div>
@@ -618,7 +618,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 2.6USD </span>
+                      <span style="height: 64px"> 2.6 USD </span>
                     </div>
                   </div>
                 </div>

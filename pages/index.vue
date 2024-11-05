@@ -8,13 +8,13 @@
           <div class="col-12 col-md-6">
             <div class="">
               <h1
-                class="text-white fw-bolder display-4 mt-4"
+                class="text-white fw-bolder display-4 mt-4 text-center text-sm-start"
                 style="font-family: Sofia Pro Bold"
               >
                 We are not a bank. <br />
                 We are a <span class="text-success">bulldozer.</span>
               </h1>
-              <p class="text-white my-4 lh-lg fw-medium">
+              <p class="text-white my-4 lh-lg fw-medium text-center text-sm-start">
                 The first global app that pays you to save, spend, and send
                 money <br class="show-md" />
                 — all in one place.
@@ -104,7 +104,7 @@
             </h2>
             <p class="py-4 lh-lg fw-medium">
               Say goodbye to the barriers of the conventional financial
-              system.<br />
+              system.<br class="d-none d-sm-block" />
               Step into the new era of financial liberation where your money
               knows no borders, no restrictions, no exorbitant transaction fees,
               only growth!
@@ -115,12 +115,6 @@
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
             <AnimationsGlobalAccount />
-            <!-- <img
-              src="@/src/assets/img-global-account-with-moneyflap.png"
-              alt="img-global-account-with-moneyflap"
-              class="img-fluid"
-              style="max-width: 100%"
-            /> -->
           </div>
         </div>
       </div>
@@ -183,12 +177,7 @@
               alt=""
               style="max-width: 100%"
             />
-            <!-- <img
-              src="@/src/assets/img-globe-cards.png"
-              class="img-fluid"
-              alt=""
-              style="max-width: 100%"
-            /> -->
+
           </div>
         </div>
 
@@ -222,7 +211,7 @@
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
                     Send money instantly to bank and mobile money accounts in
-                    80+ countries.
+                    90+ countries.
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -271,7 +260,7 @@
             </h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
               Sick of overpaying card transaction fees? Banish that feeling
-              forever.<br />
+              forever.<br class="d-none d-sm-block" />
               Create your virtual cards to shop globally while saving 4.5% on
               fees, and link them to Google Pay and Apple Pay to start spending
               immediately! Get a sleek, mirror stainless-steel, numberless
@@ -279,18 +268,11 @@
               and an aura of exclusivity. Access your card details anytime,
               within our app.
             </p>
-            <!-- <button class="btn btn-dark btn-lg rounded-5 px-4">
-              Get Started
-            </button> -->
+
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
             <AnimationsInternationalCard />
-            <!-- <img
-              src="@/src/assets/img-moneyflap-international-card.png"
-              alt="img-global-account-with-moneyflap"
-              class="img-fluid"
-              style="max-width: 100%"
-            /> -->
+
           </div>
         </div>
       </div>
@@ -315,102 +297,6 @@
         >
           <source src="@/src/assets/cards-moneyflap.mp4" type="video/mp4" />
         </video>
-        <!-- <div>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-if="smartCardIndex == 0"
-          >
-            Green
-          </span>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-else-if="smartCardIndex == 1"
-          >
-            Gray
-          </span>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-else-if="smartCardIndex == 2"
-          >
-            Purple
-          </span>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-else-if="smartCardIndex == 3"
-          >
-            Blue
-          </span>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-else-if="smartCardIndex == 4"
-          >
-            White
-          </span>
-          <span
-            class="btn btn-outline-light rounded-5 px-4"
-            v-else-if="smartCardIndex == 5"
-          >
-            Platinum
-          </span>
-        </div>
-        <div>
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards Green"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-if="smartCardIndex == 0"
-          />
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards Gray"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-else-if="smartCardIndex == 1"
-          />
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards Purple"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-else-if="smartCardIndex == 2"
-          />
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards Blue"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-else-if="smartCardIndex == 3"
-          />
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards White"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-else-if="smartCardIndex == 4"
-          />
-          <img
-            src="@/src/assets/img-smarter-moneyflap-card.png"
-            alt="MoneyFlap Smarter Cards Platinum"
-            class="img-fluid"
-            style="max-width: 100%"
-            v-else-if="smartCardIndex == 5"
-          />
-        </div>
-        <div class="d-flex flex-row justify-content-center pb-4">
-          <button
-            class="btn btn-outline-light border-0 rounded-circle icon-circle bg-transparent"
-            @click="back()"
-          >
-            <img src="@/src/assets/chevron-left.png" alt="back" />
-          </button>
-          <button
-            class="btn btn-outline-light border-0 rounded-circle icon-circle bg-transparent"
-            @click="next()"
-          >
-            <img src="@/src/assets/chevron-right.png" alt="next" />
-          </button>
-        </div> -->
       </div>
     </section>
 
@@ -451,162 +337,6 @@
     <section class="wave">
       <div class="container text-center show-md">
         <AnimationsLogos />
-        <!-- <div class="row justify-content-center">
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-walmart.svg"
-              alt="Walmart"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-aliexpress.svg"
-              alt="Aliexpresst"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-temu.svg"
-              alt="Temu"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-banggood.svg"
-              alt="banggood"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-microsoft.svg"
-              alt="microsoft"
-            />
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-sephora.svg"
-              alt="sephora"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-lookfantastic.svg"
-              alt="lookfantastic"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-nike.svg"
-              alt="nike"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-boohoo.svg"
-              alt="boohoo"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-bloomingdales.svg"
-              alt="bloomingdales"
-            />
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-lenovo.svg"
-              alt="lenovo"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-booking.svg"
-              alt="booking"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-expedia.svg"
-              alt="expedia"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-2 col-md-2"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-viator.svg"
-              alt="viator"
-            />
-          </div>
-          <div
-            class="px-3 py-2 d-flex flex-column justify-content-center col-3 col-md-3"
-          >
-            <img
-              class="logo"
-              style="max-height: 56px; max-width: 100%"
-              src="@/src/assets/logo-oldnavy.svg"
-              alt="oldnavy"
-            />
-          </div>
-        </div> -->
       </div>
       <div class="container text-center show-sm overflow-x-hidden">
         <!-- <AnimationsLogos /> -->
@@ -727,434 +457,50 @@
         </div>
       </div>
     </section>
-    <section class="">
-      <div class="container show-md">
+
+    <section>
+      <div class="container">
         <div class="row justify-content-center">
-          <div
-            class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
-          >
+          <!-- Left Arrow Button -->
+          <div class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center">
             <button
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
-              @click="accountBack()"
+              @click="accountBack"
             >
               <img src="@/src/assets/chevron-left-gradient.png" alt="back" />
             </button>
           </div>
+  
+          <!-- Carousel Container -->
           <div class="col-12 col-md-10">
             <div
-              id="carousel-container"
+              ref="carouselContainer"
               class="d-flex flex-row"
-              style="overflow-y: scroll"
+              style="overflow-x: auto; scroll-behavior: smooth;"
             >
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-0"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
+              <!-- Slide Items -->
+              <div v-for="(item, index) in slides" :key="index" class="col-12 col-md-4 p-2" style="max-width: 100%;">
+                <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: 0.1rem; max-width: 100%;">
                   <div class="card rounded-5 px-3 h-100">
                     <div class="card-body align-items-end">
-                      <img
-                        src="@/src/assets/icon-global-cashin.svg"
-                        alt="Global cash-in and cash-out"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Global cash-in and cash-out
-                      </h4>
-                      <p class="">
-                        Easily deposit and withdraw cash at any MoneyFlap
-                        location or at over 350,000
-                        <img
-                          src="@/src/assets/logo-moneygram.svg"
-                          alt="Moneygram"
-                        />
-                        locations in 181+ countries.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-1"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body align-items-end">
-                      <img
-                        src="@/src/assets/icon-easy-deposits.svg"
-                        alt="Easy deposits and withdrawals"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Easy deposits and withdrawals
-                      </h4>
-                      <p class="">
-                        Quickly link your account to hundreds of local and
-                        international mobile wallets, banks, and crypto
-                        exchanges.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-1"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body align-items-end">
-                      <img
-                        src="@/src/assets/icon-airtime.svg"
-                        alt="Buy airtime and data"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Buy airtime and data
-                      </h4>
-                      <p class="">
-                        Quickly recharge credit and data for any phone,
-                        globally. Get 6% cashback on top-ups during weekdays and
-                        10% on weekends.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-2"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body">
-                      <img
-                        src="@/src/assets/receipt.svg"
-                        alt="Flawless bill payments"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Flawless bill payments
-                      </h4>
-                      <p class="">
-                        Effortlessly pay bills worldwide in just a few clicks,
-                        with zero extra fees. Also, enjoy 3% cashback on every
-                        bill payment in select countries.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-3"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body">
-                      <img
-                        src="@/src/assets/receive-square.svg"
-                        alt="Receive your paycheck"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Receive your paycheck
-                      </h4>
-                      <p class="">
-                        Share your bank details with your employers worldwide,
-                        and receive your hard-earned money. Fric, not friction!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
-                id="cc-4"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body align-items-end">
-                      <img
-                        src="@/src/assets/note-remove.svg"
-                        alt="Smart subscriptions management"
-                      />
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Smart subscriptions management
-                      </h4>
-                      <p class="">
-                        Signed up for a trial with your card and forgot to
-                        cancel? Block all unwanted subscriptions in-app.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-8 p-2"
-                style="max-width: 100%"
-                id="cc-5"
-              >
-                <div
-                  class="bg-primary rounded-5 h-100 mf-gradient"
-                  style="padding: 0.1rem; max-width: 100%"
-                >
-                  <div class="card rounded-5 px-3 h-100">
-                    <div class="card-body align-items-end">
-                      <img
-                        src="@/src/assets/scan.svg"
-                        alt="Scan & Pay at thousands of merchants"
-                      />
-                      <div class="row">
-                        <div class="col-8">
-                          <h4
-                            class="fw-bolder mt-4"
-                            style="font-family: Sofia Pro Bold"
-                          >
-                            Scan & Pay at thousands of merchants
-                          </h4>
-                          <h5 style="font-family: Sofia Pro Bold">
-                            (Available Soon)
-                          </h5>
-                          <p class="">
-                            Whether it is a taxi, restaurant, or gas station,
-                            we've got you! Scan that QR code and earn rewards.
-                          </p>
-                        </div>
-                        <div class="col-4">
-                          <img
-                            src="@/src/assets/qr.png"
-                            alt="qr code"
-                            style="max-width: 180px"
-                          />
-                        </div>
-                      </div>
+                      <img :src="item.icon" :alt="item.alt" />
+                      <h4 class="fw-bolder mt-4" style="font-family: Sofia Pro Bold">{{ item.title }}</h4>
+                      <p>{{ item.description }}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
-          >
+  
+          <!-- Right Arrow Button -->
+          <div class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center">
             <button
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
-              @click="accountNext()"
+              @click="accountNext"
             >
               <img src="@/src/assets/chevron-right-gradient.png" alt="next" />
             </button>
-          </div>
-        </div>
-      </div>
-      <div class="container show-sm">
-        <div class="row">
-          <div class="col-12 col-md-4 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body align-items-end">
-                  <img
-                    src="@/src/assets/icon-global-cashin.svg"
-                    alt="Global cash-in and cash-out"
-                  />
-                  <h4
-                    class="fw-bolder mt-4"
-                    style="font-family: Sofia Pro Bold"
-                  >
-                    Global cash-in and cash-out
-                  </h4>
-                  <p class="">
-                    Instantly deposit and withdraw cash from your account in
-                    your local currency at one of 350,000+
-                    <img
-                      src="@/src/assets/logo-moneygram.svg"
-                      alt="Moneygram"
-                    />
-                    locations in over 181 countries.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body align-items-end">
-                  <img
-                    src="@/src/assets/icon-airtime.svg"
-                    alt="Buy airtime and data"
-                  />
-                  <h4
-                    class="fw-bolder mt-4"
-                    style="font-family: Sofia Pro Bold"
-                  >
-                    Buy airtime and data
-                  </h4>
-                  <p class="">
-                    Instantly recharge credit and data for any phone, and
-                    worldwide.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body">
-                  <img
-                    src="@/src/assets/receipt.svg"
-                    alt="Flawless bill payments"
-                  />
-                  <h4
-                    class="fw-bolder mt-4"
-                    style="font-family: Sofia Pro Bold"
-                  >
-                    Flawless bill payments
-                  </h4>
-                  <p class="">
-                    Instantly pay bills globally in a few clicks, with no extra
-                    cost.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body">
-                  <img
-                    src="@/src/assets/receive-square.svg"
-                    alt="Receive your paycheck"
-                  />
-                  <h4
-                    class="fw-bolder mt-4"
-                    style="font-family: Sofia Pro Bold"
-                  >
-                    Receive your paycheck
-                  </h4>
-                  <p class="">
-                    Share your bank details with your employers worldwide, and
-                    receive your hard-earned money. Fric, not friction!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body align-items-end">
-                  <img
-                    src="@/src/assets/note-remove.svg"
-                    alt="Smart subscriptions management"
-                  />
-                  <h4
-                    class="fw-bolder mt-4"
-                    style="font-family: Sofia Pro Bold"
-                  >
-                    Smart subscriptions management
-                  </h4>
-                  <p class="">
-                    Signed up for a trial with your card and forgot to cancel?
-                    Block all unwanted subscriptions in-app.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-8 p-2" style="max-width: 100%">
-            <div
-              class="bg-primary rounded-5 h-100 mf-gradient"
-              style="padding: 0.1rem; max-width: 100%"
-            >
-              <div class="card rounded-5 px-3 h-100">
-                <div class="card-body align-items-end">
-                  <img
-                    src="@/src/assets/scan.svg"
-                    alt="Scan & Pay at thousands of merchants"
-                  />
-                  <div class="d-flex flex-column">
-                    <div class="col-12">
-                      <h4
-                        class="fw-bolder mt-4"
-                        style="font-family: Sofia Pro Bold"
-                      >
-                        Scan & Pay at thousands of merchants
-                      </h4>
-                      <h5 style="font-family: Sofia Pro Bold">
-                        (Available Soon)
-                      </h5>
-                      <p class="">
-                        Whether it is a taxi, restaurant, or gas station, we've
-                        got you! Scan that QR code and earn rewards.
-                      </p>
-                    </div>
-                    <div class="col-12">
-                      <img
-                        src="@/src/assets/qr.png"
-                        alt="qr code"
-                        style="max-width: 180px"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -1181,12 +527,6 @@
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
             <AnimationsInsights />
-            <!-- <img
-              src="@/src/assets/img-real-time-spending.png"
-              alt="img-real-time-spending"
-              class="img-fluid"
-              style="max-width: 100%"
-            /> -->
           </div>
         </div>
       </div>
@@ -1202,25 +542,11 @@
               <span class="text-success">and Engage Like You’re There!</span>
             </h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Connect with your loved ones via our end-to-end encrypted
-              messaging and calling service. Share multimedia content, laugh
-              over GIFs, and organize group chats, all under secure corridors.
+              Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors. No friends? No worries! Chat with our humanlike AI assistant for outfit tips or movie recommendations. 
             </p>
-            <!-- <button class="btn btn-dark btn-lg rounded-5 px-4">
-              Get Started
-            </button> -->
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
             <AnimationsConnect />
-            <!-- <client-only>
-              <Vue3Lottie :animationData="connect" />
-            </client-only> -->
-            <!-- <img
-              src="@/src/assets/img-engage-connect-feel-moneyflap.png"
-              alt="img-engage-connect-feel-moneyflap"
-              class="img-fluid"
-              style="max-width: 100%"
-            /> -->
           </div>
         </div>
       </div>
@@ -1254,12 +580,6 @@
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 text-center order-md-first">
             <AnimationsFastLoans />
-            <!-- <img
-              src="@/src/assets/img-fast-loans-moneyflap.png"
-              alt="img-fast-loans-moneyflap"
-              class="img-fluid"
-              style="max-width: 100%"
-            /> -->
           </div>
         </div>
       </div>
@@ -1291,12 +611,6 @@
             </div>
             <div class="col-12 col-md-4 mt-5 mt-md-0">
               <AnimationsSims />
-              <!-- <img
-                src="@/src/assets/img-moneyflap-sims.png"
-                alt="img-moneyflap-sims"
-                class="img-fluid"
-                style="max-width: 100%"
-              /> -->
             </div>
           </div>
         </div>
@@ -1431,13 +745,64 @@
 </template>
 
 <script>
+import IconGlobalCashin from "@/src/assets/icon-global-cashin.svg";
+import IconEasyDeposits from "@/src/assets/icon-easy-deposits.svg";
+import IconAirtime from "@/src/assets/icon-airtime.svg";
+import IconReceipt from "@/src/assets/receipt.svg";
+import IconReceiveSquare from "@/src/assets/receive-square.svg";
+import IconNoteRemove from "@/src/assets/note-remove.svg";
+import IconScan from "@/src/assets/scan.svg";
+
 export default {
   data() {
     return {
       smartCardIndex: 0,
       smartCardLength: 6,
-      accountIndex: 0,
-      accountElements: 6,
+      scrollAmount: 300, // amount to scroll per button click
+      slides: [
+        {
+          icon: IconGlobalCashin,
+          alt: "Global cash-in and cash-out",
+          title: "Global cash-in and cash-out",
+          description: "Easily deposit and withdraw cash at any MoneyFlap location or at over 350,000 Moneygram locations in 181+ countries."
+        },
+        {
+          icon: IconEasyDeposits,
+          alt: "Easy deposits and withdrawals",
+          title: "Easy deposits and withdrawals",
+          description: "Quickly link your account to thousands of local and international mobile wallets, banks, and crypto exchanges."
+        },
+        {
+          icon: IconAirtime,
+          alt: "Buy airtime and data",
+          title: "Buy airtime and data",
+          description: "Quickly recharge credit and data for any phone, globally. Get 6% cashback on top-ups during weekdays and 10% on weekends."
+        },
+        {
+          icon: IconReceipt,
+          alt: "Flawless bill payments",
+          title: "Flawless bill payments",
+          description: "Effortlessly pay bills worldwide in just a few clicks, with zero extra fees. Also, enjoy 3% cashback on every bill payment in select countries."
+        },
+        {
+          icon: IconReceiveSquare,
+          alt: "Receive your paycheck",
+          title: "Receive your paycheck",
+          description: "Share your bank details with your employers worldwide, and receive your hard-earned money. Fric, not friction!"
+        },
+        {
+          icon: IconNoteRemove,
+          alt: "Smart subscriptions management",
+          title: "Smart subscriptions management",
+          description: "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app."
+        },
+        {
+          icon: IconScan,
+          alt: "Scan & Pay at thousands of merchants",
+          title: "Scan & Pay at thousands of merchants",
+          description: "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon)"
+        }
+      ]
     };
   },
   methods: {
@@ -1455,27 +820,28 @@ export default {
         this.smartCardIndex = this.smartCardLength - 1;
       }
     },
+
+    // Scroll to the right in the carousel
     accountNext() {
-      this.accountIndex++;
-      if (this.accountIndex >= this.accountElements) {
-        this.accountIndex = 0;
+      const carousel = this.$refs.carouselContainer;
+      if (carousel) {
+        carousel.scrollLeft += this.scrollAmount;
       }
-      let doc = document.getElementById(`cc-${this.accountIndex}`);
-      console.log("Next", doc);
-      doc.scrollIntoView();
     },
+
+    // Scroll to the left in the carousel
     accountBack() {
-      this.accountIndex--;
-      if (this.accountIndex < 0) {
-        this.accountIndex = this.accountElements - 1;
+      const carousel = this.$refs.carouselContainer;
+      if (carousel) {
+        carousel.scrollLeft -= this.scrollAmount;
       }
-      let doc = document.getElementById(`cc-${this.accountIndex}`);
-      console.log("Next", doc);
-      doc.scrollIntoView();
-    },
-  },
+    }
+  }
 };
 </script>
+
+
+
 
 <style scoped lang="scss">
 .header {
@@ -1500,12 +866,6 @@ section.teleport {
   padding-bottom: 5rem;
 }
 section.smarter-card {
-  /*
-  background-image: url("@src/assets/bg-smarter-moneyflap-card.png");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
   background-color: #142339;
   padding-top: 5rem;
 }
@@ -1605,7 +965,6 @@ section.wave-top {
       #705bff 100%
     );
     padding: 7rem 0 5rem;
-    // background-color: #4a83eb;
     background-repeat: no-repeat;
     background-size: cover;
   }

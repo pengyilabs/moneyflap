@@ -295,7 +295,7 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -307,19 +307,19 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -329,19 +329,19 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -353,25 +353,25 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                     </tr>
@@ -421,7 +421,7 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -433,19 +433,19 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -455,19 +455,19 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td><hr style="width: 39px; margin: auto" /></td>
@@ -479,25 +479,25 @@
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                       <td>
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 39px"
+                          style="max-width: 30px"
                         />
                       </td>
                     </tr>
@@ -512,13 +512,13 @@
 
     <div class="footer d-flex align-items-top justify-content-center py-4 px-1">
       <div class="container mt-5">
-        <section class="text-white d-flex flex-column mt-5 align-items-center">
+        <section class="text-white d-flex flex-column mt-5 align-items-center ">
           <img
             class="mx-3 my-4"
             src="@/src/assets/icon-moneyflap-section-3.png"
             style="max-width: 39px"
           />
-          <span class="display-5 my-4">
+          <span class="display-5 my-4 text-center text-sm-start">
             <img src="@/src/assets/logo-mfusd-2.png" style="max-width: 170px" />
             is available on top blockchain <br />networks and more coming soon
           </span>

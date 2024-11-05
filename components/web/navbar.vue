@@ -55,6 +55,16 @@
             </RouterLink>
           </li>
           <li class="nav-item">
+            <RouterLink
+              class="nav-link text-white"
+              aria-current="page"
+              to="/mfusd"
+            >
+              MFUSD
+            </RouterLink>
+          </li>
+          
+          <li class="nav-item">
             <a
               class="nav-link text-white"
               target="_blank"
