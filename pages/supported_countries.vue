@@ -124,20 +124,43 @@
             <li>Canada <span class="coming-soon">Coming Soon</span></li>
             <li>United States <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          <h3 class="text-white">Asia-Pacific</h3>
+
+          <h3 class="text-white">East Asia</h3>
           <ul class="text-white">
-            <li>Australia <span class="coming-soon">Coming Soon</span></li>
-            <li>Bangladesh <span class="coming-soon">Coming Soon</span></li>
+            <li>Japan <span class="coming-soon">Coming Soon</span></li>
+            <li>South Korea <span class="coming-soon">Coming Soon</span></li>
+            <li>Taiwan <span class="coming-soon">Coming Soon</span></li>
+          </ul>
+          
+          <h3 class="text-white">Southeast Asia</h3>
+          <ul class="text-white">
             <li>Cambodia</li>
-            <li>India</li>
             <li>Indonesia <span class="coming-soon">Coming Soon</span></li>
             <li>Malaysia <span class="coming-soon">Coming Soon</span></li>
-            <li>Pakistan <span class="coming-soon">Coming Soon</span></li>
             <li>Philippines</li>
             <li>Singapore <span class="coming-soon">Coming Soon</span></li>
             <li>Thailand <span class="coming-soon">Coming Soon</span></li>
             <li>Vietnam <span class="coming-soon">Coming Soon</span></li>
           </ul>
+          
+          <h3 class="text-white">South Asia</h3>
+          <ul class="text-white">
+            <li>Bangladesh <span class="coming-soon">Coming Soon</span></li>
+            <li>India</li>
+            <li>Nepal <span class="coming-soon">Coming Soon</span></li>
+            <li>Pakistan <span class="coming-soon">Coming Soon</span></li>
+            <li>Sri Lanka <span class="coming-soon">Coming Soon</span></li>
+          </ul>
+          
+          <h3 class="text-white">Oceania</h3>
+          <ul class="text-white">
+            <li>Australia <span class="coming-soon">Coming Soon</span></li>
+            <li>New Zealand <span class="coming-soon">Coming Soon</span></li>
+          </ul>
+          
+
+
+
           <h3 class="text-white">Middle East</h3>
           <ul class="text-white">
             <li>Bahrain</li>
