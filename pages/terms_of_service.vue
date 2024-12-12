@@ -283,15 +283,15 @@
               transaction limits and fees.
             </li>
             <li class="mb-0 mt-0">
-              <span class="fw-bold d-contents">Payin Stablecoin</span>.
-              You can also directly receive stablecoin funds from external parties
-              to your on-chain addresses in your account but note that we can
-              only accept USDC (USD Coin) and EURC (Euro Coin) at this time. We
-              may include additional digital assets in the future — please,
-              always refer to our website to get any product updates or
-              information about an eventual product release. stablecoin transfers
-              are irreversible — meaning that you may lose or can not recover
-              your stablecoin funds when you send them to the wrong on-chain
+              <span class="fw-bold d-contents">Payin Stablecoin</span>. You can
+              also directly receive stablecoin funds from external parties to
+              your on-chain addresses in your account but note that we can only
+              accept USDC (USD Coin) and EURC (Euro Coin) at this time. We may
+              include additional digital assets in the future — please, always
+              refer to our website to get any product updates or information
+              about an eventual product release. stablecoin transfers are
+              irreversible — meaning that you may lose or can not recover your
+              stablecoin funds when you send them to the wrong on-chain
               addresses. You are urged to double-review the accuracy of your
               details before making any stablecoin deposits.
             </li>
@@ -343,18 +343,18 @@
               >
               You can also transfer funds out of your MoneyFlap Account to
               external stablecoin wallets. Please double review and confirm the
-              details of the recipient before initiating any withdrawal — stablecoin
-              transfers are irreversible, resulting in a full loss of your funds
-              when you transfer funds to the wrong stablecoin addresses. MoneyFlap
-              will not be liable for any transfer to the wrong stablecoin addresses
-              and cannot recover your funds or refund you. Withdrawals are
-              processed instantly, allowing your stablecoin funds to reach their
-              destination in no time. Nevertheless, due to uncontrolled reasons
-              such as technical and operational downtime of the public
-              blockchain protocols we use to build our Services, the processing
-              times may be longer or the transactions may fail. Please note that
-              we are not liable for such delay or failure. (Refer to **Risk
-              Disclosure** to learn more)
+              details of the recipient before initiating any withdrawal —
+              stablecoin transfers are irreversible, resulting in a full loss of
+              your funds when you transfer funds to the wrong stablecoin
+              addresses. MoneyFlap will not be liable for any transfer to the
+              wrong stablecoin addresses and cannot recover your funds or refund
+              you. Withdrawals are processed instantly, allowing your stablecoin
+              funds to reach their destination in no time. Nevertheless, due to
+              uncontrolled reasons such as technical and operational downtime of
+              the public blockchain protocols we use to build our Services, the
+              processing times may be longer or the transactions may fail.
+              Please note that we are not liable for such delay or failure.
+              (Refer to **Risk Disclosure** to learn more)
             </li>
           </ul>
         </section>
@@ -372,48 +372,95 @@
         <section class="general_risk_disclosure_section">
           <h2>General Risk Disclosure</h2>
           <p>
-            This general risk disclosure lists the most prevalent risks associated with holding or trading virtual assets, but the following list of risks is not exhaustive. You hereby acknowledge and accept these risks, including the unforeseen ones, use our Services at your own risk, and you will not hold MoneyFlap responsible for any irreversible and unrecoverable losses relating to these risks.  
+            This general risk disclosure lists the most prevalent risks
+            associated with holding or trading Virtual Currencies, but the
+            following list of risks is not exhaustive. You hereby acknowledge
+            and accept these risks, including the unforeseen ones, use our
+            Services at your own risk, and you will not hold MoneyFlap
+            responsible for any irreversible and unrecoverable losses relating
+            to these risks.
           </p>
           <h4>Blockchain Technology</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Deposits, withdrawals, transfers, and any transactions in Virtual Assets may be irreversible, and any fund losses due to entering wrong addresses, and accidental or fraudulent transactions may be unrecoverable. 
+              Deposits, withdrawals, transfers, and any transactions in Virtual
+              Currencies may be irreversible, and any fund losses due to
+              entering wrong addresses, and accidental or fraudulent
+              transactions may be unrecoverable.
             </li>
           </ul>
           <h4>Legal and Regulatory</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Virtual Assets may not be legal tender in some jurisdictions and are not backed by any government or central bank.
+              Virtual Currencies may not be legal tender in some jurisdictions
+              and are not backed by any government or central bank.
             </li>
             <li class="mb-0 mt-0">
-              The regulatory framework of Virtual Assets varies among jurisdictions, resulting in significant regulatory uncertainty. Amendments, orders, legislative and regulatory changes, or actions relating to blockchain technology at a state, federal, or international level may adversely affect the use, transfer, exchange, and value of the Virtual Assets, restricting the provision of our Services to you.
+              The regulatory framework of Virtual Currencies varies among
+              jurisdictions, resulting in significant regulatory uncertainty.
+              Amendments, orders, legislative and regulatory changes, or actions
+              relating to blockchain technology at a state, federal, or
+              international level may adversely affect the use, transfer,
+              exchange, and value of the Virtual Currencies, restricting the
+              provision of our Services to you.
             </li>
           </ul>
           <h4>Currency Fluctuations</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Even if MoneyFlap only supports Virtual Assets called stablecoins that have the same value as some Fiat currencies such as U.S. Dollars (USD) and Euros (EUR), the price of stablecoins may fluctuate in value below the price of the Fiat currencies they are designed to track as the exchange rates of the Fiat currencies may change. 
+              Even if MoneyFlap only supports Virtual Currencies called
+              stablecoins that have the same value as some Fiat currencies such
+              as U.S. Dollars (USD) and Euros (EUR), the price of stablecoins
+              may fluctuate in value below the price of the Fiat currencies they
+              are designed to track as the exchange rates of the Fiat currencies
+              may change.
             </li>
           </ul>
           <h4>No investment advice, recommendations, or tax advice</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              MoneyFlap does not provide investment advice. You are solely responsible for, and MoneyFlap has no involvement in, determining whether any Virtual Asset transaction, investment strategy, or related transaction is suitable for you. You are familiar with and are capable of evaluating the investment risks of Virtual Assets independently or you accept to seek legal, regulatory, business, investment, financial tax, and accounting advice from highly qualified professionals and have made your decisions without reliance on MoneyFlap. 
+              MoneyFlap does not provide investment advice. You are solely
+              responsible for, and MoneyFlap has no involvement in, determining
+              whether any Virtual Currency transaction, investment strategy, or
+              related transaction is suitable for you. You are familiar with and
+              are capable of evaluating the investment risks of Virtual
+              Currencies independently or you accept to seek legal, regulatory,
+              business, investment, financial tax, and accounting advice from
+              highly qualified professionals and have made your decisions
+              without reliance on MoneyFlap.
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap does not provide investment or tax advice or exercise any investment discretion on your behalf.  Nothing on Website is an offer to sell, a solicitation of an offer to buy, or a recommendation for any Virtual Asset by MoneyFlap. 
+              MoneyFlap does not provide investment or tax advice or exercise
+              any investment discretion on your behalf.  Nothing on Website is
+              an offer to sell, a solicitation of an offer to buy, or a
+              recommendation for any Virtual Currency by MoneyFlap.
             </li>
           </ul>
           <h4>Not a bank, broker-dealer, or regulated financial institution</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              You should note that your account balances may not be considered or called “deposits”, as the regulated financial institutions, especially banks or credit institutions may be using the term. MoneyFlap is not and does not pretend to be a bank or regulated financial institution under the United States Federal Law or under any other jurisdiction laws. 
+              You should note that your account balances may not be considered
+              or called “deposits”, as the regulated financial institutions,
+              especially banks or credit institutions may be using the term.
+              MoneyFlap is not and does not pretend to be a bank or regulated
+              financial institution under the United States Federal Law or under
+              any other jurisdiction laws.
             </li>
             <li class="mb-0 mt-0">
-              You should note that the Tokenized Financial Assets that MoneyFlap facilitates the accessibility may not be considered as a listing or selling of “Securities” or an offering of a “brokerage account”, as the regulated brokerage may be using the term. MoneyFlap is not and does not pretend to be a broker-dealer or a trust registered under the United States Federal Law or under any other jurisdiction laws. 
+              You should note that the Tokenized Financial Assets that MoneyFlap
+              facilitates the accessibility may not be considered as a listing
+              or selling of “Securities” or an offering of a “brokerage
+              account”, as the regulated brokerage may be using the term.
+              MoneyFlap is not and does not pretend to be a broker-dealer or a
+              trust registered under the United States Federal Law or under any
+              other jurisdiction laws.
             </li>
             <li class="mb-0 mt-0">
-              You should note that your account balances are not subject to deposit insurance protection of any regulatory scheme, including the Federal Deposit Insurance Corporation (FDIC), as well as any securities investor protection, including the Securities Investor Protection Corporation (SIPC). 
+              You should note that your account balances are not subject to
+              deposit insurance protection of any regulatory scheme, including
+              the Federal Deposit Insurance Corporation (FDIC), as well as any
+              securities investor protection, including the Securities Investor
+              Protection Corporation (SIPC).
             </li>
           </ul>
         </section>
