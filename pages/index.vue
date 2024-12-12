@@ -134,10 +134,10 @@
             <p class="py-4 lh-lg fw-medium text-secondary">
               Isn't it time we let our money work for us? Get higher, more
               stable returns than classic savings accounts. Diversify your
-              portfolio with Sharia-compliant Sukuk and U.S. treasury bills. An
-              unmatched level of confidence knowing your assets are indirectly
-              backed by the full faith and credit of governments. Withdraw and
-              get paid on a 24/7 basis. No minimum deposit.
+              portfolio with Sukuk and U.S. treasury bills. An unmatched level
+              of confidence knowing your assets are indirectly backed by the
+              full faith and credit of governments. Withdraw and get paid on a
+              24/7 basis. No minimum deposit.
             </p>
             <!-- <button class="btn btn-dark btn-lg rounded-5 px-4">Get Started</button> -->
           </div>
