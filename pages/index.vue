@@ -14,7 +14,9 @@
                 We are not a bank. <br />
                 We are a <span class="text-success">bulldozer.</span>
               </h1>
-              <p class="text-white my-4 lh-lg fw-medium text-center text-sm-start">
+              <p
+                class="text-white my-4 lh-lg fw-medium text-center text-sm-start"
+              >
                 The first global app that pays you to save, spend, and send
                 money <br class="show-md" />
                 — all in one place.
@@ -177,7 +179,6 @@
               alt=""
               style="max-width: 100%"
             />
-
           </div>
         </div>
 
@@ -268,11 +269,9 @@
               and an aura of exclusivity. Access your card details anytime,
               within our app.
             </p>
-
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
             <AnimationsInternationalCard />
-
           </div>
         </div>
       </div>
@@ -462,7 +461,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <!-- Left Arrow Button -->
-          <div class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center">
+          <div
+            class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
+          >
             <button
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
               @click="accountBack"
@@ -470,21 +471,34 @@
               <img src="@/src/assets/chevron-left-gradient.png" alt="back" />
             </button>
           </div>
-  
+
           <!-- Carousel Container -->
           <div class="col-12 col-md-10">
             <div
               ref="carouselContainer"
               class="d-flex flex-row"
-              style="overflow-x: auto; scroll-behavior: smooth;"
+              style="overflow-x: auto; scroll-behavior: smooth"
             >
               <!-- Slide Items -->
-              <div v-for="(item, index) in slides" :key="index" class="col-12 col-md-4 p-2" style="max-width: 100%;">
-                <div class="bg-primary rounded-5 h-100 mf-gradient" style="padding: 0.1rem; max-width: 100%;">
+              <div
+                v-for="(item, index) in slides"
+                :key="index"
+                class="col-12 col-md-4 p-2"
+                style="max-width: 100%"
+              >
+                <div
+                  class="bg-primary rounded-5 h-100 mf-gradient"
+                  style="padding: 0.1rem; max-width: 100%"
+                >
                   <div class="card rounded-5 px-3 h-100">
                     <div class="card-body align-items-end">
                       <img :src="item.icon" :alt="item.alt" />
-                      <h4 class="fw-bolder mt-4" style="font-family: Sofia Pro Bold">{{ item.title }}</h4>
+                      <h4
+                        class="fw-bolder mt-4"
+                        style="font-family: Sofia Pro Bold"
+                      >
+                        {{ item.title }}
+                      </h4>
                       <p>{{ item.description }}</p>
                     </div>
                   </div>
@@ -492,9 +506,11 @@
               </div>
             </div>
           </div>
-  
+
           <!-- Right Arrow Button -->
-          <div class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center">
+          <div
+            class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
+          >
             <button
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
               @click="accountNext"
@@ -542,7 +558,11 @@
               <span class="text-success">and Engage Like You’re There!</span>
             </h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors. No friends? No worries! Chat with our humanlike AI assistant for outfit tips or movie recommendations. 
+              Connect with your loved ones via our end-to-end encrypted
+              messaging and calling service. Share multimedia content, laugh
+              over GIFs, and organize group chats, all under secure corridors.
+              No friends? No worries! Chat with our humanlike AI assistant for
+              outfit tips or movie recommendations.
             </p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
@@ -689,8 +709,8 @@
                     Bankruptcy remote
                   </h4>
                   <p>
-                    Your money are fully segregated and held with qualified,
-                    licensed, and insured custodians.
+                    Your money are fully segregated and held with regulated
+                    custodians and are secured by AAA-rated Treasury Bonds
                   </p>
                 </div>
               </div>
@@ -764,45 +784,52 @@ export default {
           icon: IconGlobalCashin,
           alt: "Global cash-in and cash-out",
           title: "Global cash-in and cash-out",
-          description: "Easily deposit and withdraw cash at any MoneyFlap location or at over 350,000 Moneygram locations in 181+ countries."
+          description:
+            "Easily deposit and withdraw cash at any MoneyFlap location or at over 350,000 Moneygram locations in 181+ countries.",
         },
         {
           icon: IconEasyDeposits,
           alt: "Easy deposits and withdrawals",
           title: "Easy deposits and withdrawals",
-          description: "Quickly link your account to thousands of local and international mobile wallets, banks, and crypto exchanges."
+          description:
+            "Quickly link your account to thousands of local and international mobile wallets, banks, and crypto exchanges.",
         },
         {
           icon: IconAirtime,
           alt: "Buy airtime and data",
           title: "Buy airtime and data",
-          description: "Quickly recharge credit and data for any phone, globally. Get 6% cashback on top-ups during weekdays and 10% on weekends."
+          description:
+            "Quickly recharge credit and data for any phone, globally. Get 6% cashback on top-ups during weekdays and 10% on weekends.",
         },
         {
           icon: IconReceipt,
           alt: "Flawless bill payments",
           title: "Flawless bill payments",
-          description: "Effortlessly pay bills worldwide in just a few clicks, with zero extra fees. Also, enjoy 3% cashback on every bill payment in select countries."
+          description:
+            "Effortlessly pay bills worldwide in just a few clicks, with zero extra fees. Also, enjoy 3% cashback on every bill payment in select countries.",
         },
         {
           icon: IconReceiveSquare,
           alt: "Receive your paycheck",
           title: "Receive your paycheck",
-          description: "Share your bank details with your employers worldwide, and receive your hard-earned money. Fric, not friction!"
+          description:
+            "Share your bank details with your employers worldwide, and receive your hard-earned money. Fric, not friction!",
         },
         {
           icon: IconNoteRemove,
           alt: "Smart subscriptions management",
           title: "Smart subscriptions management",
-          description: "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app."
+          description:
+            "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app.",
         },
         {
           icon: IconScan,
           alt: "Scan & Pay at thousands of merchants",
           title: "Scan & Pay at thousands of merchants",
-          description: "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon)"
-        }
-      ]
+          description:
+            "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon)",
+        },
+      ],
     };
   },
   methods: {
@@ -835,13 +862,10 @@ export default {
       if (carousel) {
         carousel.scrollLeft -= this.scrollAmount;
       }
-    }
-  }
+    },
+  },
 };
 </script>
-
-
-
 
 <style scoped lang="scss">
 .header {
