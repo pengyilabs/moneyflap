@@ -78,6 +78,25 @@
           between virtual currencies and non-gold-backed currencies, as well as
           offering custodial wallet services.
         </p>
+
+        <h3>
+          <img src="@/src/assets/Flag_of_Tanzania.svg" height="33px" />
+          Tanzania
+        </h3>
+        <p class="pb-3">
+          <strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a
+          <a
+            target="_blank"
+            href="https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV"
+          >
+            Money Service Business (MSB)
+          </a>
+          under No. 50562 with the Financial Intelligence Unit (FIU), under the
+          control of the Ministry of Finance of the United Republic of Tanzania.
+          This registration is for the purpose of reporting money laundering
+          cases and does not imply a license with the Capital Markets and
+          Securities Authority (CMSA) or Bank of Tanzania (BoT).
+        </p>
       </div>
     </div>
   </NuxtLayout>
