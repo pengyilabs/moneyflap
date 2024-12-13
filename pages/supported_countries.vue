@@ -127,11 +127,12 @@
 
           <h3 class="text-white">East Asia</h3>
           <ul class="text-white">
+            <li>Hong Kong <span class="coming-soon">Coming Soon</span></li>
             <li>Japan <span class="coming-soon">Coming Soon</span></li>
             <li>South Korea <span class="coming-soon">Coming Soon</span></li>
             <li>Taiwan <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          
+
           <h3 class="text-white">Southeast Asia</h3>
           <ul class="text-white">
             <li>Cambodia</li>
@@ -142,7 +143,7 @@
             <li>Thailand <span class="coming-soon">Coming Soon</span></li>
             <li>Vietnam <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          
+
           <h3 class="text-white">South Asia</h3>
           <ul class="text-white">
             <li>Bangladesh <span class="coming-soon">Coming Soon</span></li>
@@ -151,15 +152,12 @@
             <li>Pakistan <span class="coming-soon">Coming Soon</span></li>
             <li>Sri Lanka <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          
+
           <h3 class="text-white">Oceania</h3>
           <ul class="text-white">
             <li>Australia <span class="coming-soon">Coming Soon</span></li>
             <li>New Zealand <span class="coming-soon">Coming Soon</span></li>
           </ul>
-          
-
-
 
           <h3 class="text-white">Middle East</h3>
           <ul class="text-white">
@@ -167,9 +165,7 @@
             <li>Jordan</li>
             <li>Lebanon <span class="coming-soon">Coming Soon</span></li>
             <li>Oman</li>
-            <li>
-              Qatar <span class="coming-soon">Coming Soon</span>
-            </li>
+            <li>Qatar <span class="coming-soon">Coming Soon</span></li>
             <li>Saudi Arabia</li>
             <li>Turkey <span class="coming-soon">Coming Soon</span></li>
             <li>

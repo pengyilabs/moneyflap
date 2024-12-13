@@ -219,7 +219,7 @@
                 class="mx-3 my-4"
                 src="@/src/assets/logo-starknet.png"
                 alt="Starknet"
-                style="max-width: 100%"
+                style="width: 60%"
               />
             </div>
             <div
