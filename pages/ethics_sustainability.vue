@@ -157,6 +157,184 @@
         </section>
       </div>
     </div>
+
+    <section>
+      <!-- wave -->
+      <div style="background-color: #142339">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+          <path
+            fill="#16b5ce"
+            fill-opacity="1"
+            d="M0,64L120,74.7C240,85,480,107,720,101.3C960,96,1200,64,1320,48L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="d-flex align-items-top justify-content-center py-4"
+        style="background: #16b5ce !important"
+      >
+        <div class="container mt-5">
+          <div class="text-white d-flex flex-column mt-5">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <h2
+                  class="fw-bolder display-3 my-4"
+                  style="font-family: Sofia Pro Bold"
+                >
+                  Clean and Conscientious Consumerism
+                </h2>
+                <p>
+                  MoneyFlap is committed to allowing individuals the freedom to
+                  manage their finances as they wish while preventing potential
+                  financial issues and harmful behaviors.
+                </p>
+                <p>
+                  To achieve this, MoneyFlap will block all Merchant Category
+                  Codes (MCC) associated with transactions in unethical
+                  industries, including gambling, lotteries, casino, arms,
+                  weapons, explosives, drugs, and tobacco, among others. Despite
+                  these restrictions, MoneyFlap respects the choices of all
+                  businesses and individuals involved within these industries.
+                </p>
+              </div>
+              <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img
+                  class="mx-3 my-4"
+                  src="@/src/assets/girl1.svg"
+                  alt="Core values"
+                  style="
+                    max-width: 100%;
+                    background: #c4bcff;
+                    border-radius: 14px;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                  "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- wave -->
+      <div style="background-color: #16b5ce">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffff"
+            fill-opacity="1"
+            d="M0,224L120,240C240,256,480,288,720,282.7C960,277,1200,235,1320,213.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="d-flex align-items-top justify-content-center py-4"
+        style="background: #ffffff !important"
+      >
+        <div class="container mt-5">
+          <div class="text-white d-flex flex-column mt-5">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img
+                  class="mx-3 my-4"
+                  src="@/src/assets/man1.svg"
+                  alt="Core values"
+                  style="
+                    max-width: 100%;
+                    background: #00cec2;
+                    border-radius: 14px;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                  "
+                />
+              </div>
+
+              <div class="col-12 col-md-6" style="color: #142339">
+                <h2
+                  class="fw-bolder display-3 my-4"
+                  style="font-family: Sofia Pro Bold"
+                >
+                  Political Neutrality
+                </h2>
+                <p>
+                  At MoneyFlap, we recognize the crucial role politics plays in
+                  the sustainable development of countries and its capacity to
+                  effect significant social change.
+                </p>
+                <p>
+                  However, MoneyFlap remains neutral by not donating,
+                  sponsoring, endorsing, or associating with any political
+                  parties or politicians, nor allowing political fundraising
+                  campaigns on its platform. Despite this stance, MoneyFlap
+                  respects the political views of all stakeholders, including
+                  users and employees.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- wave -->
+      <div style="background-color: #ffffff">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+          <path
+            fill="#142339"
+            fill-opacity="1"
+            d="M0,96L60,106.7C120,117,240,139,360,138.7C480,139,600,117,720,101.3C840,85,960,75,1080,85.3C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="d-flex align-items-top justify-content-center py-4"
+        style="background: #142339 !important"
+      >
+        <div class="container mt-5">
+          <div class="text-white d-flex flex-column mt-5">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <h2
+                  class="fw-bolder display-3 my-4"
+                  style="font-family: Sofia Pro Bold"
+                >
+                  Honest Tax Practices
+                </h2>
+                <p>
+                  MoneyFlap acknowledges the importance of taxes as a primary
+                  revenue source for government funding in sectors like
+                  education, infrastructure, healthcare, and defense. As such,
+                  the company is firmly committed to adhering to tax laws and
+                  regulations in every country where it owes taxes.
+                  Additionally, MoneyFlap avoids exploiting unjustified tax
+                  privileges or exemptions.
+                </p>
+              </div>
+
+              <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img
+                  class="mx-3 my-4"
+                  src="@/src/assets/calc.svg"
+                  alt="Core values"
+                  style="
+                    max-width: 100%;
+                    background: #c4bcff;
+                    border-radius: 14px;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                  "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </NuxtLayout>
 </template>
 
@@ -221,6 +399,75 @@
   }
   .footer {
     background: rgb(20, 35, 57, 57) !important;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .clean-wave-container {
+    height: 41px;
+  }
+  .clean-wave-container > svg {
+    transform: translateY(-9dvh);
+  }
+  .political-wave-container {
+    height: 41px;
+  }
+  .political-wave-container > svg {
+    transform: translateY(-21dvh);
+    position: relative;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .clean-wave-container {
+    height: 23px;
+  }
+  .clean-wave-container > svg {
+    transform: translateY(-10dvh);
+  }
+
+  .political-wave-container {
+    height: 52px;
+  }
+  .political-wave-container > svg {
+    transform: translateY(-18dvh);
+    position: relative;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .clean-wave-container {
+    height: 23px;
+  }
+  .clean-wave-container > svg {
+    transform: translateY(-8dvh);
+  }
+
+  .political-wave-container {
+    height: 52px;
+  }
+  .political-wave-container > svg {
+    transform: translateY(-20dvh);
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .clean-wave-container {
+    height: 23px;
+  }
+  .clean-wave-container > svg {
+    transform: translateY(-9dvh);
+  }
+
+  .political-wave-container {
+    height: 52px;
+  }
+  .political-wave-container > svg {
+    transform: translateY(-22dvh);
+    position: relative;
+    z-index: 1;
   }
 }
 </style>
