@@ -214,20 +214,18 @@
       </div>
     </div>
 
-    <div class="d-flex" style="flex-wrap: wrap">
-      <div class="d-flex w-100" style="transform: translateY(214px)">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#11b5c7"
-            fill-opacity="1"
-            d="M0,32L120,42.7C240,53,480,75,720,69.3C960,64,1200,32,1320,16L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
+    <section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 90">
+        <path
+          fill="#11b5c7"
+          fill-opacity="1"
+          d="M0,32L120,42.7C240,53,480,75,720,69.3C960,64,1200,32,1320,16L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
 
-      <div style="background: #11b5c7; z-index: 1" class="w-100">
-        <section class="text-white d-flex flex-column container">
-          <div class="d-flex align-items-top justify-content-center py-4 px-1">
+      <div style="background: #11b5c7" class="row pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-2">
             <div
               style="
                 border: 1px solid white;
@@ -238,231 +236,248 @@
                 padding-right: 30px;
               "
             >
-              Available Soon
+              <span class="d-flex justify-content-center text-white"
+                >Available Soon</span
+              >
             </div>
           </div>
+        </div>
 
-          <div class="d-flex justify-content-center py-4 px-1 flex-wrap">
-            <h3 class="fw-bolder display-3 my-4 text-center w-100">
+        <div class="row justify-content-center">
+          <div class="col-9">
+            <h3 class="fw-bolder display-3 my-4 text-center w-100 text-white">
               Global Reach, Local Touch: Harness the Power of MHR and MFUSD
             </h3>
 
-            <p class="my-4 text-center" style="width: 60%">
-              MHR is a global stablecoin payment network enabling developers to
-              transfer funds in and out, on-ramp, off-ramp across more than 90
-              countries at mid-market rates through real-time domestic payment
-              systems. With one API integration, developers can access limitless
-              cross-border payments between bank accounts, mobile wallets, and
-              stablecoin wallets. Transactions can be settled quickly using
-              MFUSD or any USD stablecoins.
-            </p>
-          </div>
-
-          <div class="d-flex align-items-top justify-content-center py-4 px-1">
-            <img src="@/src/assets/map.svg" alt="" srcset="" />
-          </div>
-        </section>
-
-        <div class="smarter-card-background d-flex align-items-center">
-          <div
-            class="py-4 px-1 w-100 flex-wrap d-flex justify-content-center w-100"
-          >
-            <h4 class="text-white fw-bolder display-3 my-4 text-center w-100">
-              Who We Serve
-            </h4>
-
-            <!-- icons -->
-            <div
-              style="width: 70%"
-              class="d-flex flex-wrap justify-content-center"
-            >
-              <!-- bank -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 12%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Bank</div>
-              </div>
-
-              <!-- fintech -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Fintechs</div>
-              </div>
-
-              <!-- neobak -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Neobanks</div>
-              </div>
-
-              <!-- mobile wallet -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Mobile wallets</div>
-              </div>
-
-              <!-- crypto -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Crypto Exchanges</div>
-              </div>
-
-              <!-- remittance operators -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Remittance Operators</div>
-              </div>
-
-              <!-- mobile money operators -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Mobile Money Operators</div>
-              </div>
-
-              <!-- payments service providers -->
-              <div
-                class="d-flex align-items-center"
-                style="
-                  border: 1px solid white;
-                  border-radius: 50px;
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  justify-content: space-between;
-                  min-width: 10%;
-                  margin: 12px;
-                "
-              >
-                <div>
-                  <img src="@/src/assets/bank.svg" alt="" srcset="" />
-                </div>
-
-                <div class="text-white">Payments Service Providers</div>
+            <div class="row justify-content-center">
+              <div style="width: 80%">
+                <p class="my-4 text-center text-white">
+                  MHR is a global stablecoin payment network enabling developers
+                  to transfer funds in and out, on-ramp, off-ramp across more
+                  than 90 countries at mid-market rates through real-time
+                  domestic payment systems. With one API integration, developers
+                  can access limitless cross-border payments between bank
+                  accounts, mobile wallets, and stablecoin wallets. Transactions
+                  can be settled quickly using MFUSD or any USD stablecoins.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <img
+              src="@/src/assets/map.svg"
+              alt=""
+              srcset=""
+              style="width: 70%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #11b5c7; z-index: 1" class="w-100">
+      <div class="smarter-card-background d-flex align-items-center">
+        <div
+          class="py-4 px-1 w-100 flex-wrap d-flex justify-content-center w-100"
+        >
+          <h4 class="text-white fw-bolder display-3 my-4 text-center w-100">
+            Who We Serve
+          </h4>
+
+          <!-- icons -->
+          <div
+            style="width: 70%"
+            class="d-flex flex-wrap justify-content-center"
+          >
+            <!-- bank -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 12%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Bank</div>
+            </div>
+
+            <!-- fintech -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Fintechs</div>
+            </div>
+
+            <!-- neobak -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Neobanks</div>
+            </div>
+
+            <!-- mobile wallet -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Mobile wallets</div>
+            </div>
+
+            <!-- crypto -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Crypto Exchanges</div>
+            </div>
+
+            <!-- remittance operators -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Remittance Operators</div>
+            </div>
+
+            <!-- mobile money operators -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Mobile Money Operators</div>
+            </div>
+
+            <!-- payments service providers -->
+            <div
+              class="d-flex align-items-center"
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                justify-content: space-between;
+                min-width: 10%;
+                margin: 12px;
+              "
+            >
+              <div>
+                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+              </div>
+
+              <div class="text-white">Payments Service Providers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
       class="footer d-flex align-items-top justify-content-center py-4 px-1"
       style="background: #11b5c7"
     >
       <div class="container mt-5">
-        <section class="text-white d-flex flex-column mt-5">
+        <div class="text-white d-flex flex-column mt-5">
           <div class="row w-100">
             <div class="col-12 col-md-6">
               <h3
@@ -499,9 +514,10 @@
               />
             </div>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
+
     <div class="d-flex align-items-top justify-content-center py-4 px-1">
       <div class="container mt-5 show-md">
         <section class="d-flex flex-column mt-5">
