@@ -268,7 +268,7 @@
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
             <img
-              src="@/src/assets/map.svg"
+              src="../src/assets/map.svg"
               alt=""
               srcset=""
               style="width: 70%"
@@ -308,7 +308,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+                <img src="../src/assets/bank.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Bank</div>
@@ -330,7 +330,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/fintech.svg" alt="" srcset="" />
+                <img src="../src/assets/fintech.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Fintechs</div>
@@ -352,7 +352,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+                <img src="../src/assets/bank.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Neobanks</div>
@@ -374,7 +374,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/wallet.svg" alt="" srcset="" />
+                <img src="../src/assets/wallet.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Mobile wallets</div>
@@ -396,7 +396,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/cripto.svg" alt="" srcset="" />
+                <img src="../src/assets/cripto.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Crypto Exchanges</div>
@@ -418,7 +418,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/bank.svg" alt="" srcset="" />
+                <img src="../src/assets/bank.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Remittance Operators</div>
@@ -440,7 +440,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/coin.svg" alt="" srcset="" />
+                <img src="../src/assets/coin.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Mobile Money Operators</div>
@@ -462,7 +462,7 @@
               "
             >
               <div>
-                <img src="@/src/assets/coin2.svg" alt="" srcset="" />
+                <img src="../src/assets/coin2.svg" alt="" srcset="" />
               </div>
 
               <div class="text-white">Payments Service Providers</div>
