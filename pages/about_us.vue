@@ -8,18 +8,17 @@
               class="text-white fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              About us
+              {{ $t("about.main-title") }}
             </h2>
             <p class="text-white">
-              We are underserved people building a simple, transparent, and
-              modern all-in-one global platform for underserved people.
+              {{ $t("about.main-subtitle") }}
             </p>
             <div class="d-flex flex-row mt-5 flex-wrap">
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
-                  Get Started
+                  {{ $t("about.buttons.get-started") }}
                 </button>
               </div>
               <div class="me-3 mt-3">
@@ -28,7 +27,7 @@
                   aria-current="page"
                   to="/careers"
                 >
-                  Careers
+                  {{ $t("about.buttons.careers") }}
                 </RouterLink>
                 <!-- <a
                   class="btn btn-outline-light btn-lg shadow rounded-5 px-5"
@@ -56,16 +55,7 @@
             class="col-12 col-md-6 d-flex align-items-center justify-content-center"
           >
             <span class="">
-              How can you leave your legacy when you’re trapped in legacy
-              systems, or denied access to the system altogether. Banks
-              shouldn’t feel a relic from a different era. Elitist, Slow,
-              Expensive. Banks should reflect the times we live in. Inclusive,
-              Fast, Free. We deserve a blockchain-based bank for us. That’s up
-              to speed with modern life. This shouldn’t be a fantasy, when it’s
-              a reality for the rest of the world. Our money should be ours. To
-              do what we want with. To put where we need to. To build our
-              futures. From underserved to what you deserve. A new shape of
-              banking for emerging regions.
+              {{ $t("about.description") }}
             </span>
           </div>
           <div class="col-12 col-md-6">
@@ -83,12 +73,10 @@
           <h3
             class="text-white fw-bolder display-3 my-4"
             style="font-family: Sofia Pro Bold"
-          >
-            Leadership <span class="text-success">Team</span>
-          </h3>
+            v-html="$t('about.leadership-title')"
+          ></h3>
           <p class="text-white my-4">
-            We founded MoneyFlap to be the bridge between the traditional and
-            decentralized finance.
+            {{ $t("about.leadership-description") }}
           </p>
           <div class="d-flex flex-row flex-wrap">
             <div class="fixed-width d-flex flex-column m-3">
@@ -189,7 +177,7 @@
             class="fw-bolder display-3 my-4"
             style="font-family: Sofia Pro Bold"
           >
-            Trusted by:
+            {{ $t("about.trusted") }}
           </h3>
           <div class="row my-4 py-4 justify-content-center">
             <div

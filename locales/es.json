@@ -16,7 +16,7 @@
     "smarter-card": "Una tarjeta más inteligente",
     "earn-up-title": "Gana hasta un 35%",
     "earn-up-subtitle": "¡Cashback ilimitado en tus marcas favoritas, de verdad!",
-    "earn-up-description": "¡Bienvenido a nuestro centro comercial virtual! ¿En qué otro lugar puedes comprar en numerosas marcas top y obtener hasta un 35% de cashback en cada compra? ¡Imagina los cientos o incluso miles de dólares que podrías estar ahorrando cada año! Sé un comprador más inteligente.",
+    "earn-up-description": "¡Bienvenido a nuestro centro comercial virtual! ¿En qué otro lugar puedes comprar en numerosas marcas principales y obtener hasta un 35% de reembolso en cada compra? ¡Imagina los cientos o incluso miles de dólares que podrías estar ahorrando cada año! Sé un comprador más inteligente.",
     "your-moneyflap-title": "Con tu cuenta MoneyFlap, pasa de estar desatendido a lo que",
     "your-moneyflap-slide1-title": "Depósitos y retiros globales",
     "your-moneyflap-slide1-description": "Deposita y retira efectivo fácilmente en cualquier ubicación de MoneyFlap o en más de 350,000 locales de Moneygram en más de 181 países.",
@@ -56,6 +56,18 @@
       "get-started": "Comenzar",
       "see-our-coverage": "Ver nuestra cobertura",
       "available-soon": "Próximamente"
+    }
+  },
+  "about": {
+    "main-title": "Sobre nosotros",
+    "main-subtitle": "Somos personas desatendidas construyendo una plataforma global todo en uno simple, transparente y moderna para personas desatendidas.",
+    "description": "¿Cómo puedes dejar tu legado cuando estás atrapado en sistemas heredados o te niegan el acceso al sistema por completo? Los bancos no deberían parecer una reliquia de una era diferente. Elitistas, lentos, caros. Los bancos deberían reflejar los tiempos en que vivimos. Inclusivos, rápidos, gratuitos. Merecemos un banco basado en blockchain para nosotros. Que esté al día con la vida moderna. Esto no debería ser una fantasía, cuando es una realidad para el resto del mundo. Nuestro dinero debería ser nuestro. Para hacer lo que queramos. Para ponerlo donde lo necesitemos. Para construir nuestros futuros. De desatendidos a lo que mereces. Una nueva forma de banca para regiones emergentes.",
+    "leadership-title": "Equipo de <span class='text-success'>liderazgo</span>",
+    "leadership-description": "Fundamos MoneyFlap para ser el puente entre las finanzas tradicionales y descentralizadas.",
+    "trusted": "Confían en nosotros:",
+    "buttons": {
+      "get-started": "Comenzar",
+      "careers": "Empleo"
     }
   }
 }

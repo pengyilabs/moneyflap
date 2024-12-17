@@ -1,6 +1,5 @@
 <template>
   <NuxtLayout name="weblayout">
-    <button @click="setLocale('es')">en</button>
     <section
       class="header d-flex align-items-center justify-content-center py-5"
     >
@@ -725,17 +724,8 @@ import IconReceipt from "@/src/assets/receipt.svg";
 import IconReceiveSquare from "@/src/assets/receive-square.svg";
 import IconNoteRemove from "@/src/assets/note-remove.svg";
 import IconScan from "@/src/assets/scan.svg";
-import { useI18n } from "vue-i18n";
 
 export default {
-  setup() {
-    const { locale, setLocale } = useI18n();
-
-    return {
-      locale,
-      setLocale,
-    };
-  },
   data() {
     return {
       smartCardIndex: 0,

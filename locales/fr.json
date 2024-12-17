@@ -57,5 +57,17 @@
       "see-our-coverage": "Voir notre couverture",
       "available-soon": "Bientôt disponible"
     }
+  },
+  "about": {
+    "main-title": "À propos de nous",
+    "main-subtitle": "Nous sommes des personnes mal desservies qui construisons une plateforme mondiale tout-en-un simple, transparente et moderne pour les personnes mal desservies.",
+    "description": "Comment laisser votre héritage quand vous êtes piégé dans des systèmes obsolètes ou privé d'accès au système ? Les banques ne devraient pas sembler être une relique d'une autre époque. Élitistes, lentes, coûteuses. Les banques devraient refléter notre époque. Inclusives, rapides, gratuites. Nous méritons une banque basée sur la blockchain pour nous. Qui soit en phase avec la vie moderne. Ce ne devrait pas être un fantasme, quand c'est une réalité pour le reste du monde. Notre argent devrait nous appartenir. Pour en faire ce que nous voulons. Pour le placer où nous en avons besoin. Pour construire notre avenir. De mal desservis à ce que vous méritez. Une nouvelle forme de services bancaires pour les régions émergentes.",
+    "leadership-title": "Équipe de <span class='text-success'>direction</span>",
+    "leadership-description": "Nous avons fondé MoneyFlap pour être le pont entre la finance traditionnelle et décentralisée.",
+    "trusted": "Ils nous font confiance :",
+    "buttons": {
+      "get-started": "Commencer",
+      "careers": "Carrières"
+    }
   }
 }

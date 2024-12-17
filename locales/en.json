@@ -52,11 +52,22 @@
     "take-security-card4-description": "Have an account query at 3 am? Ok. Chat with our team 24/7 through the app.",
     "your-legacy-title": "Your Legacy, Not Theirs",
     "your-legacy-description": "Open your account in 2 minutes, verify your ID, and start enjoying your Everything app.",
-
     "buttons": {
       "get-started": "Get Started",
       "see-our-coverage": "See our coverage",
       "available-soon": "Available Soon"
+    }
+  },
+  "about": {
+    "main-title": "About us",
+    "main-subtitle": "We are underserved people building a simple, transparent, and modern all-in-one global platform for underserved people. ",
+    "description": "How can you leave your legacy when you’re trapped in legacy systems, or denied access to the system altogether. Banks shouldn’t feel a relic from a different era. Elitist, Slow, Expensive. Banks should reflect the times we live in. Inclusive, Fast, Free. We deserve a blockchain-based bank for us. That’s up to speed with modern life. This shouldn’t be a fantasy, when it’s a reality for the rest of the world. Our money should be ours. To do what we want with. To put where we need to. To build our futures. From underserved to what you deserve. A new shape of banking for emerging regions.",
+    "leadership-title": "Leadership <span class='text-success'>Team</span>",
+    "leadership-description": "We founded MoneyFlap to be the bridge between the traditional and decentralized finance.",
+    "trusted": "Trusted by:",
+    "buttons": {
+      "get-started": "Get Started",
+      "careers": "Careers"
     }
   }
 }
