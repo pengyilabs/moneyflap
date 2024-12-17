@@ -69,5 +69,69 @@
       "get-started": "Get Started",
       "careers": "Careers"
     }
+  },
+  "pricing": {
+    "main-title": "<span class='text-success'>Fair</span>, Competitive, <br /> and <span class='text-success'>Transparent</span> <br /> Transaction Fees",
+    "main-description": "We believe in offering clear and upfront pricing. Here's a breakdown of our fees to help you understand the costs associated with using our services:",
+
+    "spending-card-title": "SPENDING ACCOUNTS",
+    "spending-card-general-title": "General",
+    "spending-card-general-op1": "Opening Fee",
+    "spending-card-general-op2": "Monthly Fee",
+    "spending-card-general-op3": "Suscription Fee",
+    "spending-card-general-op4": "Minimum Deposit",
+
+    "spending-card-money-title": "Adding Money",
+    "spending-card-money-op1": "<span>Cash deposit & withdrawal  <br />  <small style='margin-left: 45px'>    Transaction fee may apply at MoneyGram locations  </small></span>",
+    "spending-card-money-op2": "Crypto deposit",
+    "spending-card-money-op3": "Open banking",
+    "spending-card-money-op4": "<span>Bank transfer  <br />  <small style='margin-left: 45px'>    Fee only applies after 2 free transfers every month  </small></span>",
+    "spending-card-money-op5": "<span> Mobile wallet <br /> <small style=\"margin-left: 45px\">   Fee varies by mobile wallet </smal",
+
+    "spending-card-send-money-title": "Sending Money",
+    "spending-card-send-money-op1": "International transfer to contacts",
+    "spending-card-send-money-op2": "<span>International transfer to bank accounts   <br />   <small style=\"margin-left: 45px\">     Fee varies by currency   </small> </span>",
+    "spending-card-send-money-op3": "<span>International transfer to mobile wallets   <br />   <small style=\"margin-left: 45px\">     Fee varies by mobile wallet   </small> </span>",
+    "spending-card-send-money-op4": "<span>International transfer to crypto wallets<br /><small style=\"margin-left: 45px\">Network fee may apply</small></span>",
+    "spending-card-send-money-op5": "Foreign exchange spreads/markups",
+
+    "spending-card-reveiving-money-title": "Reveiving Money",
+    "spending-card-reveiving-money-op1": "<span>Getting banking details in fiat currencies<br /><small style=\"margin-left: 45px\">USD, EUR, and GBP</small></span>",
+    "spending-card-reveiving-money-op2": "<span>Receiving payments in fiat currencies<br /><small style=\"margin-left: 45px\">Fixed fee per payment</small></span>",
+    "spending-card-reveiving-money-op3": "Getting on-chain details in stablecoins",
+    "spending-card-reveiving-money-op4": "Receiving payments in stablecoins",
+
+    "spending-card-paying-bills-title": "Paying Bills",
+    "spending-card-paying-bills-op1": "<span>International bill payments<br /><small style=\"margin-left: 45px\">Fee varies by country</small>span>",
+
+    "spending-card-yield-accounts-title": "YIELD ACCOUNTS",
+    "spending-card-yield-accounts-op1": "Opening fee",
+    "spending-card-yield-accounts-op2": "Management fee",
+    "spending-card-yield-accounts-op3": "Minimum deposit",
+
+    "spending-cards-title": "CARDS",
+    "spending-cards-op1": "Virtual card issuance",
+    "spending-cards-op2": "Eco plastic card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op3": "Metal card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op4": " Mirror card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op5": "Transaction fee",
+    "spending-cards-op6": "Foreign transaction fee",
+
+    "buttons": {
+      "get-started": "Get Started",
+      "explore-fees": "Explore Fees"
+    },
+    "txt": {
+      "free": "Free",
+      "none": "None",
+      "from02": "From 0.2%",
+      "from1": "From 1%",
+      "from025": "From 0.25%",
+      "from025USD": "From 0.25% (capped at 1.2 USD)",
+      "015": "0.15%",
+      "2-6USD": "2.6 USD",
+      "from0USD": "From 0 USD",
+      "3USD": "3 USD"
+    }
   }
 }

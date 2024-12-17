@@ -10,17 +10,10 @@
               <h1
                 class="text-white fw-bolder display-4 mt-4"
                 style="font-family: Sofia Pro Bold"
-              >
-                <span class="text-success">Fair</span>, Competitive,
-                <br />
-                and <span class="text-success">Transparent</span>
-                <br />
-                Transaction Fees
-              </h1>
+                v-html="$t('pricing.main-title')"
+              ></h1>
               <p class="text-white my-4 lh-lg fw-medium">
-                We believe in offering clear and upfront pricing. Here's a
-                breakdown of our fees to help you understand the costs
-                associated with using our services:
+                {{ $t("pricing.main-description") }}
               </p>
             </div>
             <div class="">
@@ -29,7 +22,7 @@
                   <button
                     class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                   >
-                    Get Started
+                    {{ $t("pricing.buttons.get-started") }}
                   </button>
                 </div>
                 <div class="me-3 mt-3">
@@ -38,7 +31,7 @@
                     aria-current="page"
                     to="/pricing"
                   >
-                    Explore Fees
+                    {{ $t("pricing.buttons.explore-fees") }}
                   </RouterLink>
                 </div>
               </div>
@@ -62,7 +55,9 @@
             <div class="rainbow-border rounded-5">
               <div class="row m-0 p-0 w-100">
                 <div class="col-9 rounded-tl-5 p-4 bg-white margin-bottom">
-                  <h2 class="text-success">SPENDING ACCOUNTS</h2>
+                  <h2 class="text-success">
+                    {{ $t("pricing.spending-card-title") }}
+                  </h2>
                 </div>
                 <div
                   class="col-3 bg-green rounded-tr-5 p-4 margin-bottom border-left"
@@ -80,9 +75,9 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3>General</h3>
+                      <h3>{{ $t("pricing.spending-card-general-title") }}</h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
-                        Get Started
+                        {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
                     <!-- <ul class="list-unstyled list-checked mt-4 text-muted">
@@ -121,7 +116,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-4 mb-0 text-muted">
                       <li>
-                        <span> Opening Fee </span>
+                        <span>
+                          {{ $t("pricing.spending-card-general-op1") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -131,7 +128,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -143,7 +142,9 @@
                   >
                     <ul class="list-unstyled list-checked m-0 text-muted">
                       <li>
-                        <span> Monthly Fee </span>
+                        <span>
+                          {{ $t("pricing.spending-card-general-op2") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -153,7 +154,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column m-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -165,7 +168,9 @@
                   >
                     <ul class="list-unstyled list-checked m-0 text-muted">
                       <li>
-                        <span> Suscription Fee </span>
+                        <span>
+                          {{ $t("pricing.spending-card-general-op3") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -175,7 +180,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column m-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -187,7 +194,9 @@
                   >
                     <ul class="list-unstyled list-checked text-muted mb-2">
                       <li>
-                        <span> Minimum Deposit </span>
+                        <span>
+                          {{ $t("pricing.spending-card-general-op4") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -197,7 +206,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column text-muted mb-2">
-                      <span style="height: 40px"> None </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.none") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -215,9 +226,9 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3>Adding Money</h3>
+                      <h3>{{ $t("pricing.spending-card-money-title") }}</h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
-                        Get Started
+                        {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
                     <!-- <ul class="list-unstyled list-checked mt-4 text-muted">
@@ -267,15 +278,7 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-4 mb-0 text-muted">
-                      <li>
-                        <span>
-                          Cash deposit & withdrawal
-                          <br />
-                          <small style="margin-left: 45px">
-                            Transaction fee may apply at MoneyGram locations
-                          </small>
-                        </span>
-                      </li>
+                      <li v-html="$t('pricing.spending-card-money-op1')"></li>
                     </ul>
                   </div>
                 </div>
@@ -284,51 +287,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 64px"> Free </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white">
-                  <div
-                    class="div-margin-left d-flex flex-column justify-content-between"
-                  >
-                    <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
-                      <li>
-                        <span> Crypto deposit </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
-                >
-                  <div class="d-flex flex-column justify-content-end">
-                    <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> Free </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white">
-                  <div
-                    class="div-margin-left d-flex flex-column justify-content-between"
-                  >
-                    <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
-                      <li>
-                        <span> Open banking </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
-                >
-                  <div class="d-flex flex-column justify-content-end">
-                    <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -341,11 +302,7 @@
                     <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
                       <li>
                         <span>
-                          Bank transfer
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fee only applies after 2 free transfers every month
-                          </small>
+                          {{ $t("pricing.spending-card-money-op2") }}
                         </span>
                       </li>
                     </ul>
@@ -356,7 +313,57 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> From 0.2% </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
+                      <li>
+                        <span>
+                          {{ $t("pricing.spending-card-money-op3") }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column mt-0 text-muted">
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
+                      <li v-html="$t('pricing.spending-card-money-op4')"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column mt-0 text-muted">
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.from02") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -367,15 +374,7 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-0 mb-0 text-muted">
-                      <li>
-                        <span>
-                          Mobile wallet
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fee varies by mobile wallet
-                          </small>
-                        </span>
-                      </li>
+                      <li v-html="$t('pricing.spending-card-money-op5')"></li>
                     </ul>
                   </div>
                 </div>
@@ -384,7 +383,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> From 1% </span>
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.from1") }}</span
+                      >
                     </div>
                   </div>
                 </div>
@@ -402,9 +403,11 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3>Sending Money</h3>
+                      <h3>
+                        {{ $t("pricing.spending-card-send-money-title") }}
+                      </h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
-                        Get Started
+                        {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
                   </div>
@@ -420,7 +423,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-4 text-muted">
                       <li>
-                        <span> International transfer to contacts </span>
+                        <span>
+                          {{ $t("pricing.spending-card-send-money-op1") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -430,7 +435,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -441,15 +448,9 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
-                      <li>
-                        <span>
-                          International transfer to bank accounts
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fee varies by currency
-                          </small>
-                        </span>
-                      </li>
+                      <li
+                        v-html="$t('pricing.spending-card-send-money-op2')"
+                      ></li>
                     </ul>
                   </div>
                 </div>
@@ -458,36 +459,8 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> From 0.25% </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white">
-                  <div
-                    class="div-margin-left d-flex flex-column justify-content-between"
-                  >
-                    <ul class="list-unstyled list-checked mt-0 text-muted">
-                      <li>
-                        <span>
-                          International transfer to mobile wallets
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fee varies by mobile wallet
-                          </small>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
-                >
-                  <div class="d-flex flex-column justify-content-end">
-                    <div class="d-flex flex-column mt-0 text-muted">
-                      <span
-                        >From 0.25% (capped at 1.2 USD)</span
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.from025") }}</span
                       >
                     </div>
                   </div>
@@ -499,15 +472,9 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
-                      <li>
-                        <span>
-                          International transfer to crypto wallets
-                          <br />
-                          <small style="margin-left: 45px">
-                            Network fee may apply
-                          </small>
-                        </span>
-                      </li>
+                      <li
+                        v-html="$t('pricing.spending-card-send-money-op3')"
+                      ></li>
                     </ul>
                   </div>
                 </div>
@@ -516,7 +483,31 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 0.15% </span>
+                      <span>{{ $t("pricing.txt.from025USD") }}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 text-muted">
+                      <li
+                        v-html="$t('pricing.spending-card-send-money-op4')"
+                      ></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column mt-0 text-muted">
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.015") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -528,7 +519,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span> Foreign exchange spreads/markups </span>
+                        <span>
+                          {{ $t("pricing.spending-card-send-money-op5") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -538,7 +531,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> None </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.none") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -556,7 +551,9 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3>Reveiving Money</h3>
+                      <h3>
+                        {{ $t("pricing.spending-card-reveiving-money-title") }}
+                      </h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
                         Get Started
                       </button>
@@ -573,15 +570,9 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
-                      <li>
-                        <span>
-                          Getting banking details in fiat currencies
-                          <br />
-                          <small style="margin-left: 45px">
-                            USD, EUR, and GBP
-                          </small>
-                        </span>
-                      </li>
+                      <li
+                        v-html="$t('pricing.spending-card-reveiving-money-op1')"
+                      ></li>
                     </ul>
                   </div>
                 </div>
@@ -590,7 +581,33 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> Free </span>
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 text-muted">
+                      <li
+                        v-html="$t('pricing.spending-card-reveiving-money-op2')"
+                      ></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column mt-0 text-muted">
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.2-6USD") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -603,11 +620,7 @@
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
                         <span>
-                          Receiving payments in fiat currencies
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fixed fee per payment
-                          </small>
+                          {{ $t("pricing.spending-card-reveiving-money-op3") }}
                         </span>
                       </li>
                     </ul>
@@ -618,29 +631,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 2.6 USD </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white">
-                  <div
-                    class="div-margin-left d-flex flex-column justify-content-between"
-                  >
-                    <ul class="list-unstyled list-checked mt-0 text-muted">
-                      <li>
-                        <span> Getting on-chain details in stablecoins </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div
-                  class="col-3 bg-green border-left d-flex flex-column justify-content-end"
-                >
-                  <div class="d-flex flex-column justify-content-end">
-                    <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -652,7 +645,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span> Receiving payments in stablecoins </span>
+                        <span>
+                          {{ $t("pricing.spending-card-reveiving-money-op3") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -662,7 +657,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -680,7 +677,9 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3>Paying Bills</h3>
+                      <h3>
+                        {{ $t("pricing.spending-card-paying-bills-title") }}
+                      </h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
                         Get Started
                       </button>
@@ -697,15 +696,9 @@
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
                     <ul class="list-unstyled list-checked mt-4 text-muted">
-                      <li>
-                        <span>
-                          International bill payments
-                          <br />
-                          <small style="margin-left: 45px">
-                            Fee varies by country
-                          </small>
-                        </span>
-                      </li>
+                      <li
+                        v-html="$t('pricing.spending-card-paying-bills-op1')"
+                      ></li>
                     </ul>
                   </div>
                 </div>
@@ -714,7 +707,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 64px"> From 0 USD </span>
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.from0USD") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -732,9 +727,11 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3 class="text-success">YIELD ACCOUNTS</h3>
+                      <h3 class="text-success">
+                        {{ $t("pricing.spending-card-yield-accounts-title") }}
+                      </h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
-                        Get Started
+                        {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
                   </div>
@@ -750,7 +747,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-4 text-muted">
                       <li>
-                        <span> Opening fee </span>
+                        <span>
+                          {{ $t("pricing.spending-card-yield-accounts-op1") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -760,7 +759,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -772,7 +773,9 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span> Management fee </span>
+                        <span>
+                          {{ $t("pricing.spending-card-yield-accounts-op2") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -782,7 +785,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> 0.15% </span>
+                      <span style="height: 40px">{{
+                        $t("pricing.txt.015")
+                      }}</span>
                     </div>
                   </div>
                 </div>
@@ -794,7 +799,9 @@
                   >
                     <ul class="list-unstyled list-checked text-muted mt-0">
                       <li>
-                        <span> Minimum deposit </span>
+                        <span>
+                          {{ $t("pricing.spending-card-yield-accounts-op3") }}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -804,7 +811,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column text-muted mt-0">
-                      <span style="height: 40px"> None </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.none") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -822,9 +831,11 @@
                     class="div-icon-separator d-flex flex-column justify-content-between"
                   >
                     <div>
-                      <h3 class="text-success">CARDS</h3>
+                      <h3 class="text-success">
+                        {{ $t("pricing.spending-cards-title") }}
+                      </h3>
                       <button class="btn btn-dark btn-lg rounded-5 px-4">
-                        Get Started
+                        {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
                   </div>
@@ -841,7 +852,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-4 text-muted">
                       <li>
-                        <span> Virtual card issuance </span>
+                        <span> {{ $t("pricing.spending-cards-op1") }} </span>
                       </li>
                     </ul>
                   </div>
@@ -851,7 +862,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-4 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -864,13 +877,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span>
-                          Eco plastic card issuance
-                          <br />
-                          <small style="margin-left: 45px">
-                            One-time fee per card
-                          </small>
-                        </span>
+                        <span v-html="$t('pricing.spending-cards-op2')"> </span>
                       </li>
                     </ul>
                   </div>
@@ -880,7 +887,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 3 USD </span>
+                      <span style="height: 64px">
+                        {{ $t("pricing.txt.3USD") }}</span
+                      >
                     </div>
                   </div>
                 </div>
@@ -892,13 +901,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span>
-                          Metal card issuance
-                          <br />
-                          <small style="margin-left: 45px">
-                            One-time fee per card
-                          </small>
-                        </span>
+                        <span v-html="$t('pricing.spending-cards-op3')"> </span>
                       </li>
                     </ul>
                   </div>
@@ -920,13 +923,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span>
-                          Mirror card issuance
-                          <br />
-                          <small style="margin-left: 45px">
-                            One-time fee per card
-                          </small>
-                        </span>
+                        <span v-html="$t('pricing.spending-cards-op4')"> </span>
                       </li>
                     </ul>
                   </div>
@@ -948,7 +945,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span> Transaction fee </span>
+                        <span> {{ $t("pricing.spending-cards-op5") }} </span>
                       </li>
                     </ul>
                   </div>
@@ -958,7 +955,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -970,7 +969,7 @@
                   >
                     <ul class="list-unstyled list-checked mt-0 text-muted">
                       <li>
-                        <span> Foreign transaction fee </span>
+                        <span> {{ $t("pricing.spending-cards-op6") }} </span>
                       </li>
                     </ul>
                   </div>
@@ -980,7 +979,9 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column text-muted mt-0">
-                      <span style="height: 40px"> Free </span>
+                      <span style="height: 40px">
+                        {{ $t("pricing.txt.free") }}
+                      </span>
                     </div>
                   </div>
                 </div>
