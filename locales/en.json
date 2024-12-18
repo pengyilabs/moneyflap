@@ -180,5 +180,14 @@
       "available-soon": "Available Soon",
       "mfusd-transparency-page": "MFUSD Transparency page"
     }
+  },
+
+  "navbar": {
+    "about-us": "About Us",
+    "security": "Security",
+    "pricing": "Pricing",
+    "mfusd": "MFUSD",
+    "help": "Help",
+    "get-started": "Get Started"
   }
 }

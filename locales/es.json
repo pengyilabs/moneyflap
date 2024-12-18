@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0.15%",
+      "15": "0,15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -159,5 +159,13 @@
       "available-soon": "Próximamente",
       "mfusd-transparency-page": "página de Transparencia de MFUSD"
     }
+  },
+  "navbar": {
+    "about-us": "Nosotros",
+    "security": "Seguridad",
+    "pricing": "Precios",
+    "mfusd": "MFUSD",
+    "help": "Ayuda",
+    "get-started": "Comenzar"
   }
 }

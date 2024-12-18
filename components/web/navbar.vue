@@ -33,7 +33,7 @@
               aria-current="page"
               to="/about_us"
             >
-              About Us
+              {{ $t("navbar.about-us") }}
             </RouterLink>
           </li>
           <li class="nav-item">
@@ -42,7 +42,7 @@
               target="_blank"
               href="https://security.moneyflap.com/"
             >
-              Security
+              {{ $t("navbar.security") }}
             </a>
           </li>
           <li class="nav-item">
@@ -51,7 +51,7 @@
               aria-current="page"
               to="/pricing"
             >
-              Pricing
+              {{ $t("navbar.pricing") }}
             </RouterLink>
           </li>
           <li class="nav-item">
@@ -60,17 +60,17 @@
               aria-current="page"
               to="/mfusd"
             >
-              MFUSD
+              {{ $t("navbar.mfusd") }}
             </RouterLink>
           </li>
-          
+
           <li class="nav-item">
             <a
               class="nav-link text-white"
               target="_blank"
               href="http://help.moneyflap.com"
             >
-              Help Center
+              {{ $t("navbar.help") }}
             </a>
           </li>
         </ul>
@@ -79,13 +79,13 @@
             class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
             type="button"
           >
-            Get Started
+            {{ $t("navbar.get-started") }}
           </button>
         </form>
       </div>
       <form class="ms-lg-auto d-none d-lg-flex">
         <button class="btn btn-primary btn-lg ms-3" type="button">
-          Get Started
+          {{ $t("navbar.get-started") }}
         </button>
       </form>
     </div>

@@ -159,5 +159,13 @@
       "available-soon": "Bientôt disponible",
       "mfusd-transparency-page": "Page de transparence MFUSD"
     }
+  },
+  "navbar": {
+    "about-us": "À propos",
+    "security": "Sécurité",
+    "pricing": "Tarifs",
+    "mfusd": "MFUSD",
+    "help": "Aide",
+    "get-started": "Commencer"
   }
 }
