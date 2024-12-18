@@ -434,5 +434,67 @@
 
     "op5-title": "Tanzania",
     "op5-description": "<strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a <a   target=\"_blank\"   href=\"https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV\" >   Money Service Business (MSB) </a> under No. 50562 with the Financial Intelligence Unit (FIU), under the control of the Ministry of Finance of the United Republic of Tanzania. This registration is for the purpose of reporting money laundering cases and does not imply a license with the Capital Markets and Securities Authority (CMSA) or Bank of Tanzania (BoT)."
+  },
+
+  "rev": {
+    "main-title": "MoneyFlap Rev",
+    "main-subtitle": "Master Your Business Finances <br class='show-md d-none d-sm-block' />Like a Pro: The Magic of <br class='d-none d-sm-block' />MoneyFlap Rev",
+    "main-description": "Introducing MoneyFlap Rev, a versatile business account that enables seamless local transactions in over 100 countries, corporate card issuance, global transfers, and cash growth, all without any monthly or subscription fees.",
+
+    "global-title": "Multiple Global <br />Financial Accounts",
+    "global-op1-title": "Business Account",
+    "global-op1-description": "Streamline your daily financial tasks in a single account, including global fund transfers, collecting local currencies and stablecoins, and paying utility bills.",
+
+    "global-op2-title": "reasury Account",
+    "global-op2-description": "Maximize your idle cash with Money Market Funds, T-Bills, and Sukuk, earning up to 5.77% yield on-chain. Enjoy no minimums, no hidden fees, and 24/7 withdrawal.",
+
+    "global-op3-title": "Safeguarding Account",
+    "global-op3-description": "Ensure secure fund separation and easy reconciliation while adhering to regulations, whether you're obtaining a license or already licensed.",
+
+    "cards-title": "Corporate Cards",
+    "cards-description": "Issue unlimited virtual and physical cards for your team, with no foreign transaction fees, available in eco plastic or metal. Benefit from 1% unlimited cashback at select merchants, subscription management, budgeting controls, and analytics.",
+
+    "expense-title": "Expense Management",
+    "expense-description": "Set up tailored employee spending guidelines by assigning roles and setting spend limits. Require real-time receipt capture for reimbursable purchases, and automate the review and flagging of transactions needing attention or approval.",
+
+    "global-pay-title": "Global Pay-Outs",
+    "global-pay-description": "Make bulk payments to up to 2,000 employees or suppliers in seconds at mid-market rates. Transfer funds to bank, mobile money, stablecoins, and MoneyFlap individual accounts in over 80 countries at near-zero cost.",
+
+    "global-pay-in-title": "Global Pay-Ins",
+    "global-pay-in-description": "Accept global online payments through payment links and in-person payments via QR codes or Tap-To-Pay with your smartphone.",
+
+    "accounts-title": "Accounts Payable",
+    "accounts-description": "Pay both domestic and international vendors quickly and earn up to 2% cashback on your utility bill payments. Save more when paying vendors through FlapNet, our free and instant global network.",
+
+    "accounts-receivable-title": "Accounts <br />Receivable",
+    "accounts-receivable-description": "Pay both domestic and international vendors quickly and earn up to 2% cashback on your utility bill payments. Save more when paying vendors through FlapNet, our free and instant global network.",
+
+    "accounts-card1-title": "Accounting & Integrations",
+    "accounts-card1-description": "Close books 3x faster through direct accounting software integrations. Connect in minutes to your favorite software including business bank accounts, crypto exchanges, HR, and travel tools.",
+
+    "accounts-card2-title": "Employee Incentives",
+    "accounts-card2-description": "Develop incentive programs by providing airtime and data packages worldwide to employees in regions dominated by prepaid plans, and earn up to 6% cashback on each click.",
+
+    "accounts-card3-title": "Startup Perks",
+    "accounts-card3-description": "Unlock over $250K in exclusive discounts and rewards from top-tier partners, including marketing tools and HR software, to boost your business growth.",
+
+    "designed-title": "Designed for <br />businesses of all sizes",
+    "designed-description": "MoneyFlap Rev is built for any industries, including the forgotten ones.",
+
+    "footer-op1-title": "Web3 and crypto companies",
+    "footer-op2-title": "Small and midsize businesses",
+    "footer-op3-title": "Restaurants and retail businesses",
+    "footer-op4-title": "Early and growth stage startups",
+    "footer-op5-title": "Digital and eCommerce businesses",
+    "footer-op6-title": "NGOs and associations",
+    "footer-op7-title": "Import and export companies",
+    "footer-op8-title": "Multinational companies",
+    "footer-op9-title": "Hospitality and tourism businesses",
+    "footer-op10-title": "IPO-ready corporations",
+    "footer-op11-title": "VC and family offices",
+
+    "txt": {
+      "join-waitlist": "Join the waitlist"
+    }
   }
 }

@@ -8,17 +8,14 @@
               class="text-white fw-bolder display-4 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              MoneyFlap Rev
+              {{ $t("rev.main-title") }}
             </h2>
-            <p class="text-white display-6">
-              Master Your Business Finances <br class="show-md d-none d-sm-block" />Like a Pro:
-              The Magic of <br class="d-none d-sm-block"/>MoneyFlap Rev
-            </p>
+            <p
+              class="text-white display-6"
+              v-html="$t('rev.main-subtitle')"
+            ></p>
             <p class="text-white">
-              Introducing MoneyFlap Rev, a versatile business account that
-              enables seamless local transactions in over 100 countries,
-              corporate card issuance, global transfers, and cash growth, all
-              without any monthly or subscription fees.
+              {{ $t("rev.main-description") }}
             </p>
             <div class="d-flex flex-row mt-6 flex-wrap">
               <div class="me-3 mt-3">
@@ -27,7 +24,7 @@
                   href="https://tally.so/r/wbkP16"
                   target="_blank"
                 >
-                  Join the waitlist
+                  {{ $t("rev.txt.join-waitlist") }}
                 </a>
               </div>
             </div>
@@ -44,9 +41,8 @@
           <h3
             class="fw-bolder display-3 my-4 text-center w-100"
             style="font-family: Sofia Pro Bold"
-          >
-            Multiple Global <br />Financial Accounts
-          </h3>
+            v-html="$t('rev.global-title')"
+          ></h3>
           <div class="row mx-auto">
             <div class="col-12 col-md-5">
               <div class="col-12 p-2" style="max-width: 100%; height: 100%">
@@ -64,13 +60,10 @@
                           src="@/src/assets/icon-rev-business.png"
                           alt="Business Account"
                         />
-                        Business Account
+                        {{ $t("rev.global-op1-title") }}
                       </h4>
                       <p class="">
-                        Streamline your daily financial tasks in a single
-                        account, including global fund transfers, collecting
-                        local currencies and stablecoins, and paying utility
-                        bills.
+                        {{ $t("rev.global-op1-description") }}
                       </p>
                       <img
                         src="@/src/assets/img-rev-business.png"
@@ -100,13 +93,10 @@
                                 src="@/src/assets/icon-rev-treasury.png"
                                 alt="Treasury Account"
                               />
-                              Treasury Account
+                              {{ $t("rev.global-op2-title") }}
                             </h4>
                             <p class="">
-                              Maximize your idle cash with Money Market Funds,
-                              T-Bills, and Sukuk, earning up to 5.77% yield
-                              on-chain. Enjoy no minimums, no hidden fees, and
-                              24/7 withdrawal.
+                              {{ $t("rev.global-op2-description") }}
                             </p>
                           </div>
                           <div class="col-12 col-md-6">
@@ -138,13 +128,10 @@
                                 src="@/src/assets/icon-rev-sefaguarding.png"
                                 alt="Safeguarding Account"
                               />
-                              Safeguarding Account
+                              {{ $t("rev.global-op3-title") }}
                             </h4>
                             <p class="">
-                              Ensure secure fund separation and easy
-                              reconciliation while adhering to regulations,
-                              whether you're obtaining a license or already
-                              licensed.
+                              {{ $t("rev.global-op3-description") }}
                             </p>
                           </div>
                           <div class="col-12 col-md-5">
@@ -178,13 +165,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Corporate Cards
+                {{ $t("rev.cards-title") }}
               </h3>
               <p>
-                Issue unlimited virtual and physical cards for your team, with
-                no foreign transaction fees, available in eco plastic or metal.
-                Benefit from 1% unlimited cashback at select merchants,
-                subscription management, budgeting controls, and analytics.
+                {{ $t("rev.cards-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6 order-md-first">
@@ -207,13 +191,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Expense Management
+                {{ $t("rev.expense-title") }}
               </h3>
               <p>
-                Set up tailored employee spending guidelines by assigning roles
-                and setting spend limits. Require real-time receipt capture for
-                reimbursable purchases, and automate the review and flagging of
-                transactions needing attention or approval.
+                {{ $t("rev.expense-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6">
@@ -238,13 +219,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Global Pay-Outs
+                {{ $t("rev.global-pay-title") }}
               </h3>
               <p>
-                Make bulk payments to up to 2,000 employees or suppliers in
-                seconds at mid-market rates. Transfer funds to bank, mobile
-                money, stablecoins, and MoneyFlap individual accounts in over 80
-                countries at near-zero cost.
+                {{ $t("rev.global-pay-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6">
@@ -268,11 +246,10 @@
               class="fw-bolder display-3 my-4"
               style="font-family: Sofia Pro Bold"
             >
-              Global Pay-Ins
+              {{ $t("rev.global-pay-in-title") }}
             </h3>
             <p>
-              Accept global online payments through payment links and in-person
-              payments via QR codes or Tap-To-Pay with your smartphone.
+              {{ $t("rev.global-pay-in-description") }}
             </p>
           </div>
           <div class="col-12 col-md-7 order-md-first">
@@ -297,13 +274,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Accounts Payable
+                {{ $t("rev.accounts-title") }}
               </h3>
               <p>
-                Pay both domestic and international vendors quickly and earn up
-                to 2% cashback on your utility bill payments. Save more when
-                paying vendors through FlapNet, our free and instant global
-                network.
+                {{ $t("rev.accounts-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6">
@@ -327,13 +301,10 @@
               <h3
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
-              >
-                Accounts <br />Receivable
-              </h3>
+                v-html="$t('rev.accounts-receivable-title')"
+              ></h3>
               <p>
-                Generate and send personalized professional invoices for
-                payments through stablecoin or bank transfers. Monitor all
-                unpaid invoices in real-time and automate reminders.
+                {{ $t("rev.accounts-receivable-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6 order-md-first">
@@ -367,13 +338,10 @@
                           src="@/src/assets/icon-rev-accounting.png"
                           alt="Accounting & Integrations"
                         />
-                        Accounting & Integrations
+                        {{ $t("rev.accounts-card1-title") }}
                       </h4>
                       <p class="">
-                        Close books 3x faster through direct accounting software
-                        integrations. Connect in minutes to your favorite
-                        software including business bank accounts, crypto
-                        exchanges, HR, and travel tools.
+                        {{ $t("rev.accounts-card1-description") }}
                       </p>
                       <img
                         src="@/src/assets/img-rev-accounting.png"
@@ -403,13 +371,10 @@
                                 src="@/src/assets/icon-rev-employee.png"
                                 alt="Employee Incentives"
                               />
-                              Employee Incentives
+                              {{ $t("rev.accounts-card2-title") }}
                             </h4>
                             <p class="">
-                              Develop incentive programs by providing airtime
-                              and data packages worldwide to employees in
-                              regions dominated by prepaid plans, and earn up to
-                              6% cashback on each click.
+                              {{ $t("rev.accounts-card2-description") }}
                             </p>
                           </div>
                           <div class="col-12 col-md-7">
@@ -441,13 +406,10 @@
                                 src="@/src/assets/icon-rev-startup.png"
                                 alt="Startup Perks"
                               />
-                              Startup Perks
+                              {{ $t("rev.accounts-card3-title") }}
                             </h4>
                             <p class="">
-                              Unlock over $250K in exclusive discounts and
-                              rewards from top-tier partners, including
-                              marketing tools and HR software, to boost your
-                              business growth.
+                              {{ $t("rev.accounts-card3-description") }}
                             </p>
                           </div>
                           <div class="col-12 col-md-6">
@@ -476,12 +438,10 @@
             <h3
               class="fw-bolder display-3 my-4 text-center"
               style="font-family: Sofia Pro Bold"
-            >
-              Designed for <br />businesses of all sizes
-            </h3>
+              v-html="$t('rev.designed-title')"
+            ></h3>
             <p>
-              MoneyFlap Rev is built for any industries, including the forgotten
-              ones.
+              {{ $t("rev.designed-description") }}
             </p>
           </div>
           <div
@@ -497,7 +457,7 @@
                       src="@/src/assets/icon-rev-web3.png"
                       style="max-height: 39px"
                     />
-                    Web3 and crypto companies
+                    {{ $t("rev.footer-op1-title") }}
                   </p>
                 </div>
               </div>
@@ -513,7 +473,7 @@
                       src="@/src/assets/icon-rev-small.png"
                       style="max-height: 39px"
                     />
-                    Small and midsize businesses
+                    {{ $t("rev.footer-op2-title") }}
                   </p>
                 </div>
               </div>
@@ -529,7 +489,7 @@
                       src="@/src/assets/icon-rev-restaurant.png"
                       style="max-height: 39px"
                     />
-                    Restaurants and retail businesses
+                    {{ $t("rev.footer-op3-title") }}
                   </p>
                 </div>
               </div>
@@ -545,7 +505,7 @@
                       src="@/src/assets/icon-rev-early.png"
                       style="max-height: 39px"
                     />
-                    Early and growth stage startups
+                    {{ $t("rev.footer-op4-title") }}
                   </p>
                 </div>
               </div>
@@ -561,7 +521,7 @@
                       src="@/src/assets/icon-rev-digital.png"
                       style="max-height: 39px"
                     />
-                    Digital and eCommerce businesses
+                    {{ $t("rev.footer-op5-title") }}
                   </p>
                 </div>
               </div>
@@ -577,7 +537,7 @@
                       src="@/src/assets/icon-rev-ngos.png"
                       style="max-height: 39px"
                     />
-                    NGOs and associations
+                    {{ $t("rev.footer-op6-title") }}
                   </p>
                 </div>
               </div>
@@ -593,7 +553,7 @@
                       src="@/src/assets/icon-rev-import.png"
                       style="max-height: 39px"
                     />
-                    Import and export companies
+                    {{ $t("rev.footer-op7-title") }}
                   </p>
                 </div>
               </div>
@@ -609,7 +569,7 @@
                       src="@/src/assets/icon-rev-multinational.png"
                       style="max-height: 39px"
                     />
-                    Multinational companies
+                    {{ $t("rev.footer-op8-title") }}
                   </p>
                 </div>
               </div>
@@ -625,7 +585,7 @@
                       src="@/src/assets/icon-rev-hospitality.png"
                       style="max-height: 39px"
                     />
-                    Hospitality and tourism businesses
+                    {{ $t("rev.footer-op9-title") }}
                   </p>
                 </div>
               </div>
@@ -644,7 +604,7 @@
                       src="@/src/assets/icon-rev-ipo.png"
                       style="max-height: 39px"
                     />
-                    IPO-ready corporations
+                    {{ $t("rev.footer-op10-title") }}
                   </p>
                 </div>
               </div>
@@ -660,7 +620,7 @@
                       src="@/src/assets/icon-rev-vc.png"
                       style="max-height: 39px"
                     />
-                    VC and family offices
+                    {{ $t("rev.footer-op11-title") }}
                   </p>
                 </div>
               </div>
@@ -676,7 +636,7 @@
                   href="https://tally.so/r/wbkP16"
                   target="_blank"
                 >
-                  Join the waitlist
+                  {{ $t("rev.txt.join-waitlist") }}
                 </a>
               </div>
             </div>
