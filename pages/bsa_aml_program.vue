@@ -2,135 +2,93 @@
   <NuxtLayout name="weblayout">
     <div class="header d-flex align-items-top justify-content-center py-1">
       <div class="container mt-5 pb-5">
-        <h1 class="fw-bolder display-2 mt-1">KYC/AML Program</h1>
-        <h2>MoneyFlap Policy</h2>
+        <h1 class="fw-bolder display-2 mt-1">{{ $t("bsa.main-title") }}</h1>
+        <h2>{{ $t("bsa.policy-title") }}</h2>
         <p>
-          MoneyFlap strictly enforces policies against money laundering and activities supporting terrorism or crime, abiding by the Bank Secrecy Act (BSA), European Union (EU) regulations, and rules of any supported jurisdictions. Their Anti-Money Laundering (AML) policies and internal controls ensure compliance, with regular reviews and updates to align with regulatory changes and company developments.
+          {{ $t("bsa.policy-description") }}
         </p>
 
-        <h2>AML Compliance Person Designation and Duties</h2>
+        <h2>{{ $t("bsa.compliance-title") }}</h2>
         <p>
-          MoneyFlap has appointed an individual responsible for its Anti-Money Laundering (AML) program. This person will ensure compliance with AML regulations, manage employee communication and training, maintain AML records, and file Suspicious Activity Reports with appropriate legal authorities when required.
+          {{ $t("bsa.compliance-title") }}
         </p>
 
-        <h2>Checking the Office of Foreign Assets Control (OFAC) Listings</h2>
+        <h2>{{ $t("bsa.checking-office-title") }}</h2>
         <p>
-          Before opening an account and continuously thereafter, we'll ensure
-          customers aren't on the SDN list or involved in prohibited
-          transactions per OFAC's economic sanctions and embargoes. Since these
-          lists are frequently updated, we will regularly check them and
-          subscribe to updates.
+          {{ $t("bsa.checking-office-description") }}
         </p>
-        <h2>Customer Identification Program (CIP)</h2>
+        <h2>{{ $t("bsa.customer-identification-title") }}</h2>
         <p>
-          We have a written Customer Identification Program (CIP) in place. For
-          every new account, we collect essential identification details, use
-          risk-based methods to verify identities, record the information and
-          verification results, give customers a notice about the need for
-          identification, and check their information against government lists
-          of suspected terrorists.
+          {{ $t("bsa.customer-identification-description") }}
         </p>
-        <h2>Customer Due Diligence Rule</h2>
+        <h2>{{ $t("bsa.customer-due-title") }}</h2>
         <p>
-          Before opening an account, we will collect the following information
-          for all accounts, if applicable, for any person, that is opening a new
-          account and whose name is on the account:
+          {{ $t("bsa.customer-due-description") }}
         </p>
         <ol class="list-unstyled">
           <li>
             <div class="me-2 squareDiv">1</div>
-            <span>Full legal name;</span>
+            <span>{{ $t("bsa.customer-due-op1-title") }}</span>
           </li>
           <li>
             <div class="me-2 squareDiv">2</div>
-            <span>Mobile phone number;</span>
+            <span>{{ $t("bsa.customer-due-op2-title") }}</span>
           </li>
           <li>
             <div class="me-2 squareDiv">3</div>
-            <span>Date of birth;</span>
+            <span>{{ $t("bsa.customer-due-op3-title") }}</span>
           </li>
           <li>
             <div class="me-2 squareDiv">4</div>
-            <span>Email address;</span>
+            <span>{{ $t("bsa.customer-due-op4-title") }}</span>
           </li>
           <li>
             <div class="me-2 squareDiv">5</div>
-            <span>A residential street address;</span>
+            <span>{{ $t("bsa.customer-due-op5-title") }}</span>
           </li>
           <li>
             <div class="me-2 squareDiv">6</div>
             <span>
-              A identification number, which will be one or more of the
-              following: a taxpayer identification number, passport number and
-              country of issuance, alien identification card number, or number
-              and country of issuance of any other government-issued document
-              evidencing nationality or residence and bearing a photograph or
-              other similar safeguard (for non-U.S. persons); and
+              {{ $t("bsa.customer-due-op6-title") }}
             </span>
           </li>
           <li>
             <div class="me-2 squareDiv">7</div>
             <span>
-              Additional details or documents may be required by our Compliance
-              Team.
+              {{ $t("bsa.customer-due-op7-title") }}
             </span>
           </li>
         </ol>
         <p>
-          We will understand the nature and purpose of customer relationships to
-          develop a customer risk profile. The risk assessment of the client
-          will then place them in one of the levels of customer due diligence,
-          which determines the risk rating and KYC checks that will be
-          performed. 
+          {{ $t("bsa.customer-due-note") }}
         </p>
 
-        <h2>Monitoring Accounts for Suspicious Activity</h2>
+        <h2>{{ $t("bsa.monitoring-accounts-title") }}</h2>
         <p>
-          At MoneyFlap, we will monitor accounts for unusual transactions,
-          considering relevant risk factors and red flags. Detected activities
-          will be reviewed and documented by our monitoring system. The AML
-          Compliance Person or a designee will investigate and review necessary
-          information from internal or third-party sources before filing a SAR.
+          {{ $t("bsa.monitoring-accounts-description") }}
         </p>
-        <h2>Suspicious Activity and Currrency Transactions Reporting</h2>
+        <h2>{{ $t("bsa.suspicious-activity-title") }}</h2>
+        <p v-html="$t('bsa.suspicious-activity-description')"></p>
+        <h2>{{ $t("bsa.aml-title") }}</h2>
         <p>
-          We will file Suspicious Activity Reports (SARs) with FinCEN or appropriate legal authorities for any transactions involving funds or assets that we suspect or have reason to suspect are suspicious. Additionally, we will also alert law enforcement in urgent cases like terrorist financing or active money laundering.  
-          <br/>
-          We will submit Currency Transaction Reports (CTRs) to FinCEN or relevant legal authorities for individual or multiple currency transactions that exceed a specified USD, EUR, or local currency amount within a single business day, if they are made by or on behalf of the same person. 
+          {{ $t("bsa.aml-description") }}
         </p>
-        <h2>AML Recordkeeping</h2>
+        <h2>{{ $t("bsa.training-title") }}</h2>
         <p>
-          Our designated AML Compliance Person will ensure proper maintenance of AML records and the filing of SARs. Our firm will create and keep SARs, customer identity verification, and funds transmittal documentation for at least six years, maintaining their confidentiality. Disclosure will be limited to FinCEN, the SEC, an SEC-registered SRO, or other appropriate legal authorities.
+          {{ $t("bsa.training-description") }}
         </p>
-        <h2>Training Programs</h2>
+        <h2>{{ $t("bsa.program-test-title") }}</h2>
         <p>
-          We will implement continuous employee training led by the AML
-          Compliance Person and senior management, at least annually. The
-          training will be tailored to MoneyFlap’s size, customer base, and
-          resources, and updated for new legal developments. We will keep
-          records of trained individuals, training dates, and topics covered.
-          Additionally, we will assess if certain employees need specialized
-          extra training.
+          {{ $t("bsa.program-test-description") }}
         </p>
-        <h2>Program to Independently Test AML Program</h2>
+        <h2>{{ $t("bsa.monitoring-title") }}</h2>
         <p>
-          Our AML program will be independently tested at least once a year.
-          After testing, the findings will be reported to senior management. We
-          will promptly address and document how each issue is resolved.
-        </p>
-        <h2>Monitoring Employee Conduct and Accounts</h2>
-        <p>
-          Employee accounts will undergo the same Anti-Money Laundering (AML)
-          procedures as customer accounts, supervised by the AML Compliance
-          Person. Supervisors' AML performance will be evaluated during their
-          annual review, and the CEO will review the AML Compliance Person's
-          accounts.
+          {{ $t("bsa.monitoring-description") }}
         </p>
       </div>
     </div>
   </NuxtLayout>
 </template>
-
 <style scoped lang="scss">
 .header {
   background-image: url("@/src/assets/bg-header-website-landing_2.svg");

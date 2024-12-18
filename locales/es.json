@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0,15%",
+      "15": "0.15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -273,5 +273,38 @@
     "txt": {
       "invest-change": "Invierte para el cambio"
     }
+  },
+  "bsa": {
+    "main-title": "Programa KYC/AML",
+    "policy-title": "Política de MoneyFlap",
+    "policy-description": "MoneyFlap aplica estrictamente políticas contra el lavado de dinero y actividades que apoyen el terrorismo o delitos, cumpliendo con la Ley de Secreto Bancario (BSA), las regulaciones de la Unión Europea (UE) y las normas de todas las jurisdicciones admitidas. Sus políticas contra el lavado de dinero (AML) y controles internos garantizan el cumplimiento, con revisiones y actualizaciones regulares para alinearse con los cambios normativos y desarrollos de la empresa.",
+    "compliance-title": "Designación y deberes del responsable de cumplimiento AML",
+    "compliance-description": "MoneyFlap ha designado a una persona responsable de su programa contra el lavado de dinero (AML). Esta persona garantizará el cumplimiento de las regulaciones AML, gestionará la comunicación y formación de empleados, mantendrá los registros AML y presentará informes de actividades sospechosas ante las autoridades legales correspondientes cuando sea necesario.",
+    "checking-office-title": "Verificación de los listados de la Oficina de Control de Activos Extranjeros (OFAC)",
+    "checking-office-description": "Antes de abrir una cuenta y continuamente después, nos aseguraremos de que los clientes no estén en la lista SDN ni involucrados en transacciones prohibidas según las sanciones económicas y embargos de la OFAC. Como estas listas se actualizan frecuentemente, las verificaremos regularmente y nos suscribiremos a las actualizaciones.",
+    "customer-identification-title": "Programa de identificación del cliente (CIP)",
+    "customer-identification-description": "Tenemos implementado un programa de identificación del cliente (CIP) por escrito. Para cada cuenta nueva, recopilamos detalles esenciales de identificación, utilizamos métodos basados en riesgo para verificar identidades, registramos la información y resultados de verificación, notificamos a los clientes sobre la necesidad de identificación y verificamos su información contra listas gubernamentales de sospechosos de terrorismo.",
+    "customer-due-title": "Regla de debida diligencia del cliente",
+    "customer-due-description": "Antes de abrir una cuenta, recopilaremos la siguiente información para todas las cuentas, si corresponde, para cualquier persona que esté abriendo una nueva cuenta y cuyo nombre figure en la cuenta:",
+    "customer-due-op1-title": "Nombre legal completo;",
+    "customer-due-op2-title": "Número de teléfono móvil;",
+    "customer-due-op3-title": "Fecha de nacimiento;",
+    "customer-due-op4-title": "Dirección de correo electrónico;",
+    "customer-due-op5-title": "Una dirección residencial;",
+    "customer-due-op6-title": "Un número de identificación, que será uno o más de los siguientes: número de identificación fiscal, número de pasaporte y país de emisión, número de tarjeta de identificación de extranjero, o número y país de emisión de cualquier otro documento emitido por el gobierno que demuestre la nacionalidad o residencia y que contenga una fotografía u otra medida de seguridad similar (para personas no estadounidenses); y",
+    "customer-due-op7-title": "Nuestro equipo de cumplimiento puede requerir detalles o documentos adicionales.",
+    "customer-due-note": "Comprenderemos la naturaleza y el propósito de las relaciones con los clientes para desarrollar un perfil de riesgo del cliente. La evaluación de riesgo del cliente lo ubicará en uno de los niveles de debida diligencia, que determina la clasificación de riesgo y las verificaciones KYC que se realizarán.",
+    "monitoring-accounts-title": "Monitoreo de cuentas para actividades sospechosas",
+    "monitoring-accounts-description": "En MoneyFlap, monitoreamos las cuentas en busca de transacciones inusuales, considerando factores de riesgo relevantes y señales de alerta. Las actividades detectadas serán revisadas y documentadas por nuestro sistema de monitoreo. El responsable de cumplimiento AML o la persona designada investigará y revisará la información necesaria de fuentes internas o de terceros antes de presentar un SAR.",
+    "suspicious-activity-title": "Reporte de actividades sospechosas y transacciones en efectivo",
+    "suspicious-activity-description": "Presentaremos Reportes de Actividades Sospechosas (SAR) ante FinCEN o las autoridades legales correspondientes para cualquier transacción que involucre fondos o activos que sospechemos o tengamos razones para sospechar que son sospechosos. Además, alertaremos a las autoridades policiales en casos urgentes como financiamiento del terrorismo o lavado de dinero activo. <br /> Presentaremos Reportes de Transacciones en Efectivo (CTR) a FinCEN o a las autoridades legales pertinentes para transacciones individuales o múltiples en efectivo que excedan una cantidad específica en USD, EUR o moneda local dentro de un solo día hábil, si se realizan por o en nombre de la misma persona.",
+    "aml-title": "Mantenimiento de registros AML",
+    "aml-description": "Nuestra persona designada para el cumplimiento AML garantizará el mantenimiento adecuado de los registros AML y la presentación de SARs. Nuestra empresa creará y conservará SARs, verificación de identidad del cliente y documentación de transmisión de fondos durante al menos seis años, manteniendo su confidencialidad. La divulgación se limitará a FinCEN, la SEC, una SRO registrada en la SEC u otras autoridades legales apropiadas.",
+    "training-title": "Programas de capacitación",
+    "training-description": "Implementaremos capacitación continua para empleados dirigida por la persona de cumplimiento AML y la alta dirección, al menos anualmente. La capacitación se adaptará al tamaño, base de clientes y recursos de MoneyFlap, y se actualizará según los nuevos desarrollos legales. Mantendremos registros de las personas capacitadas, fechas de capacitación y temas cubiertos. Además, evaluaremos si ciertos empleados necesitan capacitación especializada adicional.",
+    "program-test-title": "Programa para evaluar independientemente el programa AML",
+    "program-test-description": "Nuestro programa AML será evaluado de forma independiente al menos una vez al año. Después de las pruebas, los hallazgos se informarán a la alta dirección. Abordaremos rápidamente y documentaremos cómo se resuelve cada problema.",
+    "monitoring-title": "Monitoreo de la conducta y cuentas de empleados",
+    "monitoring-description": "Las cuentas de los empleados se someterán a los mismos procedimientos contra el lavado de dinero (AML) que las cuentas de los clientes, supervisadas por la persona de cumplimiento AML. El desempeño AML de los supervisores será evaluado durante su revisión anual, y el CEO revisará las cuentas de la persona de cumplimiento AML."
   }
 }

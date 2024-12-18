@@ -273,5 +273,38 @@
     "txt": {
       "invest-change": "Investir pour le changement"
     }
+  },
+  "bsa": {
+    "main-title": "Programme KYC/AML",
+    "policy-title": "Politique MoneyFlap",
+    "policy-description": "MoneyFlap applique strictement des politiques contre le blanchiment d'argent et les activités soutenant le terrorisme ou la criminalité, conformément au Bank Secrecy Act (BSA), aux réglementations de l'Union européenne (UE) et aux règles de toutes les juridictions concernées. Leurs politiques de lutte contre le blanchiment d'argent (AML) et leurs contrôles internes assurent la conformité, avec des examens et mises à jour réguliers pour s'aligner sur les changements réglementaires et les développements de l'entreprise.",
+    "compliance-title": "Désignation et fonctions du responsable de la conformité AML",
+    "compliance-description": "MoneyFlap a désigné un responsable pour son programme anti-blanchiment (AML). Cette personne veillera à la conformité avec les réglementations AML, gérera la communication et la formation des employés, conservera les dossiers AML et déposera des rapports d'activités suspectes auprès des autorités légales compétentes lorsque nécessaire.",
+    "checking-office-title": "Vérification des listes de l'Office of Foreign Assets Control (OFAC)",
+    "checking-office-description": "Avant l'ouverture d'un compte et en continu par la suite, nous nous assurons que les clients ne figurent pas sur la liste SDN ou ne sont pas impliqués dans des transactions interdites selon les sanctions économiques et embargos de l'OFAC. Ces listes étant fréquemment mises à jour, nous les vérifions régulièrement et nous abonnons aux mises à jour.",
+    "customer-identification-title": "Programme d'identification des clients (CIP)",
+    "customer-identification-description": "Nous disposons d'un programme écrit d'identification des clients (CIP). Pour chaque nouveau compte, nous collectons les informations d'identification essentielles, utilisons des méthodes basées sur le risque pour vérifier les identités, enregistrons les informations et les résultats de vérification, informons les clients de la nécessité d'identification et vérifions leurs informations par rapport aux listes gouvernementales de terroristes présumés.",
+    "customer-due-title": "Règle de diligence raisonnable relative aux clients",
+    "customer-due-description": "Avant l'ouverture d'un compte, nous collecterons les informations suivantes pour tous les comptes, le cas échéant, pour toute personne qui ouvre un nouveau compte et dont le nom figure sur le compte :",
+    "customer-due-op1-title": "Nom légal complet ;",
+    "customer-due-op2-title": "Numéro de téléphone mobile ;",
+    "customer-due-op3-title": "Date de naissance ;",
+    "customer-due-op4-title": "Adresse e-mail ;",
+    "customer-due-op5-title": "Une adresse de résidence ;",
+    "customer-due-op6-title": "Un numéro d'identification, qui sera l'un ou plusieurs des éléments suivants : un numéro d'identification fiscale, un numéro de passeport et le pays d'émission, un numéro de carte d'identité pour étranger, ou le numéro et le pays d'émission de tout autre document officiel attestant la nationalité ou la résidence et comportant une photographie ou autre dispositif de sécurité similaire (pour les personnes non américaines) ; et",
+    "customer-due-op7-title": "Des détails ou documents supplémentaires peuvent être demandés par notre équipe de conformité.",
+    "customer-due-note": "Nous analyserons la nature et l'objectif des relations client pour développer un profil de risque client. L'évaluation des risques du client le placera ensuite dans l'un des niveaux de diligence raisonnable, qui détermine la notation de risque et les vérifications KYC qui seront effectuées.",
+    "monitoring-accounts-title": "Surveillance des comptes pour détecter les activités suspectes",
+    "monitoring-accounts-description": "Chez MoneyFlap, nous surveillons les comptes pour détecter les transactions inhabituelles, en tenant compte des facteurs de risque pertinents et des signaux d'alerte. Les activités détectées seront examinées et documentées par notre système de surveillance. Le responsable de la conformité AML ou son représentant enquêtera et examinera les informations nécessaires provenant de sources internes ou tierces avant de déposer un SAR.",
+    "suspicious-activity-title": "Déclaration d'activités suspectes et de transactions en espèces",
+    "suspicious-activity-description": "Nous déposerons des déclarations d'activités suspectes (SAR) auprès de FinCEN ou des autorités légales appropriées pour toute transaction impliquant des fonds ou des actifs que nous suspectons ou avons des raisons de suspecter comme étant suspects. De plus, nous alerterons les forces de l'ordre dans les cas urgents comme le financement du terrorisme ou le blanchiment d'argent actif. <br /> Nous soumettrons des déclarations de transactions en espèces (CTR) à FinCEN ou aux autorités légales concernées pour les transactions en espèces individuelles ou multiples qui dépassent un montant spécifié en USD, EUR ou en devise locale au cours d'une même journée ouvrée, si elles sont effectuées par ou pour le compte d'une même personne.",
+    "aml-title": "Conservation des documents LBC",
+    "aml-description": "Notre responsable de la conformité LBC désigné veillera à la bonne tenue des registres LBC et au dépôt des DOS. Notre entreprise créera et conservera les DOS, les documents de vérification d'identité des clients et les documents de transfert de fonds pendant au moins six ans, en maintenant leur confidentialité. La divulgation sera limitée au FinCEN, à la SEC, à un OAR enregistré auprès de la SEC ou à d'autres autorités légales compétentes.",
+    "training-title": "Programmes de formation",
+    "training-description": "Nous mettrons en place une formation continue des employés dirigée par le responsable de la conformité LBC et la direction générale, au moins une fois par an. La formation sera adaptée à la taille de MoneyFlap, à sa base de clients et à ses ressources, et mise à jour en fonction des nouvelles évolutions juridiques. Nous conserverons les registres des personnes formées, des dates de formation et des sujets abordés. De plus, nous évaluerons si certains employés ont besoin d'une formation supplémentaire spécialisée.",
+    "program-test-title": "Programme de test indépendant du programme LBC",
+    "program-test-description": "Notre programme LBC fera l'objet d'un test indépendant au moins une fois par an. Après les tests, les résultats seront communiqués à la direction générale. Nous traiterons rapidement chaque problème et documenterons la manière dont il est résolu.",
+    "monitoring-title": "Surveillance de la conduite et des comptes des employés",
+    "monitoring-description": "Les comptes des employés seront soumis aux mêmes procédures de lutte contre le blanchiment d'argent (LBC) que les comptes clients, sous la supervision du responsable de la conformité LBC. Les performances LBC des superviseurs seront évaluées lors de leur revue annuelle, et le PDG examinera les comptes du responsable de la conformité LBC."
   }
 }
