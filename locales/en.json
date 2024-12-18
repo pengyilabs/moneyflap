@@ -415,5 +415,24 @@
     "support-team-op4-title": "MoneyFlap only uses emails ending in @moneyflap.com. Disregard any emails that do not match this address.",
 
     "txt": { "protect-finances": "Protect Your Finances" }
+  },
+
+  "licenses": {
+    "main-title": "Licenses and Registrations",
+
+    "op1-title": "United States",
+    "op1-description": " <strong>MoneyFlap Digital Labs, Inc.</strong> is incorporated in Delaware and is registered as a <a target=\"_blank\" href=\"https://www.fincen.gov/msb-state-selector\">   Money Services Business</a > (MSB) with the Financial Crimes Enforcement Network (FinCEN), a regulatory bureau of the United States Department of the Treasury. Our MSB Registration Number is 31000266452431.",
+
+    "op2-title": "Argentina",
+    "op2-description": "<strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a <a   target=\"_blank\"   href=\"https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV\" >   Virtual Assets Service Provider (VASP) </a> under No. D1-2024-135-APN-GRC#CNV dated 21st August 2024 in the Registry of Virtual Asset Service Providers of National Securities Commission (CNV). This registration is for the purposes of control as an Obligated Subject before the Financial Information Unit (UIF) and any other regulatory entity authorized for this purpose, within the framework of its powers, and does not imply a license or supervision by the National Securities Commission (CNV) on the activity carried out by MoneyFlap.",
+
+    "op3-title": "Senegal and West African Economic and Monetary Union (WAEMU)",
+    "op3-description": "<strong>MoneyFlap Senegal SAS</strong> operates as a technology services provider. It is neither licensed by the Central Bank of the West African States (BCEAO) nor by the “Autorité des Marchés Financiers de l’UMOA (AMF-UMOA)”, also known as the “Conseil Regional de l’Epargne Publique et des Marches Financiers (CREPMF)”. However, it is self-considered as an “Entreprise et Profession Non Financière Désignée (EPNFD)” and is a reporting entity to the Financial Intelligence Unit (CENTIF), under the control of the Ministry of Economy and Finances, for anti-money laundering purposes.",
+
+    "op4-title": "Bulgaria and European Economic Area (EEA)",
+    "op4-description": "<strong>MF European Trade EOOD (trading as MoneyFlap Europe)</strong>, is registered as a <a   target=\"_blank\"   href=\"https://nra.bg/wps/portal/nra/registers-i-spisuci/registers/page.virtualni.valuti/registur-na-licata-predstaviashti-uslugi-za-obmqna-megdu-virtualni-i-priznati-valuti\" >   Virtual Assets Service Provider (VASP) </a> under No. 3170376608 in the Electronic Public Register of Persons of the National Revenue Agency (NRA) against money laundering. This registration is for the purposes of providing exchange services between virtual currencies and non-gold-backed currencies, as well as offering custodial wallet services.",
+
+    "op5-title": "Tanzania",
+    "op5-description": "<strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a <a   target=\"_blank\"   href=\"https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV\" >   Money Service Business (MSB) </a> under No. 50562 with the Financial Intelligence Unit (FIU), under the control of the Ministry of Finance of the United Republic of Tanzania. This registration is for the purpose of reporting money laundering cases and does not imply a license with the Capital Markets and Securities Authority (CMSA) or Bank of Tanzania (BoT)."
   }
 }
