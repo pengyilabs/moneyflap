@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0,15%",
+      "15": "0.15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -220,6 +220,37 @@
       "join": "Únete a nuestra misión",
       "view-roles": "Ver posiciones abiertas",
       "phrase1": "Damos forma a nuestras herramientas, y después ellas nos dan forma a nosotros."
+    }
+  },
+  "press": {
+    "main-title": "Kit de prensa y medios",
+    "main-description": "¡Gracias por tu interés en nuestra empresa! Aquí encontrarás nuestro logotipo y una colección de capturas de pantalla del producto",
+    "main-subtitle": "Eslogan",
+    "main-subtitle-description": "La App Todo en Uno en la Blockchain",
+    "boilerplate-title": "Descripción general",
+    "boilerplate-description": "<strong>MoneyFlap</strong> busca transformar el panorama financiero global utilizando infraestructura innovadora de stablecoins y tecnología blockchain. La misión de la empresa es mejorar la inclusión financiera en áreas desatendidas que se ven obstaculizadas por sistemas de pago obsoletos y burocráticos o servicios financieros costosos y complejos. MoneyFlap es una super app global que utiliza protocolos blockchain públicos y stablecoins para facilitar pagos rápidos, seguros y casi sin costo en Europa, África Subsahariana, América Latina, Sudeste Asiático, MENA y América del Norte. Impulsada por una sólida red de sistemas de pago domésticos en tiempo real y un libro mayor interno de alta capacidad, nuestra plataforma ofrece movimientos de dinero globales instantáneos por una comisión de 0 a 100 puntos base (pb) a tasas de mercado medio, superando las soluciones actuales. Con MoneyFlap, los mexicanos pueden acceder al NIBSS de Nigeria, los indios pueden usar SEPA Instant de Europa, los senegaleses pueden enviar dinero a Brasil a través de Pix, los europeos pueden realizar transacciones con InstaPay en Filipinas y los saudíes pueden comprar productos en India a través de UPI, entre otras conexiones internacionales.",
+    "founding-title": "Historia de la fundación",
+    "founding-description": "Antes de decidir crear MoneyFlap, Mamadou trabajaba de forma remota en Estados Unidos mientras residía en Sudáfrica con una visa de estudiante, donde tenía una cuenta bancaria local. Pronto se dio cuenta de que los bancos sudafricanos suelen congelar las cuentas de aquellos residentes extranjeros que ya no pueden mostrar un permiso de residencia temporal válido. Entonces, se vio obligado a prepararse adecuadamente retirando todos sus fondos de Sudáfrica. Regresó a su país natal, Senegal, una semana antes del vencimiento. Por lo tanto, tuvo que abrir una nueva cuenta senegalesa para continuar recibiendo pagos desde Estados Unidos. Rápidamente notó los siguientes problemas:",
+    "founding-op1": "No hay forma de abrir una cuenta bancaria a través de ninguna aplicación web o móvil.",
+    "founding-op2": "Es imposible recibir pagos de empleadores estadounidenses a través de proveedores de servicios de dinero móvil.",
+    "founding-op3": "Es imposible realizar o recibir remesas bancarias a través de proveedores de servicios de dinero móvil.",
+    "founding-op4": "Es necesario visitar sucursales bancarias, hacer el papeleo y esperar en largas filas para abrir una cuenta.",
+    "founding-op5": "El banco requería un depósito mínimo de $20 y otros $20 para la tarjeta de débito para activar su cuenta.",
+    "founding-op6": "Los bancos siguen cobrando tarifas exorbitantes en transferencias bancarias nacionales e incluso por alertas.",
+    "founding-op7": "La gente todavía depende de métodos complejos y amigos o familiares en el extranjero para realizar operaciones bancarias en su nombre.",
+    "founding-op8": "El oligopolio de los sistemas heredados a través de la burocracia lleva a la región a tener una baja tasa de penetración de tarjetas.",
+    "founding-credits": "Rápidamente nos dimos cuenta de que nuestros problemas eran frecuentes en todos los mercados emergentes, especialmente en África subsahariana francófona, el sudeste asiático y Sudamérica.",
+    "download-logo-title": "Descarga nuestro logo",
+    "download-logo-description": "Para implementar nuestro logo en diferentes aplicaciones, descarga individualmente nuestros recursos en alta resolución en formato PNG o en archivo .zip para acceso completo a todos nuestros logos.",
+    "download-screenshots-title": "Descarga nuestras capturas de pantalla",
+    "download-screenshots-description": "Recursos en alta resolución de nuestra interfaz en escritorio y móvil, así como una selección de GIFs que muestran la funcionalidad en toda la aplicación.",
+    "download-colors-title": "Descarga nuestra paleta de colores",
+    "download-colors-description": "Recursos en alta resolución de nuestra interfaz en escritorio y móvil, así como una selección de GIFs que muestran la funcionalidad en toda la aplicación.",
+    "questions-title": "¿Alguna pregunta?",
+    "questions-description": "También nos complace ayudarte con cualquier pregunta que tengas. <br />Te atenderá una persona real que puede coordinar entrevistas y proporcionar materiales originales.",
+    "txt": {
+      "download-full-set": "Descargar set completo",
+      "contact-press": "Contactar prensa"
     }
   }
 }

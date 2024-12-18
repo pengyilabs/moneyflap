@@ -258,5 +258,44 @@
       "view-roles": "View open roles",
       "phrase1": "We shape our tools, thereafter our tools shape us."
     }
+  },
+
+  "press": {
+    "main-title": "Media & press kit",
+    "main-description": "Thanks for your interest in our company! Here's our logo and a collection of product screenshots",
+    "main-subtitle": "Tagline",
+    "main-subtitle-description": "On-chain Everything App",
+
+    "boilerplate-title": "Boilerplate",
+    "boilerplate-description": "<strong>MoneyFlap</strong> aims to transform the global financial landscape using innovative stablecoin infrastructure and blockchain technology. The company's mission is to enhance financial inclusion in underserved areas hindered by outdated, bureaucratic payment systems or costly, complex financial services. MoneyFlap is a global super app utilizing public blockchain protocols and stablecoins to facilitate rapid, near-zero cost, and secure payments across Europe, Sub-Saharan Africa, Latin America, Southeast Asia, MENA, and North America. Powered by a robust network of domestic real-time payment rails and an internal high-capacity ledger, our platform offers global instant money movements for a fee of 0 to 100 basis points (bps) at mid-market rates, surpassing current solutions. With MoneyFlap, Mexicans can access Nigeria's NIBSS, Indians can use Europe's SEPA Instant, Senegalese can send money to Brazil through Pix, Europeans can transact with InstaPay in the Philippines, and Saudis can purchase goods in India via UPI, among other international connections.",
+
+    "founding-title": "Founding Story",
+    "founding-description": "Before deciding to start MoneyFlap, Mamadou worked remotely in the United States while residing in South Africa with a student visa — where he had a local bank account. Shortly, it came to his attention that South African banks usually freeze the accounts of those foreign residents who can no longer show a valid temporary residency permit. Then, he was urged to prepare accordingly by cashing out all his funds out of South Africa. He returned to his home country, Senegal, a week before expiration. Hence, he shall have opened a new Senegalese account to continue getting paid from the United States. He quickly noticed the following issues:",
+    "founding-op1": "There is no way to open a bank account via any web or mobile banking app.",
+    "founding-op2": "It is impossible to get paid by US employers through mobile money service providers.",
+    "founding-op3": "It is impossible to make/receive bank-to-bank remittances through mobile money service providers.",
+    "founding-op4": "Must have visited bank branches, done the paperwork, and waited in long queues to open an account.",
+    "founding-op5": "The bank required a $20 minimum deposit and $20 for the debit card to activate his account.",
+    "founding-op6": "Banks keep charging exorbitant fees on domestic bank transfers and even do so for alerts.",
+    "founding-op7": "People still rely on complex methods and friends or family from abroad to bank on their behalf.",
+    "founding-op8": "The oligopoly of legacy systems through bureaucracy leads the region to have a low card penetration rate.",
+    "founding-credits": "We quickly realized that our issues were prevalent in all emerging markets, especially French-speaking sub-Saharan Africa, Southeast Asia, and South America.",
+
+    "download-logo-title": "Download Our logo",
+    "download-logo-description": "For implementing our logo in different applications, please download individually our high-resolution assets in PNG format or in .zip file for full access to all our logos.",
+
+    "download-screenshots-title": "Download Our Screenshots",
+    "download-screenshots-description": "High-resolution assets of our interface on desktop and mobile, as well as a selection of GIFs showing functionality across the app.",
+
+    "download-colors-title": "Download Our Color Palette",
+    "download-colors-description": "High-resolution assets of our interface on desktop and mobile, as well as a selection of GIFs showing functionality across the app.",
+
+    "questions-title": "Any questions ?",
+    "questions-description": "We're also happy to help with any questions you have. <br />You'll reach a real human who can arrange interviews and provide original materials.",
+
+    "txt": {
+      "download-full-set": "Download full set",
+      "contact-press": "Contact Press"
+    }
   }
 }

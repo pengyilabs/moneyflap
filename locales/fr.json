@@ -221,5 +221,36 @@
       "view-roles": "Voir les postes disponibles",
       "phrase1": "Nous façonnons nos outils, ensuite nos outils nous façonnent."
     }
+  },
+  "press": {
+    "main-title": "Kit média et presse",
+    "main-description": "Merci de votre intérêt pour notre entreprise ! Voici notre logo et une collection de captures d'écran de nos produits",
+    "main-subtitle": "Slogan",
+    "main-subtitle-description": "L'application tout-en-un sur la blockchain",
+    "boilerplate-title": "Présentation",
+    "boilerplate-description": "<strong>MoneyFlap</strong> vise à transformer le paysage financier mondial en utilisant une infrastructure innovante de stablecoins et la technologie blockchain. La mission de l'entreprise est d'améliorer l'inclusion financière dans les zones mal desservies, freinées par des systèmes de paiement obsolètes et bureaucratiques ou des services financiers coûteux et complexes. MoneyFlap est une super app mondiale utilisant des protocoles blockchain publics et des stablecoins pour faciliter des paiements rapides, quasi gratuits et sécurisés à travers l'Europe, l'Afrique subsaharienne, l'Amérique latine, l'Asie du Sud-Est, la région MENA et l'Amérique du Nord. Propulsée par un réseau robuste de rails de paiement domestiques en temps réel et un grand livre interne à haute capacité, notre plateforme offre des transferts d'argent instantanés mondiaux pour des frais de 0 à 100 points de base (pbs) aux taux du marché, surpassant les solutions actuelles. Avec MoneyFlap, les Mexicains peuvent accéder au NIBSS nigérian, les Indiens peuvent utiliser le SEPA Instant européen, les Sénégalais peuvent envoyer de l'argent au Brésil via Pix, les Européens peuvent effectuer des transactions avec InstaPay aux Philippines, et les Saoudiens peuvent acheter des biens en Inde via UPI, parmi d'autres connexions internationales.",
+    "founding-title": "Histoire de la création",
+    "founding-description": "Avant de décider de créer MoneyFlap, Mamadou travaillait à distance aux États-Unis tout en résidant en Afrique du Sud avec un visa étudiant — où il avait un compte bancaire local. Peu après, il a réalisé que les banques sud-africaines gèlent généralement les comptes des résidents étrangers qui ne peuvent plus présenter un permis de séjour temporaire valide. Il a donc dû se préparer en conséquence en retirant tous ses fonds d'Afrique du Sud. Il est retourné dans son pays d'origine, le Sénégal, une semaine avant l'expiration. Il devait donc ouvrir un nouveau compte sénégalais pour continuer à être payé depuis les États-Unis. Il a rapidement constaté les problèmes suivants :",
+    "founding-op1": "Il n'existe aucun moyen d'ouvrir un compte bancaire via une application web ou mobile.",
+    "founding-op2": "Il est impossible d'être payé par des employeurs américains via les fournisseurs de services d'argent mobile.",
+    "founding-op3": "Il est impossible d'effectuer/recevoir des transferts interbancaires via les fournisseurs de services d'argent mobile.",
+    "founding-op4": "Il faut obligatoirement se rendre en agence bancaire, remplir les documents et attendre dans de longues files d'attente pour ouvrir un compte.",
+    "founding-op5": "La banque exigeait un dépôt minimum de 20$ et 20$ pour la carte bancaire afin d'activer son compte.",
+    "founding-op6": "Les banques continuent de facturer des frais exorbitants sur les virements nationaux et même pour les notifications.",
+    "founding-op7": "Les gens comptent encore sur des méthodes complexes et sur leurs amis ou leur famille à l'étranger pour gérer leurs opérations bancaires.",
+    "founding-op8": "L'oligopole des systèmes traditionnels à travers la bureaucratie conduit la région à avoir un faible taux de pénétration des cartes bancaires.",
+    "founding-credits": "Nous avons rapidement réalisé que nos problèmes étaient répandus dans tous les marchés émergents, particulièrement en Afrique subsaharienne francophone, en Asie du Sud-Est et en Amérique du Sud.",
+    "download-logo-title": "Télécharger notre logo",
+    "download-logo-description": "Pour utiliser notre logo dans différentes applications, veuillez télécharger individuellement nos ressources haute résolution au format PNG ou le fichier .zip pour accéder à tous nos logos.",
+    "download-screenshots-title": "Télécharger nos captures d'écran",
+    "download-screenshots-description": "Ressources haute résolution de notre interface sur desktop et mobile, ainsi qu'une sélection de GIFs montrant les fonctionnalités de l'application.",
+    "download-colors-title": "Télécharger notre palette de couleurs",
+    "download-colors-description": "Ressources haute résolution de notre interface sur desktop et mobile, ainsi qu'une sélection de GIFs montrant les fonctionnalités de l'application.",
+    "questions-title": "Des questions ?",
+    "questions-description": "Nous sommes également ravis de répondre à toutes vos questions. <br />Vous serez en contact avec une vraie personne qui pourra organiser des interviews et fournir du contenu original.",
+    "txt": {
+      "download-full-set": "Télécharger le kit complet",
+      "contact-press": "Contact presse"
+    }
   }
 }
