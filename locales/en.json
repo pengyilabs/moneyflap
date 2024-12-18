@@ -208,5 +208,55 @@
     "terms": "Terms of Service",
     "licenses": "Licenses & Regulatory",
     "copyright": "Copyright 2024 MoneyFlap. All rights reserved."
+  },
+
+  "careers": {
+    "main-title": "Careers",
+    "main-subtitle": "Mission",
+    "main-description1": "MoneyFlap is building the future of finance and global cross-border payments.",
+    "main-description2": "We’re a diverse team based across the globe smartly working to bring simple, modern, and transparent payment services to underserved people.",
+
+    "open-positions-title": "Open <span class=\"text-primary\">Positions</span>",
+    "open-positions-description": "Join us in our mission to increase economic freedom in the world.",
+
+    "benefits-title": "Perks & Benefits of<br /><span class=\"text-primary\"> Working With Us</span>",
+    "timeoff-op1-title": "Time Off",
+    "timeoff-op1-description": "Enjoy flexible paid vacations plus 26+ recognized holidays, depending on your location.",
+
+    "timeoff-op2-title": "Medical, dental & vision",
+    "timeoff-op2-description": "Our employees and their dependents can avail of competitive medical, dental, and vision insurance.",
+
+    "timeoff-op3-title": "Fully Remote",
+    "timeoff-op3-description": "We provide a fully remote work environment, including a home office setup allowance for all our employees.",
+
+    "timeoff-op4-title": "Parental Leave",
+    "timeoff-op4-description": "We offer paid leave for biological parents to spend quality time with their loved ones.",
+
+    "core-values-title": "Our Core Values",
+    "core-values-description": "We believe that success only comes through a system of set norms and values. Below are the standards we promise to keep and deliver:",
+
+    "core-values-op1-title": "Accountability",
+    "core-values-op1-description": "AccountabWe're responsible for our commitments and actions, always keeping our customers at heart.ility",
+
+    "core-values-op2-title": "Transparency",
+    "core-values-op2-description": "We strive for openness and honesty in our interactions within our team, with our community, and in the markets we serve.",
+
+    "core-values-op3-title": "Loyalty and Trust",
+    "core-values-op3-description": "We appreciate the ability to rely on each other's word, actions, and dedication whenever needed.",
+
+    "core-values-op4-title": "Passion",
+    "core-values-op4-description": "We foster an inclusive environment because we believe that everyone deserves to be part of it.",
+
+    "core-values-op5-title": "Innovation",
+    "core-values-op5-description": "We're always on the lookout for opportunities to develop new financial and payment solutions for our audience.",
+
+    "core-values-op6-title": "Service",
+    "core-values-op6-description": "Our clients and their needs are our top priority. We continually aim to improve our services for their financial well-being.",
+
+    "txt": {
+      "join": "Join Our Mission",
+      "view-roles": "View open roles",
+      "phrase1": "We shape our tools, thereafter our tools shape us."
+    }
   }
 }

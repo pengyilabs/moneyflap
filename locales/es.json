@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0.15%",
+      "15": "0,15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -185,5 +185,41 @@
     "terms": "Términos de servicio",
     "licenses": "Licencias y regulación",
     "copyright": "Copyright 2024 MoneyFlap. Todos los derechos reservados."
+  },
+  "careers": {
+    "main-title": "Empleos",
+    "main-subtitle": "Misión",
+    "main-description1": "MoneyFlap está construyendo el futuro de las finanzas y los pagos transfronterizos globales.",
+    "main-description2": "Somos un equipo diverso distribuido por todo el mundo trabajando de manera inteligente para ofrecer servicios de pago simples, modernos y transparentes a personas desatendidas.",
+    "open-positions-title": "Posiciones <span class=\"text-primary\">abiertas</span>",
+    "open-positions-description": "Únete a nuestra misión de aumentar la libertad económica en el mundo.",
+    "benefits-title": "Ventajas y beneficios de<br /><span class=\"text-primary\"> trabajar con nosotros</span>",
+    "timeoff-op1-title": "Tiempo libre",
+    "timeoff-op1-description": "Disfruta de vacaciones pagadas flexibles más de 26 días festivos reconocidos, según tu ubicación.",
+    "timeoff-op2-title": "Seguro médico, dental y visual",
+    "timeoff-op2-description": "Nuestros empleados y sus dependientes pueden beneficiarse de un seguro médico, dental y visual competitivo.",
+    "timeoff-op3-title": "Totalmente remoto",
+    "timeoff-op3-description": "Proporcionamos un entorno de trabajo totalmente remoto, incluyendo una asignación para la configuración de oficina en casa para todos nuestros empleados.",
+    "timeoff-op4-title": "Permiso parental",
+    "timeoff-op4-description": "Ofrecemos permiso remunerado para padres biológicos para pasar tiempo de calidad con sus seres queridos.",
+    "core-values-title": "Nuestros valores fundamentales",
+    "core-values-description": "Creemos que el éxito solo viene a través de un sistema de normas y valores establecidos. A continuación están los estándares que prometemos mantener y cumplir:",
+    "core-values-op1-title": "Responsabilidad",
+    "core-values-op1-description": "Somos responsables de nuestros compromisos y acciones, siempre teniendo en cuenta a nuestros clientes.",
+    "core-values-op2-title": "Transparencia",
+    "core-values-op2-description": "Nos esforzamos por la apertura y honestidad en nuestras interacciones dentro de nuestro equipo, con nuestra comunidad y en los mercados que servimos.",
+    "core-values-op3-title": "Lealtad y confianza",
+    "core-values-op3-description": "Valoramos la capacidad de confiar en la palabra, las acciones y la dedicación de los demás cuando sea necesario.",
+    "core-values-op4-title": "Pasión",
+    "core-values-op4-description": "Fomentamos un ambiente inclusivo porque creemos que todos merecen ser parte de él.",
+    "core-values-op5-title": "Innovación",
+    "core-values-op5-description": "Siempre estamos en búsqueda de oportunidades para desarrollar nuevas soluciones financieras y de pago para nuestra audiencia.",
+    "core-values-op6-title": "Servicio",
+    "core-values-op6-description": "Nuestros clientes y sus necesidades son nuestra máxima prioridad. Nos esforzamos continuamente por mejorar nuestros servicios para su bienestar financiero.",
+    "txt": {
+      "join": "Únete a nuestra misión",
+      "view-roles": "Ver posiciones abiertas",
+      "phrase1": "Damos forma a nuestras herramientas, y después ellas nos dan forma a nosotros."
+    }
   }
 }

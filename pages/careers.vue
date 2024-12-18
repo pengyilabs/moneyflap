@@ -8,25 +8,24 @@
               class="text-white fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              Careers
+              {{ $t("careers.main-title") }}
               <br />
-              <small class="text-success">Mission</small>
+              <small class="text-success">{{
+                $t("careers.main-subtitle")
+              }}</small>
             </h1>
             <p class="text-white display-6">
-              MoneyFlap is building the future of finance and global
-              cross-border payments.
+              {{ $t("careers.main-description1") }}
             </p>
             <p class="text-white">
-              We’re a diverse team based across the globe smartly working to
-              bring simple, modern, and transparent payment services to
-              underserved people.
+              {{ $t("careers.main-description2") }}
             </p>
             <div class="d-flex flex-row mt-5 flex-wrap">
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
-                  Join Our Mission
+                  {{ $t("careers.txt.join") }}
                 </button>
               </div>
             </div>
@@ -44,11 +43,10 @@
             <h2
               class="fw-bolder display-2 mt-1 text-center"
               style="font-family: Sofia Pro Bold"
-            >
-              Open <span class="text-primary">Positions</span>
-            </h2>
+              v-html="$t('careers.open-positions-title')"
+            ></h2>
             <span>
-              Join us in our mission to increase economic freedom in the world.
+              {{ $t("careers.open-positions-description") }}
             </span>
             <div class="my-4">
               <a
@@ -56,7 +54,7 @@
                 href="https://www.notion.so/54b87f37b9a74868b4b929848e1f9314?pvs=21"
                 target="_blank"
               >
-                View open roles
+                {{ $t("careers.txt.view-roles") }}
               </a>
             </div>
           </div>
@@ -76,10 +74,8 @@
           <h3
             class="fw-bolder display-3 my-4 text-start w-100"
             style="font-family: Sofia Pro Bold"
-          >
-            Perks & Benefits of<br />
-            <span class="text-primary"> Working With Us</span>
-          </h3>
+            v-html="$t('careers.benefits-title')"
+          ></h3>
           <div class="row mx-auto" style="max-width: 800px">
             <div class="col-12 col-md-6 p-2" style="max-width: 100%">
               <div
@@ -96,11 +92,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Time Off
+                      {{ $t("careers.timeoff-op1-title") }}
                     </h4>
                     <p class="">
-                      Enjoy flexible paid vacations plus 26+ recognized
-                      holidays, depending on your location.
+                      {{ $t("careers.timeoff-op1-description") }}
                     </p>
                   </div>
                 </div>
@@ -122,11 +117,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Medical, dental & vision
+                      {{ $t("careers.timeoff-op2-title") }}
                     </h4>
                     <p class="">
-                      Our employees and their dependents can avail of
-                      competitive medical, dental, and vision insurance.
+                      {{ $t("careers.timeoff-op2-description") }}
                     </p>
                   </div>
                 </div>
@@ -148,11 +142,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Fully Remote
+                      {{ $t("careers.timeoff-op3-title") }}
                     </h4>
                     <p class="">
-                      We provide a fully remote work environment, including a
-                      home office setup allowance for all our employees.
+                      {{ $t("careers.timeoff-op3-description") }}
                     </p>
                   </div>
                 </div>
@@ -174,11 +167,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Parental Leave
+                      {{ $t("careers.timeoff-op4-title") }}
                     </h4>
                     <p class="">
-                      We offer paid leave for biological parents to spend
-                      quality time with their loved ones.
+                      {{ $t("careers.timeoff-op4-description") }}
                     </p>
                   </div>
                 </div>
@@ -197,12 +189,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Our Core Values
+                {{ $t("careers.core-values-title") }}
               </h3>
               <p>
-                We believe that success only comes through a system of set norms
-                and values. Below are the standards we promise to keep and
-                deliver:
+                {{ $t("careers.core-values-description") }}
               </p>
             </div>
             <div class="col-12 col-md-6">
@@ -222,11 +212,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Accountability
+                      {{ $t("careers.core-values-op1-title") }}
                     </h4>
                     <p class="">
-                      We're responsible for our commitments and actions, always
-                      keeping our customers at heart.
+                      {{ $t("careers.core-values-op1-description") }}
                     </p>
                     <div class="top-left-icon">
                       <img
@@ -246,12 +235,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Transparency
+                      {{ $t("careers.core-values-op2-title") }}
                     </h4>
                     <p class="">
-                      We strive for openness and honesty in our interactions
-                      within our team, with our community, and in the markets we
-                      serve.
+                      {{ $t("careers.core-values-op2-description") }}
                     </p>
                     <div class="top-left-icon">
                       <img
@@ -271,11 +258,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Loyalty and Trust
+                      {{ $t("careers.core-values-op3-title") }}
                     </h4>
                     <p class="">
-                      We appreciate the ability to rely on each other's word,
-                      actions, and dedication whenever needed.
+                      {{ $t("careers.core-values-op3-description") }}
                     </p>
                     <div class="top-left-icon">
                       <img
@@ -295,11 +281,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Passion
+                      {{ $t("careers.core-values-op4-title") }}
                     </h4>
                     <p class="">
-                      We foster an inclusive environment because we believe that
-                      everyone deserves to be part of it.
+                      {{ $t("careers.core-values-op4-description") }}
                     </p>
                     <div class="top-left-icon">
                       <img
@@ -319,11 +304,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Innovation
+                      {{ $t("careers.core-values-op5-title") }}
                     </h4>
                     <p class="">
-                      We're always on the lookout for opportunities to develop
-                      new financial and payment solutions for our audience.
+                      {{ $t("careers.core-values-op5-description") }}
                     </p>
                     <div class="top-left-icon">
                       <img src="@/src/assets/tabler_bulb.png" alt="" class="" />
@@ -339,11 +323,10 @@
                 >
                   <div class="card-body p-4 fw-medium lh-lg d-flex flex-column">
                     <h4 class="mt-4" style="font-family: Sofia Pro Bold">
-                      Service
+                      {{ $t("careers.core-values-op6-title") }}
                     </h4>
                     <p class="">
-                      Our clients and their needs are our top priority. We
-                      continually aim to improve our services for their
+                      {{ $t("careers.core-values-op6-description") }}
                       financial well-being.
                     </p>
                     <div class="top-left-icon">
@@ -363,7 +346,7 @@
               class="text-center display-5 my-4 mx-auto"
               style="font-family: Sofia Pro Bold; max-width: 800px"
             >
-              "We shape our tools, thereafter our tools shape us."
+              "{{ $t("careers.txt.phrase1") }}"
             </span>
             <h3 class="text-center my-4">— Marshall McLuhan</h3>
           </div>
@@ -372,7 +355,6 @@
     </div>
   </NuxtLayout>
 </template>
-
 <style scoped lang="scss">
 .header {
   min-height: 80vh;
