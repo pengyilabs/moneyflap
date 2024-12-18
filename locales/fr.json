@@ -306,5 +306,38 @@
     "program-test-description": "Notre programme LBC fera l'objet d'un test indépendant au moins une fois par an. Après les tests, les résultats seront communiqués à la direction générale. Nous traiterons rapidement chaque problème et documenterons la manière dont il est résolu.",
     "monitoring-title": "Surveillance de la conduite et des comptes des employés",
     "monitoring-description": "Les comptes des employés seront soumis aux mêmes procédures de lutte contre le blanchiment d'argent (LBC) que les comptes clients, sous la supervision du responsable de la conformité LBC. Les performances LBC des superviseurs seront évaluées lors de leur revue annuelle, et le PDG examinera les comptes du responsable de la conformité LBC."
+  },
+  "fraud": {
+    "main-title": "Protection contre la fraude",
+    "main-description": "Chez MoneyFlap, nous sommes conscients des histoires troublantes de systèmes victimes de pirates informatiques rusés et de fraudeurs. Ces récits nous poussent à aller plus loin, protégeant votre parcours financier avec un dévouement inébranlable. Chez MoneyFlap, nous ne nous contentons pas de parler de confiance ; nous la construisons, pierre par pierre, en veillant à ce que chaque transaction soit non seulement fluide mais aussi protégée des dangers qui guettent.",
+    "how-protect-users-title": "Comment nous <span class='text-primary'> protégeons </span> les <br /> utilisateurs MoneyFlap",
+    "how-protect-users-op1-title": "LBC/KYC de niveau militaire",
+    "how-protect-users-op1-description": "Nous utilisons des méthodes avancées et suivons des réglementations strictes pour identifier, surveiller et approuver les clients, similaires aux principales institutions financières, afin de lutter contre la criminalité financière.",
+    "how-protect-users-op2-title": "Atténuation des arnaques en temps réel",
+    "how-protect-users-op2-description": "Nous utilisons des mesures de sécurité avancées, incluant des avertissements automatiques et le blocage d'adresses de portefeuille liées aux arnaques, pour protéger les utilisateurs et minimiser les incidents de perte de fonds lors des transactions.",
+    "how-protect-users-op3-title": "Atténuation des risques en temps réel",
+    "how-protect-users-op3-description": "Nous utilisons des algorithmes d'apprentissage automatique de pointe pour surveiller en permanence les adresses de portefeuille et les transactions, permettant des réponses rapides aux cyberattaques, piratages, fraudes et vulnérabilités.",
+    "how-protect-users-op4-title": "Prévention proactive de la criminalité financière",
+    "how-protect-users-op4-description": "Nous utilisons des services tiers pour analyser les portefeuilles et les tokens à risque, et traitons de manière proactive les cybermenaces avec des listes de surveillance, des alertes et des rapports.",
+    "how-protect-users-op5-title": "Cartes sans numéros",
+    "how-protect-users-op5-description": "Nos cartes physiques offrent une protection supérieure contre le vol de données en protégeant les informations sensibles, garantissant que même si une carte est perdue ou volée, les données cruciales restent sécurisées.",
+    "how-protect-users-op6-title": "Contrôles de sécurité des cartes",
+    "how-protect-users-op6-description": "Nous proposons le gel instantané pour les transactions suspectes et leur carte associée, avec la possibilité de dégeler si jugé sûr. Pour les achats en ligne, nous vous notifions pour confirmer le paiement avant qu'il ne soit effectué.",
+    "how-protect-users-op7-title": "Contrôles de sécurité du compte",
+    "how-protect-users-op7-description": "Nous assurons la sécurité de votre compte grâce à des mesures telles que l'authentification multifactorielle, incluant les codes PIN ou la biométrie (empreinte digitale ou reconnaissance faciale) et les codes OTP par SMS lorsque nécessaire.",
+    "how-protect-yourself-title": "Comment vous protéger contre les fraudes et les arnaques",
+    "how-protect-yourself-description": "Nous conseillons vivement à nos utilisateurs de garder ces points à l'esprit pour prévenir les fraudes courantes :",
+    "how-protect-yourself-op1-title": "L'équipe MoneyFlap ne vous demandera JAMAIS un accès à distance à votre téléphone ou vos appareils.",
+    "how-protect-yourself-op2-title": "L'équipe MoneyFlap ne vous demandera JAMAIS vos codes PIN, mots de passe ou codes 2FA.",
+    "how-protect-yourself-op3-title": "L'équipe MoneyFlap ne vous demandera JAMAIS de transférer de l'argent vers des adresses, comptes bancaires ou comptes de paiement mobile.",
+    "how-protect-yourself-op4-title": "L'équipe MoneyFlap ne vous contactera JAMAIS via les groupes de réseaux sociaux.",
+    "support-team-title": "Communications <br />avec l'équipe <br /> <span class='text-primary'> Support MoneyFlap </span>",
+    "support-team-op1-title": "L'équipe MoneyFlap ne fournit pas de numéro de téléphone gratuit pour le contact.",
+    "support-team-op2-title": "L'équipe MoneyFlap communique uniquement avec vous par voie numérique et non en personne.",
+    "support-team-op3-title": "L'équipe MoneyFlap fournit une assistance exclusivement via le chat intégré à l'application et n'offre pas de support téléphonique.",
+    "support-team-op4-title": "MoneyFlap utilise uniquement des emails se terminant par @moneyflap.com. Ignorez tout email ne correspondant pas à cette adresse.",
+    "txt": {
+      "protect-finances": "Protégez vos finances"
+    }
   }
 }

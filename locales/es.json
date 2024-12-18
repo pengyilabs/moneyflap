@@ -306,5 +306,38 @@
     "program-test-description": "Nuestro programa AML será evaluado de forma independiente al menos una vez al año. Después de las pruebas, los hallazgos se informarán a la alta dirección. Abordaremos rápidamente y documentaremos cómo se resuelve cada problema.",
     "monitoring-title": "Monitoreo de la conducta y cuentas de empleados",
     "monitoring-description": "Las cuentas de los empleados se someterán a los mismos procedimientos contra el lavado de dinero (AML) que las cuentas de los clientes, supervisadas por la persona de cumplimiento AML. El desempeño AML de los supervisores será evaluado durante su revisión anual, y el CEO revisará las cuentas de la persona de cumplimiento AML."
+  },
+  "fraud": {
+    "main-title": "Protección contra fraude",
+    "main-description": "En MoneyFlap, reconocemos las inquietantes historias de sistemas que caen víctimas de hackers astutos e infractores sin escrúpulos. Estas historias nos impulsan a ir más allá, protegiendo tu viaje financiero con una dedicación inquebrantable. Aquí en MoneyFlap, no solo hablamos de confianza; la construimos, paso a paso, asegurando que cada transacción que realices no solo sea fluida sino también segura frente a peligros ocultos.",
+    "how-protect-users-title": "Cómo <span class='text-primary'> protegemos </span> a los <br /> usuarios de MoneyFlap",
+    "how-protect-users-op1-title": "AML/KYC de grado militar",
+    "how-protect-users-op1-description": "Utilizamos métodos avanzados y seguimos regulaciones estrictas para identificar, monitorear y aprobar clientes, similar a las principales instituciones financieras, para combatir el crimen financiero.",
+    "how-protect-users-op2-title": "Mitigación de estafas en tiempo real",
+    "how-protect-users-op2-description": "Implementamos medidas de seguridad avanzadas, incluyendo advertencias automáticas y bloqueos de direcciones de wallet relacionadas con estafas, para proteger a los usuarios y minimizar incidentes de pérdida de fondos durante las transacciones.",
+    "how-protect-users-op3-title": "Mitigación de riesgos en tiempo real",
+    "how-protect-users-op3-description": "Utilizamos algoritmos de machine learning de última generación para monitorear constantemente las direcciones de wallet y transacciones, permitiendo respuestas rápidas ante exploits cibernéticos, hackeos, fraudes y vulnerabilidades.",
+    "how-protect-users-op4-title": "Prevención proactiva del crimen financiero",
+    "how-protect-users-op4-description": "Utilizamos servicios de terceros para evaluar wallets y tokens en busca de riesgos, y abordamos proactivamente las amenazas cibernéticas con listas de vigilancia, alertas e informes.",
+    "how-protect-users-op5-title": "Tarjetas sin números",
+    "how-protect-users-op5-description": "Nuestras tarjetas físicas ofrecen protección superior contra el robo de datos al resguardar la información sensible, garantizando que incluso si una tarjeta se pierde o es robada, los datos cruciales permanezcan seguros.",
+    "how-protect-users-op6-title": "Controles de seguridad de tarjetas",
+    "how-protect-users-op6-description": "Proporcionamos congelamiento instantáneo para transacciones sospechosas y su tarjeta asociada, con la opción de descongelar si se considera seguro. Para compras en línea, te notificamos para confirmar el pago antes de que proceda.",
+    "how-protect-users-op7-title": "Controles de seguridad de cuenta",
+    "how-protect-users-op7-description": "Aseguramos la seguridad de tu cuenta mediante medidas como la autenticación multifactor, incluyendo PINs o biometría (huella digital o reconocimiento facial) y códigos OTP por SMS cuando sea necesario.",
+    "how-protect-yourself-title": "Cómo protegerte contra fraudes y estafas",
+    "how-protect-yourself-description": "Recomendamos encarecidamente a nuestros usuarios tener en cuenta estas declaraciones para ayudar a prevenir fraudes comunes:",
+    "how-protect-yourself-op1-title": "El equipo de MoneyFlap NUNCA SOLICITARÁ acceso remoto a tu teléfono o dispositivos.",
+    "how-protect-yourself-op2-title": "El equipo de MoneyFlap NUNCA SOLICITARÁ tus PINs, contraseñas o códigos 2FA.",
+    "how-protect-yourself-op3-title": "El equipo de MoneyFlap NUNCA TE PEDIRÁ que transfieras dinero a ninguna dirección, banco o cuenta de dinero móvil.",
+    "how-protect-yourself-op4-title": "El equipo de MoneyFlap NUNCA TE CONTACTARÁ a través de grupos de redes sociales.",
+    "support-team-title": "Comunicaciones <br />con el equipo de <br /> <span class='text-primary'> Soporte de MoneyFlap </span>",
+    "support-team-op1-title": "El equipo de MoneyFlap no proporciona un número de teléfono gratuito para contacto.",
+    "support-team-op2-title": "El equipo de MoneyFlap solo se comunica contigo por medios digitales y no en persona.",
+    "support-team-op3-title": "El equipo de MoneyFlap brinda soporte exclusivamente a través del chat en la app y no ofrece soporte telefónico.",
+    "support-team-op4-title": "MoneyFlap solo usa correos que terminan en @moneyflap.com. Ignora cualquier correo que no coincida con esta dirección.",
+    "txt": {
+      "protect-finances": "Protege tus finanzas"
+    }
   }
 }

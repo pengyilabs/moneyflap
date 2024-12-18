@@ -372,5 +372,48 @@
 
     "monitoring-title": "Monitoring Employee Conduct and Accounts",
     "monitoring-description": "Employee accounts will undergo the same Anti-Money Laundering (AML) procedures as customer accounts, supervised by the AML Compliance Person. Supervisors' AML performance will be evaluated during their annual review, and the CEO will review the AML Compliance Person's accounts."
+  },
+
+  "fraud": {
+    "main-title": "Fraud Protection",
+    "main-description": "At MoneyFlap, we recognize the unsettling tales of systems falling prey to cunning hackers and unscrupulous rule-breakers. These stories drive us to push further, safeguarding your financial journey with unwavering dedication. Here at MoneyFlap, we don’t just talk about trust; we build it, brick by brick, ensuring every transaction you make is not only seamless but also safe from lurking dangers.",
+
+    "how-protect-users-title": "How We <span class='text-primary'> Protect </span> the <br /> MoneyFlap Users",
+    "how-protect-users-op1-title": "Military-Grade AML/KYC",
+    "how-protect-users-op1-description": "We use advanced methods and follow strict regulations to identify, monitor, and approve customers, similar to top financial institutions, to combat financial crime.",
+
+    "how-protect-users-op2-title": "Real-time Scams Mitigation",
+    "how-protect-users-op2-description": "We use advanced security measures, including automatic warnings and scam-related wallet address blocks, to safeguard users and minimize incidents of fund loss during transactions.",
+
+    "how-protect-users-op3-title": "Real-time Risk Mitigation",
+    "how-protect-users-op3-description": " We utilize cutting-edge machine learning algorithms to constantly monitor wallet addresses and transactions, enabling swift responses to cyber exploits, hacks, fraud, and vulnerabilities.",
+
+    "how-protect-users-op4-title": "Proactive Financial Crime Prevention",
+    "how-protect-users-op4-description": "We utilize third-party services to screen wallets and tokens for risks, and proactively address cyber threats with watchlists, alerts, and reports.",
+
+    "how-protect-users-op5-title": "Numberless Cards",
+    "how-protect-users-op5-description": "Our physical cards offer superior protection against data theft by safeguarding sensitive information, ensuring that even if a card is lost or stolen, crucial data remains secure.",
+
+    "how-protect-users-op6-title": "Card Security Controls",
+    "how-protect-users-op6-description": "We provide instant freezing for suspicious transactions and their associated card, with the option to unfreeze if deemed safe. For online purchases, we notify you to confirm the payment before it proceeds.",
+
+    "how-protect-users-op7-title": "Account Security Controls",
+    "how-protect-users-op7-description": "We ensure your account's security through measures such as multi-factor authentication, including PINs or Biometrics (fingerprint or facial recognition) and SMS one-time OTP codes when necessary.",
+
+    "how-protect-yourself-title": "How to Protect Yourself from Frauds and Scams",
+    "how-protect-yourself-description": "We strongly advise our users to keep these statements in mind to help prevent common fraud:",
+
+    "how-protect-yourself-op1-title": "The MoneyFlap team WILL NEVER REQUEST remote access to your phone or devices.",
+    "how-protect-yourself-op2-title": "The MoneyFlap team WILL NEVER REQUEST your PINs, passwords, or 2FA codes.",
+    "how-protect-yourself-op3-title": "The MoneyFlap team WILL NEVER REQUEST you to transfer money to any addresses, bank, or mobile money accounts.",
+    "how-protect-yourself-op4-title": "The MoneyFlap team WILL NEVER CONTACT you via social media groups.",
+
+    "support-team-title": "Communications <br />with MoneyFlap <br /> <span class='text-primary'> Support Team </span>",
+    "support-team-op1-title": "The MoneyFlap team does not provide a toll-free phone number for contact.",
+    "support-team-op2-title": "The MoneyFlap team only communicate with you through digital means and not in person.",
+    "support-team-op3-title": "The MoneyFlap team provides support exclusively through in-app chat and does not offer phone support.",
+    "support-team-op4-title": "MoneyFlap only uses emails ending in @moneyflap.com. Disregard any emails that do not match this address.",
+
+    "txt": { "protect-finances": "Protect Your Finances" }
   }
 }
