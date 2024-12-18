@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0,15%",
+      "15": "0.15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -167,5 +167,23 @@
     "mfusd": "MFUSD",
     "help": "Ayuda",
     "get-started": "Comenzar"
+  },
+  "footer": {
+    "company": "Empresa",
+    "about-us": "Sobre nosotros",
+    "careers": "Empleo",
+    "press": "Prensa",
+    "ethics-sustainability": "Ética y sostenibilidad",
+    "for-business": "Para empresas",
+    "resources": "Recursos",
+    "help": "Centro de ayuda",
+    "security": "Seguridad y control",
+    "fraud-protection": "Protección contra fraude",
+    "system-status": "Estado del sistema",
+    "KYC/AML-program": "KYC/AML Program",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "licenses": "Licencias y regulación",
+    "copyright": "Copyright 2024 MoneyFlap. Todos los derechos reservados."
   }
 }

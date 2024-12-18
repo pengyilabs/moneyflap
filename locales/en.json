@@ -189,5 +189,24 @@
     "mfusd": "MFUSD",
     "help": "Help",
     "get-started": "Get Started"
+  },
+
+  "footer": {
+    "company": "Company",
+    "about-us": "About Us",
+    "careers": "Careers",
+    "press": "Press",
+    "ethics-sustainability": "Ethics & Sustainability",
+    "for-business": "For Business",
+    "resources": "Resources",
+    "help": "Help Center",
+    "security": "Security & Control",
+    "fraud-protection": "Fraud Protection",
+    "system-status": "System Status",
+    "KYC/AML-program": "KYC/AML Program",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "licenses": "Licenses & Regulatory",
+    "copyright": "Copyright 2024 MoneyFlap. All rights reserved."
   }
 }
