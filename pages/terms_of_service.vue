@@ -101,7 +101,8 @@
                 <strong>Borderless money movements:</strong> Instantly move
                 funds in and out of your global accounts on-chain or to bank
                 accounts and mobile money in 65+ countries at near-zero
-                cost—cash in and out at any MoneyGram points in 181 countries.
+                cost—cash in and out at any MoneyGram &trade; points in 181
+                countries.
               </span>
             </li>
             <li>
@@ -272,15 +273,15 @@
               various methods such as a traditional bank account, linking your
               bank account through Open Banking, mobile money account, linking
               your stablecoin wallet or exchange, and cash through MoneyGram
-              locations. Thus, the amount in local currency you have deposited
-              into your account will be exchanged for the corresponding amount
-              in virtual currencies at the mid-market rates, confirming your
-              stablecoin purchase. The availability of these payment methods may
-              depend on the country you are from or based in. The transaction
-              fees and limits depend on the payment method used — we may at our
-              sole discretion set the transaction fees or limits of your
-              Account. Refer to our pricing page to learn more about our
-              transaction limits and fees.
+              &trade; locations. Thus, the amount in local currency you have
+              deposited into your account will be exchanged for the
+              corresponding amount in virtual currencies at the mid-market
+              rates, confirming your stablecoin purchase. The availability of
+              these payment methods may depend on the country you are from or
+              based in. The transaction fees and limits depend on the payment
+              method used — we may at our sole discretion set the transaction
+              fees or limits of your Account. Refer to our pricing page to learn
+              more about our transaction limits and fees.
             </li>
             <li class="mb-0 mt-0">
               <span class="fw-bold d-contents">Payin Stablecoin</span>. You can
