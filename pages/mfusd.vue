@@ -8,24 +8,20 @@
               class="text-white fw-bolder display-4 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              MoneyFlap Dollar (MFUSD)
+              {{ $t("mfusd.main-title") }}
             </h2>
             <p class="text-white display-6">
-              Unlock the Potential of Global Finance with MoneyFlap Dollar: The
-              New Gasless Stablecoin
+              {{ $t("mfusd.main-subtitle") }}
             </p>
             <p class="text-white">
-              MoneyFlap Dollar (MFUSD) is a regulated virtual currency, fully
-              supported by reserves, catering to global businesses and
-              developers. It offers effortless, fast, and fee-free cross-border
-              payments.
+              {{ $t("mfusd.main-description") }}
             </p>
             <div class="d-flex flex-row mt-5 flex-wrap">
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
-                  Get in touch
+                  {{ $t("mfusd.txt.get-in-touch") }}
                 </button>
               </div>
             </div>
@@ -42,10 +38,8 @@
           <h3
             class="fw-bolder display-3 my-4 text-center w-100"
             style="font-family: Sofia Pro Bold"
-          >
-            The
-            <span class="text-primary"> MoneyFlap <br />Dollar </span> Promise
-          </h3>
+            v-html="$t('mfusd.moneyflap-dollar-title')"
+          ></h3>
           <div class="row mx-auto" style="max-width: 800px">
             <div class="col-12 col-md-6 p-2" style="max-width: 100%">
               <div
@@ -62,12 +56,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Rock-Solid Security
+                      {{ $t("mfusd.moneyflap-dollar-op1-title") }}
                     </h4>
                     <p class="">
-                      MFUSD is fully backed by cash, U.S. treasuries, and
-                      cash-equivalent assets, guaranteeing a stable and
-                      trustworthy value.
+                      {{ $t("mfusd.moneyflap-dollar-op1-description") }}
                     </p>
                   </div>
                 </div>
@@ -89,13 +81,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Regulated Stability
+                      {{ $t("mfusd.moneyflap-dollar-op2-title") }}
                     </h4>
                     <p class="">
-                      MFUSD ensures global transparency and legal compliance by
-                      adhering to strict regulatory standards. It is issued
-                      through a collaboration between MoneyFlap and Brale, a
-                      licensed MSB and money transmitter in the U.S.
+                      {{ $t("mfusd.moneyflap-dollar-op2-description") }}
                     </p>
                   </div>
                 </div>
@@ -117,11 +106,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Unparalleled Speed
+                      {{ $t("mfusd.moneyflap-dollar-op3-title") }}
                     </h4>
                     <p class="">
-                      MFUSD enables instant, high-speed transactions for
-                      seamless payments, regardless of distance.
+                      {{ $t("mfusd.moneyflap-dollar-op3-description") }}
                     </p>
                   </div>
                 </div>
@@ -143,12 +131,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Always-On, Cost-Free
+                      {{ $t("mfusd.moneyflap-dollar-op4-title") }}
                     </h4>
                     <p class="">
-                      With MFUSD, enjoy 24/7 availability and zero transaction
-                      fees, giving your business the freedom to operate on your
-                      terms.
+                      {{ $t("mfusd.moneyflap-dollar-op4-description") }}
                     </p>
                   </div>
                 </div>
@@ -170,13 +156,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Interoperable, Global Access
+                      {{ $t("mfusd.moneyflap-dollar-op5-title") }}
                     </h4>
                     <p class="">
-                      MFUSD allows businesses to exchange 1 MFUSD for 1 US
-                      dollar, offering direct access to US dollars and
-                      effortless swaps between MFUSD, local currencies, and
-                      other stablecoins.
+                      {{ $t("mfusd.moneyflap-dollar-op5-description") }}
                     </p>
                   </div>
                 </div>
@@ -198,12 +181,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Seamless Integration
+                      {{ $t("mfusd.moneyflap-dollar-op6-title") }}
                     </h4>
                     <p class="">
-                      For developers, businesses, and traders alike, MFUSD
-                      seamlessly enhances payment applications and global
-                      commerce.
+                      {{ $t("mfusd.moneyflap-dollar-op6-description") }}
                     </p>
                   </div>
                 </div>
@@ -236,9 +217,9 @@
                 padding-right: 30px;
               "
             >
-              <span class="d-flex justify-content-center text-white"
-                >Available Soon</span
-              >
+              <span class="d-flex justify-content-center text-white">{{
+                $t("mfusd.txt.available-soon")
+              }}</span>
             </div>
           </div>
         </div>
@@ -246,19 +227,13 @@
         <div class="row justify-content-center">
           <div class="col-9">
             <h3 class="fw-bolder display-3 my-4 text-center w-100 text-white">
-              Global Reach, Local Touch: Harness the Power of MHR and MFUSD
+              {{ $t("mfusd.global-reach-title") }}
             </h3>
 
             <div class="row justify-content-center">
               <div style="width: 80%">
                 <p class="my-4 text-center text-white">
-                  MHR is a global stablecoin payment network enabling developers
-                  to transfer funds in and out, on-ramp, off-ramp across more
-                  than 90 countries at mid-market rates through real-time
-                  domestic payment systems. With one API integration, developers
-                  can access limitless cross-border payments between bank
-                  accounts, mobile wallets, and stablecoin wallets. Transactions
-                  can be settled quickly using MFUSD or any USD stablecoins.
+                  {{ $t("mfusd.global-reach-description") }}
                 </p>
               </div>
             </div>
@@ -284,7 +259,7 @@
           class="py-4 px-1 w-100 flex-wrap d-flex justify-content-center w-100"
         >
           <h4 class="text-white fw-bolder display-3 my-4 text-center w-100">
-            Who We Serve
+            {{ $t("mfusd.who-we-serve-title") }}
           </h4>
 
           <!-- icons -->
@@ -484,15 +459,10 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Transparency
+                {{ $t("mfusd.transparency-title") }}
               </h3>
               <p>
-                MFUSD can be redeemed 1:1 for U.S. dollars. MoneyFlap and Brale
-                ensure that treasury assets equal or exceed the tokens issued.
-                Brale self-reports the MFUSD reserve composition monthly, and an
-                independent accounting firm provides monthly audit reports.
-                These reports will soon be available on the MFUSD Transparency
-                page.
+                {{ $t("mfusd.transparency-description") }}
               </p>
 
               <div class="d-flex flex-row mt-5 flex-wrap">
@@ -500,7 +470,7 @@
                   <button
                     class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                   >
-                    MFUSD Transparency page
+                    {{ $t("mfusd.txt.mfusd-transparency-page") }}
                   </button>
                 </div>
               </div>
@@ -524,11 +494,11 @@
           <div class="row bg-lightgray rounded-4 p-4">
             <div class="col-12 my-3">
               <div class="d-flex flex-column justify-content-center">
-                <h4 class="mt-4 display-2" style="font-family: Sofia Pro Bold">
-                  MoneyFlap Dollar
-                  <br />
-                  <span class="text-primary">vs </span> Alternatives Solutions
-                </h4>
+                <h4
+                  class="mt-4 display-2"
+                  style="font-family: Sofia Pro Bold"
+                  v-html="$t('mfusd.moneyflap-dollar-alternative-title')"
+                ></h4>
                 <div class="my-4"></div>
                 <table>
                   <thead>
@@ -554,7 +524,9 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="border-bottom">Cost-free transactions</td>
+                      <td class="border-bottom">
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op1") }}
+                      </td>
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
@@ -566,29 +538,9 @@
                       <td><hr style="width: 39px; margin: auto" /></td>
                     </tr>
                     <tr>
-                      <td class="border-bottom">On-chain transactions</td>
                       <td class="border-bottom">
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op2") }}
                       </td>
-                      <td>
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
-                      </td>
-                      <td>
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
-                      </td>
-                      <td><hr style="width: 39px; margin: auto" /></td>
-                    </tr>
-                    <tr>
-                      <td class="border-bottom">Instant settlement</td>
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
@@ -611,7 +563,31 @@
                     </tr>
                     <tr>
                       <td class="border-bottom">
-                        Issued by a regulated entity
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op3") }}
+                      </td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op4") }}
                       </td>
                       <td class="border-bottom">
                         <img
@@ -651,9 +627,7 @@
             <div class="col-12 my-3">
               <div class="d-flex flex-column justify-content-center">
                 <h4 class="mt-4 display-2" style="font-family: Sofia Pro Bold">
-                  MoneyFlap Dollar
-                  <br />
-                  <span class="text-primary">vs </span> Alternatives Solutions
+                  {{ $t("mfusd.moneyflap-dollar-alternative-title") }}
                 </h4>
                 <div class="my-4"></div>
                 <table>
@@ -680,7 +654,9 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="border-bottom">Cost-free transactions</td>
+                      <td class="border-bottom">
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op1") }}
+                      </td>
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
@@ -692,29 +668,9 @@
                       <td><hr style="width: 39px; margin: auto" /></td>
                     </tr>
                     <tr>
-                      <td class="border-bottom">On-chain transactions</td>
                       <td class="border-bottom">
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op2") }}
                       </td>
-                      <td>
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
-                      </td>
-                      <td>
-                        <img
-                          src="@/src/assets/icon-mfusd-check.png"
-                          style="max-width: 30px"
-                        />
-                      </td>
-                      <td><hr style="width: 39px; margin: auto" /></td>
-                    </tr>
-                    <tr>
-                      <td class="border-bottom">Instant settlement</td>
                       <td class="border-bottom">
                         <img
                           src="@/src/assets/icon-mfusd-check.png"
@@ -737,7 +693,31 @@
                     </tr>
                     <tr>
                       <td class="border-bottom">
-                        Issued by a regulated entity
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op3") }}
+                      </td>
+                      <td class="border-bottom">
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="@/src/assets/icon-mfusd-check.png"
+                          style="max-width: 30px"
+                        />
+                      </td>
+                      <td><hr style="width: 39px; margin: auto" /></td>
+                    </tr>
+                    <tr>
+                      <td class="border-bottom">
+                        {{ $t("mfusd.moneyflap-dollar-alternative-op4") }}
                       </td>
                       <td class="border-bottom">
                         <img
@@ -796,7 +776,7 @@
           />
           <span class="display-5 my-4 text-center text-sm-start">
             <img src="@/src/assets/logo-mfusd-2.png" style="max-width: 170px" />
-            is available on top blockchain <br />networks and more coming soon
+            <div v-html="$t('mfusd.mfusd-available-title')"></div>
           </span>
 
           <img
@@ -811,7 +791,7 @@
                 href="https://tally.so/r/nPlGx5"
                 target="_blank"
               >
-                Get in touch
+                {{ $t("mfusd.txt.get-in-touch") }}
               </a>
             </div>
           </div>

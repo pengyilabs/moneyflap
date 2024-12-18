@@ -125,5 +125,39 @@
       "from0USD": "À partir de 0 USD",
       "3USD": "3 USD"
     }
+  },
+  "mfusd": {
+    "main-title": "MoneyFlap Dollar (MFUSD)",
+    "main-subtitle": "Libérez le potentiel de la finance mondiale avec MoneyFlap Dollar : Le nouveau stablecoin sans frais de gas",
+    "main-description": "MoneyFlap Dollar (MFUSD) est une monnaie virtuelle réglementée, entièrement garantie par des réserves, destinée aux entreprises et développeurs du monde entier. Elle permet des paiements transfrontaliers sans effort, rapides et sans frais.",
+    "moneyflap-dollar-title": "La promesse du <span class=\"text-primary\">MoneyFlap <br />Dollar</span>",
+    "moneyflap-dollar-op1-title": "Sécurité inébranlable",
+    "moneyflap-dollar-op1-description": "MFUSD est entièrement garanti par des liquidités, des bons du Trésor américain et des actifs équivalents à des liquidités, garantissant une valeur stable et fiable.",
+    "moneyflap-dollar-op2-title": "Stabilité réglementée",
+    "moneyflap-dollar-op2-description": "MFUSD assure la transparence mondiale et la conformité légale en respectant des normes réglementaires strictes. Il est émis grâce à une collaboration entre MoneyFlap et Brale, un MSB agréé et transmetteur d'argent aux États-Unis.",
+    "moneyflap-dollar-op3-title": "Vitesse inégalée",
+    "moneyflap-dollar-op3-description": "MFUSD permet des transactions instantanées à haute vitesse pour des paiements fluides, quelle que soit la distance.",
+    "moneyflap-dollar-op4-title": "Disponible 24/7, sans frais",
+    "moneyflap-dollar-op4-description": "Avec MFUSD, profitez d'une disponibilité 24/7 et de transactions sans frais, donnant à votre entreprise la liberté d'opérer selon vos conditions.",
+    "moneyflap-dollar-op5-title": "Accès global interopérable",
+    "moneyflap-dollar-op5-description": "MFUSD permet aux entreprises d'échanger 1 MFUSD contre 1 dollar US, offrant un accès direct aux dollars américains et des échanges faciles entre MFUSD, les devises locales et d'autres stablecoins.",
+    "moneyflap-dollar-op6-title": "Intégration transparente",
+    "moneyflap-dollar-op6-description": "Pour les développeurs, les entreprises et les traders, MFUSD améliore de manière transparente les applications de paiement et le commerce mondial.",
+    "global-reach-title": "Portée mondiale, touche locale : Exploitez la puissance de MHR et MFUSD",
+    "global-reach-description": "MHR est un réseau de paiement stablecoin mondial permettant aux développeurs de transférer des fonds, d'effectuer des on-ramp et off-ramp dans plus de 90 pays aux taux du marché via des systèmes de paiement nationaux en temps réel. Avec une seule intégration API, les développeurs peuvent accéder à des paiements transfrontaliers illimités entre comptes bancaires, portefeuilles mobiles et portefeuilles stablecoin. Les transactions peuvent être réglées rapidement en utilisant MFUSD ou tout stablecoin USD.",
+    "who-we-serve-title": "Qui nous servons",
+    "transparency-title": "Transparence",
+    "transparency-description": "Le MFUSD peut être échangé 1:1 contre des dollars américains. MoneyFlap et Brale s'assurent que les actifs de trésorerie sont égaux ou supérieurs aux jetons émis. Brale publie mensuellement la composition des réserves MFUSD, et un cabinet comptable indépendant fournit des rapports d'audit mensuels. Ces rapports seront bientôt disponibles sur la page de transparence MFUSD.",
+    "moneyflap-dollar-alternative-title": "MoneyFlap Dollar <br /> <span class=\"text-primary\">vs </span> Solutions alternatives",
+    "moneyflap-dollar-alternative-op1": "Transactions sans frais",
+    "moneyflap-dollar-alternative-op2": "Transactions on-chain",
+    "moneyflap-dollar-alternative-op3": "Règlement instantané",
+    "moneyflap-dollar-alternative-op4": "Émis par une entité réglementée",
+    "mfusd-available-title": "est disponible sur les principales blockchains <br />et d'autres arrivent bientôt",
+    "txt": {
+      "get-in-touch": "Contactez-nous",
+      "available-soon": "Bientôt disponible",
+      "mfusd-transparency-page": "Page de transparence MFUSD"
+    }
   }
 }

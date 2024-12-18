@@ -125,5 +125,39 @@
       "from0USD": "Desde 0 USD",
       "3USD": "3 USD"
     }
+  },
+  "mfusd": {
+    "main-title": "MoneyFlap Dollar (MFUSD)",
+    "main-subtitle": "Descubre el potencial de las finanzas globales con MoneyFlap Dollar: El nuevo stablecoin sin comisiones de gas",
+    "main-description": "MoneyFlap Dollar (MFUSD) es una moneda virtual regulada, totalmente respaldada por reservas, diseñada para empresas y desarrolladores globales. Ofrece pagos transfronterizos sin comisiones, rápidos y sin esfuerzo.",
+    "moneyflap-dollar-title": "La promesa del<span class=\"text-primary\"> MoneyFlap <br />Dollar </span>",
+    "moneyflap-dollar-op1-title": "Seguridad inquebrantable",
+    "moneyflap-dollar-op1-description": "MFUSD está totalmente respaldado por efectivo, bonos del tesoro estadounidense y activos equivalentes a efectivo, garantizando un valor estable y confiable.",
+    "moneyflap-dollar-op2-title": "Estabilidad regulada",
+    "moneyflap-dollar-op2-description": "MFUSD garantiza la transparencia global y el cumplimiento legal al adherirse a estrictos estándares regulatorios. Se emite a través de una colaboración entre MoneyFlap y Brale, un MSB licenciado y transmisor de dinero en EE. UU.",
+    "moneyflap-dollar-op3-title": "Velocidad sin igual",
+    "moneyflap-dollar-op3-description": "MFUSD permite transacciones instantáneas de alta velocidad para pagos sin problemas, sin importar la distancia.",
+    "moneyflap-dollar-op4-title": "Siempre disponible, sin costos",
+    "moneyflap-dollar-op4-description": "Con MFUSD, disfruta de disponibilidad 24/7 y cero comisiones por transacción, dando a tu negocio la libertad de operar en tus términos.",
+    "moneyflap-dollar-op5-title": "Acceso global interoperable",
+    "moneyflap-dollar-op5-description": "MFUSD permite a las empresas intercambiar 1 MFUSD por 1 dólar estadounidense, ofreciendo acceso directo a dólares estadounidenses y cambios sin esfuerzo entre MFUSD, monedas locales y otros stablecoins.",
+    "moneyflap-dollar-op6-title": "Integración perfecta",
+    "moneyflap-dollar-op6-description": "Para desarrolladores, empresas y traders, MFUSD mejora sin problemas las aplicaciones de pago y el comercio global.",
+    "global-reach-title": "Alcance global, toque local: Aprovecha el poder de MHR y MFUSD",
+    "global-reach-description": "MHR es una red global de pagos con stablecoins que permite a los desarrolladores transferir fondos dentro y fuera, realizar on-ramp y off-ramp en más de 90 países a tasas de mercado medio a través de sistemas de pago domésticos en tiempo real. Con una sola integración API, los desarrolladores pueden acceder a pagos transfronterizos ilimitados entre cuentas bancarias, billeteras móviles y billeteras de stablecoins. Las transacciones se pueden liquidar rápidamente usando MFUSD o cualquier stablecoin en USD.",
+    "who-we-serve-title": "A quiénes servimos",
+    "transparency-title": "Transparencia",
+    "transparency-description": "MFUSD puede canjearse 1:1 por dólares estadounidenses. MoneyFlap y Brale aseguran que los activos del tesoro igualan o exceden los tokens emitidos. Brale informa mensualmente la composición de las reservas de MFUSD, y una firma contable independiente proporciona informes de auditoría mensuales. Estos informes estarán pronto disponibles en la página de Transparencia de MFUSD.",
+    "moneyflap-dollar-alternative-title": "MoneyFlap Dollar <br /> <span class=\"text-primary\">vs </span> Soluciones alternativas",
+    "moneyflap-dollar-alternative-op1": "Transacciones sin costo",
+    "moneyflap-dollar-alternative-op2": "Transacciones on-chain",
+    "moneyflap-dollar-alternative-op3": "Liquidación instantánea",
+    "moneyflap-dollar-alternative-op4": "Emitido por una entidad regulada",
+    "mfusd-available-title": "está disponible en las principales redes blockchain <br />y próximamente en más",
+    "txt": {
+      "get-in-touch": "Contáctanos",
+      "available-soon": "Próximamente",
+      "mfusd-transparency-page": "página de Transparencia de MFUSD"
+    }
   }
 }
