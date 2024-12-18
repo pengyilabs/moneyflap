@@ -73,6 +73,21 @@
               {{ $t("navbar.help") }}
             </a>
           </li>
+          <li class="nav-item">
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              v-model="currentLanguage"
+              @change="
+                changeLanguage(currentLanguage);
+                updateLanguage(currentLanguage);
+              "
+            >
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <option value="fr">Frances</option>
+            </select>
+          </li>
         </ul>
         <form class="ms-lg-auto d-block d-lg-none text-center">
           <button
@@ -93,15 +108,46 @@
 </template>
 
 <script>
+import { useI18n } from "vue-i18n";
+
 export default {
+  setup() {
+    const { locale, setLocale } = useI18n();
+
+    return {
+      locale,
+      setLocale,
+    };
+  },
+
   data() {
+    const currentLanguage = "";
     return {
       isMenuOpen: false,
+      currentLanguage,
     };
+  },
+  mounted() {
+    const languageSystem = navigator.language.startsWith("es")
+      ? "es"
+      : navigator.language.startsWith("en")
+      ? "en"
+      : navigator.language.startsWith("fr")
+      ? "fr"
+      : "";
+    const lang = localStorage.getItem("language") ?? languageSystem;
+    this.changeLanguage(lang);
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
+    },
+    changeLanguage(lang) {
+      this.setLocale(lang);
+      this.currentLanguage = lang;
+    },
+    updateLanguage(lang) {
+      localStorage.setItem("language", lang);
     },
   },
 };

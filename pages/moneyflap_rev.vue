@@ -1,5 +1,7 @@
 <template>
   <NuxtLayout name="weblayout">
+    <button @click="setLocale('es')">en</button>
+
     <div class="header d-flex align-items-top justify-content-center">
       <div class="container mt-5">
         <section class="main row">
@@ -646,6 +648,20 @@
     </div>
   </NuxtLayout>
 </template>
+<script>
+import { useI18n } from "vue-i18n";
+
+export default {
+  setup() {
+    const { locale, setLocale } = useI18n();
+
+    return {
+      locale,
+      setLocale,
+    };
+  },
+};
+</script>
 
 <style scoped lang="scss">
 .header {
