@@ -114,7 +114,7 @@
       "explore-fees": "Explorar tarifas"
     },
     "txt": {
-      "15": "0.15%",
+      "15": "0,15%",
       "free": "Gratis",
       "none": "Ninguna",
       "from02": "Desde 0.2%",
@@ -251,6 +251,27 @@
     "txt": {
       "download-full-set": "Descargar set completo",
       "contact-press": "Contactar prensa"
+    }
+  },
+  "ethics": {
+    "main-title": "Ética y sostenibilidad",
+    "main-description": "Empoderando comunidades al integrar el impacto social en cada decisión financiera.",
+    "eco-friend-title": "Elegancia ecológica",
+    "eco-friend-description": "En MoneyFlap, creemos que construir el mañana comienza con lo que llevas hoy. Nuestras tarjetas de plástico y empaques están meticulosamente elaborados con materiales reciclados, reduciendo la carga sobre los recursos de nuestro planeta y minimizando los residuos. Transformamos los desechos en maravillas, asegurando que cada pago que realices contribuya a un planeta más limpio y verde.",
+    "lower-carbon-title": "Menor emisión de carbono",
+    "lower-carbon-description": "Al aprovechar el poder de la tecnología, ofrecemos soluciones fluidas, eficientes y completamente digitales. Cada transacción que realizas con MoneyFlap es un paso hacia un mundo más verde y sostenible. Nuestras operaciones remotas significan menos instalaciones, lo que se traduce en menor consumo de energía y reducción de emisiones de carbono. Disfruta la comodidad de gestionar tus finanzas desde casa mientras contribuyes al bienestar de nuestro planeta. En colaboración con empresas líderes en gestión de sostenibilidad, tomamos medidas cruciales para medir y gestionar nuestra huella de CO2e con precisión e integridad.",
+    "social-responsibility-title": "Responsabilidad social",
+    "social-responsibility-description": "En MoneyFlap, creemos en un mundo donde la riqueza es más que números; es una herramienta poderosa para la transformación. Nuestra misión va más allá de proporcionar productos y servicios excepcionales: somos una fuerza para el bien, marcando una diferencia duradera en el mundo en que vivimos. Nos comprometemos a destinar un porcentaje significativo de nuestros beneficios anuales a grupos benéficos y ONG que luchan contra los desafíos más difíciles de nuestro tiempo. Desde enfrentar el cambio climático, apoyar a refugiados de guerra a encontrar seguridad y consuelo, hasta defender la igualdad de oportunidades para todos.",
+    "belief-philosophy-title": "Filosofía basada en creencias",
+    "belief-philosophy-description": "MoneyFlap se dirige a un mercado global pero prioriza generar un impacto positivo en las economías emergentes abordando los desafíos locales con soluciones personalizadas. Proporcionamos acceso equitativo a oportunidades financieras globales basadas en principios de la Sharia de equidad y solidaridad, fomentando la inclusión, la justicia y el apoyo a los desfavorecidos. <br /> En un mundo complejo y acelerado, los productos tradicionales basados en intereses pueden parecer rígidos y desalineados con los valores personales. MoneyFlap transforma estas ofertas en productos basados en creencias que se alinean con tus valores éticos y religiosos, combinando estrategias de inversión conscientes con resultados lucrativos, todo diseñado por mentes financieras expertas que honran tus principios.",
+    "clean-conscientious-title": "Consumo limpio y consciente",
+    "clean-conscientious-description": "MoneyFlap está comprometido a permitir que las personas tengan la libertad de gestionar sus finanzas como deseen, mientras previene posibles problemas financieros y comportamientos dañinos. <br /> Para lograr esto, MoneyFlap bloqueará todos los Códigos de Categoría de Comerciante (MCC) asociados con transacciones en industrias no éticas, incluyendo juegos de azar, loterías, casinos, armas, explosivos, drogas y tabaco, entre otros. A pesar de estas restricciones, MoneyFlap respeta las decisiones de todos los negocios e individuos involucrados en estas industrias.",
+    "political-neutrality-title": "Neutralidad política",
+    "political-neutrality-description": "En MoneyFlap, reconocemos el papel crucial que juega la política en el desarrollo sostenible de los países y su capacidad para generar cambios sociales significativos. <br /> Sin embargo, MoneyFlap se mantiene neutral al no donar, patrocinar, respaldar o asociarse con ningún partido político o político, ni permitir campañas de recaudación de fondos políticos en su plataforma. A pesar de esta postura, MoneyFlap respeta las opiniones políticas de todos los interesados, incluyendo usuarios y empleados.",
+    "honest-tax-title": "Prácticas fiscales honestas",
+    "honest-tax-description": "MoneyFlap reconoce la importancia de los impuestos como fuente principal de ingresos para el financiamiento gubernamental en sectores como educación, infraestructura, salud y defensa. Por ello, la empresa está firmemente comprometida con el cumplimiento de las leyes y regulaciones fiscales en todos los países donde debe impuestos. Además, MoneyFlap evita explotar privilegios o exenciones fiscales injustificadas.",
+    "txt": {
+      "invest-change": "Invierte para el cambio"
     }
   }
 }

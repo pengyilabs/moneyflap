@@ -8,18 +8,17 @@
               class="text-white fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              Ethics and Sustainability 
+              {{ $t("ethics.main-title") }}
             </h2>
             <p class="text-white">
-              Empowering communities by weaving social impact into every
-              financial decision.
+              {{ $t("ethics.main-description") }}
             </p>
             <div class="d-flex flex-row mt-5 flex-wrap">
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
-                  Invest for Change
+                  {{ $t("ethics.txt.invest-change") }}
                 </button>
               </div>
             </div>
@@ -38,15 +37,10 @@
               class="fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              Eco-Friendly Elegance
+              {{ $t("ethics.eco-friend-title") }}
             </h2>
             <p class="">
-              At MoneyFlap, we believe that fashioning tomorrow starts with what
-              you carry today. Our plastic cards and packaging are meticulously
-              crafted from recycled materials, reducing the burden on our
-              planet's resources and minimizing environmental waste. We
-              transform waste into wonder, ensuring that every swipe you make
-              contributes to a cleaner, greener planet. 
+              {{ $t("ethics.eco-friend-description") }}
             </p>
           </div>
           <div class="col-12 col-md-6 my-3 text-center">
@@ -63,19 +57,10 @@
               class="fw-bolder display-2 mt-1 text-white"
               style="font-family: Sofia Pro Bold"
             >
-              Lower Carbon Emission
+              {{ $t("ethics.lower-carbon-title") }}
             </h2>
             <p class="text-white">
-              By harnessing the power of technology, we provide seamless,
-              efficient, and entirely digital solutions. Every transaction you
-              make with MoneyFlap is a step towards a greener, more sustainable
-              world. Our remote operations mean fewer facilities, translating
-              into less energy consumption and lower carbon emissions. You enjoy
-              the convenience of managing your finances from the comfort of your
-              home while contributing to our planet's wellbeing. In
-              collaboration with leading sustainability management companies, we
-              take crucial steps to measure and manage our CO2e footprint with
-              precision and integrity. 
+              {{ $t("ethics.lower-carbon-description") }}
             </p>
           </div>
           <div class="col-12 col-md-6 my-3 text-center order-md-first">
@@ -94,18 +79,10 @@
               class="fw-bolder display-2 mt-1 text-white"
               style="font-family: Sofia Pro Bold"
             >
-              Social Responsibility
+              {{ $t("ethics.social-responsibility-title") }}
             </h2>
             <p class="text-white">
-              At MoneyFlap, we believe in a world where wealth is more than just
-              numbers; it’s a powerful tool for transformation. Our mission goes
-              beyond providing exceptional products and services – we are a
-              force for good, making a lasting difference in the world we live
-              in. We stand committed to channeling a significant percentage of
-              our annual profits to charitable groups and NGOs fighting the
-              toughest battles of our time. From confronting climate change
-              head-on, supporting war refugees to find safety and solace, to
-              championing equal opportunities for all. 
+              {{ $t("ethics.social-responsibility-description") }}
             </p>
           </div>
           <div class="col-12 col-md-6 my-3 text-center">
@@ -126,25 +103,11 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Belief-based Philosophy
+                {{ $t("ethics.belief-philosophy-title") }}
               </h2>
-              <p>
-                MoneyFlap targets a global market but prioritizes making a
-                positive impact in emerging economies by addressing local
-                challenges with tailored solutions. We provide equitable access
-                to global financial opportunities rooted in Shariah-based
-                principles of equity and solidarity, fostering inclusivity,
-                fairness, and support for the underprivileged.
-
-                <br />
-                In a complex, fast-paced world, traditional interest-based
-                products can feel rigid and misaligned with personal values.
-                MoneyFlap transforms these offerings into belief-based products
-                that align with your ethical and religious values, combining
-                conscientious investment strategies with lucrative outcomes, all
-                crafted by top financial minds who honor your principles.
-              </p>
+              <p v-html="$t('ethics.belief-philosophy-description')"></p>
             </div>
+
             <div class="col-12 col-md-6 order-md-first">
               <img
                 class="mx-3 my-4"
@@ -182,22 +145,9 @@
                     class="fw-bolder display-3 my-4"
                     style="font-family: Sofia Pro Bold"
                   >
-                    Clean and Conscientious Consumerism
+                    {{ $t("ethics.clean-conscientious-title") }}
                   </h2>
-                  <p>
-                    MoneyFlap is committed to allowing individuals the freedom
-                    to manage their finances as they wish while preventing
-                    potential financial issues and harmful behaviors.
-                  </p>
-                  <p>
-                    To achieve this, MoneyFlap will block all Merchant Category
-                    Codes (MCC) associated with transactions in unethical
-                    industries, including gambling, lotteries, casino, arms,
-                    weapons, explosives, drugs, and tobacco, among others.
-                    Despite these restrictions, MoneyFlap respects the choices
-                    of all businesses and individuals involved within these
-                    industries.
-                  </p>
+                  <p v-html="$t('ethics.clean-conscientious-description')"></p>
                 </div>
               </div>
 
@@ -263,21 +213,9 @@
                     class="fw-bolder display-3 my-4"
                     style="font-family: Sofia Pro Bold"
                   >
-                    Political Neutrality
+                    {{ $t("ethics.political-neutrality-title") }}
                   </h2>
-                  <p>
-                    At MoneyFlap, we recognize the crucial role politics plays
-                    in the sustainable development of countries and its capacity
-                    to effect significant social change.
-                  </p>
-                  <p>
-                    However, MoneyFlap remains neutral by not donating,
-                    sponsoring, endorsing, or associating with any political
-                    parties or politicians, nor allowing political fundraising
-                    campaigns on its platform. Despite this stance, MoneyFlap
-                    respects the political views of all stakeholders, including
-                    users and employees.
-                  </p>
+                  <p v-html="$t('ethics.political-neutrality-description')"></p>
                 </div>
               </div>
             </div>
@@ -310,16 +248,10 @@
                     class="fw-bolder display-3 my-4"
                     style="font-family: Sofia Pro Bold"
                   >
-                    Honest Tax Practices
+                    {{ $t("ethics.honest-tax-title") }}
                   </h2>
                   <p>
-                    MoneyFlap acknowledges the importance of taxes as a primary
-                    revenue source for government funding in sectors like
-                    education, infrastructure, healthcare, and defense. As such,
-                    the company is firmly committed to adhering to tax laws and
-                    regulations in every country where it owes taxes.
-                    Additionally, MoneyFlap avoids exploiting unjustified tax
-                    privileges or exemptions.
+                    {{ $t("ethics.honest-tax-description") }}
                   </p>
                 </div>
               </div>
@@ -345,7 +277,6 @@
     </section>
   </NuxtLayout>
 </template>
-
 <style scoped lang="scss">
 .header {
   min-height: 80vh;
