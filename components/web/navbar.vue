@@ -33,7 +33,7 @@
               aria-current="page"
               to="/about_us"
             >
-              About Us
+              {{ $t("navbar.about-us") }}
             </RouterLink>
           </li>
           <li class="nav-item">
@@ -42,7 +42,7 @@
               target="_blank"
               href="https://security.moneyflap.com/"
             >
-              Security
+              {{ $t("navbar.security") }}
             </a>
           </li>
           <li class="nav-item">
@@ -51,7 +51,7 @@
               aria-current="page"
               to="/pricing"
             >
-              Pricing
+              {{ $t("navbar.pricing") }}
             </RouterLink>
           </li>
           <li class="nav-item">
@@ -60,18 +60,33 @@
               aria-current="page"
               to="/mfusd"
             >
-              MFUSD
+              {{ $t("navbar.mfusd") }}
             </RouterLink>
           </li>
-          
+
           <li class="nav-item">
             <a
               class="nav-link text-white"
               target="_blank"
               href="http://help.moneyflap.com"
             >
-              Help Center
+              {{ $t("navbar.help") }}
             </a>
+          </li>
+          <li class="nav-item">
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              v-model="currentLanguage"
+              @change="
+                changeLanguage(currentLanguage);
+                updateLanguage(currentLanguage);
+              "
+            >
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <option value="fr">Frances</option>
+            </select>
           </li>
         </ul>
         <form class="ms-lg-auto d-block d-lg-none text-center">
@@ -79,13 +94,13 @@
             class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
             type="button"
           >
-            Get Started
+            {{ $t("navbar.get-started") }}
           </button>
         </form>
       </div>
       <form class="ms-lg-auto d-none d-lg-flex">
         <button class="btn btn-primary btn-lg ms-3" type="button">
-          Get Started
+          {{ $t("navbar.get-started") }}
         </button>
       </form>
     </div>
@@ -93,15 +108,46 @@
 </template>
 
 <script>
+import { useI18n } from "vue-i18n";
+
 export default {
+  setup() {
+    const { locale, setLocale } = useI18n();
+
+    return {
+      locale,
+      setLocale,
+    };
+  },
+
   data() {
+    const currentLanguage = "";
     return {
       isMenuOpen: false,
+      currentLanguage,
     };
+  },
+  mounted() {
+    const languageSystem = navigator.language.startsWith("es")
+      ? "es"
+      : navigator.language.startsWith("en")
+      ? "en"
+      : navigator.language.startsWith("fr")
+      ? "fr"
+      : "";
+    const lang = localStorage.getItem("language") ?? languageSystem;
+    this.changeLanguage(lang);
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
+    },
+    changeLanguage(lang) {
+      this.setLocale(lang);
+      this.currentLanguage = lang;
+    },
+    updateLanguage(lang) {
+      localStorage.setItem("language", lang);
     },
   },
 };

@@ -4,1247 +4,551 @@
       class="header d-flex align-items-top justify-content-center py-1 bg-dark"
     >
       <div class="container mt-5 col whites">
-        <h1 class="fw-bolder display-2 mt-1">Terms of Service</h1>
+        <h1 class="fw-bolder display-2 mt-1">{{ $t("terms.main-title") }}</h1>
         <section class="introduction_section">
           <h2>Introduction</h2>
-          <p>
-            These Terms of Service (the <span class="fw-bold">“Terms“</span>)
-            apply as an agreement between any parent entity, subsidiary,
-            affiliates, or legal entity belonging to the MoneyFlap group (also
-            referred to in these Terms as
-            <span class="fw-bold">“we”, “our”, “ours”, “us”, “MoneyFlap“</span>)
-            and the User (also referred to as
-            <span class="fw-bold">“you”, “your” or “yours“</span>). By using the
-            website located at
-            <a href="https://www.moneyflap.com">https://www.moneyflap.com</a>,
-            the related mobile website, and the mobile application
-            (collectively, the <span class="fw-bold">“Websites“</span>), you
-            agree to be bound by these Terms of Service (this
-            <span class="fw-bold">“Terms of Service” or “Agreement“</span>),
-            whether or not you register as a client of MoneyFlap (<span
-              class="fw-bold"
-              >"Client"</span
-            >). If you wish to become a client and/or make use of the service
-            (the <span class="fw-bold">“Service“</span>), please read this
-            Agreement. If you object to anything in this Agreement or the
-            MoneyFlap Privacy Policy, do not use the Service.
-          </p>
-          <p>
-            This Agreement is subject to change by MoneyFlap at any time,
-            effective upon posting on the relevant website. Your continued use
-            of the Websites and the Service following MoneyFlap posting of
-            revised terms of any section of the Agreement will constitute your
-            express and binding acceptance of and consent to the revised
-            Agreement.
-          </p>
-          <p>
-            PLEASE READ THIS AGREEMENT CAREFULLY AS IT CONTAINS IMPORTANT
-            INFORMATION REGARDING YOUR LEGAL RIGHTS, REMEDIES, AND OBLIGATIONS,
-            INCLUDING VARIOUS LIMITATIONS AND EXCLUSIONS, AND A DISPUTE
-            RESOLUTION CLAUSE THAT GOVERNS HOW DISPUTES WILL BE RESOLVED.
-          </p>
+          <p v-html="$t('terms.introduction-description')"></p>
         </section>
         <section class="electronic_agreement_section">
-          <h2>Electronic Agreement</h2>
+          <h2>{{ $t("terms.agreement-title") }}</h2>
           <p>
-            This electronic contract sets out the legally binding terms of your
-            use of the Websites and the Service. This Agreement may be modified
-            by MoneyFlap from time to time, such modifications to be effective
-            upon posting by MoneyFlap on the Websites. By accessing and/or using
-            the Websites or becoming a client, you accept this Agreement and
-            agree to the terms, conditions, and notices contained or referenced
-            herein.
+            {{ $t("terms.agreement-description") }}
           </p>
         </section>
         <section class="access_and_retention_section">
-          <h2>Access and Retention</h2>
+          <h2>{{ $t("terms.access-title") }}</h2>
           <p>
-            To access and retain this electronic Agreement, you must have access
-            to the Internet, either directly or through devices that access
-            web-based content, and pay any service fees associated with such
-            access. In addition, you must use all equipment necessary to make
-            such a connection to the World Wide Web, including a computer and
-            modem or other access device. Please print a copy of this document
-            for your records. To retain an electronic copy of this Agreement,
-            you may save it into any word processing program.
+            {{ $t("terms.access-description") }}
           </p>
         </section>
         <section class="our_products_and_services_section">
-          <h2>Our Products and Services</h2>
-          <p>We provide services that include, but are not limited to:</p>
+          <h2>{{ $t("terms.products-title") }}</h2>
+          <p>{{ $t("terms.products-description") }}</p>
           <ul class="list-unstyled list-checked">
             <li class="d-block">
-              <span>
-                <strong>Borderless multi-currency accounts:</strong> Open global
-                accounts from anywhere. Hold, send, receive, and exchange
-                digital dollars (USDC), digital dollars (MFUSD), and digital
-                euros (EURC), respectively, tied to the US account number.
-              </span>
+              <span v-html="$t('terms.products-op1-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op2-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op3-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op4-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op5-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op6-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op7-title')"> </span>
+            </li>
+            <li>
+              <span v-html="$t('terms.products-op8-title')"> </span>
             </li>
             <li>
               <span>
-                <strong>Borderless savings accounts:</strong> Open a savings
-                account on-chain backed directly by real-world government
-                assets. Earn up to 5.4% tokenized Sukuk or US treasury yield
-                with instant withdrawals at any time.
+                <span v-html="$t('terms.products-op9-title')"> </span>
               </span>
             </li>
             <li>
-              <span>
-                <strong>Borderless peer-to-peer (P2P) transfers:</strong> Send
-                and receive money instantly from friends or anyone in our global
-                search in 80+ countries powered by stablecoin rails.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Borderless money movements:</strong> Instantly move
-                funds in and out of your global accounts on-chain or to bank
-                accounts and mobile money in 65+ countries at near-zero
-                cost—cash in and out at any MoneyGram points in 181 countries.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Borderless bill payments:</strong> Pay electricity,
-                water, TV, and thousands of bills in over 30 countries at
-                near-zero cost. Enable monthly reminders and automatic payments
-                so you never miss bill due dates.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Borderless mobile top-ups:</strong> Recharge airtime and
-                internet data for yourself and any mobile phone in 140+
-                countries, including exotic markets, at no extra cost.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Borderless credit cards:</strong> Create virtual and
-                physical credit cards with no foreign transaction fees, allowing
-                anyone to spend anywhere without hassle and high costs.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Cash-back & rewards:</strong> Earn up to 35% unlimited
-                cash-back paid in digital dollars (USDC) on every purchase at
-                numerous favorite brands such as Nike, Microsoft, and
-                AliExpress.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Money management:</strong> Track your finances, make
-                better decisions through real-time spending analytics, and block
-                unwanted subscriptions with a few clicks.
-              </span>
-            </li>
-            <li>
-              <span>
-                <strong>Messaging & calling:</strong> Chat in real-time with
-                your friends privately and in groups, share multimedia files,
-                laugh over emojis, and calling made seamless.
-              </span>
+              <span v-html="$t('terms.products-op10-title')"> </span>
             </li>
           </ul>
         </section>
         <section class="registration_and_eligibility_section">
-          <h2>Registration and Eligibility</h2>
+          <h2>{{ $t("terms.registration-title") }}</h2>
           <p>
-            To open a MoneyFlap Account and use our Services, you must confirm
-            that:
+            {{ $t("terms.registration-description") }}
           </p>
           <ol class="list-unstyled">
             <li>
               <div><div class="me-2 squareDiv">1</div></div>
-              <p>You are at least 18 years old</p>
+              <p>{{ $t("terms.registration-op1-title") }}</p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">2</div></div>
-              <p>You are a non-US and non-UK resident and citizen</p>
+              <p>{{ $t("terms.registration-op2-title") }}</p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">3</div></div>
               <p>
-                You are a citizen or resident of the jurisdictions we support
+                {{ $t("terms.registration-op3-title") }}
               </p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">4</div></div>
               <p>
-                You are not restricted or suspended to use the MoneyFlap
-                Services
+                {{ $t("terms.registration-op4-title") }}
               </p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">5</div></div>
               <p>
-                You are not an individual blacklisted by the United Nations
-                (UN), the European Union (EU), Bulgaria, and the United Kingdom
-                (UK) Treasury Department or designated as a “Specially
-                Designated National” by OFAC (Office of Foreign Assets Control
-                of the U.S. Treasury Department) or placed on the U.S. Commerce
-                Department’s “Denied Persons List”
+                {{ $t("terms.registration-op5-title") }}
               </p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">6</div></div>
               <p>
-                You are not a citizen or resident of a country blacklisted or
-                sanctioned by the US Office of Foreign Assets Control (OFAC),
-                the United Nations (UN), the European Union (EU), Bulgaria, and
-                the United Kingdom (UK) Treasury
+                {{ $t("terms.registration-op6-title") }}
               </p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">7</div></div>
               <p>
-                You have read, understood, and agreed to all MoneyFlap legal
-                disclosures, including the Privacy Policy and Terms of Service
+                {{ $t("terms.registration-op7-title") }}
               </p>
             </li>
           </ol>
           <p>
-            We have the right to refuse your account opening limit your access
-            to our Services or reassess your eligibility whenever we encounter
-            that the information/documents you provided are inaccurate or
-            expired, and you do not comply with all legal requirements.
+            {{ $t("terms.registration-final") }}
           </p>
         </section>
         <section class="commercial_use_of_service_section">
-          <h2>Commercial Use of Service</h2>
+          <h2>{{ $t("terms.commercial-title") }}</h2>
           <p>
-            If you are using the Service and/or accessing the Websites on behalf
-            of a company, entity, or organization (collectively, a “Subscribing
-            Entity”), you represent and warrant that:
+            {{ $t("terms.commercial-description") }}
           </p>
           <ol class="list-unstyled">
             <li>
               <div><div class="me-2 squareDiv">1</div></div>
               <p>
-                You are an authorized representative of the Subscribing Entity,
-                and you have the authority to bind the Subscribing Entity to
-                this Terms of Service;
+                {{ $t("terms.commercial-op1-title") }}
               </p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">2</div></div>
-              <p>You have read and understand this Terms of Service; and</p>
+              <p>{{ $t("terms.commercial-op2-title") }}</p>
             </li>
             <li>
               <div><div class="me-2 squareDiv">3</div></div>
               <p>
-                You agree to this Terms of Service on behalf of the Subscribing
-                Entity.
+                {{ $t("terms.commercial-op3-title") }}
               </p>
             </li>
           </ol>
           <p>
-            Illegal and/or unauthorized uses of the Websites include but are not
-            limited to, browsing or downloading illegal content, collecting
-            usernames and/or email addresses of clients by electronic or other
-            means to send unsolicited email, unauthorized framing of or linking
-            to the Websites, sharing or disclosing your username or password to
-            any third party or permitting any third party to access your
-            account, attempting to impersonate another user or person, use of
-            the Websites in any fraudulent or misleading manner, any automated
-            use of the system, such as scraping the Websites, automated scripts,
-            spiders, robots, crawlers, data mining tools or the like,
-            interfering with, disrupting, or creating an undue burden on the
-            Websites or the networks or services connected to the Websites, and
-            using the Websites in a manner inconsistent with any applicable laws
-            and regulations. Illegal and/or unauthorized use of the Websites may
-            be investigated, and appropriate legal action may be taken,
-            including without limitation, civil, criminal, and injunctive
-            redress. Use of the Websites and Service is with the permission of
-            MoneyFlap, which may be revoked at any time, for any reason, in
-            MoneyFlap’s sole discretion.
+            {{ $t("terms.commercial-final") }}
           </p>
-          <h2 class="mt-4">Deposits and Withdrawals</h2>
-          <h4 class="">Deposits</h4>
+          <h2 class="mt-4">{{ $t("terms.deposits-withdrawals-title") }}</h2>
+          <h4 class="">{{ $t("terms.deposits-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              <span class="fw-bold d-contents">Payin Fiat Currency.</span>
-              Once you have fully registered for a MoneyFlap Account and have
-              verified your identity, you can top up your Account through
-              various methods such as a traditional bank account, linking your
-              bank account through Open Banking, mobile money account, linking
-              your stablecoin wallet or exchange, and cash through MoneyGram
-              locations. Thus, the amount in local currency you have deposited
-              into your account will be exchanged for the corresponding amount
-              in virtual currencies at the mid-market rates, confirming your
-              stablecoin purchase. The availability of these payment methods may
-              depend on the country you are from or based in. The transaction
-              fees and limits depend on the payment method used — we may at our
-              sole discretion set the transaction fees or limits of your
-              Account. Refer to our pricing page to learn more about our
-              transaction limits and fees.
+              <div v-html="$t('terms.deposits-op1-title')"></div>
             </li>
             <li class="mb-0 mt-0">
-              <span class="fw-bold d-contents">Payin Stablecoin</span>. You can
-              also directly receive stablecoin funds from external parties to
-              your on-chain addresses in your account but note that we can only
-              accept USDC (USD Coin) and EURC (Euro Coin) at this time. We may
-              include additional digital assets in the future — please, always
-              refer to our website to get any product updates or information
-              about an eventual product release. stablecoin transfers are
-              irreversible — meaning that you may lose or can not recover your
-              stablecoin funds when you send them to the wrong on-chain
-              addresses. You are urged to double-review the accuracy of your
-              details before making any stablecoin deposits.
+              <div v-html="$t('terms.deposits-op2-title')"></div>
             </li>
             <li class="mb-0 mt-0">
-              <span class="fw-bold d-contents">Processing Times.</span> The
-              processing times of a deposit to your MoneyFlap Account depend on
-              the chosen payment methods — commonly they happen in real-time and
-              the transaction is confirmed once the balance of your account has
-              been updated with the corresponding amount. However, we have the
-              right to block or reject any deposit to your account, in which
-              case we will refund the same amount to the sending account.
+              <div v-html="$t('terms.deposits-op3-title')"></div>
             </li>
           </ul>
-          <h4>Withdrawals</h4>
+          <h4>{{ $t("terms.withdrawals-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              <div>
-                <p>
-                  <span class="fw-bold d-contents"
-                    >The Payout to Fiat Currency Accounts.</span
-                  >
-                  To withdraw or transfer funds out of your MoneyFlap Account,
-                  you must choose the most suitable payment methods in your
-                  country of residence that we support. At the moment, you can
-                  withdraw funds from your MoneyFlap Account to your bank or
-                  mobile money accounts and at any MoneyFlap locations. Besides,
-                  you can transfer funds to third-party bank or mobile money
-                  accounts (Refer to our supported countries for remittances).
-                  The processing times are generally instant but can be
-                  sometimes longer.
-                </p>
-                <p>
-                  In some cases, the withdrawal transactions may be blocked or
-                  canceled for adherence to our Anti-Money Laundering (AML)
-                  Policy and Financial Crime (FinCrime) Program — in case you
-                  must undergo an additional due diligence process or provide
-                  additional information about the recipient of the funds.
-                  Another important point to note is that the withdrawal
-                  transactions may be delayed because of technical issues,
-                  maintenance, or any other operational issues from our
-                  third-party payout partners. But, in those circumstances, we
-                  will inform you about the ongoing updates.
-                </p>
-              </div>
+              <div v-html="$t('terms.terms.withdrawals-op1-title')"></div>
             </li>
             <li class="mb-0 mt-0">
-              <span class="fw-bold d-contents"
-                >The Payout to Stablecoin Accounts.</span
-              >
-              You can also transfer funds out of your MoneyFlap Account to
-              external stablecoin wallets. Please double review and confirm the
-              details of the recipient before initiating any withdrawal —
-              stablecoin transfers are irreversible, resulting in a full loss of
-              your funds when you transfer funds to the wrong stablecoin
-              addresses. MoneyFlap will not be liable for any transfer to the
-              wrong stablecoin addresses and cannot recover your funds or refund
-              you. Withdrawals are processed instantly, allowing your stablecoin
-              funds to reach their destination in no time. Nevertheless, due to
-              uncontrolled reasons such as technical and operational downtime of
-              the public blockchain protocols we use to build our Services, the
-              processing times may be longer or the transactions may fail.
-              Please note that we are not liable for such delay or failure.
-              (Refer to **Risk Disclosure** to learn more)
+              <div v-html="$t('terms.withdrawals-op2-title')"></div>
             </li>
           </ul>
         </section>
         <section class="transaction_fees_and_limits_section">
-          <h2>Transaction Fees and Limits</h2>
+          <h2>{{ $t("terms.transaction-title") }}</h2>
           <p>
-            We transparently publish all our transaction fees and limits on our
-            Websites. However, our transaction fees and limits may vary to
-            increase or decrease charges. You can always review and confirm our
-            current transaction fees and limits before initiating any payments.
-            In some cases, we may offer promotional fees or discounts on
-            transactions to any users, including you.
+            {{ $t("terms.transaction-description") }}
           </p>
         </section>
         <section class="general_risk_disclosure_section">
-          <h2>General Risk Disclosure</h2>
+          <h2>{{ $t("terms.general-title") }}</h2>
           <p>
-            This general risk disclosure lists the most prevalent risks
-            associated with holding or trading Virtual Currencies, but the
-            following list of risks is not exhaustive. You hereby acknowledge
-            and accept these risks, including the unforeseen ones, use our
-            Services at your own risk, and you will not hold MoneyFlap
-            responsible for any irreversible and unrecoverable losses relating
-            to these risks.
+            {{ $t("terms.general-description") }}
           </p>
-          <h4>Blockchain Technology</h4>
+          <h4>{{ $t("terms.blockchain-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Deposits, withdrawals, transfers, and any transactions in Virtual
-              Currencies may be irreversible, and any fund losses due to
-              entering wrong addresses, and accidental or fraudulent
-              transactions may be unrecoverable.
+              {{ $t("terms.blockchain-op1-title") }}
             </li>
           </ul>
-          <h4>Legal and Regulatory</h4>
+          <h4>{{ $t("terms.legal-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Virtual Currencies may not be legal tender in some jurisdictions
-              and are not backed by any government or central bank.
+              {{ $t("terms.legal-op1-title") }}
             </li>
             <li class="mb-0 mt-0">
-              The regulatory framework of Virtual Currencies varies among
-              jurisdictions, resulting in significant regulatory uncertainty.
-              Amendments, orders, legislative and regulatory changes, or actions
-              relating to blockchain technology at a state, federal, or
-              international level may adversely affect the use, transfer,
-              exchange, and value of the Virtual Currencies, restricting the
-              provision of our Services to you.
+              {{ $t("terms.legal-op2-title") }}
             </li>
           </ul>
-          <h4>Currency Fluctuations</h4>
+          <h4>{{ $t("terms.currency-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              Even if MoneyFlap only supports Virtual Currencies called
-              stablecoins that have the same value as some Fiat currencies such
-              as U.S. Dollars (USD) and Euros (EUR), the price of stablecoins
-              may fluctuate in value below the price of the Fiat currencies they
-              are designed to track as the exchange rates of the Fiat currencies
-              may change.
+              {{ $t("terms.currency-op1-title") }}
             </li>
           </ul>
-          <h4>No investment advice, recommendations, or tax advice</h4>
+          <h4>{{ $t("terms.investment-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              MoneyFlap does not provide investment advice. You are solely
-              responsible for, and MoneyFlap has no involvement in, determining
-              whether any Virtual Currency transaction, investment strategy, or
-              related transaction is suitable for you. You are familiar with and
-              are capable of evaluating the investment risks of Virtual
-              Currencies independently or you accept to seek legal, regulatory,
-              business, investment, financial tax, and accounting advice from
-              highly qualified professionals and have made your decisions
-              without reliance on MoneyFlap.
+              {{ $t("terms.investment-op1-title") }}
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap does not provide investment or tax advice or exercise
-              any investment discretion on your behalf.  Nothing on Website is
-              an offer to sell, a solicitation of an offer to buy, or a
-              recommendation for any Virtual Currency by MoneyFlap.
+              {{ $t("terms.investment-op2-title") }}
             </li>
           </ul>
-          <h4>Not a bank, broker-dealer, or regulated financial institution</h4>
+          <h4>{{ $t("terms.no-bank-title") }}</h4>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              You should note that your account balances may not be considered
-              or called “deposits”, as the regulated financial institutions,
-              especially banks or credit institutions may be using the term.
-              MoneyFlap is not and does not pretend to be a bank or regulated
-              financial institution under the United States Federal Law or under
-              any other jurisdiction laws.
+              {{ $t("terms.no-bank-op1-title") }}
             </li>
             <li class="mb-0 mt-0">
-              You should note that the Tokenized Financial Assets that MoneyFlap
-              facilitates the accessibility may not be considered as a listing
-              or selling of “Securities” or an offering of a “brokerage
-              account”, as the regulated brokerage may be using the term.
-              MoneyFlap is not and does not pretend to be a broker-dealer or a
-              trust registered under the United States Federal Law or under any
-              other jurisdiction laws.
+              {{ $t("terms.no-bank-op2-title") }}
             </li>
             <li class="mb-0 mt-0">
-              You should note that your account balances are not subject to
-              deposit insurance protection of any regulatory scheme, including
-              the Federal Deposit Insurance Corporation (FDIC), as well as any
-              securities investor protection, including the Securities Investor
-              Protection Corporation (SIPC).
+              {{ $t("terms.no-bank-op3-title") }}
             </li>
           </ul>
         </section>
         <section class="account_security_section">
-          <h2>Account Security</h2>
+          <h2>{{ $t("terms.account-security-title") }}</h2>
           <p>
-            You are responsible for maintaining the confidentiality of the
-            username and password that you designate during the registration
-            process, and you are fully responsible for all activities that occur
-            under your username and password. You agree to (a) immediately
-            notify MoneyFlap of any unauthorized use of your username or
-            password or any other breach of security, and (b) ensure that you
-            exit from your account at the end of each session. MoneyFlap will
-            not be liable for any loss or damage arising from your failure to
-            comply with this provision. You should use particular caution when
-            accessing your account from a public or shared computer so that
-            others are not able to view or record your password or other
-            personal information. If you share your computer with others, you
-            may wish to consider disabling your auto-login feature if you have
-            it linked to your MoneyFlap account.
+            {{ $t("terms.account-security-description") }}
           </p>
         </section>
         <section class="your_use_of_the_websites_section">
-          <h2>Your Use of the Websites</h2>
+          <h2>{{ $t("terms.your-use-website-title") }}</h2>
           <ol class="list-unstyled">
             <li>
               <div><div class="me-2 squareDiv">1</div></div>
-              You may not browse or download illegal content.
+              {{ $t("terms.your-use-website-op1-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">2</div></div>
-              You must not copy or capture, or attempt to copy or capture, any
-              content from the Websites (the “Content”) or any part of the
-              Websites, unless given express permission by MoneyFlap.
+              {{ $t("terms.your-use-website-op2-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">3</div></div>
-              You must not copy, republish, adapt, make available, or otherwise
-              communicate to the public, display, perform, transfer, share,
-              distribute, or otherwise use or exploit any Content on or from the
-              Platform, except (i) where such Content is created by you (such
-              content, “Your Content”), or (ii) as permitted under these Terms
-              of Service, and within the parameters set by the person or entity
-              that uploaded the Content (the “Uploader”) (for example, under the
-              terms of Creative Commons licenses selected by the Uploader).
+              {{ $t("terms.your-use-website-op3-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">4</div></div>
-              You must not use any Content (other than Your Content) in any way
-              that is designed to create a separate content service or that
-              replicates any part of the Website’s offering.
+              {{ $t("terms.your-use-website-op4-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">5</div></div>
-              You must not employ scraping or similar techniques to aggregate,
-              repurpose, republish, or otherwise make use of any Content.
+              {{ $t("terms.your-use-website-op5-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">6</div></div>
-              You must not employ the use of bots, botnets, scripts, apps,
-              plugins, extensions, or other automated means to register
-              accounts, log in, post comments, or otherwise act on your behalf,
-              particularly where such activity occurs multiply or repetitively.
-              You must not offer or promote the availability of any such
-              techniques or services to any other users of the Websites.
+              {{ $t("terms.your-use-website-op6-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">7</div></div>
-              You must not alter or remove, or attempt to alter or remove, any
-              trademark, copyright, or other proprietary or legal notices
-              contained in, or appearing on, the Websites or any Content
-              appearing on the Websites (other than Your Content).
+              {{ $t("terms.your-use-website-op7-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">8</div></div>
-              You must not, and must not permit any third party to, copy or
-              adapt the object code of the Websites, or reverse engineer,
-              reverse assemble, decompile, modify or attempt to discover any
-              source or object code of any part of the Websites, or circumvent
-              or attempt to circumvent or copy any copy protection mechanism or
-              access any rights management information about Content other than
-              Your Content.
+              {{ $t("terms.your-use-website-op8-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">9</div></div>
-              You must not use the Websites to upload, post, store, transmit,
-              display, copy, distribute, promote, make available, or otherwise
-              communicate to the public:
+              {{ $t("terms.your-use-website-op9-title") }}
             </li>
             <ul class="list-unstyled ms-4 list-checked">
               <li class="mb-0 mt-0">
-                any Content that is offensive, abusive, libelous, defamatory,
-                obscene, racist, sexually explicit, ethnically or culturally
-                offensive, indecent, that promotes violence, terrorism, or
-                illegal acts, incites hatred on grounds of race, gender,
-                religion, or sexual orientation, or is otherwise objectionable
-                in MoneyFlap’s sole and reasonable discretion;
+                {{ $t("terms.your-use-website-op9-1-title") }}
               </li>
               <li class="mb-0 mt-0">
-                any information, Content, or other material that violates,
-                plagiarizes, misappropriated, or infringes the rights of third
-                parties including, without limitation, copyright, trademark
-                rights, rights of privacy or publicity, confidential
-                information, or any other right; or
+                {{ $t("terms.your-use-website-op9-2-title") }}
               </li>
               <li class="mb-0 mt-0">
-                any Content that violates, breaches, or is contrary to any law,
-                rule, regulation, court order or is otherwise illegal or
-                unlawful in MoneyFlap’s sole and reasonable opinion;
+                {{ $t("terms.your-use-website-op9-3-title") }}
               </li>
               <li class="mb-0 mt-0">
-                any material of any kind that contains any virus, Trojan horse,
-                spyware, adware, malware, bot, time bomb, worm, or other harmful
-                or malicious component, which will or might overburden, impair,
-                or disrupt the Websites or servers or networks forming part of,
-                or connected to, the Websites, or which does or might restrict
-                or inhibit any other user's use and enjoyment of the Websites;
-                or
+                {{ $t("terms.your-use-website-op9-4-title") }}
               </li>
               <li class="mb-0 mt-0">
-                any unsolicited or unauthorized advertising, promotional
-                messages, spam, or any other form of solicitation.
+                {{ $t("terms.your-use-website-op9-5-title") }}
               </li>
             </ul>
             <li>
               <div><div class="me-2 squareDiv">10</div></div>
-              You must not commit or engage in, or encourage, induce, solicit,
-              or promote, any conduct that would constitute a criminal offense,
-              give rise to civil liability, or otherwise violate any law or
-              regulation.
+              {{ $t("terms.your-use-website-op10-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">11</div></div>
-              You must not rent, sell, or lease access to the Websites, or any
-              Content on the Websites, although this will not prevent you from
-              including links from Your Content to any legitimate online
-              download store from where any item of Your Content may be
-              purchased.
+              {{ $t("terms.your-use-website-op11-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">12</div></div>
-              You must not deliberately impersonate any person or entity or
-              otherwise misrepresent your affiliation with a person or entity,
-              for example, by registering an account in the name of another
-              person or company, sending messages, or making comments using the
-              name of another person.
+              {{ $t("terms.your-use-website-op12-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">13</div></div>
-              You must not stalk, exploit, threaten, abuse, or otherwise harass
-              another user, or any MoneyFlap employee. If we feel that your
-              behavior towards any of our employees is at any time threatening
-              or offensive, we reserve the right to immediately terminate your
-              account.
+              {{ $t("terms.your-use-website-op13-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">14</div></div>
-              You must not sell or transfer, or offer to sell or transfer, any
-              MoneyFlap account to any third party without the prior written
-              approval of MoneyFlap.
+              {{ $t("terms.your-use-website-op14-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">15</div></div>
-              You must not collect or attempt to collect personal data, or any
-              other kind of information about other users, including without
-              limitation, through spidering or any form of scraping.
+              {{ $t("terms.your-use-website-op15-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">16</div></div>
-              You must not violate, circumvent, or attempt to violate or
-              circumvent any data security measures employed by MoneyFlap or any
-              Uploader; access or attempt to access data or materials which are
-              not intended for your use; log into, or attempt to log into, a
-              server or account which you are not authorized to access; attempt
-              to scan or test the vulnerability of MoneyFlap’s servers, system
-              or network or attempt to breach MoneyFlap’s data security or
-              authentication procedures; attempt to interfere with the Websites
-              or the Services by any means including, without limitation,
-              hacking MoneyFlap’s servers or systems, submitting a virus,
-              overloading, mail-bombing or crashing. Without limitation to any
-              other rights or remedies of MoneyFlap under these Terms of
-              Service, MoneyFlap reserves the right to investigate any situation
-              that appears to involve any of the above and may report such
-              matters to, and cooperate with, appropriate law enforcement
-              authorities in prosecuting any users who have participated in any
-              such violations.
+              {{ $t("terms.your-use-website-op16-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">17</div></div>
-              You agree to comply with the above conditions and acknowledge and
-              agree that MoneyFlap has the right, in its sole discretion, to
-              terminate your account or take such other action as we see fit if
-              you breach any of the above conditions or any of the other terms
-              of these Terms of Service. This may include taking court action
-              and/or reporting offending users to the relevant authorities.
+              {{ $t("terms.your-use-website-op17-title") }}
             </li>
           </ol>
         </section>
         <section class="representations_and_warranties_section">
-          <h2>Representations and Warranties</h2>
-          <p>You hereby represent and warrant to MoneyFlap as follows:</p>
+          <h2>{{ $t("terms.representations-title") }}</h2>
+          <p>{{ $t("terms.representations-description") }}</p>
           <ol class="list-unstyled">
             <li>
               <div><div class="me-2 squareDiv">1</div></div>
-              Your Content, and every part thereof, is an original work by you,
-              or you have obtained all rights, licenses, consents, and
-              permissions necessary to use, and (if and where relevant) to
-              authorize MoneyFlap to use, Your Content under these Terms of
-              Service, including, without limitation, the right to upload,
-              reproduce, store, transmit, distribute, share, publicly display,
-              publicly perform, make available and otherwise communicate to the
-              public Your Content, and every part thereof, on, through or via
-              the Websites, any Services and any third party services.
+              {{ $t("terms.representations-op1-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">2</div></div>
-              Your Content and the availability thereof on the Platform does not
-              and will not infringe or violate the rights of any third party,
-              including, without limitation, any intellectual property rights,
-              performers' rights, rights of privacy or publicity, or rights in
-              confidential information.
+              {{ $t("terms.representations-op2-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">3</div></div>
-              You have obtained any necessary consents, permissions, and/or
-              releases from any persons appearing in Your Content to include
-              their name, voice, performance, or likeness in Your Content and to
-              publish the same on the Websites and via any third-party services.
+              {{ $t("terms.representations-op3-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">4</div></div>
-              Your Content, including any comments that you may post on the
-              Websites, is not and will not be unlawful, offensive, abusive,
-              libelous, defamatory, obscene, racist, sexually explicit,
-              ethnically or culturally offensive, indecent, will not promote
-              violence, terrorism, or illegal acts, or incite hatred on grounds
-              of race, gender, religion or sexual orientation.
+              {{ $t("terms.representations-op4-title") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">5</div></div>
-              Your Content does not and will not create any liability on the
-              part of MoneyFlap, its subsidiaries, affiliates, successors, and
-              assigns, and their respective employees, agents, directors,
-              officers, and/or shareholders.
+              {{ $t("terms.representations-op5-title") }}
             </li>
           </ol>
           <p>
-            MoneyFlap reserves the right to remove Your Content, suspend or
-            terminate your access to the Platform, and/or pursue all legal
-            remedies if we believe that any of Your Content breaches any of the
-            foregoing representations or warranties, or otherwise infringes
-            another person's rights or violates any law, rule or regulation.
+            {{ $t("terms.representations-final") }}
           </p>
         </section>
         <section class="term_suspension_and_termination_section">
-          <h2>Term, Suspension, and Termination</h2>
+          <h2>{{ $t("terms.term_suspension.title") }}</h2>
           <p>
-            This Agreement will remain in full force and effect while you use
-            the Websites and/or Service. You may terminate this agreement and/or
-            the use of the MoneyFlap Services at any time by closing your
-            MoneyFlap Account. If you terminate this agreement or close your
-            MoneyFlap Account, to help MoneyFlap analyze and improve the
-            Service, you may be asked to provide a reason for your
-            closure/termination. However, MoneyFlap reserves the right to cancel
-            your request to close your account due to regulatory and compliance
-            obligations.
+            {{ $t("terms.term_suspension.description1") }}
           </p>
           <p>
-            MoneyFlap may suspend, limit, or terminate your account for any
-            reason by sending notice to you at the email address you provide in
-            your account registration, or such other email address as you may
-            later provide to MoneyFlap. Without any liability and at any time,
-            MoneyFlap may suspend, limit, or terminate your use of MoneyFlap
-            Services, or your access to your MoneyFlap account if:
+            {{ $t("terms.term_suspension.description2") }}
           </p>
           <ul class="list-unstyled list-checked">
             <li class="mb-0 mt-0">
-              You have breached these Terms of Service, Terms and Conditions,
-              and any Applicable Laws
+              {{ $t("terms.term_suspension.reasons.reason1") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is undergoing financial crime
-              investigations or legal proceedings
+              {{ $t("terms.term_suspension.reasons.reason2") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is non-compliant and is considered
-              high-risk by the regulatory guidelines
+              {{ $t("terms.term_suspension.reasons.reason3") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is involved in any Prohibited Businesses
-              or Activities as per these Terms of Service
+              {{ $t("terms.term_suspension.reasons.reason4") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is subject to a security compromise or
-              breach, and a transaction or order is erroneous
+              {{ $t("terms.term_suspension.reasons.reason5") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is subject to unauthorized or fraudulent
-              access or is accessed without your consent and approval
+              {{ $t("terms.term_suspension.reasons.reason6") }}
             </li>
             <li class="mb-0 mt-0">
-              You hold an account that is red-flagged as suspicious, and linked
-              to money laundering, terrorist financing, fraudulent activities,
-              or any “bad user” scenarios covered by our Anti-Money Laundering
-              (AML) policy
+              {{ $t("terms.term_suspension.reasons.reason7") }}
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap is subject to maintenance of our infrastructure,
-              including the systems of our third-party partners
+              {{ $t("terms.term_suspension.reasons.reason8") }}
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap is reassessing the eligibility criteria for opening an
-              account or accessibility of our Services
+              {{ $t("terms.term_suspension.reasons.reason9") }}
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap is entitled to comply with legislation, regulatory and
-              judicial orders, or governmental amendments
+              {{ $t("terms.term_suspension.reasons.reason10") }}
             </li>
             <li class="mb-0 mt-0">
-              MoneyFlap is fixing defaillances in any information technology
-              system (IT system) related to the provision of our Services
+              {{ $t("terms.term_suspension.reasons.reason11") }}
             </li>
           </ul>
           <p>
-            All decisions regarding the termination of accounts shall be made at
-            the sole discretion of MoneyFlap. MoneyFlap is not required to
-            provide you notice before suspending, limiting, and terminating your
-            account. MoneyFlap is not required and may be prohibited, from
-            disclosing a reason for the termination of your account. Even after
-            your account is terminated, this Agreement will remain in effect.
-            All terms that by their nature may survive termination of this
-            Agreement shall be deemed to survive such termination.
+            {{ $t("terms.term_suspension.description3") }}
           </p>
         </section>
         <section class="modifications_to_service_section">
-          <h2>Modifications to Service</h2>
+          <h2>{{ $t("terms.modifications.title") }}</h2>
           <p>
-            MoneyFlap reserves the right at any time to modify or discontinue,
-            temporarily or permanently, the Service (or any part thereof) with
-            or without notice. You agree that MoneyFlap shall not be liable to
-            you or any third party for any modification, suspension, or
-            discontinuance of the Service.
+            {{ $t("terms.modifications.description") }}
           </p>
         </section>
         <section class="blocking_of_ip_addresses_section">
-          <h2>Blocking of IP Addresses</h2>
+          <h2>{{ $t("terms.ip_blocking.title") }}</h2>
           <p>
-            To protect the integrity of the Services, MoneyFlap reserves the
-            right at any time in its sole discretion to block Clients from
-            certain IP addresses from accessing the Websites.
+            {{ $t("terms.ip_blocking.description") }}
           </p>
         </section>
         <section class="content_section">
-          <h2>Content</h2>
-          <h4>Proprietary Rights</h4>
+          <h2>{{ $t("terms.content.title") }}</h2>
+          <h4>{{ $t("terms.content.proprietary_rights.title") }}</h4>
           <p>
-            MoneyFlap retains all proprietary rights in the Websites and the
-            Service. The Website contains the copyrighted material, trademarks,
-            and other proprietary information of MoneyFlap, and its licensors.
-            Except where we have given you express written permission, you may
-            not copy, modify, publish, transmit, distribute, perform, display,
-            or sell any such proprietary information. All content on MoneyFlap
-            is proprietary. Except where otherwise specified in this Agreement,
-            all Content is the copyrighted material of MoneyFlap and for
-            MoneyFlap’s Clients' use only. Distribution of Content to others is
-            strictly prohibited. You agree that MoneyFlap would be irreparably
-            harmed by any violation or threatened violation of this section and
-            that, therefore, MoneyFlap shall be entitled to an injunction
-            prohibiting you from any violation or threatened violation of this
-            section, without posting bond, in addition to any other right or
-            remedy it may have.
+            {{ $t("terms.content.proprietary_rights.description") }}
           </p>
           <p>
-            We may provide links to third-party websites, and some of the
-            content appearing on MoneyFlap may be supplied by third parties.
-            MoneyFlap has no responsibility for these third-party websites nor
-            for their content, which is subject to and governed by the Terms of
-            Service and/or privacy policies, if any, of the applicable
-            third-party content providers.
+            {{ $t("terms.content.third_party.description") }}
           </p>
-          <h4>Ownership of Your Content; Licenses</h4>
+          <h4>{{ $t("terms.content.ownership.title") }}</h4>
           <p>
-            You agree that any content you upload to the Websites and/or the
-            Service (“Your Content”) shall become the property of MoneyFlap.
-            This shall not affect Sections (Copyright Policy), (Limitation of
-            Liability), and (Indemnity by You) of this Agreement.
+            {{ $t("terms.content.ownership.description1") }}
           </p>
           <p>
-            However, concerning Your Content, MoneyFlap grants you a worldwide,
-            royalty-free, and non-exclusive license(s) to use, distribute,
-            reproduce, and publicly display such content, except for commercial
-            or for-profit use accounts.
+            {{ $t("terms.content.ownership.description2") }}
           </p>
           <p>
-            Any Content other than Your Content is the property of the relevant
-            Uploader and is or may be subject to copyright, trademark rights, or
-            other intellectual property or proprietary rights. Such Content may
-            not be downloaded, reproduced, distributed, transmitted,
-            re-uploaded, republished, displayed, sold, licensed, made available
-            or otherwise communicated to the public or exploited for any
-            purposes except via the features of the Websites from time to time
-            and within the parameters set by the Uploader on the Service or with
-            the express written consent of the Uploader. Where you repost
-            another user's Content, or include another user's Content in a set,
-            you acquire no ownership rights whatsoever in that Content. Subject
-            to the rights expressly granted in this section, all rights in
-            Content are reserved to the relevant Uploader.
+            {{ $t("terms.content.ownership.description3") }}
           </p>
         </section>
         <section class="restrictions_on_the_use_of_materials_section">
-          <h2 class="customShadow">Restrictions on the Use of Materials</h2>
+          <h2 class="customShadow">{{ $t("terms.restrictions.title") }}</h2>
           <p>
-            You acknowledge that MoneyFlap contains images, text, and other
-            content (collectively, “Intellectual Property”) that is protected by
-            copyrights, patents, trademarks, trade secrets, and/or other
-            proprietary rights and that these rights are valid and protected in
-            all forms, media, and technologies existing now or hereafter
-            developed. All Intellectual Property is copyrighted under the United
-            States copyright laws (and, if applicable, similar foreign laws),
-            and MoneyFlap owns a copyright in the selection, coordination,
-            arrangement, and enhancement of such Intellectual Property. All
-            trademarks appearing on this Website are trademarks of their
-            respective owners. You may not modify, publish, transmit,
-            distribute, perform, participate in the transfer or sale, create
-            derivative works of, or in any way exploit, any of the Intellectual
-            Property, in whole or in part. When Intellectual Property is
-            downloaded to your computer, you do not obtain any ownership
-            interest in such Intellectual Property. Modification of the
-            Intellectual Property or use of the Intellectual Property for any
-            other purpose, including, but not limited to, use of any
-            Intellectual Property in printed form or on any other website or
-            networked computer environment is strictly prohibited unless you
-            receive our prior written consent.
+            {{ $t("terms.restrictions.description") }}
           </p>
         </section>
         <section class="copyright_policy_section">
-          <h2 class="customShadow">Copyright Policy</h2>
-          <p>
-            MoneyFlap prohibits the submission or posting of any information
-            that infringes or violates the copyright rights and/or other
-            intellectual property rights (including rights of privacy and
-            publicity) of any person or entity.
-          </p>
-          <p>
-            Under Title 17, United States Code, Section 512(c)(2) or for any
-            other claim of copyright infringement, you hereby agree that
-            notifications of claimed copyright infringement be sent by certified
-            mail to:
-          </p>
-          <p>
-            254 Chapman Rd, Ste 208 #16275, Newark, Delaware 19702, United
-            States of America
-          </p>
-          <p>
-            If you believe that your intellectual property right (or such a
-            right that you are responsible for enforcing) is infringed by any
-            content on the Site, please write to MoneyFlap at the address shown
-            above, giving a written statement that contains:
-          </p>
+          <h2 class="customShadow">{{ $t("terms.copyright.title") }}</h2>
+          <p>{{ $t("terms.copyright.description1") }}</p>
+          <p>{{ $t("terms.copyright.description2") }}</p>
+          <p>{{ $t("terms.copyright.address") }}</p>
+          <p>{{ $t("terms.copyright.instruction") }}</p>
           <ol class="list-unstyled">
-            <li>
-              <div><div class="me-2 squareDiv">1</div></div>
-              Identification of the copyrighted work and/or intellectual
-              property right claimed to have been infringed;
-            </li>
-            <li>
-              <div><div class="me-2 squareDiv">2</div></div>
-              Identification of the allegedly infringing material on the Site
-              that is requested to be removed;
-            </li>
-            <li>
-              <div><div class="me-2 squareDiv">3</div></div>
-              Your name, address, and daytime telephone number, and an e-mail
-              address if available;
-            </li>
-            <li>
-              <div><div class="me-2 squareDiv">4</div></div>
-              A statement that you have a good faith belief that the use of the
-              copyrighted work and/or exercise of the intellectual property
-              right is not authorized by the owner, its agent, or the law;
-            </li>
-            <li>
-              <div><div class="me-2 squareDiv">5</div></div>
-              A statement that the information in the notification is accurate,
-              and, under penalty of perjury, that the signatory is authorized to
-              act on behalf of the owner of the right that is allegedly
-              infringed; and
-            </li>
-            <li>
-              <div><div class="me-2 squareDiv">6</div></div>
-              The signature of the intellectual property right owner or someone
-              authorized on the owner's behalf to assert infringement of the
-              right.
+            <li v-for="(item, index) in 6" :key="index">
+              <div>
+                <div class="me-2 squareDiv">{{ item }}</div>
+              </div>
+              {{ $t(`terms.copyright.requirements.item${item}`) }}
             </li>
           </ol>
-          <p>
-            MoneyFlap will process any notice of alleged infringement that it
-            receives and will take appropriate action as required by the Digital
-            Millennium Copyright Act (DMCA) 17 U.S.C. 512(c)(3) or other
-            applicable copyright law. U.S. law provides significant penalties
-            for submitting such a statement falsely. Under appropriate
-            circumstances, persons who repeatedly submit infringing or unlawful
-            material will be prohibited from posting further submissions.
-          </p>
+          <p>{{ $t("terms.copyright.dmca_notice") }}</p>
         </section>
         <section class="liability_for_content_section">
-          <h2 class="customShadow">Liability for Content</h2>
-          <p>
-            You hereby acknowledge and agree that MoneyFlap (i) stores Content
-            and other information at the direction, request, and authorization
-            of its users, (ii) acts merely as a passive conduit and/or host for
-            the uploading, storage, and distribution of such Content, and (iii)
-            plays no active role and gives no assistance in the presentation or
-            use of the Content. You are solely responsible for all of the
-            content that you upload, post, or distribute to, on or through the
-            Websites, and to the extent permissible by law, MoneyFlap excludes
-            all liability concerning all Content (including Your Content) and
-            the activities of its users with respect thereto.
-          </p>
-          <p>
-            You hereby acknowledge and agree that MoneyFlap cannot and does not
-            review the Content created or uploaded by its users, and neither
-            MoneyFlap nor its subsidiaries, affiliates, successors, assigns,
-            employees, agents, directors, officers and shareholders has any
-            obligation and does not undertake or assume any duty, to monitor the
-            Websites for Content that is inappropriate, that does or might
-            infringe any third party rights, or has otherwise been uploaded in
-            breach of these Terms of Service or applicable law.
-          </p>
-          <p>
-            MoneyFlap and its subsidiaries, affiliates, successors, assigns,
-            employees, agents, directors, officers, and shareholders hereby
-            exclude, to the fullest extent permitted by law, any liability that
-            may arise from any Content uploaded to the Websites by users,
-            including, but not limited to, any claims for infringement of
-            intellectual property rights, rights of privacy or publicity rights,
-            any claims relating to publication of defamatory, pornographic,
-            obscene or offensive material, or any claims relating to the
-            completeness, accuracy, currency or reliability of any information
-            provided by users of the Websites. By using the Websites, you
-            irrevocably waive the right to assert any claim concerning any of
-            the foregoing against MoneyFlap or any of its subsidiaries,
-            affiliates, successors, assigns, employees, agents, directors,
-            officers, or shareholders.
-          </p>
+          <h2 class="customShadow">
+            {{ $t("terms.liability_for_content.title") }}
+          </h2>
+          <p>{{ $t("terms.liability_for_content.description1") }}</p>
+          <p>{{ $t("terms.liability_for_content.description2") }}</p>
+          <p>{{ $t("terms.liability_for_content.description3") }}</p>
         </section>
+
         <section class="repeat_infringers_section">
-          <h2 class="customShadow">Repeat Infringers</h2>
-          <p>
-            MoneyFlap will suspend or terminate your access to the Websites if
-            MoneyFlap determines, in its sole and reasonable discretion, that
-            you have repeatedly breached these Terms of Service.
-          </p>
-          <p>
-            If we receive a valid notification from a third party by our
-            reporting processes or applicable law that any of Your Content
-            infringes the copyright or other rights of such third party, or if
-            we believe that your behavior is inappropriate and violates our
-            Terms of Service, we will send you a written warning to this effect.
-            Any user that receives more than two of these warnings is liable to
-            have their access to the Websites terminated forthwith.
-          </p>
-          <p>
-            We will also suspend or terminate your account without warning if
-            ordered to do so by a court, and/or in other appropriate
-            circumstances, as determined by MoneyFlap at its sole discretion.
-          </p>
-          <p>
-            Please note that we do not offer refunds to Clients whose accounts
-            are terminated as a result of repeated infringement of these Terms
-            of Service.
-          </p>
+          <h2 class="customShadow">
+            {{ $t("terms.repeat_infringers.title") }}
+          </h2>
+          <p>{{ $t("terms.repeat_infringers.description1") }}</p>
+          <p>{{ $t("terms.repeat_infringers.description2") }}</p>
         </section>
         <section class="limitation_of_liability_section">
-          <h2 class="customShadow">Limitation of Liability</h2>
-          <p>
-            In no event shall MoneyFlap be liable for any damages whatsoever,
-            whether direct, indirect, general, special, compensatory,
-            consequential, and/or incidental, arising out of or relating to the
-            Websites or Service, or use thereof. Nothing contained in this
-            Website or any written or oral communications from MoneyFlap or its
-            employees or agents shall be construed to make any promise,
-            covenant, or guarantee, all of which are explicitly disclaimed
-            hereby, contrary to the statements and disclaimers contained in this
-            paragraph.
-          </p>
-          <p>
-            The content and functionality on the Websites and the services
-            provided by employees of the Websites are offered “as is” without
-            warranty of any kind, either express or implied, including, without
-            limitation, implied warranties of merchantability, fitness for a
-            particular purpose, title and non-infringement. MoneyFlap makes no
-            warranties, express or implied, as to the ownership, accuracy,
-            completeness, or adequacy of the Websites’ content or that the
-            functionality of the Websites will be uninterrupted error-free, or
-            free from virus or third-party attack. You hereby acknowledge that
-            your use of the Websites and the Service is at your sole risk. UNDER
-            NO CIRCUMSTANCES SHALL MONEYFLAP, ITS OFFICERS, OWNERS, EMPLOYEES OR
-            AGENTS AND THEIR RESPECTIVE HEIRS, SUCCESSORS, AND ASSIGNS BE LIABLE
-            FOR ANY DAMAGES, INCLUDING DIRECT, INCIDENTAL, PUNITIVE, SPECIAL,
-            CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT DIRECTLY OR INDIRECTLY
-            RESULT FROM USE OF, OR INABILITY TO USE, THE WEBSITES OR SERVICE OR
-            THE INFORMATION CONTAINED THEREIN, INCLUDING WITHOUT LIMITATION FOR
-            VIRUSES ALLEGED TO HAVE BEEN OBTAINED FROM THE WEBSITES, EVEN IF
-            MONEYFLAP HAS BEEN NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES OR
-            LOSSES AND REGARDLESS OF THE THEORY OF LIABILITY.
-          </p>
-          <p>
-            TO THE GREATEST EXTENT PERMITTED BY LAW, YOU AGREE THAT IN NO EVENT
-            WILL MONEYFLAP HAVE ANY LIABILITY, CONTINGENT OR OTHERWISE, FOR ANY
-            INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES
-            IN ANY WAY ARISING OUT OF OR RELATING TO THE AGREEMENT, WEBSITES OR
-            THE SERVICE, INCLUDING, BUT NOT LIMITED TO LOST PROFITS; LOST DATA;
-            LOSS OF GOODWILL; COPYRIGHT, TRADEMARK, OR OTHER INTELLECTUAL
-            PROPERTY INFRINGEMENT; WORK STOPPAGE; EQUIPMENT FAILURE OR
-            MALFUNCTION; ILLEGAL, IMMORAL OR FRAUDULENT ACTIVITY; PERSONAL
-            INJURY; PROPERTY DAMAGE; OR ANY OTHER DAMAGES OR LOSSES, EVEN IF
-            MONEYFLAP HAS BEEN ADVISED OF THE POSSIBILITY THEREOF, AND
-            REGARDLESS OF THE LEGAL OR EQUITABLE THEORY (CONTRACT, TORT,
-            STATUTE, INDEMNITY OR OTHERWISE) UPON WHICH SUCH LIABILITY IS BASED.
-          </p>
-          <p>
-            If any of the foregoing limitations are deemed to be unenforceable,
-            to the greatest extent permitted by law, you agree that the entire
-            aggregate liability of MoneyFlap and sole remedy available to any
-            Client in any case in any way arising out of or relating to the
-            Agreement, Websites or the Service shall be limited to monetary
-            damages that in the aggregate may not exceed the greater of $500.00
-            or the sum of any amount paid by the Client or user to MoneyFlap
-            during the six months before notice to MoneyFlap of the dispute for
-            which the remedy is sought.
-          </p>
+          <h2 class="customShadow">
+            {{ $t("terms.limitation_of_liability.title") }}
+          </h2>
+          <p>{{ $t("terms.limitation_of_liability.description1") }}</p>
+          <p>{{ $t("terms.limitation_of_liability.description2") }}</p>
+          <p>{{ $t("terms.limitation_of_liability.description3") }}</p>
+          <p>{{ $t("terms.limitation_of_liability.description4") }}</p>
         </section>
         <section class="indemnity_by_you_section">
-          <h2 class="customShadow">Indemnity by You</h2>
+          <h2 class="customShadow">{{ $t("terms.indemnity_by_you.title") }}</h2>
           <p>
-            You agree to indemnify and hold MoneyFlap, its subsidiaries,
-            affiliates, officers, agents, and other partners and employees,
-            harmless from any loss, liability, claim, or demand, including
-            reasonable attorneys' fees, arising out of or related to:
+            {{ $t("terms.indemnity_by_you.description") }}
           </p>
           <ol class="list-unstyled">
             <li>
               <div><div class="me-2 squareDiv">1</div></div>
-              Your use of the Service and/or Websites in violation of this
-              Agreement and/or arising from a breach of this Agreement including
-              without limitation your representations and warranties set forth
-              above;
+              {{ $t("terms.indemnity_by_you.items.item1") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">2</div></div>
-              Any third-party claim of infringement of copyright or other
-              intellectual property rights or invasion of privacy arising from
-              the hosting of Your Content on the Websites, and/or your making
-              available thereof to other users of the Websites, and/or the
-              actual use of Your Content by other users of the Websites or
-              related services by these Terms of Service and the parameters set
-              by you concerning the distribution and sharing of Your Content;
+              {{ $t("terms.indemnity_by_you.items.item2") }}
             </li>
             <li>
               <div><div class="me-2 squareDiv">3</div></div>
-              Any activity related to your account, either by you or by any
-              other person accessing your account with or without your consent
-              unless such activity was caused by the act of MoneyFlap.
+              {{ $t("terms.indemnity_by_you.items.item3") }}
             </li>
           </ol>
         </section>
         <section class="attorney_fees_section">
-          <h2 class="customShadow">Attorney Fees</h2>
+          <h2 class="customShadow">{{ $t("terms.attorney_fees.title") }}</h2>
           <p>
-            If MoneyFlap is successful in whole or in part in any action or
-            proceeding related to or arising from this Agreement, you shall be
-            responsible for MoneyFlap’s attorneys' fees and costs.
+            {{ $t("terms.attorney_fees.description") }}
           </p>
         </section>
         <section class="parental_or_guardian_permission_section">
-          <h2 class="customShadow">Parental or Guardian Permission</h2>
+          <h2 class="customShadow">
+            {{ $t("terms.parental_permission.title") }}
+          </h2>
           <p>
-            Some of the Content on the Websites may not be appropriate for
-            children. CHILDREN UNDER THE AGE OF 17 ARE NOT PERMITTED TO USE THE
-            WEBSITES UNLESS A SUPERVISING PARENT OR GUARDIAN IS PRESENT.
+            {{ $t("terms.parental_permission.description") }}
           </p>
         </section>
-        <section class="privacy_ policy_section">
-          <h2 class="customShadow">Privacy Policy</h2>
+        <section class="privacy_policy_section">
+          <h2 class="customShadow">{{ $t("terms.privacy_policy.title") }}</h2>
           <p>
-            Use of the Websites and/or the Service is also governed by our
-            Privacy Policy, located at
-            <RouterLink to="/privacy_policy/"> PRIVACY POLICY </RouterLink>
+            {{ $t("terms.privacy_policy.description") }}
+            <RouterLink to="/privacy_policy/">{{
+              $t("terms.privacy_policy.link_text")
+            }}</RouterLink>
           </p>
         </section>
         <section
           class="jurisdiction_and_choice_of_law_dispute_resolution_section"
         >
           <h2 class="customShadow">
-            Jurisdiction and Choice of Law; Dispute Resolution
+            {{ $t("terms.jurisdiction.title") }}
           </h2>
           <p>
-            Suppose there is any dispute arising out of the Websites and/or the
-            Service, by using the Websites and/or Service. In that case, you
-            expressly agree that any such dispute shall be governed by the laws
-            of the State of Delaware, without regard to its conflict of law
-            provisions. You expressly agree and consent to the exclusive
-            jurisdiction and venue of the state and federal courts of the State
-            of New York, for the resolution of any such dispute. Acceptance of
-            the terms and conditions of this Agreement constitutes your consent
-            to be sued in such courts and to accept service of process outside
-            the State of Delaware with the same force and effect as if such
-            service had been made within the State of Delaware. You hereby agree
-            to accept service of process for any action hereunder by certified
-            mail return receipt requested which service shall have the same
-            force and effect as though service had been effected by personal
-            service in the applicable jurisdiction. If any part of these terms
-            is unlawful, void, or unenforceable, that part will be deemed
-            severable and will not affect the validity and enforceability of the
-            remaining provisions.
+            {{ $t("terms.jurisdiction.description") }}
           </p>
         </section>
         <section class="arbitration_provision_no_class_action_section">
-          <h2 class="customShadow">Arbitration Provision/No Class Action</h2>
+          <h2 class="customShadow">{{ $t("terms.arbitration.title") }}</h2>
           <p>
-            Except where prohibited by law, as a condition of using the Websites
-            and/or Service, you agree that any disputes, claims, and causes of
-            action (collectively, “Claim”) arising out of or connected with the
-            Websites and/or Service, shall be resolved individually, without
-            resort to any form of class action, exclusively by binding
-            arbitration under the rules of the American Arbitration Association
-            for full and final settlement of such Claim, and judgment on the
-            award rendered in the arbitration may be entered in any court having
-            jurisdiction thereof. Such arbitration shall be held by the Rules
-            for Expedited Procedures under the Commercial Arbitration Rules of
-            the American Arbitration Association or other mutually agreeable
-            organization, before a single arbitrator (with knowledge and
-            expertise of copyright law if the claim is all or partially for
-            copyright infringement), selected by agreement of both parties or by
-            an independent mediator (with knowledge and expertise of copyright
-            law if the claim is all or partially for copyright infringement) if
-            the parties are unable to agree. The parties shall split the
-            arbitration and/or mediator costs. An award rendered by the
-            arbitrator(s) may be entered and confirmed by the courts of the
-            State of Delaware, County of New Castle. The parties agree that any
-            post-arbitration action seeking to enforce an arbitration award or
-            action seeking equitable or injunctive relief shall be brought
-            exclusively in the courts of the State of Delaware, County of New
-            Castle.
+            {{ $t("terms.arbitration.description") }}
           </p>
         </section>
         <section class="no_third_party_beneficiaries_section">
-          <h2 class="customShadow">No Third Party Beneficiaries</h2>
-          <p>
-            You agree that, except as otherwise expressly provided in this
-            Agreement, there shall be no third-party beneficiaries to this
-            Agreement.
-          </p>
+          <h2 class="customShadow">
+            {{ $t("terms.third_party_beneficiaries.title") }}
+          </h2>
+          <p>{{ $t("terms.third_party_beneficiaries.description") }}</p>
         </section>
+
         <section class="entire_agreement_section">
-          <h2 class="customShadow">Entire Agreement</h2>
-          <p>
-            This Agreement contains the entire agreement between you and
-            MoneyFlap regarding the use of the Websites and/or the Service.
-          </p>
+          <h2 class="customShadow">{{ $t("terms.entire_agreement.title") }}</h2>
+          <p>{{ $t("terms.entire_agreement.description") }}</p>
         </section>
         <section class="severability_waiver_section">
-          <h2 class="customShadow">Severability; Waiver</h2>
+          <h2 class="customShadow">
+            {{ $t("terms.severability_waiver.title") }}
+          </h2>
           <p>
-            Suppose any provision of this Agreement is found to be invalid by
-            any court having competent jurisdiction. In that case, the
-            invalidity of such provision shall not affect the validity of the
-            remaining provisions of this Agreement, which shall remain in full
-            force and effect. No waiver of any term of this Agreement shall be
-            deemed a further or continuing waiver of such term or any other
-            term. In addition, MoneyFlap’s failure to enforce any term of this
-            Agreement shall not be deemed as a waiver of such term or otherwise
-            affect MoneyFlap’s ability to enforce such term at any point in the
-            future.
+            {{ $t("terms.severability_waiver.description") }}
           </p>
         </section>
         <section class="contact_section">
-          <h2 class="customShadow">Contact</h2>
+          <h2 class="customShadow">{{ $t("terms.contact.title") }}</h2>
           <p>
-            Please contact us with any questions regarding this agreement at
-            <a href="mailto:legal@moneyflap.com">legal@moneyflap.com</a>.
+            {{ $t("terms.contact.description") }}
+            <a :href="`mailto:${$t('terms.contact.email')}`">{{
+              $t("terms.contact.email")
+            }}</a>
           </p>
-          <p>Updated on 14 April 2024</p>
+          <p>{{ $t("terms.contact.updated") }}</p>
         </section>
       </div>
     </div>

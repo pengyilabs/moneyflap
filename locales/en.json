@@ -1,0 +1,958 @@
+{
+  "index": {
+    "main-title": "We are not a bank. <br /> We are a <span class='text-success'>bulldozer.</span>",
+    "subtitle-header": "The first global app that pays you to save, spend, and send money <br class=\"show-md\" /> — all in one place.",
+    "global-account-title": "A Global Account <br /> <span class='text-success'>That Prioritizes You</span>",
+    "global-account-description": "Say goodbye to the barriers of the conventional financial system.<br class='d-none d-sm-block' />Step into the new era of financial liberation where your money knows no borders, no restrictions, no exorbitant transaction fees,only growth!",
+    "earn-money-title": "<span class='text-primary'>Earn up to 5.77% Money</span> Markets yields, on-chain",
+    "earn-money-description": "Isn't it time we let our money work for us? Get higher, more stable returns than classic savings accounts. Diversify your portfolio with Sukuk and U.S. treasury bills. An unmatched level of confidence knowing your assets are indirectly backed by the full faith and credit of governments. Withdraw and get paid on a 24/7 basis. No minimum deposit.",
+    "teleport-money-title": "Teleport your money from one country to another,<span class='text-success'> fee-free</span>",
+    "teleport-money-description": "Whether it is Italy or Mexico, save up to 15x when sending mone there — Oh, 0% exchange rate mark-up and no sneaky hidden fees! Even no more entering account numbers.",
+    "teleport-money-card1": "Send money in 100+ currencies to your contacts or anyone in our global search in seconds.",
+    "teleport-money-card2": "Send money instantly to bank and mobile money accounts in 90+ countries.",
+    "teleport-money-card3": "Send and receive stablecoins within seconds from external wallets.",
+    "pay-most-title": "Pay With The Most<br /><span class='text-info'> International Card</span>",
+    "pay-most-description": "Sick of overpaying card transaction fees? Banish that feeling forever.<br class='d-none d-sm-block'/> Create your virtual cards to shop globally while saving 4.5% on fees, and link them to Google Pay and Apple Pay to start spending immediately! Get a sleek, mirror stainless-steel, numberless credit card with a premium experience that embraces both security and an aura of exclusivity. Access your card details anytime, within our app.",
+    "smarter-card": "A Smarter Card",
+    "earn-up-title": "Earn up to 35%",
+    "earn-up-subtitle": "unlimited cash-back on your favorite brands, for real!",
+    "earn-up-description": "Welcome to our virtual shopping mall! Where else can you shop from numerous top brands and get up to a 35% cash-back on every purchase? Imagine the hundreds or even thousands of dollars you could be pocketing each year! Be a smarter shopper.",
+    "your-moneyflap-title": "With your MoneyFlap account, go from underserved to what you",
+    "your-moneyflap-slide1-title": "Global cash-in and cash-out",
+    "your-moneyflap-slide1-description": "Easily deposit and withdraw cash at any MoneyFlap location or at over 350,000 MoneyGram &trade; locations in 181+ countries.",
+    "your-moneyflap-slide2-title": "Easy deposits and withdrawals",
+    "your-moneyflap-slide2-description": "Quickly link your account to thousands of local and international mobile wallets, banks, and crypto exchanges.",
+    "your-moneyflap-slide3-title": "Buy airtime and data",
+    "your-moneyflap-slide3-description": "Quickly recharge credit and data for any phone, globally. Get 6% cashback on top-ups during weekdays and 10% on weekends.",
+    "your-moneyflap-slide4-title": "Flawless bill payments",
+    "your-moneyflap-slide4-description": "Effortlessly pay bills worldwide in just a few clicks, with zero extra fees. Also, enjoy 3% cashback on every bill payment in select countries.",
+    "your-moneyflap-slide5-title": "Receive your paycheck",
+    "your-moneyflap-slide5-description": "Share your bank details with your employers worldwide, and receive your hard-earned money. Fric, not friction!",
+    "your-moneyflap-slide6-title": "Smart subscriptions management",
+    "your-moneyflap-slide6-description": "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app.",
+    "your-moneyflap-slide7-title": "Scan & Pay at thousands of merchants",
+    "your-moneyflap-slide7-description": "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon).",
+    "real-time-title": "Real-time Spending<br /><span class='text-primary'> Insights and Analytics</span>",
+    "real-time-spending-title": "Our intelligent analytics presents you with easy-to-understand charts and a summary of your transactions so you can track your finances and make better spending decisions. No spreadsheet. No calculator!",
+    "real-time-spending-description": "Our intelligent analytics presents you with easy-to-understand charts and a summary of your transactions so you can track your finances and make better spending decisions. No spreadsheet. No calculator!",
+    "connect-feel-title": "Connect, Feel,<br /><span class='text-success'> and Engage Like You’re There!</span>",
+    "connect-feel-description": "Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors. No friends? No worries! Chat with our humanlike AI assistant for outfit tips or movie recommendations.",
+    "fast-loans-title": "Fast Loans, No Fuss:<br /> Switch On The 0%",
+    "fast-loans-description": " Why let emergencies spoil your good night's sleep? Borrow instantly any amount using your money saved as collateral and repay in up to 25 easy installments – your first payment can be made within 90 days after approval! No hidden fees. No interest. No credit checks.",
+    "sims-too-title": "We do <span class='text-info'> SIMs too!</span>",
+    "sims-too-description": "Travel smart, enjoy unlimited roaming with MoneyFlap eSIM! Forget the old-fashioned ways of changing cards or hunting down Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation - connect your life with just a click.",
+    "take-security-title": "We Take Your Security to New Heights",
+    "take-security-card1-title": "Compliance-first",
+    "take-security-card1-description": "From day 1, we are certified, audited, and regulated across multiple jurisdictions.",
+    "take-security-card2-title": "Break-free control",
+    "take-security-card2-description": "Push notifications, 2-step verification, biometrics, card controls, and fraud detection to protect you from any fraudsters, 24/7.",
+    "take-security-card3-title": "Bankruptcy remotel",
+    "take-security-card3-description": "Your money are fully segregated and held with regulated custodians and are secured by Treasury Bonds rated AAA/AA+ by Moody's, S&P, and Fitch.",
+    "take-security-card4-title": "VIP customer support",
+    "take-security-card4-description": "Have an account query at 3 am? Ok. Chat with our team 24/7 through the app.",
+    "your-legacy-title": "Your Legacy, Not Theirs",
+    "your-legacy-description": "Open your account in 2 minutes, verify your ID, and start enjoying your Everything app.",
+    "buttons": {
+      "get-started": "Get Started",
+      "see-our-coverage": "See our coverage",
+      "available-soon": "Available Soon"
+    }
+  },
+  "about": {
+    "main-title": "About us",
+    "main-subtitle": "We are underserved people building a simple, transparent, and modern all-in-one global platform for underserved people. ",
+    "description": "How can you leave your legacy when you’re trapped in legacy systems, or denied access to the system altogether. Banks shouldn’t feel a relic from a different era. Elitist, Slow, Expensive. Banks should reflect the times we live in. Inclusive, Fast, Free. We deserve a blockchain-based bank for us. That’s up to speed with modern life. This shouldn’t be a fantasy, when it’s a reality for the rest of the world. Our money should be ours. To do what we want with. To put where we need to. To build our futures. From underserved to what you deserve. A new shape of banking for emerging regions.",
+    "leadership-title": "Leadership <span class='text-success'>Team</span>",
+    "leadership-description": "We founded MoneyFlap to be the bridge between the traditional and decentralized finance.",
+    "trusted": "Trusted by:",
+    "buttons": {
+      "get-started": "Get Started",
+      "careers": "Careers"
+    }
+  },
+  "pricing": {
+    "main-title": "<span class='text-success'>Fair</span>, Competitive, <br /> and <span class='text-success'>Transparent</span> <br /> Transaction Fees",
+    "main-description": "We believe in offering clear and upfront pricing. Here's a breakdown of our fees to help you understand the costs associated with using our services:",
+
+    "spending-card-title": "SPENDING ACCOUNTS",
+    "spending-card-general-title": "General",
+    "spending-card-general-op1": "Opening Fee",
+    "spending-card-general-op2": "Monthly Fee",
+    "spending-card-general-op3": "Suscription Fee",
+    "spending-card-general-op4": "Minimum Deposit",
+
+    "spending-card-money-title": "Adding Money",
+    "spending-card-money-op1": "<span>Cash deposit & withdrawal  <br />  <small style='margin-left: 45px'>    Transaction fee may apply at MoneyGram &trade; locations  </small></span>",
+    "spending-card-money-op2": "Crypto deposit",
+    "spending-card-money-op3": "Open banking",
+    "spending-card-money-op4": "<span>Bank transfer  <br />  <small style='margin-left: 45px'>    Fee only applies after 2 free transfers every month  </small></span>",
+    "spending-card-money-op5": "<span> Mobile wallet <br /> <small style=\"margin-left: 45px\">   Fee varies by mobile wallet </smal",
+
+    "spending-card-send-money-title": "Sending Money",
+    "spending-card-send-money-op1": "International transfer to contacts",
+    "spending-card-send-money-op2": "<span>International transfer to bank accounts   <br />   <small style=\"margin-left: 45px\">     Fee varies by currency   </small> </span>",
+    "spending-card-send-money-op3": "<span>International transfer to mobile wallets   <br />   <small style=\"margin-left: 45px\">     Fee varies by mobile wallet   </small> </span>",
+    "spending-card-send-money-op4": "<span>International transfer to crypto wallets<br /><small style=\"margin-left: 45px\">Network fee may apply</small></span>",
+    "spending-card-send-money-op5": "Foreign exchange spreads/markups",
+
+    "spending-card-reveiving-money-title": "Reveiving Money",
+    "spending-card-reveiving-money-op1": "<span>Getting banking details in fiat currencies<br /><small style=\"margin-left: 45px\">USD, EUR, and GBP</small></span>",
+    "spending-card-reveiving-money-op2": "<span>Receiving payments in fiat currencies<br /><small style=\"margin-left: 45px\">Fixed fee per payment</small></span>",
+    "spending-card-reveiving-money-op3": "Getting on-chain details in stablecoins",
+    "spending-card-reveiving-money-op4": "Receiving payments in stablecoins",
+
+    "spending-card-paying-bills-title": "Paying Bills",
+    "spending-card-paying-bills-op1": "<span>International bill payments<br /><small style=\"margin-left: 45px\">Fee varies by country</small>span>",
+
+    "spending-card-yield-accounts-title": "YIELD ACCOUNTS",
+    "spending-card-yield-accounts-op1": "Opening fee",
+    "spending-card-yield-accounts-op2": "Management fee",
+    "spending-card-yield-accounts-op3": "Minimum deposit",
+
+    "spending-cards-title": "CARDS",
+    "spending-cards-op1": "Virtual card issuance",
+    "spending-cards-op2": "Eco plastic card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op3": "Metal card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op4": " Mirror card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
+    "spending-cards-op5": "Transaction fee",
+    "spending-cards-op6": "Foreign transaction fee",
+
+    "buttons": {
+      "get-started": "Get Started",
+      "explore-fees": "Explore Fees"
+    },
+    "txt": {
+      "free": "Free",
+      "none": "None",
+      "from02": "From 0.2%",
+      "from1": "From 1%",
+      "from025": "From 0.25%",
+      "from025USD": "From 0.25% (capped at 1.2 USD)",
+      "015": "0.15%",
+      "2-6USD": "2.6 USD",
+      "from0USD": "From 0 USD",
+      "3USD": "3 USD"
+    }
+  },
+
+  "mfusd": {
+    "main-title": "MoneyFlap Dollar (MFUSD)",
+    "main-subtitle": "Unlock the Potential of Global Finance with MoneyFlap Dollar: The New Gasless Stablecoin",
+    "main-description": "MoneyFlap Dollar (MFUSD) is a regulated virtual currency, fully supported by reserves, catering to global businesses and developers. It offers effortless, fast, and fee-free cross-border payments.",
+
+    "moneyflap-dollar-title": "The<span class=\"text-primary\"> MoneyFlap <br />Dollar </span> Promise",
+    "moneyflap-dollar-op1-title": "Rock-Solid Security",
+    "moneyflap-dollar-op1-description": "MFUSD is fully backed by cash, U.S. treasuries, and cash-equivalent assets, guaranteeing a stable and trustworthy value.",
+
+    "moneyflap-dollar-op2-title": "Regulated Stability",
+    "moneyflap-dollar-op2-description": "MFUSD ensures global transparency and legal compliance by adhering to strict regulatory standards. It is issued through a collaboration between MoneyFlap and Brale, a licensed MSB and money transmitter in the U.S.",
+
+    "moneyflap-dollar-op3-title": "Unparalleled Speed",
+    "moneyflap-dollar-op3-description": "MFUSD enables instant, high-speed transactions for seamless payments, regardless of distance.",
+
+    "moneyflap-dollar-op4-title": "Always-On, Cost-Free",
+    "moneyflap-dollar-op4-description": "With MFUSD, enjoy 24/7 availability and zero transaction fees, giving your business the freedom to operate on your terms.",
+
+    "moneyflap-dollar-op5-title": "Interoperable, Global Access",
+    "moneyflap-dollar-op5-description": "MFUSD allows businesses to exchange 1 MFUSD for 1 US dollar, offering direct access to US dollars and effortless swaps between MFUSD, local currencies, and other stablecoins.",
+
+    "moneyflap-dollar-op6-title": "Seamless Integration",
+    "moneyflap-dollar-op6-description": "For developers, businesses, and traders alike, MFUSD seamlessly enhances payment applications and global commerce..",
+
+    "global-reach-title": "Global Reach, Local Touch: Harness the Power of MHR and MFUSD",
+    "global-reach-description": "MHR is a global stablecoin payment network enabling developers to transfer funds in and out, on-ramp, off-ramp across more than 90 countries at mid-market rates through real-time domestic payment systems. With one API integration, developers can access limitless cross-border payments between bank accounts, mobile wallets, and stablecoin wallets. Transactions can be settled quickly using MFUSD or any USD stablecoins.",
+
+    "who-we-serve-title": "Who We Serve",
+
+    "transparency-title": "Transparency",
+    "transparency-description": "MFUSD can be redeemed 1:1 for U.S. dollars. MoneyFlap and Brale ensure that treasury assets equal or exceed the tokens issued. Brale self-reports the MFUSD reserve composition monthly, and an independent accounting firm provides monthly audit reports. These reports will soon be available on the MFUSD Transparency page.",
+
+    "moneyflap-dollar-alternative-title": "MoneyFlap Dollar <br /> <span class=\"text-primary\">vs </span> Alternatives Solutions",
+    "moneyflap-dollar-alternative-op1": "Cost-free transactions",
+    "moneyflap-dollar-alternative-op2": "On-chain transactions",
+    "moneyflap-dollar-alternative-op3": "Instant settlement",
+    "moneyflap-dollar-alternative-op4": " Issued by a regulated entity",
+
+    "mfusd-available-title": "is available on top blockchain <br />networks and more coming soon",
+
+    "txt": {
+      "get-in-touch": "Get in touch",
+      "available-soon": "Available Soon",
+      "mfusd-transparency-page": "MFUSD Transparency page"
+    }
+  },
+
+  "navbar": {
+    "about-us": "About Us",
+    "security": "Security",
+    "pricing": "Pricing",
+    "mfusd": "MFUSD",
+    "help": "Help",
+    "get-started": "Get Started"
+  },
+
+  "footer": {
+    "company": "Company",
+    "about-us": "About Us",
+    "careers": "Careers",
+    "press": "Press",
+    "ethics-sustainability": "Ethics & Sustainability",
+    "for-business": "For Business",
+    "resources": "Resources",
+    "help": "Help Center",
+    "security": "Security & Control",
+    "fraud-protection": "Fraud Protection",
+    "system-status": "System Status",
+    "KYC/AML-program": "KYC/AML Program",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "licenses": "Licenses & Regulatory",
+    "copyright": "Copyright 2024 MoneyFlap. All rights reserved."
+  },
+
+  "careers": {
+    "main-title": "Careers",
+    "main-subtitle": "Mission",
+    "main-description1": "MoneyFlap is building the future of finance and global cross-border payments.",
+    "main-description2": "We’re a diverse team based across the globe smartly working to bring simple, modern, and transparent payment services to underserved people.",
+
+    "open-positions-title": "Open <span class=\"text-primary\">Positions</span>",
+    "open-positions-description": "Join us in our mission to increase economic freedom in the world.",
+
+    "benefits-title": "Perks & Benefits of<br /><span class=\"text-primary\"> Working With Us</span>",
+    "timeoff-op1-title": "Time Off",
+    "timeoff-op1-description": "Enjoy flexible paid vacations plus 26+ recognized holidays, depending on your location.",
+
+    "timeoff-op2-title": "Medical, dental & vision",
+    "timeoff-op2-description": "Our employees and their dependents can avail of competitive medical, dental, and vision insurance.",
+
+    "timeoff-op3-title": "Fully Remote",
+    "timeoff-op3-description": "We provide a fully remote work environment, including a home office setup allowance for all our employees.",
+
+    "timeoff-op4-title": "Parental Leave",
+    "timeoff-op4-description": "We offer paid leave for biological parents to spend quality time with their loved ones.",
+
+    "core-values-title": "Our Core Values",
+    "core-values-description": "We believe that success only comes through a system of set norms and values. Below are the standards we promise to keep and deliver:",
+
+    "core-values-op1-title": "Accountability",
+    "core-values-op1-description": "AccountabWe're responsible for our commitments and actions, always keeping our customers at heart.ility",
+
+    "core-values-op2-title": "Transparency",
+    "core-values-op2-description": "We strive for openness and honesty in our interactions within our team, with our community, and in the markets we serve.",
+
+    "core-values-op3-title": "Loyalty and Trust",
+    "core-values-op3-description": "We appreciate the ability to rely on each other's word, actions, and dedication whenever needed.",
+
+    "core-values-op4-title": "Passion",
+    "core-values-op4-description": "We foster an inclusive environment because we believe that everyone deserves to be part of it.",
+
+    "core-values-op5-title": "Innovation",
+    "core-values-op5-description": "We're always on the lookout for opportunities to develop new financial and payment solutions for our audience.",
+
+    "core-values-op6-title": "Service",
+    "core-values-op6-description": "Our clients and their needs are our top priority. We continually aim to improve our services for their financial well-being.",
+
+    "txt": {
+      "join": "Join Our Mission",
+      "view-roles": "View open roles",
+      "phrase1": "We shape our tools, thereafter our tools shape us."
+    }
+  },
+
+  "press": {
+    "main-title": "Media & press kit",
+    "main-description": "Thanks for your interest in our company! Here's our logo and a collection of product screenshots",
+    "main-subtitle": "Tagline",
+    "main-subtitle-description": "On-chain Everything App",
+
+    "boilerplate-title": "Boilerplate",
+    "boilerplate-description": "<strong>MoneyFlap</strong> aims to transform the global financial landscape using innovative stablecoin infrastructure and blockchain technology. The company's mission is to enhance financial inclusion in underserved areas hindered by outdated, bureaucratic payment systems or costly, complex financial services. MoneyFlap is a global super app utilizing public blockchain protocols and stablecoins to facilitate rapid, near-zero cost, and secure payments across Europe, Sub-Saharan Africa, Latin America, Southeast Asia, MENA, and North America. Powered by a robust network of domestic real-time payment rails and an internal high-capacity ledger, our platform offers global instant money movements for a fee of 0 to 100 basis points (bps) at mid-market rates, surpassing current solutions. With MoneyFlap, Mexicans can access Nigeria's NIBSS, Indians can use Europe's SEPA Instant, Senegalese can send money to Brazil through Pix, Europeans can transact with InstaPay in the Philippines, and Saudis can purchase goods in India via UPI, among other international connections.",
+
+    "founding-title": "Founding Story",
+    "founding-description": "Before deciding to start MoneyFlap, Mamadou worked remotely in the United States while residing in South Africa with a student visa — where he had a local bank account. Shortly, it came to his attention that South African banks usually freeze the accounts of those foreign residents who can no longer show a valid temporary residency permit. Then, he was urged to prepare accordingly by cashing out all his funds out of South Africa. He returned to his home country, Senegal, a week before expiration. Hence, he shall have opened a new Senegalese account to continue getting paid from the United States. He quickly noticed the following issues:",
+    "founding-op1": "There is no way to open a bank account via any web or mobile banking app.",
+    "founding-op2": "It is impossible to get paid by US employers through mobile money service providers.",
+    "founding-op3": "It is impossible to make/receive bank-to-bank remittances through mobile money service providers.",
+    "founding-op4": "Must have visited bank branches, done the paperwork, and waited in long queues to open an account.",
+    "founding-op5": "The bank required a $20 minimum deposit and $20 for the debit card to activate his account.",
+    "founding-op6": "Banks keep charging exorbitant fees on domestic bank transfers and even do so for alerts.",
+    "founding-op7": "People still rely on complex methods and friends or family from abroad to bank on their behalf.",
+    "founding-op8": "The oligopoly of legacy systems through bureaucracy leads the region to have a low card penetration rate.",
+    "founding-credits": "We quickly realized that our issues were prevalent in all emerging markets, especially French-speaking sub-Saharan Africa, Southeast Asia, and South America.",
+
+    "download-logo-title": "Download Our logo",
+    "download-logo-description": "For implementing our logo in different applications, please download individually our high-resolution assets in PNG format or in .zip file for full access to all our logos.",
+
+    "download-screenshots-title": "Download Our Screenshots",
+    "download-screenshots-description": "High-resolution assets of our interface on desktop and mobile, as well as a selection of GIFs showing functionality across the app.",
+
+    "download-colors-title": "Download Our Color Palette",
+    "download-colors-description": "High-resolution assets of our interface on desktop and mobile, as well as a selection of GIFs showing functionality across the app.",
+
+    "questions-title": "Any questions ?",
+    "questions-description": "We're also happy to help with any questions you have. <br />You'll reach a real human who can arrange interviews and provide original materials.",
+
+    "txt": {
+      "download-full-set": "Download full set",
+      "contact-press": "Contact Press"
+    }
+  },
+
+  "ethics": {
+    "main-title": "Ethics & Sustainability",
+    "main-description": "Empowering communities by weaving social impact into every financial decision.",
+
+    "eco-friend-title": "Eco-Friendly Elegance",
+    "eco-friend-description": "At MoneyFlap, we believe that fashioning tomorrow starts with what you carry today. Our plastic cards and packaging are meticulously crafted from recycled materials, reducing the burden on our planet's resources and minimizing environmental waste. We transform waste into wonder, ensuring that every swipe you make contributes to a cleaner, greener planet. ",
+
+    "lower-carbon-title": "Lower Carbon Emission",
+    "lower-carbon-description": "By harnessing the power of technology, we provide seamless, efficient, and entirely digital solutions. Every transaction you make with MoneyFlap is a step towards a greener, more sustainable world. Our remote operations mean fewer facilities, translating into less energy consumption and lower carbon emissions. You enjoy the convenience of managing your finances from the comfort of your home while contributing to our planet's wellbeing. In collaboration with leading sustainability management companies, we take crucial steps to measure and manage our CO2e footprint with precision and integrity. ",
+
+    "social-responsibility-title": "Social Responsibility",
+    "social-responsibility-description": "At MoneyFlap, we believe in a world where wealth is more than just numbers; it’s a powerful tool for transformation. Our mission goes beyond providing exceptional products and services – we are a force for good, making a lasting difference in the world we live in. We stand committed to channeling a significant percentage of our annual profits to charitable groups and NGOs fighting the toughest battles of our time. From confronting climate change head-on, supporting war refugees to find safety and solace, to championing equal opportunities for all. ",
+
+    "belief-philosophy-title": "Belief-based Philosophy",
+    "belief-philosophy-description": "MoneyFlap targets a global market but prioritizes making a positive impact in emerging economies by addressing local challenges with tailored solutions. We provide equitable access to global financial opportunities rooted in Shariah-based principles of equity and solidarity, fostering inclusivity, fairness, and support for the underprivileged <br /> In a complex, fast-paced world, traditional interest-based products can feel rigid and misaligned with personal values. MoneyFlap transforms these offerings into belief-based products that align with your ethical and religious values, combining conscientious investment strategies with lucrative outcomes, all crafted by top financial minds who honor your principles. ",
+
+    "clean-conscientious-title": "Clean and Conscientious Consumerism",
+    "clean-conscientious-description": "MoneyFlap is committed to allowing individuals the freedom to manage their finances as they wish while preventing potential financial issues and harmful behaviors. <br /> To achieve this, MoneyFlap will block all Merchant Category Codes (MCC) associated with transactions in unethical industries, including gambling, lotteries, casino, arms, weapons, explosives, drugs, and tobacco, among others. Despite these restrictions, MoneyFlap respects the choices of all businesses and individuals involved within these industries. ",
+
+    "political-neutrality-title": "Political Neutrality",
+    "political-neutrality-description": "At MoneyFlap, we recognize the crucial role politics plays in the sustainable development of countries and its capacity to effect significant social change. <br /> However, MoneyFlap remains neutral by not donating, sponsoring, endorsing, or associating with any political parties or politicians, nor allowing political fundraising campaigns on its platform. Despite this stance, MoneyFlap respects the political views of all stakeholders, including users and employees.",
+
+    "honest-tax-title": "Honest Tax Practices",
+    "honest-tax-description": "MoneyFlap acknowledges the importance of taxes as a primary revenue source for government funding in sectors like education, infrastructure, healthcare, and defense. As such, the company is firmly committed to adhering to tax laws and regulations in every country where it owes taxes. Additionally, MoneyFlap avoids exploiting unjustified tax privileges or exemptions.",
+
+    "txt": {
+      "invest-change": "Invest for Change"
+    }
+  },
+
+  "bsa": {
+    "main-title": "KYC/AML Program",
+    "policy-title": "MoneyFlap Policy",
+    "policy-description": "MoneyFlap strictly enforces policies against money laundering and activities supporting terrorism or crime, abiding by the Bank Secrecy Act (BSA), European Union (EU) regulations, and rules of any supported jurisdictions. Their Anti-Money Laundering (AML) policies and internal controls ensure compliance, with regular reviews and updates to align with regulatory changes and company developments.",
+
+    "compliance-title": "AML Compliance Person Designation and Duties",
+    "compliance-description": "MoneyFlap has appointed an individual responsible for its Anti-Money Laundering (AML) program. This person will ensure compliance with AML regulations, manage employee communication and training, maintain AML records, and file Suspicious Activity Reports with appropriate legal authorities when required.",
+
+    "checking-office-title": "Checking the Office of Foreign Assets Control (OFAC) Listings",
+    "checking-office-description": "Before opening an account and continuously thereafter, we'll ensure customers aren't on the SDN list or involved in prohibited transactions per OFAC's economic sanctions and embargoes. Since these lists are frequently updated, we will regularly check them and subscribe to updates.",
+
+    "customer-identification-title": "Customer Identification Program (CIP)",
+    "customer-identification-description": "We have a written Customer Identification Program (CIP) in place. For every new account, we collect essential identification details, use risk-based methods to verify identities, record the information and verification results, give customers a notice about the need for identification, and check their information against government lists of suspected terrorists.",
+
+    "customer-due-title": "Customer Due Diligence Rule",
+    "customer-due-description": "Before opening an account, we will collect the following information for all accounts, if applicable, for any person, that is opening a new account and whose name is on the account:",
+    "customer-due-op1-title": "Full legal name;",
+    "customer-due-op2-title": "Mobile phone number;",
+    "customer-due-op3-title": "Date of birth;",
+    "customer-due-op4-title": "Email address;",
+    "customer-due-op5-title": "A residential street address;",
+    "customer-due-op6-title": "A identification number, which will be one or more of the following: a taxpayer identification number, passport number and country of issuance, alien identification card number, or number and country of issuance of any other government-issued document evidencing nationality or residence and bearing a photograph or other similar safeguard (for non-U.S. persons); and",
+    "customer-due-op7-title": "Additional details or documents may be required by our Compliance Team.",
+
+    "customer-due-note": "We will understand the nature and purpose of customer relationships to develop a customer risk profile. The risk assessment of the client will then place them in one of the levels of customer due diligence, which determines the risk rating and KYC checks that will be performed. ",
+
+    "monitoring-accounts-title": "Monitoring Accounts for Suspicious Activity",
+    "monitoring-accounts-description": "At MoneyFlap, we will monitor accounts for unusual transactions, considering relevant risk factors and red flags. Detected activities will be reviewed and documented by our monitoring system. The AML Compliance Person or a designee will investigate and review necessary information from internal or third-party sources before filing a SAR.",
+
+    "suspicious-activity-title": "Suspicious Activity and Currrency Transactions Reporting",
+    "suspicious-activity-description": "We will file Suspicious Activity Reports (SARs) with FinCEN or appropriate legal authorities for any transactions involving funds or assets that we suspect or have reason to suspect are suspicious. Additionally, we will also alert law enforcement in urgent cases like terrorist financing or active money laundering. <br /> We will submit Currency Transaction Reports (CTRs) to FinCEN or relevant legal authorities for individual or multiple currency transactions that exceed a specified USD, EUR, or local currency amount within a single business day, if they are made by or on behalf of the same person.",
+
+    "aml-title": "AML Recordkeeping",
+    "aml-description": "Our designated AML Compliance Person will ensure proper maintenance of AML records and the filing of SARs. Our firm will create and keep SARs, customer identity verification, and funds transmittal documentation for at least six years, maintaining their confidentiality. Disclosure will be limited to FinCEN, the SEC, an SEC-registered SRO, or other appropriate legal authorities.",
+
+    "training-title": "Training Programs",
+    "training-description": "We will implement continuous employee training led by the AML Compliance Person and senior management, at least annually. The training will be tailored to MoneyFlap’s size, customer base, and resources, and updated for new legal developments. We will keep records of trained individuals, training dates, and topics covered. Additionally, we will assess if certain employees need specialized extra training.",
+
+    "program-test-title": "Program to Independently Test AML Program",
+    "program-test-description": "Our AML program will be independently tested at least once a year. After testing, the findings will be reported to senior management. We will promptly address and document how each issue is resolved.",
+
+    "monitoring-title": "Monitoring Employee Conduct and Accounts",
+    "monitoring-description": "Employee accounts will undergo the same Anti-Money Laundering (AML) procedures as customer accounts, supervised by the AML Compliance Person. Supervisors' AML performance will be evaluated during their annual review, and the CEO will review the AML Compliance Person's accounts."
+  },
+
+  "fraud": {
+    "main-title": "Fraud Protection",
+    "main-description": "At MoneyFlap, we recognize the unsettling tales of systems falling prey to cunning hackers and unscrupulous rule-breakers. These stories drive us to push further, safeguarding your financial journey with unwavering dedication. Here at MoneyFlap, we don’t just talk about trust; we build it, brick by brick, ensuring every transaction you make is not only seamless but also safe from lurking dangers.",
+
+    "how-protect-users-title": "How We <span class='text-primary'> Protect </span> the <br /> MoneyFlap Users",
+    "how-protect-users-op1-title": "Military-Grade AML/KYC",
+    "how-protect-users-op1-description": "We use advanced methods and follow strict regulations to identify, monitor, and approve customers, similar to top financial institutions, to combat financial crime.",
+
+    "how-protect-users-op2-title": "Real-time Scams Mitigation",
+    "how-protect-users-op2-description": "We use advanced security measures, including automatic warnings and scam-related wallet address blocks, to safeguard users and minimize incidents of fund loss during transactions.",
+
+    "how-protect-users-op3-title": "Real-time Risk Mitigation",
+    "how-protect-users-op3-description": " We utilize cutting-edge machine learning algorithms to constantly monitor wallet addresses and transactions, enabling swift responses to cyber exploits, hacks, fraud, and vulnerabilities.",
+
+    "how-protect-users-op4-title": "Proactive Financial Crime Prevention",
+    "how-protect-users-op4-description": "We utilize third-party services to screen wallets and tokens for risks, and proactively address cyber threats with watchlists, alerts, and reports.",
+
+    "how-protect-users-op5-title": "Numberless Cards",
+    "how-protect-users-op5-description": "Our physical cards offer superior protection against data theft by safeguarding sensitive information, ensuring that even if a card is lost or stolen, crucial data remains secure.",
+
+    "how-protect-users-op6-title": "Card Security Controls",
+    "how-protect-users-op6-description": "We provide instant freezing for suspicious transactions and their associated card, with the option to unfreeze if deemed safe. For online purchases, we notify you to confirm the payment before it proceeds.",
+
+    "how-protect-users-op7-title": "Account Security Controls",
+    "how-protect-users-op7-description": "We ensure your account's security through measures such as multi-factor authentication, including PINs or Biometrics (fingerprint or facial recognition) and SMS one-time OTP codes when necessary.",
+
+    "how-protect-yourself-title": "How to Protect Yourself from Frauds and Scams",
+    "how-protect-yourself-description": "We strongly advise our users to keep these statements in mind to help prevent common fraud:",
+
+    "how-protect-yourself-op1-title": "The MoneyFlap team WILL NEVER REQUEST remote access to your phone or devices.",
+    "how-protect-yourself-op2-title": "The MoneyFlap team WILL NEVER REQUEST your PINs, passwords, or 2FA codes.",
+    "how-protect-yourself-op3-title": "The MoneyFlap team WILL NEVER REQUEST you to transfer money to any addresses, bank, or mobile money accounts.",
+    "how-protect-yourself-op4-title": "The MoneyFlap team WILL NEVER CONTACT you via social media groups.",
+
+    "support-team-title": "Communications <br />with MoneyFlap <br /> <span class='text-primary'> Support Team </span>",
+    "support-team-op1-title": "The MoneyFlap team does not provide a toll-free phone number for contact.",
+    "support-team-op2-title": "The MoneyFlap team only communicate with you through digital means and not in person.",
+    "support-team-op3-title": "The MoneyFlap team provides support exclusively through in-app chat and does not offer phone support.",
+    "support-team-op4-title": "MoneyFlap only uses emails ending in @moneyflap.com. Disregard any emails that do not match this address.",
+
+    "txt": { "protect-finances": "Protect Your Finances" }
+  },
+
+  "licenses": {
+    "main-title": "Licenses and Registrations",
+
+    "op1-title": "United States",
+    "op1-description": " <strong>MoneyFlap Digital Labs, Inc.</strong> is incorporated in Delaware and is registered as a <a target=\"_blank\" href=\"https://www.fincen.gov/msb-state-selector\">   Money Services Business</a > (MSB) with the Financial Crimes Enforcement Network (FinCEN), a regulatory bureau of the United States Department of the Treasury. Our MSB Registration Number is 31000266452431.",
+
+    "op2-title": "Argentina",
+    "op2-description": "<strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a <a   target=\"_blank\"   href=\"https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV\" >   Virtual Assets Service Provider (VASP) </a> under No. D1-2024-135-APN-GRC#CNV dated 21st August 2024 in the Registry of Virtual Asset Service Providers of National Securities Commission (CNV). This registration is for the purposes of control as an Obligated Subject before the Financial Information Unit (UIF) and any other regulatory entity authorized for this purpose, within the framework of its powers, and does not imply a license or supervision by the National Securities Commission (CNV) on the activity carried out by MoneyFlap.",
+
+    "op3-title": "Senegal and West African Economic and Monetary Union (WAEMU)",
+    "op3-description": "<strong>MoneyFlap Senegal SAS</strong> operates as a technology services provider. It is neither licensed by the Central Bank of the West African States (BCEAO) nor by the “Autorité des Marchés Financiers de l’UMOA (AMF-UMOA)”, also known as the “Conseil Regional de l’Epargne Publique et des Marches Financiers (CREPMF)”. However, it is self-considered as an “Entreprise et Profession Non Financière Désignée (EPNFD)” and is a reporting entity to the Financial Intelligence Unit (CENTIF), under the control of the Ministry of Economy and Finances, for anti-money laundering purposes.",
+
+    "op4-title": "Bulgaria and European Economic Area (EEA)",
+    "op4-description": "<strong>MF European Trade EOOD (trading as MoneyFlap Europe)</strong>, is registered as a <a   target=\"_blank\"   href=\"https://nra.bg/wps/portal/nra/registers-i-spisuci/registers/page.virtualni.valuti/registur-na-licata-predstaviashti-uslugi-za-obmqna-megdu-virtualni-i-priznati-valuti\" >   Virtual Assets Service Provider (VASP) </a> under No. 3170376608 in the Electronic Public Register of Persons of the National Revenue Agency (NRA) against money laundering. This registration is for the purposes of providing exchange services between virtual currencies and non-gold-backed currencies, as well as offering custodial wallet services.",
+
+    "op5-title": "Tanzania",
+    "op5-description": "<strong>MoneyFlap Digital Labs, Inc.</strong> is registered as a <a   target=\"_blank\"   href=\"https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV\" >   Money Service Business (MSB) </a> under No. 50562 with the Financial Intelligence Unit (FIU), under the control of the Ministry of Finance of the United Republic of Tanzania. This registration is for the purpose of reporting money laundering cases and does not imply a license with the Capital Markets and Securities Authority (CMSA) or Bank of Tanzania (BoT)."
+  },
+
+  "rev": {
+    "main-title": "MoneyFlap Rev",
+    "main-subtitle": "Master Your Business Finances <br class='show-md d-none d-sm-block' />Like a Pro: The Magic of <br class='d-none d-sm-block' />MoneyFlap Rev",
+    "main-description": "Introducing MoneyFlap Rev, a versatile business account that enables seamless local transactions in over 100 countries, corporate card issuance, global transfers, and cash growth, all without any monthly or subscription fees.",
+
+    "global-title": "Multiple Global <br />Financial Accounts",
+    "global-op1-title": "Business Account",
+    "global-op1-description": "Streamline your daily financial tasks in a single account, including global fund transfers, collecting local currencies and stablecoins, and paying utility bills.",
+
+    "global-op2-title": "reasury Account",
+    "global-op2-description": "Maximize your idle cash with Money Market Funds, T-Bills, and Sukuk, earning up to 5.77% yield on-chain. Enjoy no minimums, no hidden fees, and 24/7 withdrawal.",
+
+    "global-op3-title": "Safeguarding Account",
+    "global-op3-description": "Ensure secure fund separation and easy reconciliation while adhering to regulations, whether you're obtaining a license or already licensed.",
+
+    "cards-title": "Corporate Cards",
+    "cards-description": "Issue unlimited virtual and physical cards for your team, with no foreign transaction fees, available in eco plastic or metal. Benefit from 1% unlimited cashback at select merchants, subscription management, budgeting controls, and analytics.",
+
+    "expense-title": "Expense Management",
+    "expense-description": "Set up tailored employee spending guidelines by assigning roles and setting spend limits. Require real-time receipt capture for reimbursable purchases, and automate the review and flagging of transactions needing attention or approval.",
+
+    "global-pay-title": "Global Pay-Outs",
+    "global-pay-description": "Make bulk payments to up to 2,000 employees or suppliers in seconds at mid-market rates. Transfer funds to bank, mobile money, stablecoins, and MoneyFlap individual accounts in over 80 countries at near-zero cost.",
+
+    "global-pay-in-title": "Global Pay-Ins",
+    "global-pay-in-description": "Accept global online payments through payment links and in-person payments via QR codes or Tap-To-Pay with your smartphone.",
+
+    "accounts-title": "Accounts Payable",
+    "accounts-description": "Pay both domestic and international vendors quickly and earn up to 2% cashback on your utility bill payments. Save more when paying vendors through FlapNet, our free and instant global network.",
+
+    "accounts-receivable-title": "Accounts <br />Receivable",
+    "accounts-receivable-description": "Pay both domestic and international vendors quickly and earn up to 2% cashback on your utility bill payments. Save more when paying vendors through FlapNet, our free and instant global network.",
+
+    "accounts-card1-title": "Accounting & Integrations",
+    "accounts-card1-description": "Close books 3x faster through direct accounting software integrations. Connect in minutes to your favorite software including business bank accounts, crypto exchanges, HR, and travel tools.",
+
+    "accounts-card2-title": "Employee Incentives",
+    "accounts-card2-description": "Develop incentive programs by providing airtime and data packages worldwide to employees in regions dominated by prepaid plans, and earn up to 6% cashback on each click.",
+
+    "accounts-card3-title": "Startup Perks",
+    "accounts-card3-description": "Unlock over $250K in exclusive discounts and rewards from top-tier partners, including marketing tools and HR software, to boost your business growth.",
+
+    "designed-title": "Designed for <br />businesses of all sizes",
+    "designed-description": "MoneyFlap Rev is built for any industries, including the forgotten ones.",
+
+    "footer-op1-title": "Web3 and crypto companies",
+    "footer-op2-title": "Small and midsize businesses",
+    "footer-op3-title": "Restaurants and retail businesses",
+    "footer-op4-title": "Early and growth stage startups",
+    "footer-op5-title": "Digital and eCommerce businesses",
+    "footer-op6-title": "NGOs and associations",
+    "footer-op7-title": "Import and export companies",
+    "footer-op8-title": "Multinational companies",
+    "footer-op9-title": "Hospitality and tourism businesses",
+    "footer-op10-title": "IPO-ready corporations",
+    "footer-op11-title": "VC and family offices",
+
+    "txt": {
+      "join-waitlist": "Join the waitlist"
+    }
+  },
+
+  "terms": {
+    "main-title": "Terms of Service",
+
+    "introduction-title": "Introduction",
+    "introduction-description": "These Terms of Service (the <span class=\"fw-bold\">“Terms“</span>) apply as an agreement between any parent entity, subsidiary, affiliates, or legal entity belonging to the MoneyFlap group (also referred to in these Terms as <span class=\"fw-bold\">“we”, “our”, “ours”, “us”, “MoneyFlap“</span>) and the User (also referred to as <span class=\"fw-bold\">“you”, “your” or “yours“</span>). By using the website located at <a href=\"https://www.moneyflap.com\">https://www.moneyflap.com</a>, the related mobile website, and the mobile application (collectively, the <span class=\"fw-bold\">“Websites“</span>), you agree to be bound by these Terms of Service (this <span class=\"fw-bold\">“Terms of Service” or “Agreement“</span>), whether or not you register as a client of MoneyFlap (<span   class=\"fw-bold\"   >\"Client\"</span >). If you wish to become a client and/or make use of the service (the <span class=\"fw-bold\">“Service“</span>), please read this Agreement. If you object to anything in this Agreement or the MoneyFlap Privacy Policy, do not use the Service. <br /> This Agreement is subject to change by MoneyFlap at any time, effective upon posting on the relevant website. Your continued use of the Websites and the Service following MoneyFlap posting of revised terms of any section of the Agreement will constitute your express and binding acceptance of and consent to the revised Agreement. <br /> PLEASE READ THIS AGREEMENT CAREFULLY AS IT CONTAINS IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS, REMEDIES, AND OBLIGATIONS, INCLUDING VARIOUS LIMITATIONS AND EXCLUSIONS, AND A DISPUTE RESOLUTION CLAUSE THAT GOVERNS HOW DISPUTES WILL BE RESOLVED.",
+
+    "agreement-title": "Electronic Agreement",
+    "agreement-description": "This electronic contract sets out the legally binding terms of your use of the Websites and the Service. This Agreement may be modified by MoneyFlap from time to time, such modifications to be effective upon posting by MoneyFlap on the Websites. By accessing and/or using the Websites or becoming a client, you accept this Agreement and agree to the terms, conditions, and notices contained or referenced herein.",
+
+    "access-title": "Access and Retention",
+    "access-description": "To access and retain this electronic Agreement, you must have access to the Internet, either directly or through devices that access web-based content, and pay any service fees associated with such access. In addition, you must use all equipment necessary to make such a connection to the World Wide Web, including a computer and modem or other access device. Please print a copy of this document for your records. To retain an electronic copy of this Agreement, you may save it into any word processing program.",
+
+    "products-title": "Our Products and Services",
+    "products-description": "We provide services that include, but are not limited to:",
+    "products-op1-title": "<strong>Borderless multi-currency accounts:</strong> Open global accounts from anywhere. Hold, send, receive, and exchange digital dollars (USDC), digital dollars (MFUSD), and digital euros (EURC), respectively, tied to the US account number.",
+    "products-op2-title": "<strong>Borderless savings accounts:</strong> Open a savings account on-chain backed directly by real-world government assets. Earn up to 5.4% tokenized Sukuk or US treasury yield with instant withdrawals at any time.",
+    "products-op3-title": "<strong>Borderless peer-to-peer (P2P) transfers:</strong> Send and receive money instantly from friends or anyone in our global search in 80+ countries powered by stablecoin rails. </span>",
+    "products-op4-title": "<strong>Borderless money movements:</strong> Instantly move funds in and out of your global accounts on-chain or to bank accounts and mobile money in 65+ countries at near-zero cost—cash in and out at any MoneyGram &trade; points in 181 countries.",
+    "products-op5-title": "<strong>Borderless bill payments:</strong> Pay electricity, water, TV, and thousands of bills in over 30 countries at near-zero cost. Enable monthly reminders and automatic payments so you never miss bill due dates.",
+    "products-op6-title": "<strong>Borderless mobile top-ups:</strong> Recharge airtime and internet data for yourself and any mobile phone in 140+ countries, including exotic markets, at no extra cost.",
+    "products-op7-title": "<strong>Borderless credit cards:</strong> Create virtual and physical credit cards with no foreign transaction fees, allowing anyone to spend anywhere without hassle and high costs.",
+    "products-op8-title": "<strong>Cash-back & rewards:</strong> Earn up to 35% unlimited cash-back paid in digital dollars (USDC) on every purchase at numerous favorite brands such as Nike, Microsoft, and AliExpress.",
+    "products-op9-title": "<strong>Money management:</strong> Track your finances, make better decisions through real-time spending analytics, and block unwanted subscriptions with a few clicks.",
+    "products-op10-title": "<strong>Messaging & calling:</strong> Chat in real-time with your friends privately and in groups, share multimedia files, laugh over emojis, and calling made seamless.",
+
+    "registration-title": "Registration and Eligibility",
+    "registration-description": "To open a MoneyFlap Account and use our Services, you must confirm that:",
+    "registration-op1-title": "You are at least 18 years old",
+    "registration-op2-title": "You are a non-US and non-UK resident and citizen",
+    "registration-op3-title": "You are a citizen or resident of the jurisdictions we support",
+    "registration-op4-title": "You are not restricted or suspended to use the MoneyFlap Services",
+    "registration-op5-title": "You are not an individual blacklisted by the United Nations (UN), the European Union (EU), Bulgaria, and the United Kingdom (UK) Treasury Department or designated as a “Specially Designated National” by OFAC (Office of Foreign Assets Control of the U.S. Treasury Department) or placed on the U.S. Commerce Department’s “Denied Persons List”",
+    "registration-op6-title": "You are not a citizen or resident of a country blacklisted or sanctioned by the US Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), Bulgaria, and the United Kingdom (UK) Treasury",
+    "registration-op7-title": "You have read, understood, and agreed to all MoneyFlap legal disclosures, including the Privacy Policy and Terms of Service",
+    "registration-final": "We have the right to refuse your account opening limit your access to our Services or reassess your eligibility whenever we encounter that the information/documents you provided are inaccurate or expired, and you do not comply with all legal requirements.",
+
+    "commercial-title": "Commercial Use of Service",
+    "commercial-description": "If you are using the Service and/or accessing the Websites on behalf of a company, entity, or organization (collectively, a “Subscribing Entity”), you represent and warrant that:",
+    "commercial-op1-title": "You are an authorized representative of the Subscribing Entity, and you have the authority to bind the Subscribing Entity to this Terms of Service;",
+    "commercial-op2-title": "You have read and understand this Terms of Service; and",
+    "commercial-op3-title": "You agree to this Terms of Service on behalf of the Subscribing Entity.",
+    "commercial-final": "Illegal and/or unauthorized uses of the Websites include but are not limited to, browsing or downloading illegal content, collecting usernames and/or email addresses of clients by electronic or other means to send unsolicited email, unauthorized framing of or linking to the Websites, sharing or disclosing your username or password to any third party or permitting any third party to access your account, attempting to impersonate another user or person, use of the Websites in any fraudulent or misleading manner, any automated use of the system, such as scraping the Websites, automated scripts, spiders, robots, crawlers, data mining tools or the like, interfering with, disrupting, or creating an undue burden on the Websites or the networks or services connected to the Websites, and using the Websites in a manner inconsistent with any applicable laws and regulations. Illegal and/or unauthorized use of the Websites may be investigated, and appropriate legal action may be taken, including without limitation, civil, criminal, and injunctive redress. Use of the Websites and Service is with the permission of MoneyFlap, which may be revoked at any time, for any reason, in MoneyFlap’s sole discretion.",
+
+    "deposits-withdrawals-title": "Deposits and Withdrawals",
+    "deposits-title": "Deposits",
+    "deposits-op1-title": "<span class='fw-bold d-contents'>Payin Fiat Currency.</span> Once you have fully registered for a MoneyFlap Account and have verified your identity, you can top up your Account through various methods such as a traditional bank account, linking your bank account through Open Banking, mobile money account, linking your stablecoin wallet or exchange, and cash through MoneyGram &trade; locations. Thus, the amount in local currency you have deposited into your account will be exchanged for the corresponding amount in virtual currencies at the mid-market rates, confirming your stablecoin purchase. The availability of these payment methods may depend on the country you are from or based in. The transaction fees and limits depend on the payment method used — we may at our sole discretion set the transaction fees or limits of your Account. Refer to our pricing page to learn more about our transaction limits and fees.",
+    "deposits-op2-title": "span class=\"fw-bold d-contents\">Payin Stablecoin</span>. You can also directly receive stablecoin funds from external parties to your on-chain addresses in your account but note that we can only accept USDC (USD Coin) and EURC (Euro Coin) at this time. We may include additional digital assets in the future — please, always refer to our website to get any product updates or information about an eventual product release. stablecoin transfers are irreversible — meaning that you may lose or can not recover your stablecoin funds when you send them to the wrong on-chain addresses. You are urged to double-review the accuracy of your details before making any stablecoin deposits.",
+    "deposits-op3-title": "<span class=\"fw-bold d-contents\">Processing Times.</span> The processing times of a deposit to your MoneyFlap Account depend on the chosen payment methods — commonly they happen in real-time and the transaction is confirmed once the balance of your account has been updated with the corresponding amount. However, we have the right to block or reject any deposit to your account, in which case we will refund the same amount to the sending account.",
+    "withdrawals-title": "Withdrawals",
+    "withdrawals-op1-title": "<span class=\"fw-bold d-contents\" >The Payout to Fiat Currency Accounts.</span > To withdraw or transfer funds out of your MoneyFlap Account, you must choose the most suitable payment methods in your country of residence that we support. At the moment, you can withdraw funds from your MoneyFlap Account to your bank or mobile money accounts and at any MoneyFlap locations. Besides, you can transfer funds to third-party bank or mobile money accounts (Refer to our supported countries for remittances). The processing times are generally instant but can be sometimes longer. <br /> In some cases, the withdrawal transactions may be blocked or canceled for adherence to our Anti-Money Laundering (AML) Policy and Financial Crime (FinCrime) Program — in case you must undergo an additional due diligence process or provide additional information about the recipient of the funds. Another important point to note is that the withdrawal transactions may be delayed because of technical issues, maintenance, or any other operational issues from our third-party payout partners. But, in those circumstances, we will inform you about the ongoing updates.",
+    "withdrawals-op2-title": "<span class=\"fw-bold d-contents\">The Payout to Stablecoin Accounts.</span>You can also transfer funds out of your MoneyFlap Account toexternal stablecoin wallets. Please double review and confirm thedetails of the recipient before initiating any withdrawal —stablecoin transfers are irreversible, resulting in a full loss ofyour funds when you transfer funds to the wrong stablecoinaddresses. MoneyFlap will not be liable for any transfer to thewrong stablecoin addresses and cannot recover your funds or refundyou. Withdrawals are processed instantly, allowing your stablecoinfunds to reach their destination in no time. Nevertheless, due touncontrolled reasons such as technical and operational downtime ofthe public blockchain protocols we use to build our Services, theprocessing times may be longer or the transactions may fail.Please note that we are not liable for such delay or failure.(Refer to **Risk Disclosure** to learn more)",
+
+    "transaction-title": "Transaction Fees and Limits",
+    "transaction-description": "We transparently publish all our transaction fees and limits on our Websites. However, our transaction fees and limits may vary to increase or decrease charges. You can always review and confirm our current transaction fees and limits before initiating any payments. In some cases, we may offer promotional fees or discounts on transactions to any users, including you.",
+
+    "general-title": "General Risk Disclosure",
+    "general-description": "This general risk disclosure lists the most prevalent risks associated with holding or trading Virtual Currencies, but the following list of risks is not exhaustive. You hereby acknowledge and accept these risks, including the unforeseen ones, use our Services at your own risk, and you will not hold MoneyFlap responsible for any irreversible and unrecoverable losses relating to these risks.",
+
+    "blockchain-title": "Blockchain Technology",
+    "blockchain-op1-title": "Deposits, withdrawals, transfers, and any transactions in Virtual Currencies may be irreversible, and any fund losses due to entering wrong addresses, and accidental or fraudulent transactions may be unrecoverable.",
+
+    "legal-title": "Legal and Regulatory",
+    "legal-op1-title": "Virtual Currencies may not be legal tender in some jurisdictions and are not backed by any government or central bank.",
+    "legal-op2-title": "The regulatory framework of Virtual Currencies varies among jurisdictions, resulting in significant regulatory uncertainty. Amendments, orders, legislative and regulatory changes, or actions relating to blockchain technology at a state, federal, or international level may adversely affect the use, transfer, exchange, and value of the Virtual Currencies, restricting the provision of our Services to you.",
+
+    "currency-title": "Currency Fluctuations",
+    "currency-op1-title": "Even if MoneyFlap only supports Virtual Currencies called stablecoins that have the same value as some Fiat currencies such as U.S. Dollars (USD) and Euros (EUR), the price of stablecoins may fluctuate in value below the price of the Fiat currencies they are designed to track as the exchange rates of the Fiat currencies may change.",
+
+    "investment-title": "No investment advice, recommendations, or tax advice",
+    "investment-op1-title": "MoneyFlap does not provide investment advice. You are solely responsible for, and MoneyFlap has no involvement in, determining whether any Virtual Currency transaction, investment strategy, or related transaction is suitable for you. You are familiar with and are capable of evaluating the investment risks of Virtual Currencies independently or you accept to seek legal, regulatory, business, investment, financial tax, and accounting advice from highly qualified professionals and have made your decisions without reliance on MoneyFlap.",
+    "investment-op2-title": "MoneyFlap does not provide investment or tax advice or exercise any investment discretion on your behalf.  Nothing on Website is an offer to sell, a solicitation of an offer to buy, or a recommendation for any Virtual Currency by MoneyFlap.",
+
+    "no-bank-title": "Not a bank, broker-dealer, or regulated financial institution",
+    "no-bank-op1-title": "You should note that your account balances may not be considered or called “deposits”, as the regulated financial institutions, especially banks or credit institutions may be using the term. MoneyFlap is not and does not pretend to be a bank or regulated financial institution under the United States Federal Law or under any other jurisdiction laws.",
+    "no-bank-op2-title": "You should note that the Tokenized Financial Assets that MoneyFlap facilitates the accessibility may not be considered as a listing or selling of “Securities” or an offering of a “brokerage account”, as the regulated brokerage may be using the term. MoneyFlap is not and does not pretend to be a broker-dealer or a trust registered under the United States Federal Law or under any other jurisdiction laws.",
+    "no-bank-op3-title": "You should note that your account balances are not subject to deposit insurance protection of any regulatory scheme, including the Federal Deposit Insurance Corporation (FDIC), as well as any securities investor protection, including the Securities Investor Protection Corporation (SIPC).",
+
+    "account-security-title": "Account Security",
+    "account-security-description": "You are responsible for maintaining the confidentiality of the username and password that you designate during the registration process, and you are fully responsible for all activities that occur under your username and password. You agree to (a) immediately notify MoneyFlap of any unauthorized use of your username or password or any other breach of security, and (b) ensure that you exit from your account at the end of each session. MoneyFlap will not be liable for any loss or damage arising from your failure to comply with this provision. You should use particular caution when accessing your account from a public or shared computer so that others are not able to view or record your password or other personal information. If you share your computer with others, you may wish to consider disabling your auto-login feature if you have it linked to your MoneyFlap account.",
+
+    "your-use-website-title": "Your Use of the Websites",
+    "your-use-website-op1-title": "You may not browse or download illegal content.",
+    "your-use-website-op2-title": "You must not copy or capture, or attempt to copy or capture, any content from the Websites (the “Content”) or any part of the Websites, unless given express permission by MoneyFlap.",
+    "your-use-website-op3-title": "You must not copy, republish, adapt, make available, or otherwise communicate to the public, display, perform, transfer, share, distribute, or otherwise use or exploit any Content on or from the Platform, except (i) where such Content is created by you (such content, “Your Content”), or (ii) as permitted under these Terms of Service, and within the parameters set by the person or entity that uploaded the Content (the “Uploader”) (for example, under the terms of Creative Commons licenses selected by the Uploader).",
+    "your-use-website-op4-title": "You must not use any Content (other than Your Content) in any way that is designed to create a separate content service or that replicates any part of the Website’s offering.",
+    "your-use-website-op5-title": "You must not employ scraping or similar techniques to aggregate, repurpose, republish, or otherwise make use of any Content.",
+    "your-use-website-op6-title": "You must not employ the use of bots, botnets, scripts, apps, plugins, extensions, or other automated means to register accounts, log in, post comments, or otherwise act on your behalf, particularly where such activity occurs multiply or repetitively. You must not offer or promote the availability of any such techniques or services to any other users of the Websites.",
+    "your-use-website-op7-title": "You must not alter or remove, or attempt to alter or remove, any trademark, copyright, or other proprietary or legal notices contained in, or appearing on, the Websites or any Content appearing on the Websites (other than Your Content).",
+    "your-use-website-op8-title": "You must not, and must not permit any third party to, copy or adapt the object code of the Websites, or reverse engineer, reverse assemble, decompile, modify or attempt to discover any source or object code of any part of the Websites, or circumvent or attempt to circumvent or copy any copy protection mechanism or access any rights management information about Content other than Your Content.",
+    "your-use-website-op9-title": "You must not use the Websites to upload, post, store, transmit, display, copy, distribute, promote, make available, or otherwise communicate to the public:",
+    "your-use-website-op9-1-title": "any Content that is offensive, abusive, libelous, defamatory, obscene, racist, sexually explicit, ethnically or culturally offensive, indecent, that promotes violence, terrorism, or illegal acts, incites hatred on grounds of race, gender, religion, or sexual orientation, or is otherwise objectionable in MoneyFlap’s sole and reasonable discretion;",
+    "your-use-website-op9-2-title": "any information, Content, or other material that violates, plagiarizes, misappropriated, or infringes the rights of third parties including, without limitation, copyright, trademark rights, rights of privacy or publicity, confidential information, or any other right; or",
+    "your-use-website-op9-3-title": "any Content that violates, breaches, or is contrary to any law, rule, regulation, court order or is otherwise illegal or unlawful in MoneyFlap’s sole and reasonable opinion;",
+    "your-use-website-op9-4-title": "any material of any kind that contains any virus, Trojan horse, spyware, adware, malware, bot, time bomb, worm, or other harmful or malicious component, which will or might overburden, impair, or disrupt the Websites or servers or networks forming part of, or connected to, the Websites, or which does or might restrict or inhibit any other user's use and enjoyment of the Websites; or",
+    "your-use-website-op9-5-title": "any unsolicited or unauthorized advertising, promotional messages, spam, or any other form of solicitation.",
+    "your-use-website-op10-title": "You must not commit or engage in, or encourage, induce, solicit, or promote, any conduct that would constitute a criminal offense, give rise to civil liability, or otherwise violate any law or regulation.",
+    "your-use-website-op11-title": "You must not rent, sell, or lease access to the Websites, or any Content on the Websites, although this will not prevent you from including links from Your Content to any legitimate online download store from where any item of Your Content may be purchased.",
+    "your-use-website-op12-title": "You must not deliberately impersonate any person or entity or otherwise misrepresent your affiliation with a person or entity, for example, by registering an account in the name of another person or company, sending messages, or making comments using the name of another person.",
+    "your-use-website-op13-title": "You must not stalk, exploit, threaten, abuse, or otherwise harass another user, or any MoneyFlap employee. If we feel that your behavior towards any of our employees is at any time threatening or offensive, we reserve the right to immediately terminate your account.",
+    "your-use-website-op14-title": "You must not sell or transfer, or offer to sell or transfer, any MoneyFlap account to any third party without the prior written approval of MoneyFlap.",
+    "your-use-website-op15-title": "You must not collect or attempt to collect personal data, or any other kind of information about other users, including without limitation, through spidering or any form of scraping.",
+    "your-use-website-op16-title": "You must not violate, circumvent, or attempt to violate or circumvent any data security measures employed by MoneyFlap or any Uploader; access or attempt to access data or materials which are not intended for your use; log into, or attempt to log into, a server or account which you are not authorized to access; attempt to scan or test the vulnerability of MoneyFlap’s servers, system or network or attempt to breach MoneyFlap’s data security or authentication procedures; attempt to interfere with the Websites or the Services by any means including, without limitation, hacking MoneyFlap’s servers or systems, submitting a virus, overloading, mail-bombing or crashing. Without limitation to any other rights or remedies of MoneyFlap under these Terms of Service, MoneyFlap reserves the right to investigate any situation that appears to involve any of the above and may report such matters to, and cooperate with, appropriate law enforcement authorities in prosecuting any users who have participated in any such violations.",
+    "your-use-website-op17-title": "You agree to comply with the above conditions and acknowledge and agree that MoneyFlap has the right, in its sole discretion, to terminate your account or take such other action as we see fit if you breach any of the above conditions or any of the other terms of these Terms of Service. This may include taking court action and/or reporting offending users to the relevant authorities.",
+
+    "representations-title": "Representations and Warranties",
+    "representations-description": "You hereby represent and warrant to MoneyFlap as follows:",
+    "representations-op1-title": "Your Content, and every part thereof, is an original work by you, or you have obtained all rights, licenses, consents, and permissions necessary to use, and (if and where relevant) to authorize MoneyFlap to use, Your Content under these Terms of Service, including, without limitation, the right to upload, reproduce, store, transmit, distribute, share, publicly display, publicly perform, make available and otherwise communicate to the public Your Content, and every part thereof, on, through or via the Websites, any Services and any third party services.",
+    "representations-op2-title": "Your Content and the availability thereof on the Platform does not and will not infringe or violate the rights of any third party, including, without limitation, any intellectual property rights, performers' rights, rights of privacy or publicity, or rights in confidential information.",
+    "representations-op3-title": "You have obtained any necessary consents, permissions, and/or releases from any persons appearing in Your Content to include their name, voice, performance, or likeness in Your Content and to publish the same on the Websites and via any third-party services.",
+    "representations-op4-title": "Your Content, including any comments that you may post on the Websites, is not and will not be unlawful, offensive, abusive, libelous, defamatory, obscene, racist, sexually explicit, ethnically or culturally offensive, indecent, will not promote violence, terrorism, or illegal acts, or incite hatred on grounds of race, gender, religion or sexual orientation.",
+    "representations-op5-title": "Your Content does not and will not create any liability on the part of MoneyFlap, its subsidiaries, affiliates, successors, and assigns, and their respective employees, agents, directors, officers, and/or shareholders.",
+    "representations-final": "MoneyFlap reserves the right to remove Your Content, suspend or terminate your access to the Platform, and/or pursue all legal remedies if we believe that any of Your Content breaches any of the foregoing representations or warranties, or otherwise infringes another person's rights or violates any law, rule or regulation.",
+
+    "term_suspension": {
+      "title": "Term, Suspension, and Termination",
+      "description1": "This Agreement will remain in full force and effect while you use the Websites and/or Service. You may terminate this agreement and/or the use of the MoneyFlap Services at any time by closing your MoneyFlap Account. If you terminate this agreement or close your MoneyFlap Account, to help MoneyFlap analyze and improve the Service, you may be asked to provide a reason for your closure/termination. However, MoneyFlap reserves the right to cancel your request to close your account due to regulatory and compliance obligations.",
+      "description2": "MoneyFlap may suspend, limit, or terminate your account for any reason by sending notice to you at the email address you provide in your account registration, or such other email address as you may later provide to MoneyFlap. Without any liability and at any time, MoneyFlap may suspend, limit, or terminate your use of MoneyFlap Services, or your access to your MoneyFlap account if:",
+      "reasons": {
+        "reason1": "You have breached these Terms of Service, Terms and Conditions, and any Applicable Laws",
+        "reason2": "You hold an account that is undergoing financial crime investigations or legal proceedings",
+        "reason3": "You hold an account that is non-compliant and is considered high-risk by the regulatory guidelines",
+        "reason4": "You hold an account that is involved in any Prohibited Businesses or Activities as per these Terms of Service",
+        "reason5": "You hold an account that is subject to a security compromise or breach, and a transaction or order is erroneous",
+        "reason6": "You hold an account that is subject to unauthorized or fraudulent access or is accessed without your consent and approval",
+        "reason7": "You hold an account that is red-flagged as suspicious, and linked to money laundering, terrorist financing, fraudulent activities, or any \"bad user\" scenarios covered by our Anti-Money Laundering (AML) policy",
+        "reason8": "MoneyFlap is subject to maintenance of our infrastructure, including the systems of our third-party partners",
+        "reason9": "MoneyFlap is reassessing the eligibility criteria for opening an account or accessibility of our Services",
+        "reason10": "MoneyFlap is entitled to comply with legislation, regulatory and judicial orders, or governmental amendments",
+        "reason11": "MoneyFlap is fixing defaillances in any information technology system (IT system) related to the provision of our Services"
+      },
+      "description3": "All decisions regarding the termination of accounts shall be made at the sole discretion of MoneyFlap. MoneyFlap is not required to provide you notice before suspending, limiting, and terminating your account. MoneyFlap is not required and may be prohibited, from disclosing a reason for the termination of your account. Even after your account is terminated, this Agreement will remain in effect. All terms that by their nature may survive termination of this Agreement shall be deemed to survive such termination."
+    },
+    "modifications": {
+      "title": "Modifications to Service",
+      "description": "MoneyFlap reserves the right at any time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. You agree that MoneyFlap shall not be liable to you or any third party for any modification, suspension, or discontinuance of the Service."
+    },
+    "ip_blocking": {
+      "title": "Blocking of IP Addresses",
+      "description": "To protect the integrity of the Services, MoneyFlap reserves the right at any time in its sole discretion to block Clients from certain IP addresses from accessing the Websites."
+    },
+    "content": {
+      "title": "Content",
+      "proprietary_rights": {
+        "title": "Proprietary Rights",
+        "description": "MoneyFlap retains all proprietary rights in the Websites and the Service. The Website contains the copyrighted material, trademarks, and other proprietary information of MoneyFlap, and its licensors. Except where we have given you express written permission, you may not copy, modify, publish, transmit, distribute, perform, display, or sell any such proprietary information. All content on MoneyFlap is proprietary. Except where otherwise specified in this Agreement, all Content is the copyrighted material of MoneyFlap and for MoneyFlap's Clients' use only. Distribution of Content to others is strictly prohibited. You agree that MoneyFlap would be irreparably harmed by any violation or threatened violation of this section and that, therefore, MoneyFlap shall be entitled to an injunction prohibiting you from any violation or threatened violation of this section, without posting bond, in addition to any other right or remedy it may have."
+      },
+      "third_party": {
+        "description": "We may provide links to third-party websites, and some of the content appearing on MoneyFlap may be supplied by third parties. MoneyFlap has no responsibility for these third-party websites nor for their content, which is subject to and governed by the Terms of Service and/or privacy policies, if any, of the applicable third-party content providers."
+      },
+      "ownership": {
+        "title": "Ownership of Your Content; Licenses",
+        "description1": "You agree that any content you upload to the Websites and/or the Service (\"Your Content\") shall become the property of MoneyFlap. This shall not affect Sections (Copyright Policy), (Limitation of Liability), and (Indemnity by You) of this Agreement.",
+        "description2": "However, concerning Your Content, MoneyFlap grants you a worldwide, royalty-free, and non-exclusive license(s) to use, distribute, reproduce, and publicly display such content, except for commercial or for-profit use accounts.",
+        "description3": "Any Content other than Your Content is the property of the relevant Uploader and is or may be subject to copyright, trademark rights, or other intellectual property or proprietary rights. Such Content may not be downloaded, reproduced, distributed, transmitted, re-uploaded, republished, displayed, sold, licensed, made available or otherwise communicated to the public or exploited for any purposes except via the features of the Websites from time to time and within the parameters set by the Uploader on the Service or with the express written consent of the Uploader. Where you repost another user's Content, or include another user's Content in a set, you acquire no ownership rights whatsoever in that Content. Subject to the rights expressly granted in this section, all rights in Content are reserved to the relevant Uploader."
+      }
+    },
+    "restrictions": {
+      "title": "Restrictions on the Use of Materials",
+      "description": "You acknowledge that MoneyFlap contains images, text, and other content (collectively, \"Intellectual Property\") that is protected by copyrights, patents, trademarks, trade secrets, and/or other proprietary rights and that these rights are valid and protected in all forms, media, and technologies existing now or hereafter developed. All Intellectual Property is copyrighted under the United States copyright laws (and, if applicable, similar foreign laws), and MoneyFlap owns a copyright in the selection, coordination, arrangement, and enhancement of such Intellectual Property. All trademarks appearing on this Website are trademarks of their respective owners. You may not modify, publish, transmit, distribute, perform, participate in the transfer or sale, create derivative works of, or in any way exploit, any of the Intellectual Property, in whole or in part. When Intellectual Property is downloaded to your computer, you do not obtain any ownership interest in such Intellectual Property. Modification of the Intellectual Property or use of the Intellectual Property for any other purpose, including, but not limited to, use of any Intellectual Property in printed form or on any other website or networked computer environment is strictly prohibited unless you receive our prior written consent."
+    },
+    "copyright": {
+      "title": "Copyright Policy",
+      "description1": "MoneyFlap prohibits the submission or posting of any information that infringes or violates the copyright rights and/or other intellectual property rights (including rights of privacy and publicity) of any person or entity.",
+      "description2": "Under Title 17, United States Code, Section 512(c)(2) or for any other claim of copyright infringement, you hereby agree that notifications of claimed copyright infringement be sent by certified mail to:",
+      "address": "254 Chapman Rd, Ste 208 #16275, Newark, Delaware 19702, United States of America",
+      "instruction": "If you believe that your intellectual property right (or such a right that you are responsible for enforcing) is infringed by any content on the Site, please write to MoneyFlap at the address shown above, giving a written statement that contains:",
+      "requirements": {
+        "item1": "Identification of the copyrighted work and/or intellectual property right claimed to have been infringed;",
+        "item2": "Identification of the allegedly infringing material on the Site that is requested to be removed;",
+        "item3": "Your name, address, and daytime telephone number, and an e-mail address if available;",
+        "item4": "A statement that you have a good faith belief that the use of the copyrighted work and/or exercise of the intellectual property right is not authorized by the owner, its agent, or the law;",
+        "item5": "A statement that the information in the notification is accurate, and, under penalty of perjury, that the signatory is authorized to act on behalf of the owner of the right that is allegedly infringed;",
+        "item6": "The signature of the intellectual property right owner or someone authorized on the owner's behalf to assert infringement of the right."
+      },
+      "dmca_notice": "MoneyFlap will process any notice of alleged infringement that it receives and will take appropriate action as required by the Digital Millennium Copyright Act (DMCA) 17 U.S.C. 512(c)(3) or other applicable copyright law. U.S. law provides significant penalties for submitting such a statement falsely. Under appropriate circumstances, persons who repeatedly submit infringing or unlawful material will be prohibited from posting further submissions."
+    },
+    "liability_for_content": {
+      "title": "Liability for Content",
+      "description1": "You hereby acknowledge and agree that MoneyFlap (i) stores Content and other information at the direction, request, and authorization of its users, (ii) acts merely as a passive conduit and/or host for the uploading, storage, and distribution of such Content, and (iii) plays no active role and gives no assistance in the presentation or use of the Content. You are solely responsible for all of the content that you upload, post, or distribute to, on or through the Websites, and to the extent permissible by law, MoneyFlap excludes all liability concerning all Content (including Your Content) and the activities of its users with respect thereto.",
+      "description2": "You hereby acknowledge and agree that MoneyFlap cannot and does not review the Content created or uploaded by its users, and neither MoneyFlap nor its subsidiaries, affiliates, successors, assigns, employees, agents, directors, officers, and shareholders has any obligation and does not undertake or assume any duty, to monitor the Websites for Content that is inappropriate, that does or might infringe any third party rights, or has otherwise been uploaded in breach of these Terms of Service or applicable law.",
+      "description3": "MoneyFlap and its subsidiaries, affiliates, successors, assigns, employees, agents, directors, officers, and shareholders hereby exclude, to the fullest extent permitted by law, any liability that may arise from any Content uploaded to the Websites by users, including, but not limited to, any claims for infringement of intellectual property rights, rights of privacy or publicity rights, any claims relating to publication of defamatory, pornographic, obscene or offensive material, or any claims relating to the completeness, accuracy, currency or reliability of any information provided by users of the Websites. By using the Websites, you irrevocably waive the right to assert any claim concerning any of the foregoing against MoneyFlap or any of its subsidiaries, affiliates, successors, assigns, employees, agents, directors, officers, or shareholders."
+    },
+    "repeat_infringers": {
+      "title": "Repeat Infringers",
+      "description1": "MoneyFlap will suspend or terminate your access to the Websites if MoneyFlap determines, in its sole and reasonable discretion, that you have repeatedly breached these Terms of Service.",
+      "description2": "If we receive a valid notification from a third party by our reporting processes or applicable law that any of Your Content infringes the copyright or other rights of such third party, or if we believe that your behavior is inappropriate and violates our Terms of Service, we will send you a written warning. Any user that receives multiple such warnings is liable to have their access to the Websites terminated immediately."
+    },
+    "limitation_of_liability": {
+      "title": "Limitation of Liability",
+      "description1": "In no event shall MoneyFlap be liable for any damages whatsoever, whether direct, indirect, general, special, compensatory, consequential, and/or incidental, arising out of or relating to the Websites or Service, or use thereof. Nothing contained in this Website or any written or oral communications from MoneyFlap or its employees or agents shall be construed to make any promise, covenant, or guarantee, all of which are explicitly disclaimed hereby, contrary to the statements and disclaimers contained in this paragraph.",
+      "description2": "The content and functionality on the Websites and the services provided by employees of the Websites are offered “as is” without warranty of any kind, either express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose, title and non-infringement. MoneyFlap makes no warranties, express or implied, as to the ownership, accuracy, completeness, or adequacy of the Websites’ content or that the functionality of the Websites will be uninterrupted, error-free, or free from virus or third-party attack. You hereby acknowledge that your use of the Websites and the Service is at your sole risk. UNDER NO CIRCUMSTANCES SHALL MONEYFLAP, ITS OFFICERS, OWNERS, EMPLOYEES OR AGENTS AND THEIR RESPECTIVE HEIRS, SUCCESSORS, AND ASSIGNS BE LIABLE FOR ANY DAMAGES, INCLUDING DIRECT, INCIDENTAL, PUNITIVE, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT DIRECTLY OR INDIRECTLY RESULT FROM USE OF, OR INABILITY TO USE, THE WEBSITES OR SERVICE OR THE INFORMATION CONTAINED THEREIN, INCLUDING WITHOUT LIMITATION FOR VIRUSES ALLEGED TO HAVE BEEN OBTAINED FROM THE WEBSITES, EVEN IF MONEYFLAP HAS BEEN NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES AND REGARDLESS OF THE THEORY OF LIABILITY.",
+      "description3": "TO THE GREATEST EXTENT PERMITTED BY LAW, YOU AGREE THAT IN NO EVENT WILL MONEYFLAP HAVE ANY LIABILITY, CONTINGENT OR OTHERWISE, FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES IN ANY WAY ARISING OUT OF OR RELATING TO THE AGREEMENT, WEBSITES OR THE SERVICE, INCLUDING, BUT NOT LIMITED TO LOST PROFITS; LOST DATA; LOSS OF GOODWILL; COPYRIGHT, TRADEMARK, OR OTHER INTELLECTUAL PROPERTY INFRINGEMENT; WORK STOPPAGE; EQUIPMENT FAILURE OR MALFUNCTION; ILLEGAL, IMMORAL OR FRAUDULENT ACTIVITY; PERSONAL INJURY; PROPERTY DAMAGE; OR ANY OTHER DAMAGES OR LOSSES, EVEN IF MONEYFLAP HAS BEEN ADVISED OF THE POSSIBILITY THEREOF, AND REGARDLESS OF THE LEGAL OR EQUITABLE THEORY (CONTRACT, TORT, STATUTE, INDEMNITY OR OTHERWISE) UPON WHICH SUCH LIABILITY IS BASED.",
+      "description4": "If any of the foregoing limitations are deemed to be unenforceable, to the greatest extent permitted by law, you agree that the entire aggregate liability of MoneyFlap and sole remedy available to any Client in any case in any way arising out of or relating to the Agreement, Websites or the Service shall be limited to monetary damages that in the aggregate may not exceed the greater of $500.00 or the sum of any amount paid by the Client or user to MoneyFlap during the six months before notice to MoneyFlap of the dispute for which the remedy is sought."
+    },
+    "indemnity_by_you": {
+      "title": "Indemnity by You",
+      "description": "You agree to indemnify and hold MoneyFlap, its subsidiaries, affiliates, officers, agents, and other partners and employees, harmless from any loss, liability, claim, or demand, including reasonable attorneys' fees, arising out of or related to:",
+      "items": {
+        "item1": "Your use of the Service and/or Websites in violation of this Agreement and/or arising from a breach of this Agreement including without limitation your representations and warranties set forth above;",
+        "item2": "Any third-party claim of infringement of copyright or other intellectual property rights or invasion of privacy arising from the hosting of Your Content on the Websites, and/or your making available thereof to other users of the Websites, and/or the actual use of Your Content by other users of the Websites or related services by these Terms of Service and the parameters set by you concerning the distribution and sharing of Your Content;",
+        "item3": "Any activity related to your account, either by you or by any other person accessing your account with or without your consent unless such activity was caused by the act of MoneyFlap."
+      }
+    },
+    "attorney_fees": {
+      "title": "Attorney Fees",
+      "description": "If MoneyFlap is successful in whole or in part in any action or proceeding related to or arising from this Agreement, you shall be responsible for MoneyFlap’s attorneys' fees and costs."
+    },
+    "parental_permission": {
+      "title": "Parental or Guardian Permission",
+      "description": "Some of the Content on the Websites may not be appropriate for children. CHILDREN UNDER THE AGE OF 17 ARE NOT PERMITTED TO USE THE WEBSITES UNLESS A SUPERVISING PARENT OR GUARDIAN IS PRESENT."
+    },
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "description": "Use of the Websites and/or the Service is also governed by our Privacy Policy, located at",
+      "link_text": "PRIVACY POLICY"
+    },
+    "jurisdiction": {
+      "title": "Jurisdiction and Choice of Law; Dispute Resolution",
+      "description": "Suppose there is any dispute arising out of the Websites and/or the Service, by using the Websites and/or Service. In that case, you expressly agree that any such dispute shall be governed by the laws of the State of Delaware, without regard to its conflict of law provisions. You expressly agree and consent to the exclusive jurisdiction and venue of the state and federal courts of the State of New York, for the resolution of any such dispute. Acceptance of the terms and conditions of this Agreement constitutes your consent to be sued in such courts and to accept service of process outside the State of Delaware with the same force and effect as if such service had been made within the State of Delaware. You hereby agree to accept service of process for any action hereunder by certified mail return receipt requested which service shall have the same force and effect as though service had been effected by personal service in the applicable jurisdiction. If any part of these terms is unlawful, void, or unenforceable, that part will be deemed severable and will not affect the validity and enforceability of the remaining provisions."
+    },
+    "arbitration": {
+      "title": "Arbitration Provision/No Class Action",
+      "description": "Except where prohibited by law, as a condition of using the Websites and/or Service, you agree that any disputes, claims, and causes of action (collectively, \"Claim\") arising out of or connected with the Websites and/or Service, shall be resolved individually, without resort to any form of class action, exclusively by binding arbitration under the rules of the American Arbitration Association for full and final settlement of such Claim, and judgment on the award rendered in the arbitration may be entered in any court having jurisdiction thereof. Such arbitration shall be held by the Rules for Expedited Procedures under the Commercial Arbitration Rules of the American Arbitration Association or other mutually agreeable organization, before a single arbitrator (with knowledge and expertise of copyright law if the claim is all or partially for copyright infringement), selected through mutual agreement or through the American Arbitration Association's selection procedures."
+    },
+    "third_party_beneficiaries": {
+      "title": "No Third Party Beneficiaries",
+      "description": "You agree that, except as otherwise expressly provided in this Agreement, there shall be no third-party beneficiaries to this Agreement."
+    },
+    "entire_agreement": {
+      "title": "Entire Agreement",
+      "description": "This Agreement is the complete and exclusive statement of the agreements between you and MoneyFlap concerning the subject matter hereof, and supersedes all prior written or oral agreements or understandings."
+    },
+    "severability_waiver": {
+      "title": "Severability; Waiver",
+      "description": "Suppose any provision of this Agreement is found to be invalid by any court having competent jurisdiction. In that case, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term. In addition, MoneyFlap's failure to enforce any term of this Agreement shall not be deemed as a waiver of such term or otherwise affect MoneyFlap's ability to enforce such term at any point in the future."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Please contact us with any questions regarding this agreement at",
+      "email": "legal@moneyflap.com",
+      "updated": "Updated on 14 April 2024"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy applies between any parent entity, subsidiary, affiliates, or legal entity belonging to the MoneyFlap group (also referred to as “we”, “our”, “ours”, “us”, “MoneyFlap”) and the User (also referred to as “you”, “your” or “yours”). Therefore, we have created this Privacy Policy so that you know how we use and disclose your information when you make it available to us. The Privacy Policy below discloses our practices regarding the information collection and usage website located at https://www.moneyflap.com, the related mobile website, the mobile application (collectively, the “Websites”), and the service provided thereon (the “Service”).",
+    "agreement": "By using or accessing the Websites and the Service, you signify your agreement to be bound by this Privacy Policy. If you do not agree to this privacy policy, you may not access or otherwise use our service or participate in our services.",
+    "infoCollectionTitle": "Personally Identifiable and Non-Personal Information That We Collect",
+    "infoCollectionIntro": "We may ask you for, or you may voluntarily submit, personally identifiable information when you are using the Service.",
+    "infoCollectionList": [
+      {
+        "title": "Information You Provide To Us.",
+        "description": "The personally identifiable information which you may provide to us could include, but is not limited to:"
+      },
+      {
+        "title": "Information We Collect When You Use Our Services",
+        "description": "The information that we generate about you when you use our services could include, but is not limited to:"
+      },
+      {
+        "title": "Information We Obtain from Third Parties",
+        "description": "We may obtain information about you from third parties, including but not limited to:"
+      }
+    ],
+    "registrationInfoTitle": "Registration Information",
+    "registrationInfoIntro": "When signing up for an account with us, we collect registration and profile personal information. This includes:",
+    "registrationInfoList": [
+      "Your full name",
+      "Your gender",
+      "Your nationality",
+      "Your date of birth",
+      "Your country of residence",
+      "Your contact information (including phone number, shipping address, and email address)",
+      "Your photograph",
+      "Your identity documentation (such as ID, driver's license, or passport)"
+    ],
+    "financialInfoTitle": "Financial Information",
+    "financialInfoIntro": "When topping up money to your account, we or third-party payment providers on our behalf collect transaction information. This includes:",
+    "financialInfoList": [
+      "Bank account numbers",
+      "Open banking credentials",
+      "Mobile money phone numbers",
+      "Blockchain wallet addresses"
+    ],
+    "employmentInfoTitle": "Employment Information",
+    "employmentInfoIntro": "When applying to job positions with us, we collect information such as your educational background and employment experience from your submitted resume. This includes:",
+    "employmentInfoList": [
+      "Employment details",
+      "Roles and responsibilities",
+      "Workplace locations and sites"
+    ],
+    "marketingInfoTitle": "Marketing and Communication Information",
+    "marketingInfoIntro": "When reaching out to us, we collect additional information such as attachments, files, and email addresses. If you join our marketing campaigns or subscribe to our newsletters, we may collect information, including:",
+    "marketingInfoList": [
+      "Referrals and engagement",
+      "Newsletters preferences",
+      "Marketing preferences",
+      "Feedback to Marketing campaigns"
+    ],
+    "locationInfoTitle": "Location Information",
+    "locationInfoIntro": "We may collect your general location information, including:",
+    "locationInfoList": [
+      "IP addresses",
+      "Location history",
+      "GPS coordinates",
+      "Wi-Fi access points"
+    ],
+    "deviceInfoTitle": "Device Information",
+    "deviceInfoIntro": "We may collect information about your device and software when using our services, including:",
+    "deviceInfoList": [
+      "Platform type",
+      "System type",
+      "Device type",
+      "Device identifiers",
+      "Operating system",
+      "Web browser type",
+      "Phone manufacturer",
+      "The number of clicks",
+      "Referring and exit pages",
+      "Browser types and languages",
+      "A version of software installed",
+      "The amount of time spent on pages",
+      "The dates and times that you visit the Service",
+      "The content and pages that you access on the Service"
+    ],
+    "transactionInfoTitle": "Transaction Information",
+    "transactionInfoIntro": "We collect information about your transaction data when using our services, including:",
+    "transactionInfoList": [
+      "Billing addresses",
+      "Transaction amounts",
+      "Merchants and billers",
+      "Transaction currencies",
+      "Transaction categories",
+      "Payment methods used",
+      "Date of transactions",
+      "Deposits and withdrawals history"
+    ],
+    "thirdPartyInfoIntro": "To inherently provide our services, we may obtain additional personal information from other sources or third-party partners such as account details and balances, transaction history, contact data, employment details, and identity documentation. These partners or vendors are fundamental elements in continuously enhancing our services, and complying with all the data protection rules and global regulatory framework. Furthermore, your personal information may be collected from these sources or vendors:",
+    "thirdPartyInfoList": [
+      "API Integrations",
+      "Public Databases",
+      "Blockchain Information",
+      "KYC and AML Partners",
+      "Financial and Payment Institutions",
+      "Marketing Partners and Advertisers",
+      "Virtual Asset Service Providers (VASP)"
+    ],
+    "aggregateInfoTitle": "Aggregate Information That We Collect",
+    "aggregateInfoIntro": "When you access our Service, we may automatically aggregate demographic information collected from our users (such as the number of users in a particular geographical location) in a manner that does not identify any one individual. We may also aggregate information collected offline in connection with the Service, obtain non-personally identifiable information from third-party sources, and develop aggregate information by anonymizing previously collected personally identifiable information.",
+    "usageInfoTitle": "The Usage of Information That We Collect",
+    "usageInfoIntro": "We will only use your personally identifiable information as described below, unless you have specifically consented to another type of use, either at the time the personally identifiable information is collected from you or through some other form of consent from you or notification to you:",
+    "usageInfoList": [
+      "We may use your personally identifiable information to respond to your inquiries or requests and send you push notifications.",
+      "We may use your personally identifiable information to send you marketing and advertising emails from time to time about our services, but we will not provide your personally identifiable information to third parties for them to contact you directly unless otherwise permitted by this Privacy Policy or you provide your consent.",
+      "We may use your personally identifiable information for the provision and maintenance of our Services.",
+      "We may use your personally identifiable information to verify your identity, allowing you to access our Services.",
+      "We may use your personally identifiable information to monitor and prevent fraudulent activities, money laundering or abuse and respond to your trust and privacy issues.",
+      "We may use your personally identifiable information to meet our legal and regulatory obligations set up by the government bodies and self-regulatory organizations “SRO”."
+    ],
+    "nonPersonalInfoUsage": "Non-personally identifiable or aggregate information may be used by us for any purposes permitted by law and may be shared with any number of parties, provided that such information shall not specifically identify you.",
+    "disclosureInfoTitle": "How We Disclosure Information We Collect",
+    "disclosureInfoIntro": "We will only share or disclose your personally identifiable information as described below unless you have specifically consented to another type of disclosure:",
+    "disclosureInfoList": [
+      "We may share your personally identifiable information collected in connection with providing the Service.",
+      "We may disclose personally identifiable information as required by law or legal process.",
+      "We may share your personally identifiable information with an affiliate of “MoneyFlap” who is in the same corporate family as us as long as their privacy practices are substantially similar to ours.",
+      "We may disclose personally identifiable information to investigate suspected fraud, harassment, or other violations of any law, rule, or regulation, or the terms or policies for our services or our sponsors.",
+      "We may transfer your personally identifiable information in connection with the sale merger or change of control of “MoneyFlap” or the division responsible for the services with which your personally identifiable information is associated.",
+      "We may share your personally identifiable information with third parties (collectively, the “Third Party Vendors”) to further the purpose for which you provided such information to us. For example, we may share your information with Elastic Email, to send emails. We urge you to read the privacy practices of all of our Third Party Vendors before submitting any personally identifiable information through the Service."
+    ],
+    "transfersInfoTitle": "Transfers of personally identifiable information outside the European Economic Area (“EEA”) and UK",
+    "transfersInfoIntro": "We work with partners and vendors that are based outside the European Economic Area (”EEA”) and the United Kingdom (”UK”). Hence, we may transfer your personally identifiable information outside the EEA and UK. We implement robust measures to guarantee that the data transfers occurred in compliance with the data protection rules such as the General Data Protection Regulation (”GDPR”). We use the data transfer frameworks of the European Commission:",
+    "transfersInfoList": [
+      "Data Transfers to and from non-EEA Countries that have adequate levels of data protection"
+    ],
+    "transfersInfo": {
+      "adequateCountriesText": "Your personal information may flow from the EEA to data processors and sub-processors in <a href='https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en#:~:text=The%20European%20Commission%20has%20so,commercial%20organisations%20participating%20in%20the'>15 countries and territories that have adopted adequacy decisions</a>. Thus, your personal information is protected by data-protection rules similar to the EEA ones. <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32010D0625'>Andorra</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003D0490'>Argentina</a>, <a href='https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32002D0002'>Canada</a> (commercial organizations), <a href='https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32010D0146'>Faroe Islands</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003D0821'>Guernsey</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011D0061'>Israel</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004D0411'>Isle of Man</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.076.01.0001.01.ENG&toc=OJ:L:2019:076:TOC'>Japan</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32008D0393'>Jersey</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32013D0065'>New Zealand</a>, <a href='https://commission.europa.eu/document/download/e9453177-f192-4416-a147-3c57adc468c4_en'>Republic of Korea</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32000D0518'>Switzerland</a>, the United Kingdom under the <a href='https://commission.europa.eu/document/download/dabdaf35-ee58-405e-ac3e-924d04b2cfe4_en'>GDPR</a> and the <a href='https://commission.europa.eu/document/download/67dc46ee-1f1a-4f3b-920f-71af138ffcfc_en'>LED</a>, the United States (commercial organizations participating in the EU-US Data Privacy Framework) and <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012D0484'>Uruguay</a> are the countries and regions recognized by the European Commission as providing adequate protection. The 'data recipient' will comply with data protection rules equivalent to the GDPR.",
+      "nonAdequateTitle": "Data Transfers to and from non-EEA Countries that do not have adequate levels of data protection",
+      "nonAdequateText": "Your personal information may flow from the EEA to third countries that do not have any adequacy decisions from the European Commission. Thus, we leverage the <a href='https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en'>modernized Standard Contractual Clauses (SCCs) pre-approved by the European Commission</a> for international data transfers while ensuring both parties (the 'sender' and 'recipient') comply with the GDPR guidelines.",
+      "contactNote": "You can obtain more information about the transfers of your data outside the EEA and UK by directly contacting us at the details set out in the section \"Contact\" below."
+    },
+    "rights": {
+      "title": "Your rights",
+      "intro": "You have legal rights regarding the collection and usage of your personally identifiable information. Those rights are:",
+      "list": [
+        "<span><strong>Accessibility:</strong> you have the right to access to personally identifiable information we hold about you and obtain information about the processing of your personally identifiable information.</span>",
+        "<span><strong>Erasure:</strong> under some circumstances, you can request the deletion of your personally identifiable information. However, laws and regulations may prevent us from the erasure as we should keep your personally identifiable information for a minimum period.</span>",
+        "<span><strong>Rectification:</strong> you can request the rectification of your personally identifiable information due to incompleteness or inaccuracy.</span>",
+        "<span><strong>Portability:</strong> under some circumstances, you have the right to receive your personally identifiable information in a structured, commonly used, and machine-readable format and transmit it to a third data controller.</span>",
+        "<span><strong>Restriction and objection:</strong> under some circumstances, you have the right to restrict or object to the processing of your personally identifiable information. However, that request may be refused in certain cases because of legal requirements.</span>",
+        "<span><strong>Reporting:</strong> you have the right to file a complaint with the data protection regulators and authorities in your country if you think your personally identifiable information has been mishandled by us.</span>"
+      ],
+      "exerciseNote": "You can exercise all your rights by directly contacting us at the details set out in the section \"Contact\" below."
+    },
+    "cookies": {
+      "title": "Cookies and Similar Technologies",
+      "intro": "\"Cookies\" are pieces of information that may be placed on your computer by a service to facilitate and enhance your communication and interaction with that service. Many services use cookies for these purposes. We may use cookies (and similar items such as clear gifs, web beacons, tags, etc.) on our Service to customize your visit and for other purposes to make your visit more convenient or to enable us to enhance our Service. We may also use and place cookies (and similar items) on your computer from our third-party service providers in connection with the Service, such as an analytics provider that helps us manage and analyze Service usage, as described more fully below. In addition, our advertisers and business partners may set cookies and similar items on your computer when you use our Service. You may stop or restrict the placement of cookies on your computer or flush them from your browser by adjusting your web browser preferences, in which case you may still use our Service, but it may interfere with some of its functionality. Cookies and similar items are not used by us to automatically retrieve personally identifiable information from your computer without your knowledge. <strong>Presently, we do not have any Necessary, Functional, or Advertisement Cookies on this website, only Analytics Cookies.</strong>",
+      "deletionNote": "If you delete your cookies, change browsers, or use a different cookie, our cookie (or an opt-out cookie) may no longer work and you will have to re-input (or opt-out) again."
+    },
+    "analytics": {
+      "title": "Analytics and Conversion Tracking",
+      "intro": "We may use analytics services that use cookies, javascript, and similar technologies to help us analyze how users use the Service. The information generated by these services about your use of the Service (including your IP address or a truncated version of your IP address) is transmitted to and stored by analytics service providers on their servers. Those service providers will use this information to evaluate your, and other users', use of the Service, compiling reports for us on website activity and providing other services relating to website activity and Internet usage.",
+      "dataCollection": "We may collect information about your computer, including your IP address, operating system, and browser type, for system administration and to create reports. This is statistical data about our users' browsing actions and patterns and does not identify any individual.",
+      "googleAnalytics": "For example, we use cookies on our site for Google Analytics (the \"Analytics Service\"). The Analytics Service is a web-based analytics tool that helps website owners understand how visitors engage with their website. The Analytics Service customers can view a variety of reports about how visitors interact with their website so that they can improve it.",
+      "cookieUsage": "Like many services, the Analytics Service uses first-party cookies to track visitor interactions as in our case, where they are used to collect information about how visitors use our site. We then use the information to compile reports and to help us improve our site.",
+      "cookieInfo": "Cookies contain information that is transferred to your computer's hard drive. These cookies are used to store information, such as the time that the current visit occurred, whether the visitor has been to the site before and what site referred the visitor to the web page.",
+      "optOut": "The Analytics Service collects information anonymously. They report website trends without identifying individual visitors. You can opt out of the Analytics Service without affecting how you visit our site. For more information on opting out of being tracked by Google Analytics across all websites you use, visit <a href=\"https://tools.google.com/dlpage/gaoptout\">https://tools.google.com/dlpage/gaoptout</a>.",
+      "conversionTracking": "We may also use Google conversion tracking and/or similar services to help us understand your and other users' use of the Service."
+    },
+    "communications": {
+      "title": "Communications with Us",
+      "intro": "By providing your contact information to us (including, without limitation, your email address, physical address, and phone number) (collectively the \"Channels\"), you expressly consent to receive communications from us. We may use the Channels to communicate with you, to send information that you have requested, or to send information about other products or services developed or provided by us or our business partners, provided that, we will not give your contact information to another party to promote their products or services directly to you without your consent or as outlined in this Privacy Policy.",
+      "serviceConsent": "By using the Service, you expressly consent to receive in-product communications from us (including, without limitation, push notifications on the App).",
+      "phoneConsent": "By providing your phone number to us, you expressly consent to receive phone calls and/or text messages from us. We will not give your phone number to another party to promote their products or services directly to you without your consent or as outlined in this Privacy Policy. <strong>Presently, we do not communicate with any user through phone calls and text messages.</strong>",
+      "dataCharges": "Any phone calls and/or text messages delivered to your phone or device may cause you to incur extra data, text messaging, or other charges from your wireless carrier. MESSAGE AND DATA RATES MAY APPLY. You are solely responsible for any carrier charges incurred as a result of phone and/or text communications from \"MoneyFlap\". <strong>Presently, we do not communicate with any user through phone calls and text messages.</strong>",
+      "materialUsage": "Any communication or material you transmit to us by email or otherwise, including any data, questions, comments, suggestions, or the like is, and will be treated as, non-confidential and nonproprietary. Except to the extent expressly covered by this Privacy Policy, anything you transmit or post may be used by us for any purpose, including but not limited to, reproduction, disclosure, transmission, publication, broadcast, and posting. Furthermore, you expressly agree that we are free to use any ideas, concepts, know-how, or techniques contained in any communication you send to us, as well as any data developed using the content of such communication, without compensation and for any purpose whatsoever, including but not limited to, developing, manufacturing and marketing products and services using such information."
+    },
+    "security": {
+      "title": "Security",
+      "description": "The security of your personally identifiable information is very important to us. When we collect your personally identifiable information online, we use reasonable efforts to protect it from unauthorized access. However, due to the inherent open nature of the Internet, we cannot guarantee that your personally identifiable information will be completely free from unauthorized access by third parties such as hackers and your use of our Service demonstrates your assumption of this risk. We have put in place reasonable physical, electronic, and managerial procedures to safeguard the information we collect. Only those employees who need access to your information to perform their duties are authorized to have access to your personally identifiable information."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "intro": "The period we hold your personally identifiable information may vary based on the following reasons:",
+      "list": [
+        "<span><strong>The purposes for which we process it.</strong> We will keep your personally identifiable information as long as they are necessary for the purposes, typically your identifiable data are kept up to five years.</span>",
+        "<span><strong>Legal and compliance obligations.</strong> Regulatory bodies may require us to keep your personally identifiable information for some time.</span>"
+      ]
+    },
+    "children": {
+      "title": "Protection for Children",
+      "description": "We generally do not collect personally identifiable information from children under the age of 18. If at any time in the future, we plan to collect personally identifiable information from children under 18, such collection and use, to the extent applicable, shall, when required, be done in compliance with the Children's Online Privacy Protection Act (\"COPPA\") and appropriate consent from the child's parent or guardian will be sought where required by COPPA. When we become aware that personally identifiable information from a child under 18 has been collected without such a child's parent or guardian's consent, we will use all reasonable efforts to delete such information from our database."
+    },
+    "otherServices": {
+      "title": "Other Services",
+      "description": "As a convenience to you, we may provide links to third-party Services from within our Service. We are not responsible for the privacy practices or content of these third-party sites. When you link away from our Service, you do so at your own risk."
+    },
+    "changes": {
+      "title": "Changes to this Privacy Policy",
+      "description": "We reserve the right, at our discretion, to change, modify, add, or remove portions from this Privacy Policy at any time. However, if at any time in the future, we plan to use personally identifiable information in a way that materially differs from this Privacy Policy, including sharing such information with more third parties, we will post such changes here and provide you the opportunity to opt out of such differing uses. Your continued use of the Service and our services following the posting of any changes to this Privacy Policy means you accept such changes."
+    },
+    "optOut": {
+      "title": "Opt-Out Process",
+      "description": "All unsubscribe or opt-out requests may be made by clicking the \"unsubscribe\" link at the bottom of the relevant email. We will process your request within a reasonable time after receipt. However, we are not responsible for, and in some cases, we are incapable of, removing your personally identifiable information from the lists of any third party who has previously been provided your information by this Privacy Policy or your consent. You should contact such third parties directly. If you would like to update or correct any personally identifiable information that you have provided to us, please email us at the details set out in the section \"Contact\" below <em>**</em>and once we confirm your information, we will update such information within a reasonable amount of time."
+    },
+    "thirdParty": {
+      "title": "No Rights of Third Parties",
+      "description": "This Privacy Policy does not create rights enforceable by third parties, nor does it require disclosure of any personal information relating to users of the Service."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For questions or concerns relating to privacy, we can be contacted at <a href=\"mailto:legal@moneyflap.com\">legal@moneyflap.com</a>."
+    },
+    "effectiveDate": {
+      "title": "Effective Date",
+      "description": "This Privacy Policy was last updated on <strong>13 April 2024</strong>."
+    }
+  }
+}

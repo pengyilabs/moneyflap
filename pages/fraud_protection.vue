@@ -8,23 +8,17 @@
               class="text-white fw-bolder display-4 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              Fraud Protection
+              {{ $t("fraud.main-title") }}
             </h2>
             <p class="text-white">
-              At MoneyFlap, we recognize the unsettling tales of systems falling
-              prey to cunning hackers and unscrupulous rule-breakers. These
-              stories drive us to push further, safeguarding your financial
-              journey with unwavering dedication. Here at MoneyFlap, we don’t
-              just talk about trust; we build it, brick by brick, ensuring every
-              transaction you make is not only seamless but also safe from
-              lurking dangers.
+              {{ $t("fraud.main-description") }}
             </p>
             <div class="d-flex flex-row mt-5 flex-wrap">
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                 >
-                  Protect Your Finances
+                  {{ $t("fraud.txt.protect-finances") }}
                 </button>
               </div>
             </div>
@@ -41,10 +35,8 @@
           <h3
             class="fw-bolder display-3 my-4 text-center w-100"
             style="font-family: Sofia Pro Bold"
-          >
-            How We <span class="text-primary"> Protect </span> the <br />
-            MoneyFlap Users
-          </h3>
+            v-html="$t('fraud.how-protect-users-title')"
+          ></h3>
           <div class="row mx-auto" style="max-width: 800px">
             <div class="col-12 col-md-6 p-2" style="max-width: 100%">
               <div
@@ -61,12 +53,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Military-Grade AML/KYC
+                      {{ $t("fraud.how-protect-users-op1-title") }}
                     </h4>
                     <p class="">
-                      We use advanced methods and follow strict regulations to
-                      identify, monitor, and approve customers, similar to top
-                      financial institutions, to combat financial crime.
+                      {{ $t("fraud.how-protect-users-op1-description") }}
                     </p>
                   </div>
                 </div>
@@ -88,13 +78,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Real-time Scams Mitigation
+                      {{ $t("fraud.how-protect-users-op2-title") }}
                     </h4>
                     <p class="">
-                      We use advanced security measures, including automatic
-                      warnings and scam-related wallet address blocks, to
-                      safeguard users and minimize incidents of fund loss during
-                      transactions.
+                      {{ $t("fraud.how-protect-users-op2-description") }}
                     </p>
                   </div>
                 </div>
@@ -116,13 +103,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Real-time Risk Mitigation
+                      {{ $t("fraud.how-protect-users-op3-title") }}
                     </h4>
                     <p class="">
-                      We utilize cutting-edge machine learning algorithms to
-                      constantly monitor wallet addresses and transactions,
-                      enabling swift responses to cyber exploits, hacks, fraud,
-                      and vulnerabilities.
+                      {{ $t("fraud.how-protect-users-op3-description") }}
                     </p>
                   </div>
                 </div>
@@ -144,12 +128,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Proactive Financial Crime Prevention
+                      {{ $t("fraud.how-protect-users-op4-title") }}
                     </h4>
                     <p class="">
-                      We utilize third-party services to screen wallets and
-                      tokens for risks, and proactively address cyber threats
-                      with watchlists, alerts, and reports.
+                      {{ $t("fraud.how-protect-users-op4-description") }}
                     </p>
                   </div>
                 </div>
@@ -171,13 +153,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Numberless Cards
+                      {{ $t("fraud.how-protect-users-op5-title") }}
                     </h4>
                     <p class="">
-                      Our physical cards offer superior protection against data
-                      theft by safeguarding sensitive information, ensuring that
-                      even if a card is lost or stolen, crucial data remains
-                      secure.
+                      {{ $t("fraud.how-protect-users-op5-description") }}
                     </p>
                   </div>
                 </div>
@@ -199,13 +178,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Card Security Controls
+                      {{ $t("fraud.how-protect-users-op6-title") }}
                     </h4>
                     <p class="">
-                      We provide instant freezing for suspicious transactions
-                      and their associated card, with the option to unfreeze if
-                      deemed safe. For online purchases, we notify you to
-                      confirm the payment before it proceeds.
+                      {{ $t("fraud.how-protect-users-op6-description") }}
                     </p>
                   </div>
                 </div>
@@ -227,13 +203,10 @@
                       class="fw-bolder mt-4"
                       style="font-family: Sofia Pro Bold"
                     >
-                      Account Security Controls
+                      {{ $t("fraud.how-protect-users-op7-title") }}
                     </h4>
                     <p class="">
-                      We ensure your account's security through measures such as
-                      multi-factor authentication, including PINs or Biometrics
-                      (fingerprint or facial recognition) and SMS one-time OTP
-                      codes when necessary.
+                      {{ $t("fraud.how-protect-users-op7-description") }}
                     </p>
                   </div>
                 </div>
@@ -252,29 +225,24 @@
                 class="fw-bolder display-3 my-4"
                 style="font-family: Sofia Pro Bold"
               >
-                How to Protect Yourself from Frauds and Scams
+                {{ $t("fraud.how-protect-yourself-title") }}
               </h3>
               <p>
-                We strongly advise our users to keep these statements in mind to
-                help prevent common fraud:
+                {{ $t("fraud.how-protect-yourself-description") }}
               </p>
 
               <ul class="list-unstyled">
                 <li>
-                  The MoneyFlap team WILL NEVER REQUEST remote access to your
-                  phone or devices.
+                  {{ $t("fraud.how-protect-yourself-op1-title") }}
                 </li>
                 <li>
-                  The MoneyFlap team WILL NEVER REQUEST your PINs, passwords, or
-                  2FA codes.
+                  {{ $t("fraud.how-protect-yourself-op2-title") }}
                 </li>
                 <li>
-                  The MoneyFlap team WILL NEVER REQUEST you to transfer money to
-                  any addresses, bank, or mobile money accounts.
+                  {{ $t("fraud.how-protect-yourself-op3-title") }}
                 </li>
                 <li>
-                  The MoneyFlap team WILL NEVER CONTACT you via social media
-                  groups.
+                  {{ $t("fraud.how-protect-yourself-op4-title") }}
                 </li>
               </ul>
             </div>
@@ -296,27 +264,24 @@
           <div class="row bg-lightgray rounded-4 p-4">
             <div class="col-12 col-md-6 my-3">
               <div class="d-flex flex-column justify-content-center">
-                <h4 class="mt-4 display-2" style="font-family: Sofia Pro Bold">
-                  Communications <br />with MoneyFlap <br />
-                  <span class="text-primary"> Support Team </span>
-                </h4>
+                <h4
+                  class="mt-4 display-2"
+                  style="font-family: Sofia Pro Bold"
+                  v-html="$t('fraud.support-team-title')"
+                ></h4>
 
                 <ul class="list-unstyled">
                   <li>
-                    The MoneyFlap team does not provide a toll-free phone number
-                    for contact.
+                    {{ $t("fraud.support-team-op1-title") }}
                   </li>
                   <li>
-                    The MoneyFlap team only communicate with you through digital
-                    means and not in person.
+                    {{ $t("fraud.support-team-op2-title") }}
                   </li>
                   <li>
-                    The MoneyFlap team provides support exclusively through
-                    in-app chat and does not offer phone support.
+                    {{ $t("fraud.support-team-op3-title") }}
                   </li>
                   <li>
-                    MoneyFlap only uses emails ending in @moneyflap.com.
-                    Disregard any emails that do not match this address.
+                    {{ $t("fraud.support-team-op4-title") }}
                   </li>
                 </ul>
               </div>

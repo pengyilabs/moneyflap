@@ -8,20 +8,21 @@
               class="text-white fw-bolder display-2 mt-1"
               style="font-family: Sofia Pro Bold"
             >
-              Media & press kit
+              {{ $t("press.main-title") }}
             </h2>
             <p class="text-white mb-4 pb-4">
-              Thanks for your interest in our company! Here's our logo and a
-              collection of product screenshots
+              {{ $t("press.main-description") }}
             </p>
             <div class="d-flex flex-column mt-5 flex-wrap pt-4">
               <h3
                 class="text-white fw-bolder display-4 mt-4 pt-4"
                 style="font-family: Sofia Pro Bold"
               >
-                Tagline
+                {{ $t("press.main-subtitle") }}
               </h3>
-              <p class="text-white">On-chain Everything App</p>
+              <p class="text-white">
+                {{ $t("press.main-subtitle-description") }}
+              </p>
             </div>
           </div>
           <div class="col-12 col-md-6 my-3">
@@ -38,11 +39,9 @@
         <section class="load_granted row">
           <div class="col-12 col-md-6 d-flex flex-column">
             <h4 class="fw-bolder display-6" style="font-family: Sofia Pro Bold">
-              Boilerplate
+              {{ $t("press.boilerplate-title") }}
             </h4>
-            <p>
-              <strong>MoneyFlap</strong> aims to transform the global financial landscape using innovative stablecoin infrastructure and blockchain technology. The company's mission is to enhance financial inclusion in underserved areas hindered by outdated, bureaucratic payment systems or costly, complex financial services. MoneyFlap is a global super app utilizing public blockchain protocols and stablecoins to facilitate rapid, near-zero cost, and secure payments across Europe, Sub-Saharan Africa, Latin America, Southeast Asia, MENA, and North America. Powered by a robust network of domestic real-time payment rails and an internal high-capacity ledger, our platform offers global instant money movements for a fee of 0 to 100 basis points (bps) at mid-market rates, surpassing current solutions. With MoneyFlap, Mexicans can access Nigeria's NIBSS, Indians can use Europe's SEPA Instant, Senegalese can send money to Brazil through Pix, Europeans can transact with InstaPay in the Philippines, and Saudis can purchase goods in India via UPI, among other international connections. 
-            </p>
+            <p v-html="$t('press.boilerplate-description')"></p>
           </div>
           <div class="col-12 col-md-6 text-end">
             <img
@@ -61,61 +60,43 @@
               class="text-white fw-bolder display-6 mt-5 mb-3"
               style="font-family: Sofia Pro Bold"
             >
-              Founding Story
+              {{ $t("press.founding-title") }}
             </h4>
-            <p class="text-white my-4">
-              Before deciding to start MoneyFlap, Mamadou worked remotely in the
-              United States while residing in South Africa with a student visa —
-              where he had a local bank account. Shortly, it came to his
-              attention that South African banks usually freeze the accounts of
-              those foreign residents who can no longer show a valid temporary
-              residency permit. Then, he was urged to prepare accordingly by
-              cashing out all his funds out of South Africa. He returned to his
-              home country, Senegal, a week before expiration. Hence, he shall
-              have opened a new Senegalese account to continue getting paid from
-              the United States. He quickly noticed the following issues:
-            </p>
+            <p
+              class="text-white my-4"
+              v-html="$t('press.founding-description')"
+            ></p>
 
             <div>
               <ul class="list-unstyled text-white">
                 <li>
-                  There is no way to open a bank account via any web or mobile
-                  banking app.
+                  {{ $t("press.founding-op1") }}
                 </li>
                 <li>
-                  It is impossible to get paid by US employers through mobile
-                  money service providers.
+                  {{ $t("press.founding-op2") }}
                 </li>
                 <li>
-                  It is impossible to make/receive bank-to-bank remittances
-                  through mobile money service providers.
+                  {{ $t("press.founding-op3") }}
                 </li>
                 <li>
-                  Must have visited bank branches, done the paperwork, and
-                  waited in long queues to open an account.
+                  {{ $t("press.founding-op4") }}
                 </li>
                 <li>
-                  The bank required a $20 minimum deposit and $20 for the debit
-                  card to activate his account.
+                  {{ $t("press.founding-op5") }}
                 </li>
                 <li>
-                  Banks keep charging exorbitant fees on domestic bank transfers
-                  and even do so for alerts.
+                  {{ $t("press.founding-op6") }}
                 </li>
                 <li>
-                  People still rely on complex methods and friends or family
-                  from abroad to bank on their behalf.
+                  {{ $t("press.founding-op7") }}
                 </li>
                 <li>
-                  The oligopoly of legacy systems through bureaucracy leads the
-                  region to have a low card penetration rate.
+                  {{ $t("press.founding-op8") }}
                 </li>
               </ul>
             </div>
             <span class="text-white">
-              We quickly realized that our issues were prevalent in all emerging
-              markets, especially French-speaking sub-Saharan Africa, Southeast
-              Asia, and South America.
+              {{ $t("press.founding-credits") }}
             </span>
           </div>
           <div
@@ -137,51 +118,47 @@
               class="fw-bolder display-6 mt-5 mb-3"
               style="font-family: Sofia Pro Bold"
             >
-              Download Our logo
+              {{ $t("press.download-logo-title") }}
             </h4>
             <p class="">
-              For implementing our logo in different applications, please
-              download individually our high-resolution assets in PNG format or
-              in .zip file for full access to all our logos.
+              {{ $t("press.download-logo-description") }}
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
               @click="downloadLogos"
             >
-              Download full set
+              {{ $t("press.txt.download-full-set") }}
             </button>
             <h4
               class="fw-bolder display-6 mt-5 mb-3"
               style="font-family: Sofia Pro Bold"
             >
-              Download Our Screenshots
+              {{ $t("press.download-screenshots-title") }}
             </h4>
             <p class="">
-              High-resolution assets of our interface on desktop and mobile, as
-              well as a selection of GIFs showing functionality across the app.
+              {{ $t("press.download-screenshots-description") }}
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
               @click="downloadScreenshots"
             >
-              Download full set
+              {{ $t("press.txt.download-full-set") }}
             </button>
             <h4
               class="fw-bolder display-6 mt-5 mb-3"
               style="font-family: Sofia Pro Bold"
             >
-              Download Our Color Palette
+              {{ $t("press.download-colors-title") }}
             </h4>
             <p class="">
-              Our color palette is a core component of our identity, allowing us
-              to visualize our ideas and concepts in an approachable and playful
+              {{ $t("press.download-colors-description") }}
               way.
             </p>
             <button
               class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
               @click="downloadColors"
             >
-              Download full set
+              {{ $t("press.txt.download-full-set") }}
             </button>
           </div>
           <div
@@ -203,19 +180,18 @@
             class="fw-bolder display-6 m-3"
             style="font-family: Sofia Pro Bold; color: #5096ff"
           >
-            Any questions ?
+            {{ $t("press.questions-title") }}
           </h4>
-          <p class="text-white text-center mb-5">
-            We're also happy to help with any questions you have. <br />You'll
-            reach a real human who can arrange interviews and provide original
-            materials.
-          </p>
+          <p
+            class="text-white text-center mb-5"
+            v-html="$t('press.questions-description')"
+          ></p>
           <a
             class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient mt-5"
             href="mailto:press@moneyflap.com"
             target="_blank"
           >
-            Contact Press
+            {{ $t("press.txt.contact-press") }}
           </a>
         </section>
       </div>

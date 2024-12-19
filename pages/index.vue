@@ -10,17 +10,12 @@
               <h1
                 class="text-white fw-bolder display-4 mt-4 text-center text-sm-start"
                 style="font-family: Sofia Pro Bold"
-              >
-                We are not a bank. <br />
-                We are a <span class="text-success">bulldozer.</span>
-              </h1>
+                v-html="$t('index.main-title')"
+              ></h1>
               <p
                 class="text-white my-4 lh-lg fw-medium text-center text-sm-start"
-              >
-                The first global app that pays you to save, spend, and send
-                money <br class="show-md" />
-                — all in one place.
-              </p>
+                v-html="$t('index.subtitle-header')"
+              ></p>
             </div>
             <div class="">
               <div class="show-md">
@@ -29,7 +24,7 @@
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                     >
-                      Get Started
+                      {{ $t("index.buttons.get-started") }}
                     </button>
                   </div>
                   <div class="me-3 mt-3">
@@ -38,7 +33,7 @@
                       aria-current="page"
                       to="/supported_countries/"
                     >
-                      See our coverage
+                      {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
                   </div>
                 </div>
@@ -52,7 +47,7 @@
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
                     >
-                      Get Started
+                      {{ $t("index.buttons.get-started") }}
                     </button>
                   </div>
                   <div class="me-3 mt-3">
@@ -61,7 +56,7 @@
                       aria-current="page"
                       to="/supported_countries/"
                     >
-                      See our coverage
+                      {{ $t("index.buttons.see our coverage") }}
                     </RouterLink>
                   </div>
                 </div>
@@ -100,19 +95,17 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h2 class="fw-bolder display-4" style="font-family: Sofia Pro Bold">
-              A Global Account <br />
-              <span class="text-success">That Prioritizes You</span>
-            </h2>
-            <p class="py-4 lh-lg fw-medium">
-              Say goodbye to the barriers of the conventional financial
-              system.<br class="d-none d-sm-block" />
-              Step into the new era of financial liberation where your money
-              knows no borders, no restrictions, no exorbitant transaction fees,
-              only growth!
-            </p>
+            <h2
+              class="fw-bolder display-4"
+              style="font-family: Sofia Pro Bold"
+              v-html="$t('index.global-account-title')"
+            ></h2>
+            <p
+              class="py-4 lh-lg fw-medium"
+              v-html="$t('index.global-account-description')"
+            ></p>
             <button class="btn btn-dark btn-lg rounded-5 px-4">
-              Get Started
+              {{ $t("index.buttons.get-started") }}
             </button>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
@@ -127,17 +120,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h2 class="fw-bolder display-4" style="font-family: Sofia Pro Bold">
-              <span class="text-primary">Earn up to 5.77% Money</span>
-              Markets yields, on-chain
-            </h2>
+            <h2
+              class="fw-bolder display-4"
+              style="font-family: Sofia Pro Bold"
+              v-html="$t('index.earn-money-title')"
+            ></h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Isn't it time we let our money work for us? Get higher, more
-              stable returns than classic savings accounts. Diversify your
-              portfolio with Sukuk and U.S. treasury bills. An unmatched level
-              of confidence knowing your assets are indirectly backed by the
-              full faith and credit of governments. Withdraw and get paid on a
-              24/7 basis. No minimum deposit.
+              {{ $t("index.earn-money-description") }}
             </p>
             <!-- <button class="btn btn-dark btn-lg rounded-5 px-4">Get Started</button> -->
           </div>
@@ -162,14 +151,10 @@
             <h2
               class="fw-bolder display-4 text-white"
               style="font-family: Sofia Pro Bold"
-            >
-              Teleport your money from one country to another,
-              <span class="text-success">fee-free</span>
-            </h2>
+              v-html="$t('index.teleport-money-title')"
+            ></h2>
             <p class="text-white lh-lg mt-5">
-              Whether it is Italy or Mexico, save up to 15x when sending money
-              there — Oh, 0% exchange rate mark-up and no sneaky hidden fees!
-              Even no more entering account numbers.
+              {{ $t("index.teleport-money-description") }}
             </p>
           </div>
           <div class="col-12 col-md-5 d-flex">
@@ -190,8 +175,7 @@
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
-                    Send money in 100+ currencies to your contacts or anyone in
-                    our global search in seconds.
+                    {{ $t("index.teleport-money-card1") }}
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -211,8 +195,7 @@
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
-                    Send money instantly to bank and mobile money accounts in
-                    90+ countries.
+                    {{ $t("index.teleport-money-card2") }}
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -232,8 +215,7 @@
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
-                    Send and receive stablecoins within seconds from external
-                    wallets.
+                    {{ $t("index.teleport-money-card3") }}
                   </p>
                   <div class="top-left-icon">
                     <img
@@ -255,19 +237,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h2 class="fw-bolder display-3" style="font-family: Sofia Pro Bold">
-              Pay With The Most<br />
-              <span class="text-info">International Card</span>
-            </h2>
+            <h2
+              class="fw-bolder display-3"
+              style="font-family: Sofia Pro Bold"
+              v-html="$t('index.pay-most-title')"
+            ></h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Sick of overpaying card transaction fees? Banish that feeling
-              forever.<br class="d-none d-sm-block" />
-              Create your virtual cards to shop globally while saving 4.5% on
-              fees, and link them to Google Pay and Apple Pay to start spending
-              immediately! Get a sleek, mirror stainless-steel, numberless
-              credit card with a premium experience that embraces both security
-              and an aura of exclusivity. Access your card details anytime,
-              within our app.
+              {{ $t("index.pay-most-description") }}
             </p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
@@ -284,7 +260,7 @@
           class="fw-bolder display-4 text-light mb-4"
           style="font-family: Sofia Pro Bold"
         >
-          A Smarter Card
+          {{ $t("index.smarter-card") }}
         </h2>
         <video
           :autoplay="true"
@@ -308,16 +284,13 @@
               class="fw-bolder display-4 text-info"
               style="font-family: Sofia Pro Bold"
             >
-              Earn up to 35%
+              {{ $t("index.earn-up-title") }}
             </h2>
             <p class="h3 mt-3 mb-5" style="font-family: Sofia Pro Bold">
-              unlimited cash-back on your favorite brands, for real!
+              {{ $t("index.earn-up-subtitle") }}
             </p>
             <p class="fw-medium">
-              Welcome to our virtual shopping mall! Where else can you shop from
-              numerous top brands and get up to a 35% cash-back on every
-              purchase? Imagine the hundreds or even thousands of dollars you
-              could be pocketing each year! Be a smarter shopper.
+              {{ $t("index.earn-up-description") }}
             </p>
           </div>
           <div class="col-12 col-md-7">
@@ -448,7 +421,7 @@
               class="fw-bolder display-5 text-center my-5"
               style="font-family: Sofia Pro Bold"
             >
-              With your MoneyFlap account, go from underserved to what you
+              {{ $t("index.your-moneyflap-title") }}
               deserve
             </h2>
           </div>
@@ -527,18 +500,16 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h2 class="fw-bolder display-4" style="font-family: Sofia Pro Bold">
-              Real-time Spending<br />
-              <span class="text-primary">Insights and Analytics</span>
-            </h2>
+            <h2
+              class="fw-bolder display-4"
+              style="font-family: Sofia Pro Bold"
+              v-html="$t('index.real-time-spending-title')"
+            ></h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Our intelligent analytics presents you with easy-to-understand
-              charts and a summary of your transactions so you can track your
-              finances and make better spending decisions. No spreadsheet. No
-              calculator!
+              {{ $t("index.real-time-spending-description") }}
             </p>
             <button class="btn btn-dark btn-lg rounded-5 px-4">
-              Get Started
+              {{ $t("index.buttons.get-started") }}
             </button>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
@@ -553,16 +524,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h2 class="fw-bolder display-4" style="font-family: Sofia Pro Bold">
-              Connect, Feel,<br />
-              <span class="text-success">and Engage Like You’re There!</span>
-            </h2>
+            <h2
+              class="fw-bolder display-4"
+              style="font-family: Sofia Pro Bold"
+              v-html="$t('index.connect-feel-title')"
+            ></h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
-              Connect with your loved ones via our end-to-end encrypted
-              messaging and calling service. Share multimedia content, laugh
-              over GIFs, and organize group chats, all under secure corridors.
-              No friends? No worries! Chat with our humanlike AI assistant for
-              outfit tips or movie recommendations.
+              {{ $t("index.connect-feel-description") }}
             </p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0">
@@ -580,22 +548,16 @@
             <h2
               class="fw-bolder display-4 text-light"
               style="font-family: Sofia Pro Bold"
-            >
-              Fast Loans, No Fuss:<br />
-              Switch On The 0%
-            </h2>
+              v-html="$t('index.fast-loans-title')"
+            ></h2>
             <p class="py-4 lh-lg fw-medium text-light">
-              Why let emergencies spoil your good night's sleep? Borrow
-              instantly any amount using your money saved as collateral and
-              repay in up to 25 easy installments – your first payment can be
-              made within 90 days after approval! No hidden fees. No interest.
-              No credit checks.
+              {{ $t("index.fast-loans-description") }}
             </p>
             <p
               class="h3 fw-bolder text-light"
               style="font-family: Sofia Pro Bold"
             >
-              Available Soon
+              {{ $t("index.buttons.available-soon") }}
             </p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 text-center order-md-first">
@@ -613,20 +575,16 @@
               <h2
                 class="fw-bolder display-4 text-light"
                 style="font-family: Sofia Pro Bold"
-              >
-                We do <span class="text-info">SIMs too!</span>
-              </h2>
+                v-html="$t('index.sims-too-title')"
+              ></h2>
               <p class="py-4 lh-lg fw-medium text-light">
-                Travel smart, enjoy unlimited roaming with MoneyFlap eSIM!
-                Forget the old-fashioned ways of changing cards or hunting down
-                Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation
-                - connect your life with just a click.
+                {{ $t("index.sims-too-description") }}
               </p>
               <p
                 class="h3 fw-bolder text-light"
                 style="font-family: Sofia Pro Bold"
               >
-                Available Soon
+                {{ $t("index.buttons.available-soon") }}
               </p>
             </div>
             <div class="col-12 col-md-4 mt-5 mt-md-0">
@@ -643,7 +601,7 @@
           class="fw-bolder display-4 text-light text-center mb-5"
           style="font-family: Sofia Pro Bold"
         >
-          We Take Your Security to New Heights
+          {{ $t("index.take-security-title") }}
         </h2>
 
         <div class="row" style="max-width: 100%">
@@ -660,11 +618,10 @@
                 />
                 <div class="px-4 pb-3">
                   <h4 class="card-title" style="font-family: Sofia Pro Bold">
-                    Compliance-first
+                    {{ $t("index.take-security-card1-title") }}
                   </h4>
                   <p>
-                    From day 1, we are certified, audited, and regulated across
-                    multiple jurisdictions.
+                    {{ $t("index.take-security-card1-description") }}
                   </p>
                 </div>
               </div>
@@ -683,12 +640,10 @@
                 />
                 <div class="px-4 pb-3">
                   <h4 class="card-title" style="font-family: Sofia Pro Bold">
-                    Break-free control
+                    {{ $t("index.take-security-card2-title") }}
                   </h4>
                   <p>
-                    Push notifications, 2-step verification, biometrics, card
-                    controls, and fraud detection to protect you from any
-                    fraudsters, 24/7.
+                    {{ $t("index.take-security-card2-description") }}
                   </p>
                 </div>
               </div>
@@ -706,11 +661,10 @@
                 />
                 <div class="px-4 pb-3">
                   <h4 class="card-title" style="font-family: Sofia Pro Bold">
-                    Bankruptcy remote
+                    {{ $t("index.take-security-card3-title") }}
                   </h4>
                   <p>
-                    Your money are fully segregated and held with regulated
-                    custodians and are secured by AAA-rated Treasury Bonds
+                    {{ $t("index.take-security-card3-description") }}
                   </p>
                 </div>
               </div>
@@ -728,11 +682,10 @@
                 />
                 <div class="px-4 pb-3">
                   <h4 class="card-title" style="font-family: Sofia Pro Bold">
-                    VIP customer support
+                    {{ $t("index.take-security-card4-title") }}
                   </h4>
                   <p>
-                    Have an account query at 3 am? Ok. Chat with our team 24/7
-                    through the app.
+                    {{ $t("index.take-security-card4-description") }}
                   </p>
                 </div>
               </div>
@@ -748,16 +701,15 @@
           class="text-info fw-bolder display-6 mb-3"
           style="font-family: Sofia Pro Bold"
         >
-          Your Legacy, Not Theirs
+          {{ $t("index.your-legacy-title") }}
         </h3>
         <p class="lead">
-          Open your account in 2 minutes, verify your ID, and start enjoying
-          your Everything app.
+          {{ $t("index.your-legacy-description") }}
         </p>
         <button
           class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mt-4 mf-gradient"
         >
-          Get Started
+          {{ $t("index.buttons.get-started") }}
         </button>
       </div>
     </section>
@@ -783,51 +735,44 @@ export default {
         {
           icon: IconGlobalCashin,
           alt: "Global cash-in and cash-out",
-          title: "Global cash-in and cash-out",
-          description:
-            "Easily deposit and withdraw cash at any MoneyFlap location or at over 350,000 Moneygram locations in 181+ countries.",
+          title: this.$t("index.your-moneyflap-slide1-title"),
+          description: this.$t("index.your-moneyflap-slide1-description"),
         },
         {
           icon: IconEasyDeposits,
           alt: "Easy deposits and withdrawals",
-          title: "Easy deposits and withdrawals",
-          description:
-            "Quickly link your account to thousands of local and international mobile wallets, banks, and crypto exchanges.",
+          title: this.$t("index.your-moneyflap-slide2-title"),
+          description: this.$t("index.your-moneyflap-slide2-description"),
         },
         {
           icon: IconAirtime,
           alt: "Buy airtime and data",
-          title: "Buy airtime and data",
-          description:
-            "Quickly recharge credit and data for any phone, globally. Get 6% cashback on top-ups during weekdays and 10% on weekends.",
+          title: this.$t("index.your-moneyflap-slide3-title"),
+          description: this.$t("index.your-moneyflap-slide3-description"),
         },
         {
           icon: IconReceipt,
           alt: "Flawless bill payments",
-          title: "Flawless bill payments",
-          description:
-            "Effortlessly pay bills worldwide in just a few clicks, with zero extra fees. Also, enjoy 3% cashback on every bill payment in select countries.",
+          title: this.$t("index.your-moneyflap-slide4-title"),
+          description: this.$t("index.your-moneyflap-slide4-description"),
         },
         {
           icon: IconReceiveSquare,
           alt: "Receive your paycheck",
-          title: "Receive your paycheck",
-          description:
-            "Share your bank details with your employers worldwide, and receive your hard-earned money. Fric, not friction!",
+          title: this.$t("index.your-moneyflap-slide5-title"),
+          description: this.$t("index.your-moneyflap-slide5-description"),
         },
         {
           icon: IconNoteRemove,
           alt: "Smart subscriptions management",
-          title: "Smart subscriptions management",
-          description:
-            "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app.",
+          title: this.$t("index.your-moneyflap-slide6-title"),
+          description: this.$t("index.your-moneyflap-slide6-description"),
         },
         {
           icon: IconScan,
           alt: "Scan & Pay at thousands of merchants",
-          title: "Scan & Pay at thousands of merchants",
-          description:
-            "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon)",
+          title: this.$t("index.your-moneyflap-slide7-title"),
+          description: this.$t("index.your-moneyflap-slide7-description"),
         },
       ],
     };

@@ -64,40 +64,44 @@
         <div class="row col-auto">
           <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2"><strong>Company</strong></li>
+              <li class="fs-5 mb-2">
+                <strong>{{ $t("footer.company") }}</strong>
+              </li>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
                 to="/about_us"
               >
-                About Us
+                {{ $t("footer.about-us") }}
               </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
                 to="/careers"
               >
-                Careers
+                {{ $t("footer.careers") }}
               </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
                 to="/press_kit"
               >
-                Press
+                {{ $t("footer.press") }}
               </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
                 to="/ethics_sustainability"
               >
-                Ethics & Sustainability
+                {{ $t("footer.ethics-sustainability") }}
               </RouterLink>
             </ul>
           </div>
           <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2"><strong>For Businesses</strong></li>
+              <li class="fs-5 mb-2">
+                <strong>{{ $t("footer.for-business") }}</strong>
+              </li>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
@@ -116,7 +120,9 @@
           </div>
           <div class="col-6 col-md-3">
             <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2"><strong>Resources</strong></li>
+              <li class="fs-5 mb-2">
+                <strong>{{ $t("footer.resources") }}</strong>
+              </li>
               <li class="py-2">
                 <a
                   class="text-white no-text-decoration"
@@ -132,7 +138,7 @@
                   target="_blank"
                   href="https://help.moneyflap.com"
                 >
-                  Help Center
+                  {{ $t("footer.help") }}
                 </a>
               </li>
               <li class="py-2">
@@ -141,7 +147,7 @@
                   target="_blank"
                   href="https://security.moneyflap.com/"
                 >
-                  Security & Control
+                  {{ $t("footer.security") }}
                 </a>
               </li>
               <RouterLink
@@ -149,7 +155,7 @@
                 aria-current="page"
                 to="/fraud_protection"
               >
-                Fraud Protection
+                {{ $t("footer.fraud-protection") }}
               </RouterLink>
               <li class="py-2">
                 <a
@@ -157,7 +163,7 @@
                   target="_blank"
                   href="https://status.moneyflap.com/"
                 >
-                  System Status
+                  {{ $t("footer.system-status") }}
                 </a>
               </li>
             </ul>
@@ -170,14 +176,14 @@
                 aria-current="page"
                 to="/bsa_aml_program"
               >
-                KYC/AML Program
+                {{ $t("footer.KYC/AML-program") }}
               </RouterLink>
               <RouterLink
                 class="nav-link text-white py-2"
                 aria-current="page"
                 to="/privacy_policy/"
               >
-                Privacy Policy
+                {{ $t("footer.privacy") }}
               </RouterLink>
               <!-- <li class="py-2">Terms & Conditions</li> -->
               <RouterLink
@@ -185,7 +191,7 @@
                 aria-current="page"
                 to="/terms_of_service/"
               >
-                Terms of Service
+                {{ $t("footer.terms") }}
               </RouterLink>
               <!-- <li class="py-2">Licenses & Regulatory</li> -->
               <RouterLink
@@ -193,14 +199,14 @@
                 aria-current="page"
                 to="/licenses_and_registrations/"
               >
-                Licenses & Regulatory
+                {{ $t("footer.licenses") }}
               </RouterLink>
             </ul>
           </div>
         </div>
       </div>
       <p class="text-center pt-4 text-light">
-        <small>Copyright 2024 MoneyFlap. All rights reserved.</small>
+        <small>{{ $t("footer.copyright") }}</small>
       </p>
     </div>
   </footer>
