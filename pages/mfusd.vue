@@ -812,7 +812,7 @@
 }
 .footer {
   min-height: 60vh;
-  background-image: url("@/src/assets/bg-marter-cards.svg");
+  background-image: url("@/src/assets/bg-smarter-card.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
