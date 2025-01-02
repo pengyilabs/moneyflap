@@ -56,7 +56,7 @@
                       aria-current="page"
                       to="/supported_countries/"
                     >
-                      {{ $t("index.buttons.see our coverage") }}
+                      {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
                   </div>
                 </div>
