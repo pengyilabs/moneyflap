@@ -8,7 +8,6 @@
         <RouterLink class="navbar-brand" aria-current="page" to="/">
           <IconsMoneyflapLogo />
         </RouterLink>
-        <weglot-switcher></weglot-switcher>
       </div>
       <button
         @click="toggleMenu"
