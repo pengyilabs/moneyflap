@@ -217,21 +217,23 @@
                 padding-right: 30px;
               "
             >
-              <span class="d-flex justify-content-center text-white">{{
-                $t("mfusd.txt.available-soon")
-              }}</span>
+              <span
+                class="d-flex justify-content-center text-white"
+                style="text-align: center"
+                >{{ $t("mfusd.txt.available-soon") }}</span
+              >
             </div>
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-9">
+          <div class="col-sm-12 col-lg-9">
             <h3 class="fw-bolder display-3 my-4 text-center w-100 text-white">
               {{ $t("mfusd.global-reach-title") }}
             </h3>
 
             <div class="row justify-content-center">
-              <div style="width: 80%">
+              <div style="width: 95%">
                 <p class="my-4 text-center text-white">
                   {{ $t("mfusd.global-reach-description") }}
                 </p>
@@ -242,12 +244,7 @@
 
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
-            <img
-              src="../src/assets/map.svg"
-              alt=""
-              srcset=""
-              style="width: 70%"
-            />
+            <img src="../src/assets/map.svg" alt="" srcset="" class="img-map" />
           </div>
         </div>
       </div>
@@ -268,64 +265,21 @@
             class="d-flex flex-wrap justify-content-center"
           >
             <!-- bank -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 12%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/bank.svg" alt="" srcset="" />
+                <img
+                  src="../src/assets/bank.svg"
+                  alt=""
+                  srcset=""
+                  class="who-serve-icon"
+                />
               </div>
 
               <div class="text-white">Bank</div>
             </div>
 
             <!-- fintech -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
-              <div>
-                <img src="../src/assets/fintech.svg" alt="" srcset="" />
-              </div>
-
-              <div class="text-white">Fintechs</div>
-            </div>
-
-            <!-- neobak -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
                 <img src="../src/assets/bank.svg" alt="" srcset="" />
               </div>
@@ -334,115 +288,76 @@
             </div>
 
             <!-- mobile wallet -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/wallet.svg" alt="" srcset="" />
+                <img
+                  class="who-serve-icon"
+                  src="../src/assets/wallet.svg"
+                  alt=""
+                  srcset=""
+                />
               </div>
 
               <div class="text-white">Mobile wallets</div>
             </div>
 
             <!-- crypto -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/cripto.svg" alt="" srcset="" />
+                <img
+                  class="who-serve-icon"
+                  src="../src/assets/cripto.svg"
+                  alt=""
+                  srcset=""
+                />
               </div>
 
               <div class="text-white">Crypto Exchanges</div>
             </div>
 
             <!-- remittance operators -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/bank.svg" alt="" srcset="" />
+                <img
+                  class="who-serve-icon"
+                  src="../src/assets/bank.svg"
+                  alt=""
+                  srcset=""
+                />
               </div>
 
               <div class="text-white">Remittance Operators</div>
             </div>
 
             <!-- mobile money operators -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/coin.svg" alt="" srcset="" />
+                <img
+                  class="who-serve-icon"
+                  src="../src/assets/coin.svg"
+                  alt=""
+                  srcset=""
+                />
               </div>
 
               <div class="text-white">Mobile Money Operators</div>
             </div>
 
             <!-- payments service providers -->
-            <div
-              class="d-flex align-items-center"
-              style="
-                border: 1px solid white;
-                border-radius: 50px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                padding-right: 30px;
-                justify-content: space-between;
-                min-width: 10%;
-                margin: 12px;
-              "
-            >
+            <div class="d-flex align-items-center who-serve-container">
               <div>
-                <img src="../src/assets/coin2.svg" alt="" srcset="" />
+                <img
+                  class="who-serve-icon"
+                  src="../src/assets/coin2.svg"
+                  alt=""
+                  srcset=""
+                />
               </div>
 
               <div class="text-white">Payments Service Providers</div>
             </div>
           </div>
+          <!-- end icons -->
         </div>
       </div>
     </section>
@@ -626,9 +541,11 @@
           <div class="row bg-lightgray rounded-4 p-1">
             <div class="col-12 my-3">
               <div class="d-flex flex-column justify-content-center">
-                <h4 class="mt-4 display-2" style="font-family: Sofia Pro Bold">
-                  {{ $t("mfusd.moneyflap-dollar-alternative-title") }}
-                </h4>
+                <h4
+                  class="mt-4 display-2"
+                  style="font-family: Sofia Pro Bold"
+                  v-html="$t('mfusd.moneyflap-dollar-alternative-title')"
+                ></h4>
                 <div class="my-4"></div>
                 <table>
                   <thead>
@@ -933,7 +850,9 @@ ul {
   border-radius: 100%;
   border: 2.5px solid transparent;
   background: linear-gradient(133deg, #00cec2 13%, #705bff 83%) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
 ul > li {
@@ -973,5 +892,38 @@ table tbody tr td:first-child {
 }
 .border-bottom {
   border-bottom: 1px solid black !important;
+}
+
+.img-map {
+  width: 95%;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .img-map {
+    width: 92%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .img-map {
+    width: 69%;
+  }
+}
+
+@media (min-width: 1441px) {
+  .img-map {
+    width: 69%;
+  }
+}
+
+.who-serve-container {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 16px;
+  justify-content: space-between;
+  margin: 12px;
+}
+.who-serve-icon {
+  padding-right: 8px;
 }
 </style>

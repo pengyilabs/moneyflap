@@ -13,6 +13,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^9.1.1",
     "nuxt": "^3.10.3",
+    "prettier": "^3.4.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
     "vue3-lottie": "^3.3.0"

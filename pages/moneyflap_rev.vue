@@ -1,7 +1,5 @@
 <template>
   <NuxtLayout name="weblayout">
-    <button @click="setLocale('es')">en</button>
-
     <div class="header d-flex align-items-top justify-content-center">
       <div class="container mt-5">
         <section class="main row">
@@ -767,7 +765,9 @@ ul {
   border-radius: 100%;
   border: 2.5px solid transparent;
   background: linear-gradient(133deg, #00cec2 13%, #705bff 83%) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
 ul > li {

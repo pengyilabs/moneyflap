@@ -2,64 +2,80 @@
   <footer class="mf-gradient py-5">
     <div class="container">
       <div class="row border-bottom pb-4">
-        <div class="col-12 col-md-4 text-center text-lg-start">
-          <RouterLink aria-current="" to="/">
-            <img
-              src="@/src/assets/logo-moneyflap-fullwhite.svg"
-              alt="MoneyFlap"
-              class="img-fluid"
-            />
-          </RouterLink>
-          <div class="pt-3 pb-4">
-            <a target="_blank" href="https://www.facebook.com/moneyflap">
-              <img
-                src="@/src/assets/icon-facebook.svg"
-                class="me-4"
-                alt="Facebook"
-              />
-            </a>
-            <a target="_blank" href="https://www.instagram.com/moneyflap.app/">
-              <img
-                src="@/src/assets/icon-instagram.svg"
-                class="me-4"
-                alt="Instagram"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/moneyflap"
-            >
-              <img
-                src="@/src/assets/icon-linkedin.svg"
-                class="me-4"
-                alt="Linkedin"
-              />
-            </a>
-            <a target="_blank" href="https://twitter.com/moneyflap">
-              <img
-                src="@/src/assets/icon-twitter-x.svg"
-                class="me-4"
-                alt="Twitter X"
-              />
-            </a>
-            <a target="_blank" href="https://www.tiktok.com/@moneyflap.app/">
-              <img
-                src="@/src/assets/icon-douyin.svg"
-                class="me-4"
-                alt="Tiktok Douyin"
-              />
-            </a>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <RouterLink aria-current="" to="/">
+                  <img
+                    src="@/src/assets/logo-moneyflap-fullwhite.svg"
+                    alt="MoneyFlap"
+                    class="img-fluid"
+                  />
+                </RouterLink>
+                <div class="pt-3 pb-4">
+                  <a target="_blank" href="https://www.facebook.com/moneyflap">
+                    <img
+                      src="@/src/assets/icon-facebook.svg"
+                      class="me-4"
+                      alt="Facebook"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/moneyflap.app/"
+                  >
+                    <img
+                      src="@/src/assets/icon-instagram.svg"
+                      class="me-4"
+                      alt="Instagram"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/moneyflap"
+                  >
+                    <img
+                      src="@/src/assets/icon-linkedin.svg"
+                      class="me-4"
+                      alt="Linkedin"
+                    />
+                  </a>
+                  <a target="_blank" href="https://twitter.com/moneyflap">
+                    <img
+                      src="@/src/assets/icon-twitter-x.svg"
+                      class="me-4"
+                      alt="Twitter X"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@moneyflap.app/"
+                  >
+                    <img
+                      src="@/src/assets/icon-douyin.svg"
+                      class="me-4"
+                      alt="Tiktok Douyin"
+                    />
+                  </a>
+                </div>
+                <p class="text-light">
+                  <a
+                    target="_blank"
+                    href="mailto:hello@moneyflap.com"
+                    class="text-white no-text-decoration"
+                  >
+                    <img
+                      src="@/src/assets/icon-mail.svg"
+                      alt="Mail"
+                      class="me-3"
+                    />
+                    hello@moneyflap.com
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-          <p class="text-light">
-            <a
-              target="_blank"
-              href="mailto:hello@moneyflap.com"
-              class="text-white no-text-decoration"
-            >
-              <img src="@/src/assets/icon-mail.svg" alt="Mail" class="me-3" />
-              hello@moneyflap.com
-            </a>
-          </p>
         </div>
         <div class="row col-auto">
           <div class="col-6 col-md-3">
