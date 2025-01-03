@@ -242,9 +242,10 @@
               style="font-family: Sofia Pro Bold"
               v-html="$t('index.pay-most-title')"
             ></h2>
-            <p class="py-4 lh-lg fw-medium text-secondary">
-              {{ $t("index.pay-most-description") }}
-            </p>
+            <p
+              class="py-4 lh-lg fw-medium text-secondary"
+              v-html="$t('index.pay-most-description')"
+            ></p>
           </div>
           <div class="col-12 col-md-6 mt-5 mt-md-0 order-md-first">
             <AnimationsInternationalCard />
