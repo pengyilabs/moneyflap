@@ -2,7 +2,9 @@
   <footer class="mf-gradient py-5">
     <div class="container">
       <div class="row border-bottom pb-4">
-        <div class="col-12">
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center align-items-center"
+        >
           <div class="container">
             <div class="row">
               <div class="col-12">
@@ -77,147 +79,150 @@
             </div>
           </div>
         </div>
-        <div class="row col-auto">
-          <div class="col-6 col-md-3">
-            <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">
-                <strong>{{ $t("footer.company") }}</strong>
-              </li>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/about_us"
-              >
-                {{ $t("footer.about-us") }}
-              </RouterLink>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/careers"
-              >
-                {{ $t("footer.careers") }}
-              </RouterLink>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/press_kit"
-              >
-                {{ $t("footer.press") }}
-              </RouterLink>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/ethics_sustainability"
-              >
-                {{ $t("footer.ethics-sustainability") }}
-              </RouterLink>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3">
-            <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">
-                <strong>{{ $t("footer.for-business") }}</strong>
-              </li>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/mfusd"
-              >
-                MFUSD
-              </RouterLink>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/moneyflap_rev"
-              >
-                MoneyFlap Rev
-              </RouterLink>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3">
-            <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2">
-                <strong>{{ $t("footer.resources") }}</strong>
-              </li>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://moneyflap.medium.com/"
+
+        <div class="col-sm-12 col-lg-8">
+          <div class="row col-auto">
+            <div class="col-6 col-md-3">
+              <ul class="list-unstyled text-light me-sm-5">
+                <li class="fs-5 mb-2">
+                  <strong>{{ $t("footer.company") }}</strong>
+                </li>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/about_us"
                 >
-                  Blog
-                </a>
-              </li>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://help.moneyflap.com"
+                  {{ $t("footer.about-us") }}
+                </RouterLink>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/careers"
                 >
-                  {{ $t("footer.help") }}
-                </a>
-              </li>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://security.moneyflap.com/"
+                  {{ $t("footer.careers") }}
+                </RouterLink>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/press_kit"
                 >
-                  {{ $t("footer.security") }}
-                </a>
-              </li>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/fraud_protection"
-              >
-                {{ $t("footer.fraud-protection") }}
-              </RouterLink>
-              <li class="py-2">
-                <a
-                  class="text-white no-text-decoration"
-                  target="_blank"
-                  href="https://status.moneyflap.com/"
+                  {{ $t("footer.press") }}
+                </RouterLink>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/ethics_sustainability"
                 >
-                  {{ $t("footer.system-status") }}
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3">
-            <ul class="list-unstyled text-light me-sm-5">
-              <li class="fs-5 mb-2"><strong>Legal</strong></li>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/bsa_aml_program"
-              >
-                {{ $t("footer.KYC/AML-program") }}
-              </RouterLink>
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/privacy_policy/"
-              >
-                {{ $t("footer.privacy") }}
-              </RouterLink>
-              <!-- <li class="py-2">Terms & Conditions</li> -->
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/terms_of_service/"
-              >
-                {{ $t("footer.terms") }}
-              </RouterLink>
-              <!-- <li class="py-2">Licenses & Regulatory</li> -->
-              <RouterLink
-                class="nav-link text-white py-2"
-                aria-current="page"
-                to="/licenses_and_registrations/"
-              >
-                {{ $t("footer.licenses") }}
-              </RouterLink>
-            </ul>
+                  {{ $t("footer.ethics-sustainability") }}
+                </RouterLink>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <ul class="list-unstyled text-light me-sm-5">
+                <li class="fs-5 mb-2">
+                  <strong>{{ $t("footer.for-business") }}</strong>
+                </li>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/mfusd"
+                >
+                  MFUSD
+                </RouterLink>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/moneyflap_rev"
+                >
+                  MoneyFlap Rev
+                </RouterLink>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <ul class="list-unstyled text-light me-sm-5">
+                <li class="fs-5 mb-2">
+                  <strong>{{ $t("footer.resources") }}</strong>
+                </li>
+                <li class="py-2">
+                  <a
+                    class="text-white no-text-decoration"
+                    target="_blank"
+                    href="https://moneyflap.medium.com/"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li class="py-2">
+                  <a
+                    class="text-white no-text-decoration"
+                    target="_blank"
+                    href="https://help.moneyflap.com"
+                  >
+                    {{ $t("footer.help") }}
+                  </a>
+                </li>
+                <li class="py-2">
+                  <a
+                    class="text-white no-text-decoration"
+                    target="_blank"
+                    href="https://security.moneyflap.com/"
+                  >
+                    {{ $t("footer.security") }}
+                  </a>
+                </li>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/fraud_protection"
+                >
+                  {{ $t("footer.fraud-protection") }}
+                </RouterLink>
+                <li class="py-2">
+                  <a
+                    class="text-white no-text-decoration"
+                    target="_blank"
+                    href="https://status.moneyflap.com/"
+                  >
+                    {{ $t("footer.system-status") }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <ul class="list-unstyled text-light me-sm-5">
+                <li class="fs-5 mb-2"><strong>Legal</strong></li>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/bsa_aml_program"
+                >
+                  {{ $t("footer.KYC/AML-program") }}
+                </RouterLink>
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/privacy_policy/"
+                >
+                  {{ $t("footer.privacy") }}
+                </RouterLink>
+                <!-- <li class="py-2">Terms & Conditions</li> -->
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/terms_of_service/"
+                >
+                  {{ $t("footer.terms") }}
+                </RouterLink>
+                <!-- <li class="py-2">Licenses & Regulatory</li> -->
+                <RouterLink
+                  class="nav-link text-white py-2"
+                  aria-current="page"
+                  to="/licenses_and_registrations/"
+                >
+                  {{ $t("footer.licenses") }}
+                </RouterLink>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
