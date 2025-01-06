@@ -504,7 +504,7 @@
             <h2
               class="fw-bolder display-4"
               style="font-family: Sofia Pro Bold"
-              v-html="$t('index.real-time-spending-title')"
+              v-html="$t('index.real-time-title')"
             ></h2>
             <p class="py-4 lh-lg fw-medium text-secondary">
               {{ $t("index.real-time-spending-description") }}
