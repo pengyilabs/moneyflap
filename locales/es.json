@@ -623,5 +623,219 @@
       "email": "legal@moneyflap.com",
       "updated": "Actualizado el 14 de abril de 2024"
     }
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "intro": "Esta Política de Privacidad se aplica entre cualquier entidad matriz, subsidiaria, afiliados o entidad legal perteneciente al grupo MoneyFlap (también referido como \"nosotros\", \"nuestro\", \"nuestros\", \"nos\", \"MoneyFlap\") y el Usuario (también referido como \"tú\", \"tu\", \"tus\", \"usted\", \"sus\"). Por lo tanto, hemos creado esta Política de Privacidad para que sepas cómo usamos y divulgamos tu información cuando la pones a nuestra disposición. La Política de Privacidad a continuación revela nuestras prácticas sobre la recopilación y uso de información del sitio web ubicado en https://www.moneyflap.com, el sitio web móvil relacionado, la aplicación móvil (colectivamente, los \"Sitios Web\"), y el servicio proporcionado en ellos (el \"Servicio\").",
+    "agreement": "Al usar o acceder a los Sitios Web y el Servicio, manifiestas tu acuerdo de estar sujeto a esta Política de Privacidad. Si no estás de acuerdo con esta política de privacidad, no podrás acceder ni utilizar nuestro servicio ni participar en nuestros servicios.",
+    "infoCollectionTitle": "Información personal identificable y no personal que recopilamos",
+    "infoCollectionIntro": "Podemos solicitarte, o puedes enviar voluntariamente, información personal identificable cuando utilizas el Servicio.",
+    "infoCollectionList": [
+      {
+        "title": "Información que nos proporcionas",
+        "description": "La información personal identificable que puedes proporcionarnos incluye, pero no se limita a:"
+      },
+      {
+        "title": "Información que recopilamos cuando utilizas nuestros servicios",
+        "description": "La información que generamos sobre ti cuando utilizas nuestros servicios podría incluir, pero no se limita a:"
+      },
+      {
+        "title": "Información que obtenemos de terceros",
+        "description": "Podemos obtener información sobre ti de terceros, incluyendo pero no limitándose a:"
+      }
+    ],
+    "registrationInfoTitle": "Información de registro",
+    "registrationInfoIntro": "Al registrar una cuenta con nosotros, recopilamos información personal de registro y perfil. Esto incluye:",
+    "registrationInfoList": [
+      "Tu nombre completo",
+      "Tu género",
+      "Tu nacionalidad",
+      "Tu fecha de nacimiento",
+      "Tu país de residencia",
+      "Tu información de contacto (incluyendo número de teléfono, dirección de envío y correo electrónico)",
+      "Tu fotografía",
+      "Tu documentación de identidad (como DNI, carnet de conducir o pasaporte)"
+    ],
+    "financialInfoTitle": "Información financiera",
+    "financialInfoIntro": "Al recargar dinero en tu cuenta, nosotros o los proveedores de pago externos en nuestro nombre recopilamos información de la transacción. Esto incluye:",
+    "financialInfoList": [
+      "Números de cuenta bancaria",
+      "Credenciales de banca abierta",
+      "Números de teléfono de dinero móvil",
+      "Direcciones de billetera blockchain"
+    ],
+    "employmentInfoTitle": "Información laboral",
+    "employmentInfoIntro": "Al postularte a puestos de trabajo con nosotros, recopilamos información como tu formación académica y experiencia laboral de tu currículum enviado. Esto incluye:",
+    "employmentInfoList": [
+      "Detalles de empleo",
+      "Roles y responsabilidades",
+      "Ubicaciones y sitios de trabajo"
+    ],
+    "marketingInfoTitle": "Información de marketing y comunicación",
+    "marketingInfoIntro": "Cuando nos contactas, recopilamos información adicional como archivos adjuntos, archivos y direcciones de correo electrónico. Si te unes a nuestras campañas de marketing o te suscribes a nuestros boletines, podemos recopilar información que incluye:",
+    "marketingInfoList": [
+      "Referencias y participación",
+      "Preferencias de boletines",
+      "Preferencias de marketing",
+      "Comentarios sobre campañas de marketing"
+    ],
+    "locationInfoTitle": "Información de ubicación",
+    "locationInfoIntro": "Podemos recopilar información general sobre tu ubicación, incluyendo:",
+    "locationInfoList": [
+      "Direcciones IP",
+      "Historial de ubicación",
+      "Coordenadas GPS",
+      "Puntos de acceso Wi-Fi"
+    ],
+    "deviceInfoTitle": "Información del dispositivo",
+    "deviceInfoIntro": "Podemos recopilar información sobre tu dispositivo y software cuando utilizas nuestros servicios, incluyendo:",
+    "deviceInfoList": [
+      "Tipo de plataforma",
+      "Tipo de sistema",
+      "Tipo de dispositivo",
+      "Identificadores del dispositivo",
+      "Sistema operativo",
+      "Tipo de navegador web",
+      "Fabricante del teléfono",
+      "Número de clics",
+      "Páginas de referencia y salida",
+      "Tipos y lenguajes de navegador",
+      "Versión del software instalado",
+      "Tiempo dedicado en las páginas",
+      "Fechas y horas de visita al Servicio",
+      "Contenido y páginas a las que accedes en el Servicio"
+    ],
+    "transactionInfoTitle": "Información de transacciones",
+    "transactionInfoIntro": "Recopilamos información sobre tus datos de transacciones cuando utilizas nuestros servicios, incluyendo:",
+    "transactionInfoList": [
+      "Direcciones de facturación",
+      "Montos de las transacciones",
+      "Comercios y facturadores",
+      "Monedas de las transacciones",
+      "Categorías de transacciones",
+      "Métodos de pago utilizados",
+      "Fecha de las transacciones",
+      "Historial de depósitos y retiros"
+    ],
+    "thirdPartyInfoIntro": "Para proporcionar nuestros servicios de manera inherente, podemos obtener información personal adicional de otras fuentes o socios externos, como detalles e información de cuentas, historial de transacciones, datos de contacto, detalles de empleo y documentación de identidad. Estos socios o proveedores son elementos fundamentales para mejorar continuamente nuestros servicios y cumplir con todas las normas de protección de datos y el marco regulatorio global. Además, su información personal puede ser recopilada de estas fuentes o proveedores:",
+    "thirdPartyInfoList": [
+      "Integraciones API",
+      "Bases de datos públicas",
+      "Información de blockchain",
+      "Socios de KYC y AML",
+      "Instituciones financieras y de pago",
+      "Socios de marketing y anunciantes",
+      "Proveedores de servicios de activos virtuales (VASP)"
+    ],
+    "aggregateInfoTitle": "Información agregada que recopilamos",
+    "aggregateInfoIntro": "Cuando accede a nuestro servicio, podemos agregar automáticamente información demográfica recopilada de nuestros usuarios (como el número de usuarios en una ubicación geográfica particular) de manera que no identifique a ningún individuo. También podemos agregar información recopilada fuera de línea en relación con el servicio, obtener información no personalmente identificable de fuentes de terceros y desarrollar información agregada mediante la anonimización de información personalmente identificable previamente recopilada.",
+    "usageInfoTitle": "El uso de la información que recopilamos",
+    "usageInfoIntro": "Solo utilizaremos su información personalmente identificable como se describe a continuación, a menos que haya consentido específicamente otro tipo de uso, ya sea en el momento en que se recopila la información personalmente identificable o mediante alguna otra forma de consentimiento de su parte o notificación a usted:",
+    "usageInfoList": [
+      "Podemos usar su información personalmente identificable para responder a sus consultas o solicitudes y enviarle notificaciones push.",
+      "Podemos usar su información de identificación personal para enviarle correos electrónicos de marketing y publicidad ocasionalmente sobre nuestros servicios, pero no proporcionaremos su información de identificación personal a terceros para que se pongan en contacto con usted directamente, a menos que esté permitido por esta Política de Privacidad o que usted dé su consentimiento.",
+      "Podemos usar su información de identificación personal para la provisión y mantenimiento de nuestros Servicios.",
+      "Podemos usar su información de identificación personal para verificar su identidad, permitiéndole acceder a nuestros Servicios.",
+      "Podemos usar su información de identificación personal para monitorear y prevenir actividades fraudulentas, lavado de dinero o abusos y responder a sus problemas de confianza y privacidad.",
+      "Podemos usar su información de identificación personal para cumplir con nuestras obligaciones legales y regulatorias establecidas por los organismos gubernamentales y las organizaciones autorreguladas \"SRO\"."
+    ],
+    "nonPersonalInfoUsage": "La información no personal o agregada puede ser utilizada por nosotros para cualquier propósito permitido por la ley y puede ser compartida con cualquier número de partes, siempre que dicha información no lo identifique específicamente.",
+    "disclosureInfoTitle": "Cómo divulgamos la información que recopilamos",
+    "disclosureInfoIntro": "Solo compartiremos o divulgaremos su información de identificación personal como se describe a continuación, a menos que usted haya consentido específicamente otro tipo de divulgación:",
+    "disclosureInfoList": [
+      "Podemos compartir su información de identificación personal recopilada en relación con la prestación del Servicio.",
+      "Podemos divulgar información de identificación personal según lo requiera la ley o el proceso legal.",
+      "Podemos compartir su información de identificación personal con una empresa afiliada de \"MoneyFlap\" que pertenezca a nuestra misma familia corporativa, siempre que sus prácticas de privacidad sean sustancialmente similares a las nuestras.",
+      "Podemos divulgar información de identificación personal para investigar sospechas de fraude, acoso u otras violaciones de cualquier ley, norma o regulación, o los términos o políticas de nuestros servicios o nuestros patrocinadores.",
+      "Podemos transferir su información de identificación personal en relación con la venta, fusión o cambio de control de \"MoneyFlap\" o la división responsable de los servicios con los que está asociada su información de identificación personal.",
+      "Podemos compartir su información de identificación personal con terceros (colectivamente, los \"Proveedores Externos\") para promover el propósito para el cual nos proporcionó dicha información. Por ejemplo, podemos compartir su información con Elastic Email para enviar correos electrónicos. Le recomendamos que lea las prácticas de privacidad de todos nuestros Proveedores Externos antes de enviar cualquier información de identificación personal a través del Servicio."
+    ],
+    "transfersInfoTitle": "Transferencias de información de identificación personal fuera del Espacio Económico Europeo (\"EEE\") y Reino Unido",
+    "transfersInfoIntro": "Trabajamos con socios y proveedores que están ubicados fuera del Espacio Económico Europeo (\"EEE\") y el Reino Unido (\"UK\"). Por lo tanto, podemos transferir su información de identificación personal fuera del EEE y UK. Implementamos medidas robustas para garantizar que las transferencias de datos se realicen en cumplimiento con las normas de protección de datos como el Reglamento General de Protección de Datos (\"RGPD\"). Utilizamos los marcos de transferencia de datos de la Comisión Europea:",
+    "transfersInfoList": [
+      "Transferencias de datos hacia y desde países no pertenecientes al EEE que tienen niveles adecuados de protección de datos"
+    ],
+    "transfersInfo": {
+      "adequateCountriesText": "Su información personal puede fluir desde el EEE hacia procesadores y subprocesadores de datos en <a href='https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en#:~:text=The%20European%20Commission%20has%20so,commercial%20organisations%20participating%20in%20the'>15 países y territorios que han adoptado decisiones de adecuación</a>. Por lo tanto, su información personal está protegida por reglas de protección de datos similares a las del EEE. <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32010D0625'>Andorra</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003D0490'>Argentina</a>, <a href='https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32002D0002'>Canadá</a> (organizaciones comerciales), <a href='https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32010D0146'>Islas Feroe</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003D0821'>Guernsey</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011D0061'>Israel</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004D0411'>Isla de Man</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.076.01.0001.01.ENG&toc=OJ:L:2019:076:TOC'>Japón</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32008D0393'>Jersey</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32013D0065'>Nueva Zelanda</a>, <a href='https://commission.europa.eu/document/download/e9453177-f192-4416-a147-3c57adc468c4_en'>República de Corea</a>, <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32000D0518'>Suiza</a>, el Reino Unido bajo el <a href='https://commission.europa.eu/document/download/dabdaf35-ee58-405e-ac3e-924d04b2cfe4_en'>RGPD</a> y la <a href='https://commission.europa.eu/document/download/67dc46ee-1f1a-4f3b-920f-71af138ffcfc_en'>LED</a>, los Estados Unidos (organizaciones comerciales que participan en el Marco de Privacidad de Datos UE-EE.UU.) y <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012D0484'>Uruguay</a> son los países y regiones reconocidos por la Comisión Europea como proveedores de protección adecuada. El 'destinatario de los datos' cumplirá con las normas de protección de datos equivalentes al RGPD.",
+      "nonAdequateTitle": "Transferencias de datos desde y hacia países fuera del EEE que no tienen niveles adecuados de protección de datos",
+      "nonAdequateText": "Su información personal puede fluir desde el EEE hacia terceros países que no cuentan con decisiones de adecuación de la Comisión Europea. Por lo tanto, utilizamos las <a href='https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en'>Cláusulas Contractuales Estándar (CCE) modernizadas y pre-aprobadas por la Comisión Europea</a> para las transferencias internacionales de datos, asegurando que ambas partes (el 'emisor' y el 'receptor') cumplan con las directrices del RGPD.",
+      "contactNote": "Puede obtener más información sobre las transferencias de sus datos fuera del EEE y el Reino Unido contactándonos directamente a través de los datos proporcionados en la sección \"Contacto\" a continuación."
+    },
+    "rights": {
+      "title": "Sus derechos",
+      "intro": "Usted tiene derechos legales respecto a la recopilación y uso de su información personal identificable. Estos derechos son:",
+      "list": [
+        "<span><strong>Acceso:</strong> tiene derecho a acceder a la información personal identificable que mantenemos sobre usted y obtener información sobre el procesamiento de su información personal identificable.</span>",
+        "<span><strong>Eliminación:</strong> bajo ciertas circunstancias, puede solicitar la eliminación de su información personal identificable. Sin embargo, las leyes y regulaciones pueden impedir la eliminación, ya que debemos mantener su información personal identificable durante un período mínimo.</span>",
+        "<span><strong>Rectificación:</strong> puede solicitar la rectificación de su información personal identificable debido a que esté incompleta o sea inexacta.</span>",
+        "<span><strong>Portabilidad:</strong> bajo ciertas circunstancias, tiene derecho a recibir su información personal identificable en un formato estructurado, de uso común y lectura mecánica, y transmitirla a un tercer controlador de datos.</span>",
+        "<span><strong>Restricción y objeción:</strong> bajo ciertas circunstancias, tiene derecho a restringir u oponerse al procesamiento de su información personal identificable. Sin embargo, esa solicitud puede ser rechazada en ciertos casos debido a requisitos legales.</span>",
+        "<span><strong>Denuncias:</strong> tienes derecho a presentar una queja ante los reguladores y autoridades de protección de datos en tu país si consideras que hemos gestionado incorrectamente tu información personal identificable.</span>"
+      ],
+      "exerciseNote": "Puedes ejercer todos tus derechos contactándonos directamente a través de los datos proporcionados en la sección \"Contacto\" que aparece más abajo."
+    },
+    "cookies": {
+      "title": "Cookies y tecnologías similares",
+      "intro": "Las \"cookies\" son fragmentos de información que un servicio puede colocar en tu ordenador para facilitar y mejorar tu comunicación e interacción con dicho servicio. Muchos servicios utilizan cookies para estos fines. Podemos usar cookies (y elementos similares como clear gifs, web beacons, tags, etc.) en nuestro Servicio para personalizar tu visita y para otros propósitos que hagan tu visita más conveniente o nos permitan mejorar nuestro Servicio. También podemos usar y colocar cookies (y elementos similares) en tu ordenador a través de nuestros proveedores de servicios externos en relación con el Servicio, como un proveedor de análisis que nos ayuda a gestionar y analizar el uso del Servicio, como se describe más detalladamente a continuación. Además, nuestros anunciantes y socios comerciales pueden establecer cookies y elementos similares en tu ordenador cuando utilizas nuestro Servicio. Puedes detener o restringir la colocación de cookies en tu ordenador o eliminarlas de tu navegador ajustando las preferencias de tu navegador web, en cuyo caso podrás seguir utilizando nuestro Servicio, pero puede interferir con algunas de sus funcionalidades. Nosotros no utilizamos cookies y elementos similares para recuperar automáticamente información personal identificable de tu ordenador sin tu conocimiento. <strong>Actualmente, no tenemos Cookies Necesarias, Funcionales o Publicitarias en este sitio web, solo Cookies Analíticas.</strong>",
+      "deletionNote": "Si eliminas tus cookies, cambias de navegador o usas una cookie diferente, es posible que nuestra cookie (o una cookie de exclusión) deje de funcionar y tengas que volver a introducir la información (o excluirte) nuevamente."
+    },
+    "analytics": {
+      "title": "Análisis y seguimiento de conversiones",
+      "intro": "Podemos utilizar servicios de análisis que usan cookies, javascript y tecnologías similares para ayudarnos a analizar cómo los usuarios utilizan el Servicio. La información generada por estos servicios sobre tu uso del Servicio (incluyendo tu dirección IP o una versión truncada de tu dirección IP) se transmite y almacena por los proveedores de servicios de análisis en sus servidores. Estos proveedores de servicios utilizarán esta información para evaluar tu uso y el de otros usuarios del Servicio, compilando informes para nosotros sobre la actividad del sitio web y proporcionando otros servicios relacionados con la actividad del sitio web y el uso de Internet.",
+      "dataCollection": "Podemos recopilar información sobre tu computadora, incluyendo tu dirección IP, sistema operativo y tipo de navegador, para la administración del sistema y para crear informes. Estos son datos estadísticos sobre las acciones y patrones de navegación de nuestros usuarios y no identifican a ningún individuo.",
+      "googleAnalytics": "Por ejemplo, utilizamos cookies en nuestro sitio para Google Analytics (el \"Servicio de Análisis\"). El Servicio de Análisis es una herramienta de análisis web que ayuda a los propietarios de sitios web a entender cómo los visitantes interactúan con su sitio web. Los clientes del Servicio de Análisis pueden ver diversos informes sobre cómo los visitantes interactúan con su sitio web para poder mejorarlo.",
+      "cookieUsage": "Como muchos servicios, el Servicio de Análisis utiliza cookies de origen para rastrear las interacciones de los visitantes, como en nuestro caso, donde se utilizan para recopilar información sobre cómo los visitantes usan nuestro sitio. Luego usamos la información para compilar informes y mejorar nuestro sitio.",
+      "cookieInfo": "Las cookies contienen información que se transfiere al disco duro de tu computadora. Estas cookies se utilizan para almacenar información, como el momento en que se realizó la visita actual, si el visitante ha estado antes en el sitio y qué sitio refirió al visitante a la página web.",
+      "optOut": "El Servicio de Analytics recopila información de forma anónima. Informan sobre las tendencias del sitio web sin identificar a visitantes individuales. Puedes optar por no participar en el Servicio de Analytics sin que esto afecte tu forma de visitar nuestro sitio. Para más información sobre cómo desactivar el seguimiento de Google Analytics en todos los sitios web que uses, visita <a href=\"https://tools.google.com/dlpage/gaoptout\">https://tools.google.com/dlpage/gaoptout</a>.",
+      "conversionTracking": "También podemos usar el seguimiento de conversiones de Google y/o servicios similares para ayudarnos a comprender tu uso y el de otros usuarios del Servicio."
+    },
+    "communications": {
+      "title": "Comunicaciones con nosotros",
+      "intro": "Al proporcionarnos tu información de contacto (incluyendo, sin limitación, tu dirección de correo electrónico, dirección física y número de teléfono) (colectivamente los \"Canales\"), expresamente consientes recibir comunicaciones de nuestra parte. Podemos usar los Canales para comunicarnos contigo, enviarte información que hayas solicitado o enviarte información sobre otros productos o servicios desarrollados o proporcionados por nosotros o nuestros socios comerciales, siempre y cuando no compartiremos tu información de contacto con terceros para que promocionen sus productos o servicios directamente contigo sin tu consentimiento o según lo establecido en esta Política de Privacidad.",
+      "serviceConsent": "Al usar el Servicio, expresamente consientes recibir comunicaciones dentro del producto de nuestra parte (incluyendo, sin limitación, notificaciones push en la App).",
+      "phoneConsent": "Al proporcionarnos tu número de teléfono, expresamente consientes recibir llamadas telefónicas y/o mensajes de texto de nuestra parte. No compartiremos tu número de teléfono con terceros para que promocionen sus productos o servicios directamente contigo sin tu consentimiento o según lo establecido en esta Política de Privacidad. <strong>Actualmente, no nos comunicamos con ningún usuario a través de llamadas telefónicas y mensajes de texto.</strong>",
+      "dataCharges": "Las llamadas telefónicas y/o los mensajes de texto enviados a tu teléfono o dispositivo pueden generar cargos adicionales de datos, mensajes de texto u otros cargos de tu operador móvil. PUEDEN APLICARSE TARIFAS DE MENSAJES Y DATOS. Tú eres el único responsable de los cargos del operador incurridos como resultado de las comunicaciones telefónicas y/o mensajes de texto de \"MoneyFlap\". <strong>Actualmente, no nos comunicamos con ningún usuario a través de llamadas telefónicas ni mensajes de texto.</strong>",
+      "materialUsage": "Cualquier comunicación o material que nos transmitas por correo electrónico o de otro modo, incluyendo datos, preguntas, comentarios, sugerencias o similares, será tratado como no confidencial y no propietario. Excepto en la medida expresamente cubierta por esta Política de Privacidad, cualquier cosa que transmitas o publiques podrá ser utilizada por nosotros para cualquier propósito, incluyendo, pero no limitado a, reproducción, divulgación, transmisión, publicación, difusión y publicación. Además, aceptas expresamente que podemos utilizar libremente cualquier idea, concepto, conocimiento o técnica contenida en cualquier comunicación que nos envíes, así como cualquier dato desarrollado utilizando el contenido de dicha comunicación, sin compensación y para cualquier propósito, incluyendo, pero no limitado a, el desarrollo, fabricación y comercialización de productos y servicios utilizando dicha información."
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "La seguridad de tu información personal identificable es muy importante para nosotros. Cuando recopilamos tu información personal identificable en línea, realizamos esfuerzos razonables para protegerla del acceso no autorizado. Sin embargo, debido a la naturaleza abierta inherente de Internet, no podemos garantizar que tu información personal identificable estará completamente libre del acceso no autorizado por parte de terceros como hackers, y tu uso de nuestro Servicio demuestra que asumes este riesgo. Hemos implementado procedimientos físicos, electrónicos y administrativos razonables para salvaguardar la información que recopilamos. Solo aquellos empleados que necesitan acceder a tu información para realizar sus tareas están autorizados a tener acceso a tu información personal identificable."
+    },
+    "dataRetention": {
+      "title": "Retención de datos",
+      "intro": "El período durante el cual conservamos su información personal identificable puede variar según los siguientes motivos:",
+      "list": [
+        "<span><strong>Los fines para los que la procesamos.</strong> Conservaremos su información personal identificable mientras sea necesario para los fines establecidos; normalmente, sus datos identificables se conservan hasta cinco años.</span>",
+        "<span><strong>Obligaciones legales y de cumplimiento.</strong> Los organismos reguladores pueden exigirnos mantener su información personal identificable durante algún tiempo.</span>"
+      ]
+    },
+    "children": {
+      "title": "Protección para menores",
+      "description": "Por lo general, no recopilamos información personal identificable de menores de 18 años. Si en algún momento en el futuro planeamos recopilar información personal identificable de menores de 18 años, dicha recopilación y uso, en la medida aplicable, se realizará, cuando sea necesario, de conformidad con la Ley de Protección de la Privacidad en Línea de los Niños (\"COPPA\") y se buscará el consentimiento apropiado del padre o tutor del menor cuando lo requiera la COPPA. Cuando tengamos conocimiento de que se ha recopilado información personal identificable de un menor de 18 años sin el consentimiento de sus padres o tutores, haremos todos los esfuerzos razonables para eliminar dicha información de nuestra base de datos."
+    },
+    "otherServices": {
+      "title": "Otros servicios",
+      "description": "Como cortesía para usted, podemos proporcionar enlaces a servicios de terceros desde nuestro Servicio. No somos responsables de las prácticas de privacidad ni del contenido de estos sitios de terceros. Cuando se enlaza fuera de nuestro Servicio, lo hace bajo su propio riesgo."
+    },
+    "changes": {
+      "title": "Cambios en esta política de privacidad",
+      "description": "Nos reservamos el derecho, a nuestra discreción, de cambiar, modificar, agregar o eliminar partes de esta Política de Privacidad en cualquier momento. Sin embargo, si en algún momento en el futuro planeamos usar información personal identificable de una manera materialmente diferente a esta Política de Privacidad, incluyendo compartir dicha información con más terceros, publicaremos dichos cambios aquí y le brindaremos la oportunidad de optar por no participar en dichos usos diferentes. Su uso continuado del Servicio y nuestros servicios después de la publicación de cualquier cambio en esta Política de Privacidad significa que acepta dichos cambios."
+    },
+    "optOut": {
+      "title": "Proceso de exclusión",
+      "description": "Todas las solicitudes de cancelación de suscripción o exclusión pueden realizarse haciendo clic en el enlace \"cancelar suscripción\" que aparece al final del correo electrónico correspondiente. Procesaremos su solicitud en un plazo razonable después de recibirla. Sin embargo, no somos responsables y, en algunos casos, no podemos eliminar su información personal identificable de las listas de terceros que hayan recibido previamente su información según esta Política de Privacidad o su consentimiento. Debe contactar directamente a dichos terceros. Si desea actualizar o corregir cualquier información personal identificable que nos haya proporcionado, envíenos un correo electrónico a los datos que se indican en la sección \"Contacto\" a continuación <em>**</em> y una vez que confirmemos su información, la actualizaremos en un plazo razonable."
+    },
+    "thirdParty": {
+      "title": "Sin derechos de terceros",
+      "description": "Esta Política de Privacidad no crea derechos exigibles por terceros, ni requiere la divulgación de ninguna información personal relacionada con los usuarios del Servicio."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Para preguntas o inquietudes relacionadas con la privacidad, puede contactarnos en <a href=\"mailto:legal@moneyflap.com\">legal@moneyflap.com</a>."
+    },
+    "effectiveDate": {
+      "title": "Fecha de vigencia",
+      "description": "Esta Política de Privacidad fue actualizada por última vez el <strong>13 de abril de 2024</strong>."
+    }
   }
 }
