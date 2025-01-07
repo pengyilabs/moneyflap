@@ -66,11 +66,13 @@
               >
                 <button
                   class="btn btn-outline-light border-2 rounded-circle icon-circle me-3"
+                  style="--bs-btn-hover-bg: transparent"
                 >
                   <IconsPlaystore />
                 </button>
                 <button
                   class="btn btn-outline-light border-2 rounded-circle icon-circle"
+                  style="--bs-btn-hover-bg: transparent"
                 >
                   <IconsAppleIcon />
                 </button>
@@ -451,7 +453,7 @@
             <div
               ref="carouselContainer"
               class="d-flex flex-row"
-              style="overflow-x: auto; scroll-behavior: smooth"
+              style="overflow-x: hidden; scroll-behavior: smooth"
             >
               <!-- Slide Items -->
               <div
@@ -850,7 +852,7 @@ section.wave-hair {
   background-image: url("@/src/assets/bg-wave-hair.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 60% 80%;
 }
 section.wave-top {
   background-color: #142339;
