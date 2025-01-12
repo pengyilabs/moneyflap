@@ -206,7 +206,7 @@
 
       <div style="background: #11b5c7" class="row pt-5 pb-5">
         <div class="row justify-content-center">
-          <div class="col-2">
+          <div class="col-2" style="display: flex; justify-content: center">
             <div
               style="
                 border: 1px solid white;
@@ -215,6 +215,7 @@
                 padding-bottom: 10px;
                 padding-left: 30px;
                 padding-right: 30px;
+                width: auto;
               "
             >
               <span
@@ -275,7 +276,9 @@
                 />
               </div>
 
-              <div class="text-white">Bank</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element1") }}
+              </div>
             </div>
 
             <!-- fintech -->
@@ -284,7 +287,9 @@
                 <img src="../src/assets/bank.svg" alt="" srcset="" />
               </div>
 
-              <div class="text-white">Neobanks</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element2") }}
+              </div>
             </div>
 
             <!-- mobile wallet -->
@@ -298,7 +303,9 @@
                 />
               </div>
 
-              <div class="text-white">Mobile wallets</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element3") }}
+              </div>
             </div>
 
             <!-- crypto -->
@@ -312,7 +319,9 @@
                 />
               </div>
 
-              <div class="text-white">Crypto Exchanges</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element4") }}
+              </div>
             </div>
 
             <!-- remittance operators -->
@@ -326,7 +335,9 @@
                 />
               </div>
 
-              <div class="text-white">Remittance Operators</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element5") }}
+              </div>
             </div>
 
             <!-- mobile money operators -->
@@ -340,7 +351,9 @@
                 />
               </div>
 
-              <div class="text-white">Mobile Money Operators</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element6") }}
+              </div>
             </div>
 
             <!-- payments service providers -->
@@ -354,7 +367,9 @@
                 />
               </div>
 
-              <div class="text-white">Payments Service Providers</div>
+              <div class="text-white">
+                {{ $t("mfusd.who-we-serve-element7") }}
+              </div>
             </div>
           </div>
           <!-- end icons -->
@@ -427,7 +442,7 @@
                       </th>
                       <th style="width: 15%">USDC</th>
                       <th style="width: 15%">USDT</th>
-                      <th style="width: 15%">SWIFT<br />Network</th>
+                      <th style="width: 15%">SWIFT</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -692,7 +707,12 @@
             style="max-width: 39px"
           />
           <span class="display-5 my-4 text-center text-sm-start">
-            <img src="@/src/assets/logo-mfusd-2.png" style="max-width: 170px" />
+            <div style="display: flex; justify-content: center">
+              <img
+                src="@/src/assets/logo-mfusd-2.png"
+                style="max-width: 170px"
+              />
+            </div>
             <div v-html="$t('mfusd.mfusd-available-title')"></div>
           </span>
 

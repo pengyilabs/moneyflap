@@ -10,7 +10,6 @@
         </RouterLink>
       </div>
       <button
-        @click="toggleMenu"
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -18,6 +17,7 @@
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle Menu"
+        @click="toggleMenu"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -74,17 +74,17 @@
           </li>
           <li class="nav-item">
             <select
+              v-model="currentLanguage"
               class="form-select"
               aria-label="Default select example"
-              v-model="currentLanguage"
               @change="
                 changeLanguage(currentLanguage);
                 updateLanguage(currentLanguage);
               "
             >
-              <option value="en">English</option>
-              <option value="es">Español</option>
-              <option value="fr">Frances</option>
+              <option value="en">{{ $t("navbar.english") }}</option>
+              <option value="es">{{ $t("navbar.spanish") }}</option>
+              <option value="fr">{{ $t("navbar.french") }}</option>
             </select>
           </li>
         </ul>
@@ -130,10 +130,10 @@ export default {
     const languageSystem = navigator.language.startsWith("es")
       ? "es"
       : navigator.language.startsWith("en")
-      ? "en"
-      : navigator.language.startsWith("fr")
-      ? "fr"
-      : "";
+        ? "en"
+        : navigator.language.startsWith("fr")
+          ? "fr"
+          : "";
     const lang = localStorage.getItem("language") ?? languageSystem;
     this.changeLanguage(lang);
   },
