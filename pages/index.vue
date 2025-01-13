@@ -82,11 +82,11 @@
           <div class="col-12 col-md-6 mt-5 mt-md-0">
             <AnimationsPhones />
 
-            <!-- <img
+            <img
               src="@/src/assets/img-header-moneyflap-app.png"
               alt="MoneyFlap"
               style="max-width: 100%"
-            /> -->
+            />
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@
 
         <div class="row">
           <div class="col-12 col-md-4 my-4">
-            <div class="rainbow-border rounded-5">
+            <div style="height: 100%" class="rainbow-border rounded-5">
               <div
                 class="card bg-dark text-light rounded-5 shadow-lg h-100 card-gradient"
               >
@@ -191,7 +191,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4 my-4">
-            <div class="rainbow-border rounded-5">
+            <div class="rainbow-border rounded-5" style="height: 100%">
               <div
                 class="card bg-dark text-light rounded-5 shadow-lg h-100 card-gradient"
               >
@@ -210,10 +210,11 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-md-4 my-4">
-            <div class="rainbow-border rounded-5">
+            <div class="rainbow-border rounded-5" style="height: 100%">
               <div
-                class="card bg-dark text-light rounded-5 shadow-lg h-100 card-gradient"
+                class="card bg-dark text-light rounded-5 shadow-lg h-100 card-gradient money-card"
               >
                 <div class="card-body p-4 fw-medium lh-lg d-flex">
                   <p class="mt-4">
@@ -267,7 +268,7 @@
         </h2>
         <video
           :autoplay="true"
-          :loop="true"
+          :loop="false"
           width="100%"
           :muted="true"
           :controls="false"
@@ -425,7 +426,6 @@
               style="font-family: Sofia Pro Bold"
             >
               {{ $t("index.your-moneyflap-title") }}
-              deserve
             </h2>
           </div>
           <div class="col-12 col-md-1"></div>
@@ -441,7 +441,7 @@
             class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
           >
             <button
-              class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
+              class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountBack"
             >
               <img src="@/src/assets/chevron-left-gradient.png" alt="back" />
@@ -452,8 +452,8 @@
           <div class="col-12 col-md-10">
             <div
               ref="carouselContainer"
-              class="d-flex flex-row"
-              style="overflow-x: hidden; scroll-behavior: smooth"
+              class="d-flex flex-row carousel-scroll"
+              style="scroll-behavior: smooth"
             >
               <!-- Slide Items -->
               <div
@@ -488,7 +488,7 @@
             class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center"
           >
             <button
-              class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient"
+              class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountNext"
             >
               <img src="@/src/assets/chevron-right-gradient.png" alt="next" />
@@ -610,6 +610,7 @@
         <div class="row" style="max-width: 100%">
           <div class="col-12 col-md-6 my-4" style="max-width: 100%">
             <div
+              style="height: 100%"
               class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg"
             >
               <div class="card-body">
@@ -632,6 +633,7 @@
           </div>
           <div class="col-12 col-md-6 my-4" style="max-width: 100%">
             <div
+              style="height: 100%"
               class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg"
             >
               <div class="card-body">
@@ -654,6 +656,7 @@
           </div>
           <div class="col-12 col-md-6 my-4" style="max-width: 100%">
             <div
+              style="height: 100%"
               class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg"
             >
               <div class="card-body">
@@ -675,6 +678,7 @@
           </div>
           <div class="col-12 col-md-6 my-4" style="max-width: 100%">
             <div
+              style="height: 100%"
               class="card bg-transparent border-2 border-light text-light rounded-4 shadow-lg"
             >
               <div class="card-body">
@@ -780,6 +784,11 @@ export default {
       ],
     };
   },
+  watch: {
+    "$i18n.locale"(newLocale) {
+      this.updateTranslations();
+    },
+  },
   methods: {
     next() {
       if (this.smartCardIndex < this.smartCardLength - 1) {
@@ -810,6 +819,52 @@ export default {
       if (carousel) {
         carousel.scrollLeft -= this.scrollAmount;
       }
+    },
+    updateTranslations() {
+      this.slides = [
+        {
+          icon: IconGlobalCashin,
+          alt: "Global cash-in and cash-out",
+          title: this.$t("index.your-moneyflap-slide1-title"),
+          description: this.$t("index.your-moneyflap-slide1-description"),
+        },
+        {
+          icon: IconEasyDeposits,
+          alt: "Easy deposits and withdrawals",
+          title: this.$t("index.your-moneyflap-slide2-title"),
+          description: this.$t("index.your-moneyflap-slide2-description"),
+        },
+        {
+          icon: IconAirtime,
+          alt: "Buy airtime and data",
+          title: this.$t("index.your-moneyflap-slide3-title"),
+          description: this.$t("index.your-moneyflap-slide3-description"),
+        },
+        {
+          icon: IconReceipt,
+          alt: "Flawless bill payments",
+          title: this.$t("index.your-moneyflap-slide4-title"),
+          description: this.$t("index.your-moneyflap-slide4-description"),
+        },
+        {
+          icon: IconReceiveSquare,
+          alt: "Receive your paycheck",
+          title: this.$t("index.your-moneyflap-slide5-title"),
+          description: this.$t("index.your-moneyflap-slide5-description"),
+        },
+        {
+          icon: IconNoteRemove,
+          alt: "Smart subscriptions management",
+          title: this.$t("index.your-moneyflap-slide6-title"),
+          description: this.$t("index.your-moneyflap-slide6-description"),
+        },
+        {
+          icon: IconScan,
+          alt: "Scan & Pay at thousands of merchants",
+          title: this.$t("index.your-moneyflap-slide7-title"),
+          description: this.$t("index.your-moneyflap-slide7-description"),
+        },
+      ];
     },
   },
 };
@@ -987,6 +1042,23 @@ section.wave-top {
     100% {
       transform: translate(0%, 0);
     }
+  }
+}
+
+.carousel-scroll {
+  overflow-x: auto;
+}
+
+.carousel-buttons-navigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .carousel-scroll {
+    overflow-x: hidden;
+  }
+  .carousel-buttons-navigation {
+    display: block;
   }
 }
 </style>

@@ -2,5 +2,5 @@
 /dist
 .DS_Store
 .nuxt
-.nuxt/*
 .vscode/
+.output/
