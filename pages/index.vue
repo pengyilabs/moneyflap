@@ -82,11 +82,11 @@
           <div class="col-12 col-md-6 mt-5 mt-md-0">
             <AnimationsPhones />
 
-            <img
-              src="@/src/assets/img-header-moneyflap-app.png"
-              alt="MoneyFlap"
-              style="max-width: 100%"
-            />
+            <!-- <img -->
+            <!--   src="@/src/assets/img-header-moneyflap-app.png" -->
+            <!--   alt="MoneyFlap" -->
+            <!--   style="max-width: 100%" -->
+            <!-- /> -->
           </div>
         </div>
       </div>
