@@ -459,8 +459,8 @@
               <div
                 v-for="(item, index) in slides"
                 :key="index"
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
+                class="col-12 col-md-6 col-lg-4 p-2"
+                style="max-width: 90%"
               >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
@@ -737,7 +737,7 @@ export default {
     return {
       smartCardIndex: 0,
       smartCardLength: 6,
-      scrollAmount: 300, // amount to scroll per button click
+      scrollAmount: 300,
       slides: [
         {
           icon: IconGlobalCashin,

@@ -82,9 +82,9 @@
                 updateLanguage(currentLanguage);
               "
             >
-              <option value="en">{{ $t("navbar.english") }}</option>
-              <option value="es">{{ $t("navbar.spanish") }}</option>
-              <option value="fr">{{ $t("navbar.french") }}</option>
+              <option value="en">🇺🇲{{ $t("navbar.english") }}</option>
+              <option value="es">🇪🇸{{ $t("navbar.spanish") }}</option>
+              <option value="fr">🇫🇷{{ $t("navbar.french") }}</option>
             </select>
           </li>
         </ul>
