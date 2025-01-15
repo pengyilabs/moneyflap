@@ -421,7 +421,8 @@
     "support-team-op1-title": "The MoneyFlap team does not provide a toll-free phone number for contact.",
     "support-team-op2-title": "The MoneyFlap team only communicate with you through digital means and not in person.",
     "support-team-op3-title": "The MoneyFlap team provides support exclusively through in-app chat and does not offer phone support.",
-    "support-team-op4-title": "MoneyFlap only uses emails ending in @moneyflap.com. Disregard any emails that do not match this address.",
+    "support-team-op4-title-part1": "MoneyFlap only uses emails ending in ",
+    "support-team-op4-title-part2": ". Disregard any emails that do not match this address.",
 
     "txt": { "protect-finances": "Protect Your Finances" }
   },
@@ -957,7 +958,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "For questions or concerns relating to privacy, we can be contacted at <a href=\"mailto:legal@moneyflap.com\">legal@moneyflap.com</a>."
+      "description": "For questions or concerns relating to privacy, we can be contacted at "
     },
     "effectiveDate": {
       "title": "Effective Date",

@@ -345,6 +345,8 @@
     "support-team-op1-title": "L'équipe MoneyFlap ne fournit pas de numéro de téléphone gratuit pour le contact.",
     "support-team-op2-title": "L'équipe MoneyFlap communique uniquement avec vous par voie numérique et non en personne.",
     "support-team-op3-title": "L'équipe MoneyFlap fournit une assistance exclusivement via le chat intégré à l'application et n'offre pas de support téléphonique.",
+    "support-team-op4-title-part1": "MoneyFlap utilise uniquement des emails se terminant par ",
+    "support-team-op4-title-part2": ". Ignorez tout email ne correspondant pas à cette adresse.",
     "support-team-op4-title": "MoneyFlap utilise uniquement des emails se terminant par @moneyflap.com. Ignorez tout email ne correspondant pas à cette adresse.",
     "txt": {
       "protect-finances": "Protégez vos finances"
@@ -841,7 +843,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Pour toute question ou préoccupation relative à la confidentialité, vous pouvez nous contacter à l'adresse <a href=\"mailto:legal@moneyflap.com\">legal@moneyflap.com</a>."
+      "description": "Pour toute question ou préoccupation relative à la confidentialité, vous pouvez nous contacter à l'adresse "
     },
     "effectiveDate": {
       "title": "Date d'effet",
