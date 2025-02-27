@@ -505,9 +505,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px">
-                        {{ $t("pricing.txt.015") }}
-                      </span>
+                      <span style="height: 64px"> 0.19% </span>
                     </div>
                   </div>
                 </div>
@@ -911,7 +909,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 35 USD </span>
+                      <span style="height: 64px"> 57 USD </span>
                     </div>
                   </div>
                 </div>
@@ -933,7 +931,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 65 USD </span>
+                      <span style="height: 64px"> 90 USD </span>
                     </div>
                   </div>
                 </div>
@@ -963,7 +961,7 @@
                 </div>
               </div>
               <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white rounded-bl-5">
+                <div class="col-9 bg-white">
                   <div
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
@@ -981,6 +979,33 @@
                     <div class="d-flex flex-column text-muted mt-0">
                       <span style="height: 40px">
                         {{ $t("pricing.txt.free") }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white rounded-bl-5">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 text-muted">
+                      <li>
+                        <span>
+                          {{ $t("pricing.spending-cards-op7.title") }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green rounded-br-5 border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column text-muted mt-0">
+                      <span style="height: auto">
+                        {{ $t("pricing.spending-cards-op7.description") }}
                       </span>
                     </div>
                   </div>

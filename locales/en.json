@@ -1,11 +1,11 @@
 {
   "index": {
     "main-title": "We are not a bank. We are a <span class='text-success'>bulldozer.</span>",
-    "subtitle-header": "The first global app that pays you to save, spend, and send money <br class=\"show-md\" /> — all in one place.",
+    "subtitle-header": "Get paid to send, save, and spend money.",
     "global-account-title": "A Global Account <br /> <span class='text-success'>That Prioritizes You</span>",
     "global-account-description": "Say goodbye to the barriers of the conventional financial system.<br class='d-none d-sm-block' />Step into the new era of financial liberation where your money knows no borders, no restrictions, no exorbitant transaction fees,only growth!",
-    "earn-money-title": "<span class='text-primary'>Earn up to 5.77% Money</span> Markets yields, on-chain",
-    "earn-money-description": "Isn't it time we let our money work for us? Get higher, more stable returns than classic savings accounts. Diversify your portfolio with Sukuk and U.S. treasury bills. An unmatched level of confidence knowing your assets are indirectly backed by the full faith and credit of governments. Withdraw and get paid on a 24/7 basis. No minimum deposit.",
+    "earn-money-title": "<span class='text-primary'>Earn up to 5.5% Money Market yields",
+    "earn-money-description": "Isn't it time we let our money work for us? Get higher, more stable returns than classic savings accounts. Diversify your portfolio with Sukuk and U.S. treasury bills. An unmatched level of confidence knowing your assets are backed by the full faith and credit of governments. Withdraw and get paid on a 24/7 basis. No minimum deposit.",
     "teleport-money-title": "Teleport your money from one country to another,<span class='text-success'> fee-free</span>",
     "teleport-money-description": "Whether it is Italy or Mexico, save up to 15x when sending mone there — Oh, 0% exchange rate mark-up and no sneaky hidden fees! Even no more entering account numbers.",
     "teleport-money-card1": "Send money in 100+ currencies to your contacts or anyone in our global search in seconds.",
@@ -32,17 +32,17 @@
     "your-moneyflap-slide6-description": "Signed up for a trial with your card and forgot to cancel? Block all unwanted subscriptions in-app.",
     "your-moneyflap-slide7-title": "Scan & Pay at thousands of merchants",
     "your-moneyflap-slide7-description": "Whether it is a taxi, restaurant, or gas station, we've got you! Scan that QR code and earn rewards. (Available Soon).",
-    "real-time-title": "Real-time Spending<span class='text-primary'> Insights and Analytics</span>",
+    "real-time-title": "Master your Spending Habits",
     "real-time-spending-description": "Our intelligent analytics presents you with easy-to-understand charts and a summary of your transactions so you can track your finances and make better spending decisions. No spreadsheet. No calculator!",
     "connect-feel-title": "Connect, Feel,<br /><span class='text-success'> and Engage Like You’re There!</span>",
-    "connect-feel-description": "Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors. No friends? No worries! Chat with our humanlike AI assistant for outfit tips or movie recommendations.",
+    "connect-feel-description": "Connect with your loved ones via our end-to-end encrypted messaging and calling service. Share multimedia content, laugh over GIFs, and organize group chats, all under secure corridors. No friends? No worries! Chat with our AI agent Pom for outfit tips or movie recommendations or to execute transfers. (Available Soon).",
     "fast-loans-title": "Fast Loans, No Fuss:<br /> Switch On The 0%",
     "fast-loans-description": " Why let emergencies spoil your good night's sleep? Borrow instantly any amount using your money saved as collateral and repay in up to 25 easy installments – your first payment can be made within 90 days after approval! No hidden fees. No interest. No credit checks.",
     "sims-too-title": "We do <span class='text-info'> SIMs too!</span>",
     "sims-too-description": "Travel smart, enjoy unlimited roaming with MoneyFlap eSIM! Forget the old-fashioned ways of changing cards or hunting down Wi-Fi spots abroad. Be it a trip to Paris or an exotic vacation - connect your life with just a click.",
     "take-security-title": "We Take Your Security to New Heights",
     "take-security-card1-title": "Compliance-first",
-    "take-security-card1-description": "From day 1, we are certified, audited, and regulated across multiple jurisdictions.",
+    "take-security-card1-description": "From day 1, we are regulated across multiple jurisdictions. Each transaction is protected up to $1M against theft.",
     "take-security-card2-title": "Break-free control",
     "take-security-card2-description": "Push notifications, 2-step verification, biometrics, card controls, and fraud detection to protect you from any fraudsters, 24/7.",
     "take-security-card3-title": "Bankruptcy remotel",
@@ -115,6 +115,10 @@
     "spending-cards-op4": " Mirror card issuance<br /><small style=\"margin-left: 45px\">  One-time fee per card</small>",
     "spending-cards-op5": "Transaction fee",
     "spending-cards-op6": "Foreign transaction fee",
+    "spending-cards-op7": {
+      "title": "Global ATM withdrawals",
+      "description": "Free <$200/month or 3 withdrawals"
+    },
 
     "buttons": {
       "get-started": "Get Started",
@@ -462,13 +466,13 @@
     "global-op3-description": "Ensure secure fund separation and easy reconciliation while adhering to regulations, whether you're obtaining a license or already licensed.",
 
     "cards-title": "Corporate Cards",
-    "cards-description": "Issue unlimited virtual and physical cards for your team, with no foreign transaction fees, available in eco plastic or metal. Benefit from 1% unlimited cashback at select merchants, subscription management, budgeting controls, and analytics.",
+    "cards-description": "Issue VISA Signature virtual and physical cards for your team, with no annual or foreign transaction fees, available in eco plastic or metal. Benefit from unlimited 5X reward points on every purchase, built-in insurance coverage, 10% cashback on travel booking through MoneyFlap Travel®, discounted airport lounges access, VISA Concierge service, budgeting controls, and analytics.",
 
     "expense-title": "Expense Management",
     "expense-description": "Set up tailored employee spending guidelines by assigning roles and setting spend limits. Require real-time receipt capture for reimbursable purchases, and automate the review and flagging of transactions needing attention or approval.",
 
     "global-pay-title": "Global Pay-Outs",
-    "global-pay-description": "Make bulk payments to up to 2,000 employees or suppliers in seconds at mid-market rates. Transfer funds to bank, mobile money, stablecoins, and MoneyFlap individual accounts in over 80 countries at near-zero cost.",
+    "global-pay-description": "Make bulk payments to up to 100,000 employees or suppliers in seconds at mid-market rates. Transfer funds to bank, mobile money, stablecoins, and MoneyFlap personal accounts in over 90 countries at near-zero cost.",
 
     "global-pay-in-title": "Global Pay-Ins",
     "global-pay-in-description": "Accept global online payments through payment links and in-person payments via QR codes or Tap-To-Pay with your smartphone.",
