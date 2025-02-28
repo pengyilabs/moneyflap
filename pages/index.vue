@@ -279,6 +279,387 @@
       </div>
     </section>
 
+    <!-- Travel Benefits & Perks -->
+    <section class="py-5 mf-gradient-vertical">
+      <div class="container d-flex justify-content-center">
+        <div class="row my-5">
+          <div class="col-12 text-center">
+            <h2
+              class="fw-bolder display-4 text-light"
+              v-html="$t('index.travel-benefits-perks')"
+            ></h2>
+            <p class="h3 fw-bolder text-light">
+              {{ $t("index.buttons.available-soon") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/auto-rental-insurance.svg"
+                      alt="Auto Rental Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op1") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/extended-warranty-coverage.svg"
+                      alt="Extended Warranty Coverage"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op2") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/visa-digital-concierge-service.svg"
+                      alt="Visa Digital Concierge Service"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op3") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/cell-phone-insurance.svg"
+                      alt="Cell Phone Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op4") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/baggage-loss-insurance.svg"
+                      alt="Baggage Loss Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op5") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/visa-luxury-hotel-collection.svg"
+                      alt="Visa Luxury Hotel Collection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op6") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/purchase-protection.svg"
+                      alt="Purchase Protection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op7") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/baggage-delay-insurance.svg"
+                      alt="Baggage Delay Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op8") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/visa-airport-companion.svg"
+                      alt="Visa Airport Companion"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op9") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/return-protection.svg"
+                      alt="Return Protection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op10") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/emergency-medical-service.svg"
+                      alt="Emergency Medical Service"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op11") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      src="@/src/assets/emergency-medical-services.svg"
+                      alt="Emergency Medical Services"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op12") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section class="py-5" style="background: #deedff">
+      <div class="container">
+        <div class="row my-5" style="display: flex; justify-content: center">
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">Material</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-1")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div style="align-content: center">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    src="@/src/assets/visa-blue.svg"
+                    alt="Auto Rental Insurance"
+                    style="width: 132.5px; height: 63.75px"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-2")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5" style="display: flex; justify-content: center">
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">0$</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-3")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">0$</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-4")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">50,000</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-5")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Earn up to 35%  -->
     <section class="py-5">
       <div class="container">
@@ -1060,5 +1441,9 @@ section.wave-top {
   .carousel-buttons-navigation {
     display: block;
   }
+}
+
+.icon-size-travel-benefits {
+  width: 30px;
 }
 </style>
