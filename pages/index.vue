@@ -254,6 +254,256 @@
             <AnimationsInternationalCard />
           </div>
         </div>
+
+        <section>
+          <div class="row">
+            <div class="col-12" style="display: flex; justify-content: center">
+              <div>
+                <h3
+                  style="
+                    font-size: 50px;
+                    color: #142339;
+                    font-weight: 900;
+                    line-height: 67px;
+                  "
+                >
+                  {{ $t("index.rewards-title") }}
+                </h3>
+                <div style="display: flex; justify-content: center">
+                  <p
+                    style="
+                      font-size: 20px;
+                      color: #212121;
+                      font-weight: 600;
+                      line-height: 24px;
+                    "
+                  >
+                    {{ $t("index.coming-soon") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="padding-bottom: 16px; margin: 16px">
+            <div class="col-12">
+              <div class="row" style="display: flex; justify-content: center">
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card1") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card2") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card3") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card4") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card5") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card6") }}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 
