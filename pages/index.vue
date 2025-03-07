@@ -538,9 +538,6 @@
               class="fw-bolder display-4 text-light"
               v-html="$t('index.travel-benefits-perks')"
             ></h2>
-            <p class="h3 fw-bolder text-light">
-              {{ $t("index.buttons.available-soon") }}
-            </p>
           </div>
         </div>
       </div>
@@ -851,7 +848,7 @@
                     justify-content: center;
                   "
                 >
-                  <span style="font-size: 45px; color: #5096ff">0$</span>
+                  <span style="font-size: 45px; color: #5096ff">$0</span>
                 </div>
               </div>
 
@@ -886,7 +883,7 @@
                     justify-content: center;
                   "
                 >
-                  <span style="font-size: 45px; color: #5096ff">50,000</span>
+                  <span style="font-size: 45px; color: #5096ff">WORLDWIDE</span>
                 </div>
               </div>
 
