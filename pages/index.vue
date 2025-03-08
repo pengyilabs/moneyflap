@@ -134,7 +134,7 @@
           </div>
           <div class="col-12 col-md-6 order-md-first mt-5 mt-md-0">
             <img
-              src="@/src/assets/img-earns-treasury-yields.png"
+              src="@/src/assets/savings.png"
               alt="img-global-account-with-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
