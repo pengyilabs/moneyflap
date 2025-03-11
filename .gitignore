@@ -4,3 +4,5 @@
 .nuxt
 .vscode/
 .output/
+i18n.cache
+.env
