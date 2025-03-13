@@ -205,7 +205,10 @@
     "get-started": "Commencer",
     "english": "Anglais",
     "spanish": "Espagnol",
-    "french": "Français"
+    "french": "Français",
+    "portuguese": "Portugais",
+    "german": "Allemand",
+    "arab": "Arabe"
   },
   "footer": {
     "company": "Entreprise",

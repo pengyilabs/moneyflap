@@ -227,7 +227,10 @@
     "get-started": "Get Started",
     "english": "English",
     "spanish": "Spanish",
-    "french": "French"
+    "french": "French",
+    "portuguese": "Portuguese",
+    "german": "German",
+    "arab": "Arab"
   },
 
   "footer": {

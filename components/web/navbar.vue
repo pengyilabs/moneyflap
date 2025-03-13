@@ -85,6 +85,9 @@
               <option value="en">🇺🇲{{ $t("navbar.english") }}</option>
               <option value="es">🇪🇸{{ $t("navbar.spanish") }}</option>
               <option value="fr">🇫🇷{{ $t("navbar.french") }}</option>
+              <option value="pt">🇵🇹{{ $t("navbar.portuguese") }}</option>
+              <option value="de">🇩🇪{{ $t("navbar.german") }}</option>
+              <option value="ar">🇸🇦{{ $t("navbar.arab") }}</option>
             </select>
           </li>
         </ul>
@@ -127,13 +130,9 @@ export default {
     };
   },
   mounted() {
-    const languageSystem = navigator.language.startsWith("es")
-      ? "es"
-      : navigator.language.startsWith("en")
-        ? "en"
-        : navigator.language.startsWith("fr")
-          ? "fr"
-          : "";
+    const languages = ["es", "en", "fr", "pt", "de", "ar"];
+    const languageSystem =
+      languages.find((lang) => navigator.language.startsWith(lang)) || "";
     const lang = localStorage.getItem("language") ?? languageSystem;
     this.changeLanguage(lang);
   },

@@ -187,6 +187,9 @@ checksums:
     navbar/english: e1eeeb379f86a015d6e581fcbc4af7f3
     navbar/spanish: 881640609abd94ca50cbafb21f085042
     navbar/french: b6c77a4e718a978af58895b27731413c
+    navbar/portuguese: 266b900c40d787b4cafc82cce722c3d1
+    navbar/german: 1e23c97d063f7235e94e00517f1786c2
+    navbar/arab: e052b1419a1e6f9fab13b132b359d7eb
     footer/company: 9e36d11fa82d1bd4563eef2abc4fcfba
     footer/about-us: 8f89131a66d4659be07cd5af2c7ea898
     footer/careers: 0c3de148ec7e5f5076feaf91f545eb3a
