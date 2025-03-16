@@ -83,6 +83,7 @@
             <AnimationsPhones />
 
             <!-- <img -->
+            <!-- loading="lazy" -->
             <!--   src="@/src/assets/img-header-moneyflap-app.png" -->
             <!--   alt="MoneyFlap" -->
             <!--   style="max-width: 100%" -->
@@ -138,6 +139,7 @@
               alt="img-global-account-with-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
+              loading="lazy"
             />
           </div>
         </div>
@@ -161,6 +163,7 @@
           </div>
           <div class="col-12 col-md-5 d-flex">
             <img
+              loading="lazy"
               src="@/src/assets/Earth.gif"
               class="img-fluid"
               alt=""
@@ -181,6 +184,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-money.svg"
                       alt=""
                       class=""
@@ -201,6 +205,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-money-fast.svg"
                       alt=""
                       class=""
@@ -222,6 +227,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-crypto.svg"
                       alt=""
                       class=""
@@ -307,6 +313,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -342,6 +349,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -378,6 +386,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -414,6 +423,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -449,6 +459,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -484,6 +495,7 @@
                 >
                   <div style="display: flex; align-items: center">
                     <img
+                      loading="lazy"
                       style="padding-right: 16px"
                       src="@/src/assets/pr.svg"
                       alt=""
@@ -518,11 +530,12 @@
         </h2>
         <video
           :autoplay="true"
-          :loop="false"
+          loop
           width="100%"
           :muted="true"
           :controls="false"
-          preload="metadata"
+          loading="lazy"
+          preload="none"
         >
           <source src="@/src/assets/cards-moneyflap.mp4" type="video/mp4" />
         </video>
@@ -550,6 +563,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/auto-rental-insurance.svg"
                       alt="Auto Rental Insurance"
                       class="icon-size-travel-benefits"
@@ -563,6 +577,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/extended-warranty-coverage.svg"
                       alt="Extended Warranty Coverage"
                       class="icon-size-travel-benefits"
@@ -576,6 +591,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/visa-digital-concierge-service.svg"
                       alt="Visa Digital Concierge Service"
                       class="icon-size-travel-benefits"
@@ -593,6 +609,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/cell-phone-insurance.svg"
                       alt="Cell Phone Insurance"
                       class="icon-size-travel-benefits"
@@ -606,6 +623,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/baggage-loss-insurance.svg"
                       alt="Baggage Loss Insurance"
                       class="icon-size-travel-benefits"
@@ -619,6 +637,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/visa-luxury-hotel-collection.svg"
                       alt="Visa Luxury Hotel Collection"
                       class="icon-size-travel-benefits"
@@ -636,6 +655,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/purchase-protection.svg"
                       alt="Purchase Protection"
                       class="icon-size-travel-benefits"
@@ -649,6 +669,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/baggage-delay-insurance.svg"
                       alt="Baggage Delay Insurance"
                       class="icon-size-travel-benefits"
@@ -662,6 +683,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/visa-airport-companion.svg"
                       alt="Visa Airport Companion"
                       class="icon-size-travel-benefits"
@@ -679,6 +701,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/return-protection.svg"
                       alt="Return Protection"
                       class="icon-size-travel-benefits"
@@ -692,6 +715,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/emergency-medical-service.svg"
                       alt="Emergency Medical Service"
                       class="icon-size-travel-benefits"
@@ -705,6 +729,7 @@
                 <div class="d-flex align-items-center text-white">
                   <div class="pe-3">
                     <img
+                      loading="lazy"
                       src="@/src/assets/emergency-medical-services.svg"
                       alt="Emergency Medical Services"
                       class="icon-size-travel-benefits"
@@ -773,6 +798,7 @@
                   "
                 >
                   <img
+                    loading="lazy"
                     src="@/src/assets/visa-blue.svg"
                     alt="Auto Rental Insurance"
                     style="width: 132.5px; height: 63.75px"
@@ -927,6 +953,7 @@
           </div>
           <div class="col-12 col-md-7">
             <img
+              loading="lazy"
               src="@/src/assets/img-earn-up-to-35-percent-moneyflap.png"
               alt="img-earn-up-to-35-percent-moneyflap"
               class="img-fluid"
@@ -946,30 +973,35 @@
         <!-- <AnimationsLogos /> -->
         <div class="d-flex flex-row logo-div1">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-walmart.svg"
             alt="Walmart"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-aliexpress.svg"
             alt="Aliexpresst"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-temu.svg"
             alt="Temu"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-banggood.svg"
             alt="banggood"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-microsoft.svg"
@@ -978,18 +1010,21 @@
         </div>
         <div class="d-flex flex-row logo-div2">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-sephora.svg"
             alt="sephora"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-lookfantastic.svg"
             alt="lookfantastic"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-nike.svg"
@@ -1002,6 +1037,7 @@
             alt="boohoo"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-bloomingdales.svg"
@@ -1010,30 +1046,35 @@
         </div>
         <div class="d-flex flex-row logo-div3">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-lenovo.svg"
             alt="lenovo"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-booking.svg"
             alt="booking"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-expedia.svg"
             alt="expedia"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-viator.svg"
             alt="viator"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-oldnavy.svg"
@@ -1072,7 +1113,11 @@
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountBack"
             >
-              <img src="@/src/assets/chevron-left-gradient.png" alt="back" />
+              <img
+                loading="lazy"
+                src="@/src/assets/chevron-left-gradient.png"
+                alt="back"
+              />
             </button>
           </div>
 
@@ -1096,7 +1141,7 @@
                 >
                   <div class="card rounded-5 px-3 h-100">
                     <div class="card-body align-items-end">
-                      <img :src="item.icon" :alt="item.alt" />
+                      <img loading="lazy" :src="item.icon" :alt="item.alt" />
                       <h4
                         class="fw-bolder mt-4"
                         style="font-family: Sofia Pro Bold"
@@ -1119,7 +1164,11 @@
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountNext"
             >
-              <img src="@/src/assets/chevron-right-gradient.png" alt="next" />
+              <img
+                loading="lazy"
+                src="@/src/assets/chevron-right-gradient.png"
+                alt="next"
+              />
             </button>
           </div>
         </div>
@@ -1243,6 +1292,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-compliance.svg"
                   class="icon-w-bg"
                   alt="icon-compliance"
@@ -1266,6 +1316,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-breakfree-control.svg"
                   class="icon-w-bg"
                   alt="icon-breakfree-control"
@@ -1289,6 +1340,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-bankruptcy-remote.svg"
                   class="icon-w-bg"
                   alt="icon-bankruptcy-remote"
@@ -1311,6 +1363,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-vip-customer-support.svg"
                   class="icon-w-bg"
                   alt="icon-vip-customer-support"
@@ -1360,7 +1413,43 @@ import IconReceiveSquare from "@/src/assets/receive-square.svg";
 import IconNoteRemove from "@/src/assets/note-remove.svg";
 import IconScan from "@/src/assets/scan.svg";
 
+import { defineAsyncComponent } from "vue";
+
 export default {
+  components: {
+    AnimationsPhones: defineAsyncComponent({
+      loader: () => import("@/components/animations/phones.vue"),
+      suspensible: true,
+    }),
+    AnimationsGlobalAccount: defineAsyncComponent({
+      loader: () => import("@/components/animations/global-account.vue"),
+      suspensible: true,
+    }),
+    AnimationsInternationalCard: defineAsyncComponent({
+      loader: () => import("@/components/animations/international-card.vue"),
+      suspensible: true,
+    }),
+    AnimationsLogos: defineAsyncComponent({
+      loader: () => import("@/components/animations/logos.vue"),
+      suspensible: true,
+    }),
+    AnimationsInsights: defineAsyncComponent({
+      loader: () => import("@/components/animations/insights.vue"),
+      suspensible: true,
+    }),
+    AnimationsConnect: defineAsyncComponent({
+      loader: () => import("@/components/animations/connect.vue"),
+      suspensible: true,
+    }),
+    AnimationsFastLoans: defineAsyncComponent({
+      loader: () => import("@/components/animations/fast-loans.vue"),
+      suspensible: true,
+    }),
+    AnimationsSims: defineAsyncComponent({
+      loader: () => import("@/components/animations/sims.vue"),
+      suspensible: true,
+    }),
+  },
   data() {
     return {
       smartCardIndex: 0,
@@ -1411,11 +1500,6 @@ export default {
         },
       ],
     };
-  },
-  watch: {
-    "$i18n.locale"(newLocale) {
-      this.updateTranslations();
-    },
   },
   methods: {
     next() {
