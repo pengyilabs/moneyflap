@@ -79,15 +79,18 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 mt-5 mt-md-0">
-            <AnimationsPhones />
+          <div
+            class="col-12 col-md-6 mt-5 mt-md-0 justify-content-center"
+            style="display: flex"
+          >
+            <!-- <AnimationsPhones /> -->
 
-            <!-- <img -->
-            <!-- loading="lazy" -->
-            <!--   src="@/src/assets/img-header-moneyflap-app.png" -->
-            <!--   alt="MoneyFlap" -->
-            <!--   style="max-width: 100%" -->
-            <!-- /> -->
+            <img
+              loading="lazy"
+              src="@/src/assets/1000052164.png"
+              alt="MoneyFlap"
+              style="width: 59dvw"
+            />
           </div>
         </div>
       </div>
@@ -1584,7 +1587,7 @@ export default {
 
 <style scoped lang="scss">
 .header {
-  min-height: 60vh;
+  height: 87vh;
   background-image: url("@/src/assets/bg-header-website-landing.svg");
   background-repeat: no-repeat;
   background-size: cover;
