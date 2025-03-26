@@ -153,13 +153,13 @@
                   </a>
                 </li>
                 <li class="py-2">
-                  <RouterLink
-                    class="nav-link text-white"
-                    aria-current="page"
-                    to="/moneyflap_rev"
+                  <a
+                    class="text-white no-text-decoration"
+                    target="_blank"
+                    href="https://moneyflap.help.center/"
                   >
-                    {{ $t("navbar.help") }}
-                  </RouterLink>
+                    {{ $t("footer.help") }}
+                  </a>
                 </li>
                 <li class="py-2">
                   <a

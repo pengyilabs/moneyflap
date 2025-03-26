@@ -64,13 +64,13 @@
           </li>
 
           <li class="nav-item">
-            <RouterLink
-              class="nav-link text-white"
-              aria-current="page"
-              to="/moneyflap_rev"
+            <a
+              class="text-white no-text-decoration"
+              target="_blank"
+              href="https://moneyflap.help.center/"
             >
               {{ $t("navbar.help") }}
-            </RouterLink>
+            </a>
           </li>
           <li class="nav-item">
             <select
