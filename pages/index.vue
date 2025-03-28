@@ -745,6 +745,29 @@
           </div>
         </div>
       </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div>
+            <div
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 16px;
+                justify-content: space-between;
+                cursor: pointer;
+              "
+            >
+              <a
+                href="https://usa.visa.com/pay-with-visa/cards/visa-credit-cards/visa-signature-credit-cards.html"
+                target="_blank"
+              >
+                <span class="text-light">See all benefits</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- stats -->
