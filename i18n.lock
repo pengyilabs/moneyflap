@@ -36,6 +36,7 @@ checksums:
     index/travel-benefits-perks-op10: 7ef28f57b2478934fc66c2ebdd928ece
     index/travel-benefits-perks-op11: daa5154556c6d66f6d53cf6da8bee1d1
     index/travel-benefits-perks-op12: 2b2b66a8cdb213cffc6f232891cf1675
+    index/travel-benefits-button-all-benefits: 86aa3c31b38cd6258c0df2fa9a9346f1
     index/stats-txt-1: 84dbf169cb1fe1661b9a4eebc542acb4
     index/stats-txt-2: f27cd2bc9c74af4be75578c6417dad41
     index/stats-txt-3: 664057ed76091de7295cadc116d2b9fc
@@ -190,6 +191,10 @@ checksums:
     navbar/portuguese: 266b900c40d787b4cafc82cce722c3d1
     navbar/german: 1e23c97d063f7235e94e00517f1786c2
     navbar/arab: e052b1419a1e6f9fab13b132b359d7eb
+    navbar/turkish: 4fbd26482a8507c11037613fdeb46466
+    navbar/italian: a9fc8de8236d4c1f6bc1eec0942f4457
+    navbar/lithuanian: 5de5fbe756d7db4b88f7bce1f62aac4e
+    navbar/chinese: ebbe0f0da700961b5687182201cd7429
     footer/company: 9e36d11fa82d1bd4563eef2abc4fcfba
     footer/about-us: 8f89131a66d4659be07cd5af2c7ea898
     footer/careers: 0c3de148ec7e5f5076feaf91f545eb3a

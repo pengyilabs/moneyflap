@@ -762,7 +762,9 @@
                 href="https://usa.visa.com/pay-with-visa/cards/visa-credit-cards/visa-signature-credit-cards.html"
                 target="_blank"
               >
-                <span class="text-light">See all benefits</span>
+                <span class="text-light">{{
+                  $t("index.travel-benefits-button-all-benefits")
+                }}</span>
               </a>
             </div>
           </div>

@@ -88,6 +88,10 @@
               <option value="pt">🇵🇹{{ $t("navbar.portuguese") }}</option>
               <option value="de">🇩🇪{{ $t("navbar.german") }}</option>
               <option value="ar">🇸🇦{{ $t("navbar.arab") }}</option>
+              <option value="tr">🇹🇷{{ $t("navbar.turkish") }}</option>
+              <option value="it">🇮🇹{{ $t("navbar.italian") }}</option>
+              <option value="lt">🇱🇹{{ $t("navbar.lithuanian") }}</option>
+              <option value="zh">🇨🇳{{ $t("navbar.chinese") }}</option>
             </select>
           </li>
         </ul>

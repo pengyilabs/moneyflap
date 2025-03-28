@@ -35,6 +35,7 @@
     "travel-benefits-perks-op10": "حماية الإرجاع",
     "travel-benefits-perks-op11": "خدمة الطوارئ الطبية",
     "travel-benefits-perks-op12": "حماية انقطاع الرحلة",
+    "travel-benefits-button-all-benefits": "عرض جميع المزايا",
     "stats-txt-1": "100% بلاستيك معاد تدويره أو 20 جرام معدن",
     "stats-txt-2": "سيجنتشر",
     "stats-txt-3": "الرسوم السنوية",
@@ -208,7 +209,11 @@
     "french": "الفرنسية",
     "portuguese": "البرتغالية",
     "german": "الألمانية",
-    "arab": "العربية"
+    "arab": "العربية",
+    "turkish": "التركية",
+    "italian": "الإيطالية",
+    "lithuanian": "الليتوانية",
+    "chinese": "الصينية"
   },
   "footer": {
     "company": "الشركة",

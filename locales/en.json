@@ -35,6 +35,7 @@
     "travel-benefits-perks-op10": "Return Protection",
     "travel-benefits-perks-op11": "Emergency Medical Service",
     "travel-benefits-perks-op12": "Trip Interruption Protection",
+    "travel-benefits-button-all-benefits": "See all benefits",
     "stats-txt-1": "100% Recycled Plastic or 20g Metal",
     "stats-txt-2": "Signature",
     "stats-txt-3": "Annual fee",
@@ -230,7 +231,11 @@
     "french": "French",
     "portuguese": "Portuguese",
     "german": "German",
-    "arab": "Arab"
+    "arab": "Arab",
+    "turkish": "Turkish",
+    "italian": "Italian",
+    "lithuanian": "Lithuanian",
+    "chinese": "Chinese"
   },
 
   "footer": {

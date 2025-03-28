@@ -35,6 +35,7 @@
     "travel-benefits-perks-op10": "Protección de devolución",
     "travel-benefits-perks-op11": "Servicio médico de emergencia",
     "travel-benefits-perks-op12": "Protección por interrupción de viaje",
+    "travel-benefits-button-all-benefits": "Ver todos los beneficios",
     "stats-txt-1": "100% plástico reciclado o 20g de metal",
     "stats-txt-2": "Firma",
     "stats-txt-3": "Cuota anual",
@@ -208,7 +209,11 @@
     "french": "Francés",
     "portuguese": "Portugués",
     "german": "Alemán",
-    "arab": "Árabe"
+    "arab": "Árabe",
+    "turkish": "Turco",
+    "italian": "Italiano",
+    "lithuanian": "Lituano",
+    "chinese": "Chino"
   },
   "footer": {
     "company": "Empresa",
