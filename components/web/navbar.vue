@@ -92,6 +92,15 @@
               <option value="it">🇮🇹{{ $t("navbar.italian") }}</option>
               <option value="lt">🇱🇹{{ $t("navbar.lithuanian") }}</option>
               <option value="zh">🇨🇳{{ $t("navbar.chinese") }}</option>
+              <option value="hi">🇮🇳{{ $t("navbar.hindi") }}</option>
+              <option value="ja">🇯🇵{{ $t("navbar.japanese") }}</option>
+              <option value="ko">🇰🇷{{ $t("navbar.korean") }}</option>
+              <option value="sw">🌍{{ $t("navbar.swahili") }}</option>
+              <option value="nl">🇳🇱{{ $t("navbar.dutch") }}</option>
+              <option value="bn">🇧🇩{{ $t("navbar.bengali") }}</option>
+              <option value="ur">🇵🇰{{ $t("navbar.urdu") }}</option>
+              <option value="id">🇮🇩{{ $t("navbar.indonesian") }}</option>
+              <option value="fil">🇵🇭{{ $t("navbar.filipino") }}</option>
             </select>
           </li>
         </ul>

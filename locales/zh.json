@@ -213,7 +213,16 @@
     "turkish": "土耳其语",
     "italian": "意大利语",
     "lithuanian": "立陶宛语",
-    "chinese": "中文"
+    "chinese": "中文",
+    "hindi": "印地语",
+    "japanese": "日语",
+    "korean": "韩语",
+    "swahili": "斯瓦希里语",
+    "dutch": "荷兰语",
+    "bengali": "孟加拉语",
+    "urdu": "乌尔都语",
+    "indonesian": "印尼语",
+    "filipino": "菲律宾语"
   },
   "footer": {
     "company": "公司",

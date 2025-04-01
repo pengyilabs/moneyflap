@@ -235,7 +235,16 @@
     "turkish": "Turkish",
     "italian": "Italian",
     "lithuanian": "Lithuanian",
-    "chinese": "Chinese"
+    "chinese": "Chinese",
+    "hindi": "Hindi",
+    "japanese": "Japanese",
+    "korean": "Korean",
+    "swahili": "Swahili",
+    "dutch": "Dutch",
+    "bengali": "Bengali",
+    "urdu": "Urdu",
+    "indonesian": "Indonesian",
+    "filipino": "Filipino"
   },
 
   "footer": {

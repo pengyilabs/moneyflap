@@ -195,6 +195,15 @@ checksums:
     navbar/italian: a9fc8de8236d4c1f6bc1eec0942f4457
     navbar/lithuanian: 5de5fbe756d7db4b88f7bce1f62aac4e
     navbar/chinese: ebbe0f0da700961b5687182201cd7429
+    navbar/hindi: 83ef511fe3291eb3eeb7404470003c4b
+    navbar/japanese: 577fd83e8e392bc3b56df14d10463fff
+    navbar/korean: 99d3a279a51280e063545941b380f6a8
+    navbar/swahili: 9f09b470f98fa4afbb4fc35f79226a35
+    navbar/dutch: 331192a67bdf2449a4abc9a47c006a8f
+    navbar/bengali: 26e0b9ff135cf961a08de9e7774cb396
+    navbar/urdu: e912a4d2eafafbdaedce648596d429c8
+    navbar/indonesian: e9f49096cf686d39c510056860d5bdcd
+    navbar/filipino: d8bb941c44385affb5110bdfa8a1db02
     footer/company: 9e36d11fa82d1bd4563eef2abc4fcfba
     footer/about-us: 8f89131a66d4659be07cd5af2c7ea898
     footer/careers: 0c3de148ec7e5f5076feaf91f545eb3a

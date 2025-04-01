@@ -8,6 +8,15 @@ import tr from "./locales/tr.json";
 import it from "./locales/it.json";
 import lt from "./locales/lt.json";
 import zh from "./locales/zh.json";
+import hi from "./locales/hi.json";
+import ja from "./locales/ja.json";
+import ko from "./locales/ko.json";
+import sw from "./locales/sw.json";
+import nl from "./locales/nl.json";
+import bn from "./locales/bn.json";
+import ur from "./locales/ur.json";
+import id from "./locales/id.json";
+import fil from "./locales/fil.json";
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -23,5 +32,14 @@ export default defineI18nConfig(() => ({
     it,
     lt,
     zh,
+    hi,
+    ja,
+    ko,
+    sw,
+    nl,
+    bn,
+    ur,
+    id,
+    fil,
   },
 }));

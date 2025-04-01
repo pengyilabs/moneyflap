@@ -2,7 +2,26 @@
   "version": 1,
   "locale": {
     "source": "en",
-    "targets": ["es", "fr", "pt", "de", "ar", "tr", "it", "lt", "zh"]
+    "targets": [
+      "es",
+      "fr",
+      "pt",
+      "de",
+      "ar",
+      "tr",
+      "it",
+      "lt",
+      "zh",
+      "hi",
+      "ja",
+      "ko",
+      "sw",
+      "nl",
+      "bn",
+      "ur",
+      "id",
+      "fil"
+    ]
   },
   "buckets": {
     "json": {

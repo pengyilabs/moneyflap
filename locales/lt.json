@@ -213,7 +213,16 @@
     "turkish": "Turkų",
     "italian": "Italų",
     "lithuanian": "Lietuvių",
-    "chinese": "Kinų"
+    "chinese": "Kinų",
+    "hindi": "Hindi",
+    "japanese": "Japonų",
+    "korean": "Korėjiečių",
+    "swahili": "Svahili",
+    "dutch": "Olandų",
+    "bengali": "Bengalų",
+    "urdu": "Urdu",
+    "indonesian": "Indoneziečių",
+    "filipino": "Filipiniečių"
   },
   "footer": {
     "company": "Įmonė",

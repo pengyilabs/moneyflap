@@ -213,7 +213,16 @@
     "turkish": "Turco",
     "italian": "Italiano",
     "lithuanian": "Lituano",
-    "chinese": "Cinese"
+    "chinese": "Cinese",
+    "hindi": "Hindi",
+    "japanese": "Giapponese",
+    "korean": "Coreano",
+    "swahili": "Swahili",
+    "dutch": "Olandese",
+    "bengali": "Bengali",
+    "urdu": "Urdu",
+    "indonesian": "Indonesiano",
+    "filipino": "Filippino"
   },
   "footer": {
     "company": "Azienda",

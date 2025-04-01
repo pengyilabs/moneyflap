@@ -213,7 +213,16 @@
     "turkish": "التركية",
     "italian": "الإيطالية",
     "lithuanian": "الليتوانية",
-    "chinese": "الصينية"
+    "chinese": "الصينية",
+    "hindi": "الهندية",
+    "japanese": "اليابانية",
+    "korean": "الكورية",
+    "swahili": "السواحيلية",
+    "dutch": "الهولندية",
+    "bengali": "البنغالية",
+    "urdu": "الأردية",
+    "indonesian": "الإندونيسية",
+    "filipino": "الفلبينية"
   },
   "footer": {
     "company": "الشركة",

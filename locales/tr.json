@@ -213,7 +213,16 @@
     "turkish": "Türkçe",
     "italian": "İtalyanca",
     "lithuanian": "Litvanca",
-    "chinese": "Çince"
+    "chinese": "Çince",
+    "hindi": "Hintçe",
+    "japanese": "Japonca",
+    "korean": "Korece",
+    "swahili": "Svahili",
+    "dutch": "Hollandaca",
+    "bengali": "Bengalce",
+    "urdu": "Urduca",
+    "indonesian": "Endonezce",
+    "filipino": "Filipince"
   },
   "footer": {
     "company": "Şirket",
