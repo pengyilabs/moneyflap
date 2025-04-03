@@ -5,7 +5,7 @@
     >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 order-2 order-md-1">
             <div class="">
               <h1
                 class="text-white fw-bolder display-4 mt-4 text-center text-sm-start"
@@ -80,16 +80,14 @@
             </div>
           </div>
           <div
-            class="col-12 col-md-6 mt-5 mt-md-0 justify-content-center"
-            style="display: flex"
+            class="col-12 col-md-6 order-1 order-md-2 mt-5 mt-md-0 d-flex justify-content-center"
           >
             <!-- <AnimationsPhones /> -->
-
             <img
               loading="lazy"
               src="@/src/assets/1000052164.png"
               alt="MoneyFlap"
-              style="width: 59dvw"
+              class="main-image"
             />
           </div>
         </div>
@@ -1611,6 +1609,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.main-image {
+  width: 400px;
+}
 .header {
   height: 87vh;
   background-image: url("@/src/assets/bg-header-website-landing.svg");
@@ -1799,6 +1800,9 @@ section.wave-top {
   }
   .carousel-buttons-navigation {
     display: block;
+  }
+  .main-image {
+    width: 59dvw;
   }
 }
 

@@ -70,7 +70,7 @@ checksums:
     index/sims-too-description: eb5265eaf48a18557c789a8db2a208fd
     index/take-security-title: 6f53dbf3e8dd3df9d7c00b230a6fc26f
     index/take-security-card1-title: abf1a2cfb1188bf4def7174f334bebbc
-    index/take-security-card1-description: d66e9469002098f23de9715417a03812
+    index/take-security-card1-description: 76582d9b3533c8580ca30ce54a985334
     index/take-security-card2-title: 947d6f60353f2c71fc3327f6cc132038
     index/take-security-card2-description: 735b3ad38e7777caeecacb09f5dd1014
     index/take-security-card3-title: 900ac944ba4b3fd95e250339f87d5abc
@@ -219,7 +219,7 @@ checksums:
     footer/privacy: 7459744a63ef8af4e517a09024bd7c08
     footer/terms: 5add91f519e39025708e54a7eb7a9fc5
     footer/licenses: e1dba6d5a1048ff844ba6a705f80ac8e
-    footer/copyright: d53d43ab6f58798383225983dec573a2
+    footer/copyright: f83c1eef52f76bcb4b4508f1e8704896
     careers/main-title: 0c3de148ec7e5f5076feaf91f545eb3a
     careers/main-subtitle: faf4f8c270594e34f214c4ac109cc7ac
     careers/main-description1: fd1a2f218186b162c80995ccf7f8ad25
