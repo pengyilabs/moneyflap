@@ -23,6 +23,7 @@
                   <div class="me-3 mt-3">
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                      @click="showFormWaitlist()"
                     >
                       {{ $t("index.buttons.get-started") }}
                     </button>
@@ -36,6 +37,12 @@
                       {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
                   </div>
+                  <div
+                    v-show="showForm1"
+                    class="launchlist-widget"
+                    data-key-id="sMsz8o"
+                    data-height="180px"
+                  ></div>
                 </div>
               </div>
 
@@ -46,6 +53,7 @@
                   <div class="me-3 mt-3">
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                      @click="showFormWaitlist()"
                     >
                       {{ $t("index.buttons.get-started") }}
                     </button>
@@ -108,7 +116,10 @@
               class="py-4 lh-lg fw-medium"
               v-html="$t('index.global-account-description')"
             ></p>
-            <button class="btn btn-dark btn-lg rounded-5 px-4">
+            <button
+              class="btn btn-dark btn-lg rounded-5 px-4"
+              @click="showFormWaitlist()"
+            >
               {{ $t("index.buttons.get-started") }}
             </button>
           </div>
@@ -1214,7 +1225,10 @@
             <p class="py-4 lh-lg fw-medium text-secondary">
               {{ $t("index.real-time-spending-description") }}
             </p>
-            <button class="btn btn-dark btn-lg rounded-5 px-4">
+            <button
+              class="btn btn-dark btn-lg rounded-5 px-4"
+              @click="showFormWaitlist()"
+            >
               {{ $t("index.buttons.get-started") }}
             </button>
           </div>
@@ -1422,6 +1436,7 @@
         </p>
         <button
           class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mt-4 mf-gradient"
+          @click="showFormWaitlist()"
         >
           {{ $t("index.buttons.get-started") }}
         </button>
@@ -1525,6 +1540,7 @@ export default {
           description: this.$t("index.your-moneyflap-slide7-description"),
         },
       ],
+      showForm1: false,
     };
   },
   methods: {
@@ -1603,6 +1619,13 @@ export default {
           description: this.$t("index.your-moneyflap-slide7-description"),
         },
       ];
+    },
+    showFormWaitlist() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      this.showForm1 = true;
     },
   },
 };

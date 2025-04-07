@@ -17,9 +17,11 @@
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                  @click="toggleForm"
                 >
                   {{ $t("about.buttons.get-started") }}
                 </button>
+                <div></div>
               </div>
               <div class="me-3 mt-3">
                 <RouterLink
@@ -38,6 +40,13 @@
                 </a> -->
               </div>
             </div>
+
+            <div
+              v-show="showForm1"
+              class="launchlist-widget"
+              data-key-id="sMsz8o"
+              data-height="180px"
+            ></div>
           </div>
           <div class="col-12 col-md-6">
             <img
@@ -207,6 +216,21 @@
     </div>
   </NuxtLayout>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showForm1: false,
+    };
+  },
+  methods: {
+    toggleForm() {
+      this.showForm1 = !this.showForm1;
+    },
+  },
+};
+</script>
 
 <style scoped lang="scss">
 .header {

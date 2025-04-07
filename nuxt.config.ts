@@ -11,12 +11,15 @@ export default defineNuxtConfig({
 
   modules: [i18n],
 
-  // alias: {
-  //   "@": path.resolve(__dirname, "src"),
-  // },
   i18n: {
     vueI18n: "./i18n.config.ts",
   },
 
   compatibilityDate: "2025-01-03",
+
+  app: {
+    head: {
+      script: [{ src: "https://getlaunchlist.com/js/widget.js", defer: true }],
+    },
+  },
 });

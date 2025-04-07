@@ -104,21 +104,25 @@
             </select>
           </li>
         </ul>
-        <form class="ms-lg-auto d-block d-lg-none text-center">
-          <button
-            class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
-            type="button"
-          >
-            {{ $t("navbar.get-started") }}
-          </button>
-        </form>
-      </div>
-      <form class="ms-lg-auto d-none d-lg-flex">
-        <button class="btn btn-primary btn-lg ms-3" type="button">
+        <button
+          class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
+          @click="showForm1 = true"
+        >
           {{ $t("navbar.get-started") }}
         </button>
-      </form>
+      </div>
     </div>
+  </nav>
+  <nav
+    v-show="showForm1"
+    class="bg-dark navbar-expand-lg py-3 border-body"
+    data-bs-theme="dark"
+  >
+    <div
+      class="launchlist-widget"
+      data-key-id="sMsz8o"
+      data-height="80px"
+    ></div>
   </nav>
 </template>
 
@@ -140,6 +144,7 @@ export default {
     return {
       isMenuOpen: false,
       currentLanguage,
+      showForm1: false,
     };
   },
   mounted() {
