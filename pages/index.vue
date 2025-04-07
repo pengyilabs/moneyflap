@@ -66,6 +66,12 @@
                     >
                       {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
+                  <div
+                    v-show="showForm1"
+                    class="launchlist-widget"
+                    data-key-id="sMsz8o"
+                    data-height="180px"
+                  ></div>
                   </div>
                 </div>
               </div>
