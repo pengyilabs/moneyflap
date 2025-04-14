@@ -21,6 +21,7 @@
                 <div class="me-3 mt-3">
                   <button
                     class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                    @click="showFormWaitlist()"
                   >
                     {{ $t("pricing.buttons.get-started") }}
                   </button>
@@ -45,6 +46,12 @@
             />
           </div>
         </div>
+        <div
+          v-show="showForm1"
+          class="launchlist-widget"
+          data-key-id="sMsz8o"
+          data-height="80px"
+        ></div>
       </div>
     </section>
 
@@ -76,7 +83,10 @@
                   >
                     <div>
                       <h3>{{ $t("pricing.spending-card-general-title") }}</h3>
-                      <button class="btn btn-dark btn-lg rounded-5 px-4">
+                      <button
+                        class="btn btn-dark btn-lg rounded-5 px-4"
+                        @click="showFormWaitlist()"
+                      >
                         {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
@@ -227,7 +237,10 @@
                   >
                     <div>
                       <h3>{{ $t("pricing.spending-card-money-title") }}</h3>
-                      <button class="btn btn-dark btn-lg rounded-5 px-4">
+                      <button
+                        class="btn btn-dark btn-lg rounded-5 px-4"
+                        @click="showFormWaitlist()"
+                      >
                         {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
@@ -406,7 +419,10 @@
                       <h3>
                         {{ $t("pricing.spending-card-send-money-title") }}
                       </h3>
-                      <button class="btn btn-dark btn-lg rounded-5 px-4">
+                      <button
+                        class="btn btn-dark btn-lg rounded-5 px-4"
+                        @click="showFormWaitlist()"
+                      >
                         {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
@@ -505,9 +521,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px">
-                        {{ $t("pricing.txt.015") }}
-                      </span>
+                      <span style="height: 64px"> 0.19% </span>
                     </div>
                   </div>
                 </div>
@@ -730,7 +744,10 @@
                       <h3 class="text-success">
                         {{ $t("pricing.spending-card-yield-accounts-title") }}
                       </h3>
-                      <button class="btn btn-dark btn-lg rounded-5 px-4">
+                      <button
+                        class="btn btn-dark btn-lg rounded-5 px-4"
+                        @click="showFormWaitlist()"
+                      >
                         {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
@@ -834,7 +851,10 @@
                       <h3 class="text-success">
                         {{ $t("pricing.spending-cards-title") }}
                       </h3>
-                      <button class="btn btn-dark btn-lg rounded-5 px-4">
+                      <button
+                        class="btn btn-dark btn-lg rounded-5 px-4"
+                        @click="showFormWaitlist()"
+                      >
                         {{ $t("pricing.buttons.get-started") }}
                       </button>
                     </div>
@@ -911,7 +931,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 35 USD </span>
+                      <span style="height: 64px"> 57 USD </span>
                     </div>
                   </div>
                 </div>
@@ -933,7 +953,7 @@
                 >
                   <div class="d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column mt-0 text-muted">
-                      <span style="height: 64px"> 65 USD </span>
+                      <span style="height: 64px"> 90 USD </span>
                     </div>
                   </div>
                 </div>
@@ -963,7 +983,7 @@
                 </div>
               </div>
               <div class="row m-0 p-0 w-100">
-                <div class="col-9 bg-white rounded-bl-5">
+                <div class="col-9 bg-white">
                   <div
                     class="div-margin-left d-flex flex-column justify-content-between"
                   >
@@ -986,6 +1006,33 @@
                   </div>
                 </div>
               </div>
+
+              <div class="row m-0 p-0 w-100">
+                <div class="col-9 bg-white rounded-bl-5">
+                  <div
+                    class="div-margin-left d-flex flex-column justify-content-between"
+                  >
+                    <ul class="list-unstyled list-checked mt-0 text-muted">
+                      <li>
+                        <span>
+                          {{ $t("pricing.spending-cards-op7.title") }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-3 bg-green rounded-br-5 border-left d-flex flex-column justify-content-end"
+                >
+                  <div class="d-flex flex-column justify-content-end">
+                    <div class="d-flex flex-column text-muted mt-0">
+                      <span style="height: auto">
+                        {{ $t("pricing.spending-cards-op7.description") }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1002,6 +1049,7 @@ export default {
       smartCardLength: 6,
       accountIndex: 0,
       accountElements: 6,
+      showForm1: false,
     };
   },
   methods: {
@@ -1018,6 +1066,13 @@ export default {
       } else {
         this.smartCardIndex = this.smartCardLength - 1;
       }
+    },
+    showFormWaitlist() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      this.showForm1 = true;
     },
     accountNext() {
       this.accountIndex++;

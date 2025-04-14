@@ -156,7 +156,7 @@
                   <a
                     class="text-white no-text-decoration"
                     target="_blank"
-                    href="https://help.moneyflap.com"
+                    href="https://moneyflap.help.center/"
                   >
                     {{ $t("footer.help") }}
                   </a>

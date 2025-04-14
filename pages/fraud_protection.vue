@@ -281,7 +281,11 @@
                     {{ $t("fraud.support-team-op3-title") }}
                   </li>
                   <li>
-                    {{ $t("fraud.support-team-op4-title") }}
+                    <p>
+                      {{ $t("fraud.support-team-op4-title-part1") }}
+                      <span>@moneyflap.com</span>
+                      {{ $t("fraud.support-team-op4-title-part2") }}
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -387,7 +391,9 @@ ul {
   border-radius: 100%;
   border: 2.5px solid transparent;
   background: linear-gradient(133deg, #00cec2 13%, #705bff 83%) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
 ul > li {

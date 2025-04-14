@@ -5,7 +5,7 @@
     >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 order-2 order-md-1">
             <div class="">
               <h1
                 class="text-white fw-bolder display-4 mt-4 text-center text-sm-start"
@@ -23,6 +23,7 @@
                   <div class="me-3 mt-3">
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                      @click="showFormWaitlist()"
                     >
                       {{ $t("index.buttons.get-started") }}
                     </button>
@@ -36,6 +37,12 @@
                       {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
                   </div>
+                  <div
+                    v-show="showForm1"
+                    class="launchlist-widget"
+                    data-key-id="sMsz8o"
+                    data-height="180px"
+                  ></div>
                 </div>
               </div>
 
@@ -46,6 +53,7 @@
                   <div class="me-3 mt-3">
                     <button
                       class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                      @click="showFormWaitlist()"
                     >
                       {{ $t("index.buttons.get-started") }}
                     </button>
@@ -58,6 +66,12 @@
                     >
                       {{ $t("index.buttons.see-our-coverage") }}
                     </RouterLink>
+                  <div
+                    v-show="showForm1"
+                    class="launchlist-widget"
+                    data-key-id="sMsz8o"
+                    data-height="180px"
+                  ></div>
                   </div>
                 </div>
               </div>
@@ -79,13 +93,15 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 mt-5 mt-md-0">
-            <AnimationsPhones />
-
+          <div
+            class="col-12 col-md-6 order-1 order-md-2 mt-5 mt-md-0 d-flex justify-content-center"
+          >
+            <!-- <AnimationsPhones /> -->
             <img
-              src="@/src/assets/img-header-moneyflap-app.png"
+              loading="lazy"
+              src="@/src/assets/1000052164.png"
               alt="MoneyFlap"
-              style="max-width: 100%"
+              class="main-image"
             />
           </div>
         </div>
@@ -106,7 +122,10 @@
               class="py-4 lh-lg fw-medium"
               v-html="$t('index.global-account-description')"
             ></p>
-            <button class="btn btn-dark btn-lg rounded-5 px-4">
+            <button
+              class="btn btn-dark btn-lg rounded-5 px-4"
+              @click="showFormWaitlist()"
+            >
               {{ $t("index.buttons.get-started") }}
             </button>
           </div>
@@ -134,10 +153,11 @@
           </div>
           <div class="col-12 col-md-6 order-md-first mt-5 mt-md-0">
             <img
-              src="@/src/assets/img-earns-treasury-yields.png"
+              src="@/src/assets/savings.png"
               alt="img-global-account-with-moneyflap"
               class="img-fluid"
               style="max-width: 100%"
+              loading="lazy"
             />
           </div>
         </div>
@@ -161,6 +181,7 @@
           </div>
           <div class="col-12 col-md-5 d-flex">
             <img
+              loading="lazy"
               src="@/src/assets/Earth.gif"
               class="img-fluid"
               alt=""
@@ -181,6 +202,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-money.svg"
                       alt=""
                       class=""
@@ -201,6 +223,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-money-fast.svg"
                       alt=""
                       class=""
@@ -222,6 +245,7 @@
                   </p>
                   <div class="top-left-icon">
                     <img
+                      loading="lazy"
                       src="@/src/assets/icon-send-crypto.svg"
                       alt=""
                       class=""
@@ -254,6 +278,262 @@
             <AnimationsInternationalCard />
           </div>
         </div>
+
+        <section>
+          <div class="row">
+            <div class="col-12" style="display: flex; justify-content: center">
+              <div>
+                <h3
+                  style="
+                    font-size: 50px;
+                    color: #142339;
+                    font-weight: 900;
+                    line-height: 67px;
+                  "
+                >
+                  {{ $t("index.rewards-title") }}
+                </h3>
+                <div style="display: flex; justify-content: center">
+                  <p
+                    style="
+                      font-size: 20px;
+                      color: #212121;
+                      font-weight: 600;
+                      line-height: 24px;
+                    "
+                  >
+                    {{ $t("index.coming-soon") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="padding-bottom: 16px; margin: 16px">
+            <div class="col-12">
+              <div class="row" style="display: flex; justify-content: center">
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card1") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card2") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card3") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                    margin-right: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card4") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card5") }}
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="col-xs-12 col-lg-5"
+                  style="
+                    box-shadow:
+                      rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+                      rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+                      rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
+                      rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+                      rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
+                      rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
+                      rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+                    border-radius: 1px;
+                    padding: 16px;
+                    margin: 16px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <img
+                      loading="lazy"
+                      style="padding-right: 16px"
+                      src="@/src/assets/pr.svg"
+                      alt=""
+                    />
+
+                    <span
+                      style="
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                      "
+                    >
+                      {{ $t("index.rewards-card6") }}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 
@@ -268,14 +548,431 @@
         </h2>
         <video
           :autoplay="true"
-          :loop="false"
+          loop
           width="100%"
           :muted="true"
           :controls="false"
-          preload="metadata"
+          loading="lazy"
+          preload="none"
         >
           <source src="@/src/assets/cards-moneyflap.mp4" type="video/mp4" />
         </video>
+      </div>
+    </section>
+
+    <!-- Travel Benefits & Perks -->
+    <section class="py-5 mf-gradient-vertical">
+      <div class="container d-flex justify-content-center">
+        <div class="row my-5">
+          <div class="col-12 text-center">
+            <h2
+              class="fw-bolder display-4 text-light"
+              v-html="$t('index.travel-benefits-perks')"
+            ></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/auto-rental-insurance.svg"
+                      alt="Auto Rental Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op1") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/extended-warranty-coverage.svg"
+                      alt="Extended Warranty Coverage"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op2") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/visa-digital-concierge-service.svg"
+                      alt="Visa Digital Concierge Service"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op3") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/cell-phone-insurance.svg"
+                      alt="Cell Phone Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op4") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/baggage-loss-insurance.svg"
+                      alt="Baggage Loss Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op5") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/visa-luxury-hotel-collection.svg"
+                      alt="Visa Luxury Hotel Collection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op6") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/purchase-protection.svg"
+                      alt="Purchase Protection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op7") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/baggage-delay-insurance.svg"
+                      alt="Baggage Delay Insurance"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op8") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/visa-airport-companion.svg"
+                      alt="Visa Airport Companion"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op9") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-3">
+            <div class="row">
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/return-protection.svg"
+                      alt="Return Protection"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op10") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/emergency-medical-service.svg"
+                      alt="Emergency Medical Service"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op11") }}</div>
+                </div>
+              </div>
+
+              <div class="col-12 pb-4">
+                <div class="d-flex align-items-center text-white">
+                  <div class="pe-3">
+                    <img
+                      loading="lazy"
+                      src="@/src/assets/emergency-medical-services.svg"
+                      alt="Emergency Medical Services"
+                      class="icon-size-travel-benefits"
+                    />
+                  </div>
+                  <div>{{ $t("index.travel-benefits-perks-op12") }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div>
+            <div
+              style="
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 16px;
+                justify-content: space-between;
+                cursor: pointer;
+              "
+            >
+              <a
+                href="https://usa.visa.com/pay-with-visa/cards/visa-credit-cards/visa-signature-credit-cards.html"
+                target="_blank"
+              >
+                <span class="text-light">{{
+                  $t("index.travel-benefits-button-all-benefits")
+                }}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section class="py-5" style="background: #deedff">
+      <div class="container">
+        <div class="row my-5" style="display: flex; justify-content: center">
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">Material</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-1")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div style="align-content: center">
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    loading="lazy"
+                    src="@/src/assets/visa-blue.svg"
+                    alt="Auto Rental Insurance"
+                    style="width: 132.5px; height: 63.75px"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-2")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5" style="display: flex; justify-content: center">
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">0$</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-3")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">$0</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-4")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xs-12 col-lg-3"
+            style="display: flex; justify-content: center"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 45px; color: #5096ff">WORLDWIDE</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-12"
+                  style="
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                  "
+                >
+                  <span style="font-size: 25px">{{
+                    $t("index.stats-txt-5")
+                  }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -299,6 +996,7 @@
           </div>
           <div class="col-12 col-md-7">
             <img
+              loading="lazy"
               src="@/src/assets/img-earn-up-to-35-percent-moneyflap.png"
               alt="img-earn-up-to-35-percent-moneyflap"
               class="img-fluid"
@@ -318,30 +1016,35 @@
         <!-- <AnimationsLogos /> -->
         <div class="d-flex flex-row logo-div1">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-walmart.svg"
             alt="Walmart"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-aliexpress.svg"
             alt="Aliexpresst"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-temu.svg"
             alt="Temu"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-banggood.svg"
             alt="banggood"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-microsoft.svg"
@@ -350,18 +1053,21 @@
         </div>
         <div class="d-flex flex-row logo-div2">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-sephora.svg"
             alt="sephora"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-lookfantastic.svg"
             alt="lookfantastic"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-nike.svg"
@@ -374,6 +1080,7 @@
             alt="boohoo"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-bloomingdales.svg"
@@ -382,30 +1089,35 @@
         </div>
         <div class="d-flex flex-row logo-div3">
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-lenovo.svg"
             alt="lenovo"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-booking.svg"
             alt="booking"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-expedia.svg"
             alt="expedia"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-viator.svg"
             alt="viator"
           />
           <img
+            loading="lazy"
             class="logo px-3 py-2"
             style="max-height: 56px; max-width: 100%"
             src="@/src/assets/logo-oldnavy.svg"
@@ -444,7 +1156,11 @@
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountBack"
             >
-              <img src="@/src/assets/chevron-left-gradient.png" alt="back" />
+              <img
+                loading="lazy"
+                src="@/src/assets/chevron-left-gradient.png"
+                alt="back"
+              />
             </button>
           </div>
 
@@ -459,8 +1175,8 @@
               <div
                 v-for="(item, index) in slides"
                 :key="index"
-                class="col-12 col-md-4 p-2"
-                style="max-width: 100%"
+                class="col-12 col-md-6 col-lg-4 p-2"
+                style="max-width: 90%"
               >
                 <div
                   class="bg-primary rounded-5 h-100 mf-gradient"
@@ -468,7 +1184,7 @@
                 >
                   <div class="card rounded-5 px-3 h-100">
                     <div class="card-body align-items-end">
-                      <img :src="item.icon" :alt="item.alt" />
+                      <img loading="lazy" :src="item.icon" :alt="item.alt" />
                       <h4
                         class="fw-bolder mt-4"
                         style="font-family: Sofia Pro Bold"
@@ -491,7 +1207,11 @@
               class="btn btn-outline-light border-0 rounded-circle icon-circle text-gradient carousel-buttons-navigation"
               @click="accountNext"
             >
-              <img src="@/src/assets/chevron-right-gradient.png" alt="next" />
+              <img
+                loading="lazy"
+                src="@/src/assets/chevron-right-gradient.png"
+                alt="next"
+              />
             </button>
           </div>
         </div>
@@ -511,7 +1231,10 @@
             <p class="py-4 lh-lg fw-medium text-secondary">
               {{ $t("index.real-time-spending-description") }}
             </p>
-            <button class="btn btn-dark btn-lg rounded-5 px-4">
+            <button
+              class="btn btn-dark btn-lg rounded-5 px-4"
+              @click="showFormWaitlist()"
+            >
               {{ $t("index.buttons.get-started") }}
             </button>
           </div>
@@ -615,6 +1338,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-compliance.svg"
                   class="icon-w-bg"
                   alt="icon-compliance"
@@ -638,6 +1362,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-breakfree-control.svg"
                   class="icon-w-bg"
                   alt="icon-breakfree-control"
@@ -661,6 +1386,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-bankruptcy-remote.svg"
                   class="icon-w-bg"
                   alt="icon-bankruptcy-remote"
@@ -683,6 +1409,7 @@
             >
               <div class="card-body">
                 <img
+                  loading="lazy"
                   src="@/src/assets/icon-vip-customer-support.svg"
                   class="icon-w-bg"
                   alt="icon-vip-customer-support"
@@ -715,6 +1442,7 @@
         </p>
         <button
           class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mt-4 mf-gradient"
+          @click="showFormWaitlist()"
         >
           {{ $t("index.buttons.get-started") }}
         </button>
@@ -732,12 +1460,48 @@ import IconReceiveSquare from "@/src/assets/receive-square.svg";
 import IconNoteRemove from "@/src/assets/note-remove.svg";
 import IconScan from "@/src/assets/scan.svg";
 
+import { defineAsyncComponent } from "vue";
+
 export default {
+  components: {
+    AnimationsPhones: defineAsyncComponent({
+      loader: () => import("@/components/animations/phones.vue"),
+      suspensible: true,
+    }),
+    AnimationsGlobalAccount: defineAsyncComponent({
+      loader: () => import("@/components/animations/global-account.vue"),
+      suspensible: true,
+    }),
+    AnimationsInternationalCard: defineAsyncComponent({
+      loader: () => import("@/components/animations/international-card.vue"),
+      suspensible: true,
+    }),
+    AnimationsLogos: defineAsyncComponent({
+      loader: () => import("@/components/animations/logos.vue"),
+      suspensible: true,
+    }),
+    AnimationsInsights: defineAsyncComponent({
+      loader: () => import("@/components/animations/insights.vue"),
+      suspensible: true,
+    }),
+    AnimationsConnect: defineAsyncComponent({
+      loader: () => import("@/components/animations/connect.vue"),
+      suspensible: true,
+    }),
+    AnimationsFastLoans: defineAsyncComponent({
+      loader: () => import("@/components/animations/fast-loans.vue"),
+      suspensible: true,
+    }),
+    AnimationsSims: defineAsyncComponent({
+      loader: () => import("@/components/animations/sims.vue"),
+      suspensible: true,
+    }),
+  },
   data() {
     return {
       smartCardIndex: 0,
       smartCardLength: 6,
-      scrollAmount: 300, // amount to scroll per button click
+      scrollAmount: 300,
       slides: [
         {
           icon: IconGlobalCashin,
@@ -782,12 +1546,8 @@ export default {
           description: this.$t("index.your-moneyflap-slide7-description"),
         },
       ],
+      showForm1: false,
     };
-  },
-  watch: {
-    "$i18n.locale"(newLocale) {
-      this.updateTranslations();
-    },
   },
   methods: {
     next() {
@@ -866,13 +1626,23 @@ export default {
         },
       ];
     },
+    showFormWaitlist() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      this.showForm1 = true;
+    },
   },
 };
 </script>
 
 <style scoped lang="scss">
+.main-image {
+  width: 400px;
+}
 .header {
-  min-height: 60vh;
+  height: 87vh;
   background-image: url("@/src/assets/bg-header-website-landing.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1060,5 +1830,12 @@ section.wave-top {
   .carousel-buttons-navigation {
     display: block;
   }
+  .main-image {
+    width: 59dvw;
+  }
+}
+
+.icon-size-travel-benefits {
+  width: 30px;
 }
 </style>

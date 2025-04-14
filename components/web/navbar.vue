@@ -65,9 +65,9 @@
 
           <li class="nav-item">
             <a
-              class="nav-link text-white"
+              class="text-white no-text-decoration"
               target="_blank"
-              href="http://help.moneyflap.com"
+              href="https://moneyflap.help.center/"
             >
               {{ $t("navbar.help") }}
             </a>
@@ -82,27 +82,47 @@
                 updateLanguage(currentLanguage);
               "
             >
-              <option value="en">{{ $t("navbar.english") }}</option>
-              <option value="es">{{ $t("navbar.spanish") }}</option>
-              <option value="fr">{{ $t("navbar.french") }}</option>
+              <option value="en">🇺🇲{{ $t("navbar.english") }}</option>
+              <option value="es">🇪🇸{{ $t("navbar.spanish") }}</option>
+              <option value="fr">🇫🇷{{ $t("navbar.french") }}</option>
+              <option value="pt">🇵🇹{{ $t("navbar.portuguese") }}</option>
+              <option value="de">🇩🇪{{ $t("navbar.german") }}</option>
+              <option value="ar">🇸🇦{{ $t("navbar.arab") }}</option>
+              <option value="tr">🇹🇷{{ $t("navbar.turkish") }}</option>
+              <option value="it">🇮🇹{{ $t("navbar.italian") }}</option>
+              <option value="lt">🇱🇹{{ $t("navbar.lithuanian") }}</option>
+              <option value="zh">🇨🇳{{ $t("navbar.chinese") }}</option>
+              <option value="hi">🇮🇳{{ $t("navbar.hindi") }}</option>
+              <option value="ja">🇯🇵{{ $t("navbar.japanese") }}</option>
+              <option value="ko">🇰🇷{{ $t("navbar.korean") }}</option>
+              <option value="sw">🌍{{ $t("navbar.swahili") }}</option>
+              <option value="nl">🇳🇱{{ $t("navbar.dutch") }}</option>
+              <option value="bn">🇧🇩{{ $t("navbar.bengali") }}</option>
+              <option value="ur">🇵🇰{{ $t("navbar.urdu") }}</option>
+              <option value="id">🇮🇩{{ $t("navbar.indonesian") }}</option>
+              <option value="fil">🇵🇭{{ $t("navbar.filipino") }}</option>
             </select>
           </li>
         </ul>
-        <form class="ms-lg-auto d-block d-lg-none text-center">
-          <button
-            class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
-            type="button"
-          >
-            {{ $t("navbar.get-started") }}
-          </button>
-        </form>
-      </div>
-      <form class="ms-lg-auto d-none d-lg-flex">
-        <button class="btn btn-primary btn-lg ms-3" type="button">
+        <button
+          class="btn btn-primary btn-lg mt-3 mt-lg-0 ms-3"
+          @click="showForm1 = true"
+        >
           {{ $t("navbar.get-started") }}
         </button>
-      </form>
+      </div>
     </div>
+  </nav>
+  <nav
+    v-show="showForm1"
+    class="bg-dark navbar-expand-lg py-3 border-body"
+    data-bs-theme="dark"
+  >
+    <div
+      class="launchlist-widget"
+      data-key-id="sMsz8o"
+      data-height="80px"
+    ></div>
   </nav>
 </template>
 
@@ -124,16 +144,13 @@ export default {
     return {
       isMenuOpen: false,
       currentLanguage,
+      showForm1: false,
     };
   },
   mounted() {
-    const languageSystem = navigator.language.startsWith("es")
-      ? "es"
-      : navigator.language.startsWith("en")
-        ? "en"
-        : navigator.language.startsWith("fr")
-          ? "fr"
-          : "";
+    const languages = ["es", "en", "fr", "pt", "de", "ar"];
+    const languageSystem =
+      languages.find((lang) => navigator.language.startsWith(lang)) || "";
     const lang = localStorage.getItem("language") ?? languageSystem;
     this.changeLanguage(lang);
   },

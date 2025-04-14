@@ -17,9 +17,11 @@
               <div class="me-3 mt-3">
                 <button
                   class="btn btn-info px-5 text-light rounded-5 btn-lg shadow mf-gradient"
+                  @click="toggleForm"
                 >
                   {{ $t("about.buttons.get-started") }}
                 </button>
+                <div></div>
               </div>
               <div class="me-3 mt-3">
                 <RouterLink
@@ -38,6 +40,13 @@
                 </a> -->
               </div>
             </div>
+
+            <div
+              v-show="showForm1"
+              class="launchlist-widget"
+              data-key-id="sMsz8o"
+              data-height="180px"
+            ></div>
           </div>
           <div class="col-12 col-md-6">
             <img
@@ -137,35 +146,6 @@
                 </div>
               </div>
             </div>
-            <div class="fixed-width d-flex flex-column m-3">
-              <img
-                src="@/src/assets/img-hamza-yaghmmour.png"
-                class="image-width"
-                style="max-height: 400px"
-              />
-              <div
-                class="card rounded-4 bg-purple p-4 border-white fixed-width small-card"
-              >
-                <div class="d-flex flex-row justify-content-between">
-                  <div class="d-flex flex-column">
-                    <h4 class="text-white">Hamza Yaghmmour</h4>
-                    <p class="text-gray">Co-Founder & CTO</p>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/in/hyaghmmour"
-                    >
-                      <img
-                        src="@/src/assets/logo-linkedin.webp"
-                        alt="linkedin logo"
-                        style="height: 28px"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </div>
@@ -236,6 +216,21 @@
     </div>
   </NuxtLayout>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showForm1: false,
+    };
+  },
+  methods: {
+    toggleForm() {
+      this.showForm1 = !this.showForm1;
+    },
+  },
+};
+</script>
 
 <style scoped lang="scss">
 .header {

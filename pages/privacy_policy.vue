@@ -239,7 +239,10 @@
         <h2>
           <strong>{{ $t("privacy.contact.title") }}</strong>
         </h2>
-        <p v-html="$t('privacy.contact.description')"></p>
+        <p>
+          {{ $t("privacy.contact.description") }}
+          <a href="mailto:legal@moneyflap.com">legal@moneyflap.com</a>
+        </p>
 
         <h2>
           <strong>{{ $t("privacy.effectiveDate.title") }}</strong>

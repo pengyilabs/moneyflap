@@ -209,13 +209,13 @@
           <div class="col-2" style="display: flex; justify-content: center">
             <div
               style="
-                border: 1px solid white;
                 border-radius: 50px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 padding-left: 30px;
                 padding-right: 30px;
                 width: auto;
+                background: #2833561a;
               "
             >
               <span

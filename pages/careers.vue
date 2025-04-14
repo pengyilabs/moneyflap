@@ -327,7 +327,6 @@
                     </h4>
                     <p class="">
                       {{ $t("careers.core-values-op6-description") }}
-                      financial well-being.
                     </p>
                     <div class="top-left-icon">
                       <img

@@ -544,9 +544,7 @@
           <h2 class="customShadow">{{ $t("terms.contact.title") }}</h2>
           <p>
             {{ $t("terms.contact.description") }}
-            <a :href="`mailto:${$t('terms.contact.email')}`">{{
-              $t("terms.contact.email")
-            }}</a>
+            <a href="mailto:legal@moneyflap.com"> legal@moneyflap.com </a>
           </p>
           <p>{{ $t("terms.contact.updated") }}</p>
         </section>
@@ -585,14 +583,22 @@
   vertical-align: middle;
 }
 .customShadow {
-  text-shadow: 1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black;
+  text-shadow:
+    1px 1px black,
+    -1px 1px black,
+    1px -1px black,
+    -1px -1px black;
 }
 .list-unstyled > li {
   display: flex;
   flex-direction: row;
 }
 .shadowTitle {
-  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+  text-shadow:
+    1px 1px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
   font-weight: normal;
 }
 .squareDiv {
@@ -619,7 +625,9 @@
   border-radius: 100%;
   border: 2.5px solid transparent;
   background: linear-gradient(133deg, #00cec2 13%, #705bff 83%) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
 .whites {
